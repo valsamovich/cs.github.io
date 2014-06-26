@@ -1,3 +1,10 @@
+
+# Eclipse noise
+.settings
+.settings/*
+.project
+.classpath
+
 *.class
 *.classpath
 *.project
