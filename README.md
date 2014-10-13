@@ -1,7 +1,7 @@
 restful-web-service
 ===================
 
-Example of RESTful Web Service (JAX-RX) with Jersey
+Example of RESTful Web Service (JAX-RX) with Jersey lib.
 
 Developer
 ---------
