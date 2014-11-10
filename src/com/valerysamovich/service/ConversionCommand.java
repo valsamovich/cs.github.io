@@ -1,7 +1,11 @@
-package com.valerysamovich.service;
 /**
-* @author Arpit Mandliya
-*/
+ * @file ConversionCommand.java
+ * @author Valery Samovich
+ * @version 1.0.0
+ * @date 10/9/2014
+ */
+
+package com.valerysamovich.service;
  
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
