@@ -7,7 +7,7 @@
  <servlet>
     <servlet-name>Jersey REST Service</servlet-name>
     <servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
-     <!-- Register resources and providers under com.vogella.jersey.first package. -->
+     <!-- Register resources and providers under com.valerysamovich.jersey.first package. -->
     <init-param>
         <param-name>jersey.config.server.provider.packages</param-name>
         <param-value>com.valerysamovich.jersey.first</param-value>
