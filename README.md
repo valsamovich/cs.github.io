@@ -1,5 +1,5 @@
-restful-web-service
-===================
+conversion-service
+==================
 
 Example of RESTful Web Service (JAX-RX) with Jersey lib.
 
