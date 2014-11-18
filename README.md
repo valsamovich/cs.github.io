@@ -1,14 +1,22 @@
-conversion-service
+cheat-sheets
 ==================
 
-Example of RESTful Web Service (JAX-RX) with Jersey lib.
+Description
 
-What is Web Service?
---------------------
+Terminal
+--------
 
-A Web Service is a method of communication between two electronic devices over a network. It is a software function provided at a network address over the web with the service always on as in the concept of utility computing.
+**Getting Help** On the command line, help is always at hand: you can either type man `<command>` or `<command> --help` to receive detailed documentation about the command in question.
 
-Developer
----------
+**File Permissions** On Unix systems, file permissions are set using three digits: the first one representing the permissions for the owning user, the second one for its group, and the third one for anyone else. Add up the desired access rights for each digit as following:
+- 4 — access/read (r)
+- 2 — modify/write (w)
+- 1 — execute (x)
+For example, `755` means `rwx` for owner and `rx` for both group and anyone. `740` represents `rwx` for owner, `r` for group and no rights for other users.
 
-www.linkedin.com/pub/valery-samovich/22/81/1bb/
+
+DIrectories | Output | Files | Search | Network | Permissions | Processes
+------------|--------|-------|--------|---------|-------------|----------
+
+Git
+---
