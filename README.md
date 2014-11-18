@@ -16,10 +16,32 @@ Terminal
 
 For example, `755` means `rwx` for owner and `rx` for both group and anyone. `740` represents `rwx` for owner, `r` for group and no rights for other users.
 
-Directories | Output | Files | Search | Network | Permissions | Processes
-------------|--------|-------|--------|---------|-------------|----------
-`$ pwd`
-display working directory
+Directories               | Output | Files | Search | Network | Permissions | Processes
+--------------------------|--------|-------|--------|---------|-------------|----------
+`$ pwd`                   |
+Display working directory |
+--------------------------|--------|-------|--------|---------|-------------|----------
+`$ cd <directory>`    
+Change directory 
+
+Directories               | Output | Files | Search | Network | Permissions | Processes
+--------------------------------------------|--------|-------|--------|---------|-------------|----------
+$ pwd
+Display path of current working directory
+$ cd <directory>
+Change directory to <directory>
+$ cd ..
+Navigate to parent directory
+$ ls
+List directory contents
+$ ls -la
+List detailed directory contents, including
+hidden files
+$ mkdir <directory>
+Create new directory named <directory>
+
+
+
 
 Git
 ---
