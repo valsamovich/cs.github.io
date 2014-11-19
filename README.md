@@ -200,3 +200,14 @@ Command                           | Description
 `$ git merge [bookmark]/[branch]` | Combines bookmark’s branch into current local branch
 `$ git push [alias] [branch]`     | Uploads all local branch commits to GitHub
 `$ git pull`                      | Downloads bookmark history and incorporates changes
+
+Zend Server (Apache)
+--------------------
+
+**Zend Server** refers to a PHP application server product line offered by Zend Technologies, released in early 2009[1] with production support available for Windows, Linux, OS X and IBM i. Default location - `/usr/local/zend/bin/zendctl.sh restart`
+
+Command                | Description
+-----------------------|--------------------
+`$ zendctl.sh start`   | Start Zend Server
+`$ zendctl.sh restart` | Restart Zend Server
+`$ zendctl.sh stop`    | Stop Zend Server
