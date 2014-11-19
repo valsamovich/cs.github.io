@@ -109,7 +109,7 @@ Network Commands                          | Description
 Git
 ---
 
-**Git** is the open source distributed version control system that facilitates GitHub activities on your laptop or desktop. This cheat sheet summarizes commonly used Git command line instructions for quick reference. Small commits make it easier for other developers to understand the changes and roll them back if something went wrong. 
+**Git** is the open source distributed version control system that facilitates GitHub activities on your laptop or desktop. This cheat sheet summarizes commonly used Git command line instructions for quick reference. Small commits make it easier for other developers to understand the changes and roll them back if something went wrong. For .gitignore help  - [https://www.gitignore.io/](https://www.gitignore.io/)
 
 ```
 $ git help <command>
@@ -205,8 +205,8 @@ Command                           | Description
 `$ git push [alias] [branch]`     | Uploads all local branch commits to GitHub
 `$ git pull`                      | Downloads bookmark history and incorporates changes
 
-Zend Server
------------
+Zend
+----
 
 **Zend Server** refers to a PHP application server product line offered by Zend Technologies, released in early 2009[1] with production support available for Windows, Linux, OS X and IBM i. Default location - `/usr/local/zend/bin/zendctl.sh restart`
 
