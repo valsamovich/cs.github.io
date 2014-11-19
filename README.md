@@ -32,11 +32,11 @@ $ cp <file> <directory>           | Copy <file> to <directory> (possibly overwri
 $ cp -r <directory1> <directory2> | Copy <directory1> and its contents to <directory2> (possibly overwriting files)
 $ touch <file>                    | Update file access & modification time (and create <file> if it doesn’t exist)
 
-Search Commands             | Description
-----------------------------|----------------------------------------------------------------------------------
-$ find <dir> -name "<file>" | Find files named <file> inside <dir> (use wildcards `*` to search for part exmpl: `file.*`)
-$ grep "<text>" <file>      | Output all occurrences of <text> inside <file> (add -i for case-insensitivity)
-$ grep -rl "<text>" <dir>   | Search for all files containing <text> inside <dir>
+Search Commands           | Description
+--------------------------|----------------------------------------------------------------------------------
+$ find <dir> -name <file> | Find files named <file> inside <dir> (use wildcards `*` to search for part exmpl: `file.*`)
+$ grep "<text>" <file>    | Output all occurrences of <text> inside <file> (add -i for case-insensitivity)
+$ grep -rl <text> <dir>   | Search for all files containing <text> inside <dir>
 
 **The “ctrl” key** Various keyboard shortcuts can assist you when entering text: Hitting `ctrl+A` moves the caret to the beginning and `ctrl+E` to the end of the line. In a similar fashion, `ctrl+K` deletes all characters after and `ctrl+U` all
 characters in front of the caret. Pressing `ctrl+L` clears the screen (similarly to the clear command). If you should ever want to abort a running command, `ctrl+C` will cancel it.
