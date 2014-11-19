@@ -12,31 +12,31 @@ Additionally, it is possble to execute a command only if its predecessor produce
 
 **Home Folder** File and directory paths can get long and awkward. If you’re addressing a path inside of your home folder though, you can make things easier by using the ~ character. So instead of writing cd /Users/your-username/projects/ , a simple cd ~/projects/ will do. And in case you should forget your user name, whoami will remind you. 
 
-Directory Commands   | Description
----------------------|----------------------------------------------------------------------------------
-$ pwd                | Display path of current working directory
-$ cd <directory>     | Change directory to <directory>
-$ cd                 | ..Navigate to parent directory
-$ ls                 | List directory contents
-$ ls -la             | List detailed directory contents, including hidden files
-$ mkdir <directory>  | Create new directory named <directory>
+Directory Commands    | Description
+----------------------|----------------------------------------------------------------------------------
+$ pwd                 | Display path of current working directory
+$ cd \<directory>\    | Change directory to <directory>
+$ cd                  | ..Navigate to parent directory
+$ ls                  | List directory contents
+$ ls -la              | List detailed directory contents, including hidden files
+$ mkdir \<directory>\ | Create new directory named <directory>
 
-File Commands                     | Description
-----------------------------------|----------------------------------------------------------------------------------
-$ rm <file>                       | Delete <file>
-$ rm -r <directory>               | Delete <directory>
-$ rm -f <file>                    | Force-delete <file> (add -r to forcedelete a directory)   
-$ mv <file-old> <file-new>        | Rename <file-old> to <file-new>
-$ mv <file> <directory>           | Move <file> to <directory> (possibly overwriting an existing file)
-$ cp <file> <directory>           | Copy <file> to <directory> (possibly overwriting an existing file)
-$ cp -r <directory1> <directory2> | Copy <directory1> and its contents to <directory2> (possibly overwriting files)
-$ touch <file>                    | Update file access & modification time (and create <file> if it doesn’t exist)
+File Commands                         | Description
+--------------------------------------|----------------------------------------------------------------------------------
+$ rm \<file>\                         | Delete <file>
+$ rm -r \<directory>\                 | Delete <directory>
+$ rm -f \<file>\                      | Force-delete <file> (add -r to forcedelete a directory)   
+$ mv \<file-old>\ \<file-new>\        | Rename <file-old> to <file-new>
+$ mv <file> \<directory>\             | Move <file> to <directory> (possibly overwriting an existing file)
+$ cp \<file>\ \<directory>\           | Copy <file> to <directory> (possibly overwriting an existing file)
+$ cp -r \<directory1>\ \<directory2>\ | Copy <directory1> and its contents to <directory2> (possibly overwriting files)
+$ touch \<file>\                      | Update file access & modification time (and create <file> if it doesn’t exist)
 
-Search Commands           | Description
---------------------------|----------------------------------------------------------------------------------
-$ find <dir> -name <file> | Find files named <file> inside <dir> (use wildcards `*` to search for part exmpl: `file.*`)
-$ grep "<text>" <file>    | Output all occurrences of <text> inside <file> (add -i for case-insensitivity)
-$ grep -rl <text> <dir>   | Search for all files containing <text> inside <dir>
+Search Commands               | Description
+------------------------------|----------------------------------------------------------------------------------
+$ find \<dir>\ -name \<file>\ | Find files named <file> inside <dir> (use wildcards `*` to search for part exmpl: `file.*`)
+$ grep \<text>\ \<file>\      | Output all occurrences of <text> inside <file> (add -i for case-insensitivity)
+$ grep -rl \<text>\ \<dir>\   | Search for all files containing <text> inside <dir>
 
 **Output and Output with "less"** The less command can display and paginate output. This means that it only displays one page full of content and then waits for your explicit instructions. You’ll know you have less in front of you if the last line of your screen either shows the file’s name or just a colon ( : ). Apart from the arrow keys, hitting SPACE| will scroll one page forward, b will scroll one page backward, and q will quit the less program.
 
