@@ -1,7 +1,7 @@
 cheat-sheets
 ==================
 
-Collection of Commands and Tips for Unix, Git, etc. 
+Collection of Commands and Tips for Unix (Command Line), Git, Zend Server etc. 
 
 Unix
 ----
@@ -201,8 +201,8 @@ Command                           | Description
 `$ git push [alias] [branch]`     | Uploads all local branch commits to GitHub
 `$ git pull`                      | Downloads bookmark history and incorporates changes
 
-Zend Server (Apache)
---------------------
+Zend Server
+-----------
 
 **Zend Server** refers to a PHP application server product line offered by Zend Technologies, released in early 2009[1] with production support available for Windows, Linux, OS X and IBM i. Default location - `/usr/local/zend/bin/zendctl.sh restart`
 
