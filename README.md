@@ -144,12 +144,16 @@ Command                                   | Description
 **Group Changes** Name a series of commits and combine completed efforts **Use Branches** Branching is one of Git‘s most powerful features - and this is not by accident: quick and easy branching was a central requirement from day one. Branches are the perfect tool to help you avoid mixing up different lines of development. 
 
 Command                         | Description
---------------------------------|-------------------------------------------------------------------
+--------------------------------|---------------------------------------------------------------------
 `$ git branch`                  | Lists all local branches in the current repository
 `$ git branch [branch-name]`    | Creates a new branch
 `$ git checkout [branch-name]`  | Switches to the specified branch and updates the working directory
 `$ git merge [branch]`          | Combines the specified branch’s history into the current branch
 `$ git branch -d [branch-name]` | Deletes the specified branch
+`$ git rebase [branch]`         | Rebase current HEAD onto `[branch]`. Don't rebase published commits.
+`$ git rebase --abort`          | Abort a rebase
+`$ git rebase --continue`       | Continue a rebase after resolving conflicts
+`$ git mergetool`               | Use configured merge tool to solve conflicts
 
 **Refactor Filenames** Relocate and remove versioned files
 
