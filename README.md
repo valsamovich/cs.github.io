@@ -1,8 +1,8 @@
 cheat-sheets
 ==================
 
-Command Line Cheat Sheet and Tips
----------------------------------
+Command Line
+------------
 
 **Getting Help** On the command line, help is always at hand: you can either type man `<command>` or `<command> --help` to receive detailed documentation about the command in question.
 
@@ -38,6 +38,32 @@ $ find <dir> -name <file> | Find files named <file> inside <dir> (use wildcards 
 $ grep "<text>" <file>    | Output all occurrences of <text> inside <file> (add -i for case-insensitivity)
 $ grep -rl <text> <dir>   | Search for all files containing <text> inside <dir>
 
+**Output and Output with "less"** The less command can display and paginate output. This means that it only displays one page full of content and then waits for your explicit instructions. You’ll know you have less in front of you if the last line of your screen either shows the file’s name or just a colon ( : ). Apart from the arrow keys, hitting SPACE| will scroll one page forward, b will scroll one page backward, and q will quit the less program.
+
+Output Commands   |  Description
+------------------|----------------------------------------------------------------------------------
+$ cat <file>      | Output the contents of <file>
+$ less <file>     | Output the contents of <file> using the less command (which supports pagination etc.)
+$ head <file>     | Output the first 10 lines of <file>
+$ <cmd> > <file>  | Direct the output of <cmd> into <file>
+$ <cmd> >> <file> | Append the output of <cmd> to <file>
+$ <cmd1> | <cmd2> | Direct the output of <cmd1> to <cmd2>
+$ clear           | Clear the command line window
+
+**Directing Output** The output of a command does not necessarily have to be printed to the command line. Instead, you can decide to direct it to somewhere else. Using the > operator, for example, output can be directed to a file. The following command will save the running processes to a text file in your home folder: 
+
+  $ ps ax > ~/processes.txt
+
+It is also possible to pass output to another command using the | (pipe) operator, which makes it very easy to create complex operations. E.g., this chain of commands will list the current directory’s contents, search the list for PDF files and display the results with the less command:
+
+  $ ls | grep ".pdf" | less
+  
+Processes Commands | Description
+-------------------|-----------------------------------------------------------
+$ ps ax            | Output currently running processes
+$ top              | Display live information about currently running processes
+$ kill <pid>       | Quit process with ID <pid>
+
 **The “ctrl” key** Various keyboard shortcuts can assist you when entering text: Hitting `ctrl+A` moves the caret to the beginning and `ctrl+E` to the end of the line. In a similar fashion, `ctrl+K` deletes all characters after and `ctrl+U` all
 characters in front of the caret. Pressing `ctrl+L` clears the screen (similarly to the clear command). If you should ever want to abort a running command, `ctrl+C` will cancel it.
 
@@ -59,9 +85,13 @@ $ chown <user>:<group> <file> | Change ownership of <file> to <user> and <group>
 
 For example, `755` means `rwx` for owner and `rx` for both group and anyone. `740` represents `rwx` for owner, `r` for group and no rights for other users.
 
-
-
-
+Network Commands                        | Description
+----------------------------------------|--------------------------------------
+$ ping <host>                           | Ping <host> and display status
+$ whois <domain>                        | Output whois information for <domain>
+$ curl -O <url-to-file>                 | Download <file> (via HTTP[S] or FTP)
+$ ssh <username>@<host>                 | Establish an SSH connection to <host> with user <username>
+$ scp <file> <user>@<host>:/remote/path | Copy <file> to a remote <host>
 
 Git
 ---
