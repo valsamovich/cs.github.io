@@ -109,74 +109,94 @@ Network Commands                          | Description
 Git
 ---
 
-**Git** is the open source distributed version control system that facilitates GitHub activities on your laptop or desktop. This cheat sheet summarizes commonly used Git command line instructions for quick reference
+**Git** is the open source distributed version control system that facilitates GitHub activities on your laptop or desktop. This cheat sheet summarizes commonly used Git command line instructions for quick reference. Small commits make it easier for other developers to understand the changes and roll them back if something went wrong. 
 
 ```
 $ git help <command>
 ```
 
-**Commit Related Changes** A commit should be a wrapper for related changes. For example, fixing two different bugs should produce two separate commits. Small commits make it easier for other developers to understand the changes and roll them back if something went wrong. With tools like the staging area and the ability to stage only parts of a file, Git makes it easy to create very granular commits.
+**Configure Tooling** Configure user information for all local repositories.
 
-Configure and Create Commands                        | Description
+Command                                              | Description
 -----------------------------------------------------|------------------------------------------------------------
-`$ git config --global user.name "<name>"`           | Sets the name you want atached to your commit transactions
-`$ git config --global user.email "<email address>"` | Sets the email you want atached to your commit transactions
+`$ git config --global user.name "[name]"`           | Sets the name you want atached to your commit transactions
+`$ git config --global user.email "[email address]"` | Sets the email you want atached to your commit transactions
 `$ git config --global color.ui auto`                | Enables helpful colorization of command line output
-`$ git clone ssh://user@domain.com/repo.git`         | Clone an existing repository  with entire version history
-`& git init`                                         | Create a new local repository
 
-**Commit Often** Committing often keeps your commits small and, again, helps you commit only related changes. Moreover, it allows you to share your code more frequently with others. That way it‘s easier for everyone to integrate changes regularly and avoid having merge conflicts. Having few large commits and sharing them rarely, in contrast, makes it hard to solve conflicts.
+**Create Repositories** Start a new repository or obtain one from an existing URL.
 
-Local Changes Commands      | Description
-----------------------------|--------------------------------------------------------
-`$ git status`              | Changed files in your working directory
-`$ git diff`                | Changes to tracked files
-`$ git add <file>`          | Add specific file to the next commit 
-`$ git add .`               | Add all current changes to the next commit
-`$ git add -p <file>`       | Add some changes in `<file>` to the next commit
-`$ git commit -a`           | Commit all local changes in tracked files
-`$ git commit`              | Commit previously staged changes
-`$ git commit -m "message"` | Commit previously staged changes
-`$ git commit --amend`      | Change the last commit. Don‘t amend published commits!
+Command                     | Description
+----------------------------|-------------------------------------------------------
+`$ git init [project-name]` | Creates a new local repository with the specified name
+`$ git clone [url]`         | Downloads a project and its entire version history
 
-**Don't Commit Half-Done work** You should only commit code when it‘s completed. This doesn‘t mean you have to complete a whole, large feature before committing. Quite the contrary: split the feature‘s implementation into logical chunks and remember to commit early and often. But don‘t commit just to have something in the repository before leaving the office at the end of the day. If you‘re tempted to commit just because you need a clean working copy (to check out a branch, pull in changes, etc.) consider using Git‘s «Stash» feature instead.
+**Make Changes** Review edits and craf a commit transaction. **Wite Good Commit Messages** Begin message with a short summary of your changes (up to 50 characters as a guideline).
 
-Commit History Commands    | Description
----------------------------|--------------------------------------------
-`$ git log`                | Show all commits, starting with newest
-`$ git log -p <file>`      | Show changes over time for a specific file
-`$ git log --follow <file>`| Lists version history for a file, including renames
-`$ git blame <file>`       | Who changed what and when in `<file>`
-`$ git show <commit>`      | Outputs metadata and content changes of the specified commit
+Command                                   | Description
+------------------------------------------|-----------------------------------------------------------------
+`$ git status`                            | Lists all new or modified files to be commited
+`$ git add [file]`                        | Snapshots the file in preparation for versioning
+`$ git reset [file]`                      | Unstages the file, but preserve its contents
+`$ git diff`                              | Shows file differences not yet staged
+`$ git diff --staged`                     | Shows file differences between staging and the last file version
+`$ git commit -m "[descriptive message]"` | Records file snapshots permanently in version history
 
-**Use Branches** Branching is one of Git‘s most powerful features - and this is not by accident: quick and easy branching was a central requirement from day one. Branches are the perfect tool to help you avoid mixing up different lines of development. You should use branches extensively in your development workflows: for new features, bug fixes, ideas…
+**Group Changes** Name a series of commits and combine completed efforts **Use Branches** Branching is one of Git‘s most powerful features - and this is not by accident: quick and easy branching was a central requirement from day one. Branches are the perfect tool to help you avoid mixing up different lines of development. 
 
-**Wite Good Commit Messages** Begin your message with a short summary of your changes (up to 50 characters as a guideline). Separate it from the following body by including a blank line. The body of your message should provide detailed answers to the following questions:
+Command                         | Description
+--------------------------------|-------------------------------------------------------------------
+`$ git branch`                  | Lists all local branches in the current repository
+`$ git branch [branch-name]`    | Creates a new branch
+`$ git checkout [branch-name]`  | Switches to the specified branch and updates the working directory
+`$ git merge [branch]`          | Combines the specified branch’s history into the current branch
+`$ git branch -d [branch-name]` | Deletes the specified branch
 
-– What was the motivation for the change?
-– How does it differ from the previous implementation?
+**Refactor Filenames** Relocate and remove versioned files
 
-Use the imperative, present tense («change», not «changed» or «changes») to be consistent with generated messages from commands like git merge.
+Command                                   | Description
+------------------------------------------|---------------------------------------------------------------------
+`$ git rm [file]`                         | Deletes the file from the working directory and stages the deletion
+`$ git rm --cached [file]`                | Removes the file from version control but preserves the file locally
+`$ git mv [file-original] [file-renamed]` | Changes the file name and prepares it for commit
 
-Branches & Tags Commands                 | Description
------------------------------------------|------------------------------------------------------
-`$ git branch`                           | List all existing branches
-`$ git checkout <branch>`                | Switch HEAD branch
-`$ git branch <new-branch>`              | Create a new branch based on your current HEAD
-`$ git checkout --track <remote/branch>` | Create a new tracking branch based on a remote branch
-`$ git branch -d <branch>`               | Delete a local branch
-`$ git tag <tag-name>`                   | Mark the current commit with a tag
+**Suppress Tracking** Exclude temporary files and paths
 
-**Agree on Workflow** Git lets you pick from a lot of different workflows: long-running branches, topic branches, merge or rebase, git-flow… Which one you choose depends on a couple of factors: your project, your overall development and deployment
-workflows and (maybe most importantly) on your and your teammates‘ personal preferences. However you choose to work, just make sure to agree on a common workflow that everyone follows.
+Command                                               | Description
+------------------------------------------------------|---------------------------------------------------------------
+`$ git ls-files --other --ignored --exclude-standard` | Lists all ignored files in this project
+`*.log` `build/` `temp-*` A text file named .gitignore suppresses accidental versioning offiles and paths matching the specified paterns
+`$ git ls-files --other --ignored --exclude-standard` | Lists all ignored files in this project
 
-Update & Publish Commands          | Description
------------------------------------|------------------------------------------------------
-`$ git remote -v`                  | List all currently configured remotes
-`$ git remote show <remote>`       | Show information about a remote
-`$ git remote add <remote> <url>`  | Add new remote repository, named `<remote>`
-`$ git fetch <remote>`             | Download all changes from `<remote>`, but don‘t integrate into HEAD
-`$ git pull <remote> <branch>`     | Download changes and directly merge/integrate into HEAD
-`$ git push <remote> <branch>`     | Publish local changes on a remote
-`$ git branch -dr <remote/branch>` | Delete a branch on the remote
-`$ git push --tags`                | Publish your tag s
+**Save Fragments** Shelve and restore incomplete changes
+
+Command            | Description
+-------------------|----------------------------------------------
+`$ git stash`      | Temporarily stores all modified tracked files
+`$ git stash list` | Lists all stashed changesets
+`$ git stash pop`  |Restores the most recently stashed files
+`$ git stash drop` | Discards the most recently stashed changeset
+
+**Review History** Browse and inspect the evolution of project files
+
+Command                                       | Description
+----------------------------------------------|-------------------------------------------------------------
+`$ git log`                                   | Lists version history for the current branch
+`$ git log --follow [file]`                   | Lists version history for a file, including renames
+`$ git diff [first-branch]...[second-branch]` | Shows content differences between two branches
+`$ git show [commit]`                         | Outputs metadata and content changes of the specified commit
+
+**Redo Commits** Erase mistakes and craf replacement history
+
+Command                       | Description
+------------------------------|-------------------------------------------------------------
+`$ git reset [commit]`        | Undoes all commits afer `[commit]`, preserving changes locally
+`$ git reset --hard [commit]` | Discards all history and changes back to the specified commit
+
+**Synchronize Changes** Register a repository bookmark and exchange version history
+
+Command                           | Description
+----------------------------------|-------------------------------------------------------------
+`$ git fetch [bookmark]`          | Downloads all history from the repository bookmark
+`$ git merge [bookmark]/[branch]` | Combines bookmark’s branch into current local branch
+`$ git push [alias] [branch]`     | Uploads all local branch commits to GitHub
+`$ git pull`                      | Downloads bookmark history and incorporates changes
