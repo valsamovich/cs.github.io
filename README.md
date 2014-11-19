@@ -10,6 +10,17 @@ Command Line Cheat Sheet and Tips
 
 Additionally, it is possble to execute a command only if its predecessor produces a certain result. Code placed after the `&&` operator will only be run if the previous command completes successfully, while the opposite `||` operator only continues if the previous command fails. The following command will create the folder “videos” only if the cd command fails (and the folder therefore doesn’t exist): `$ cd ~/videos || mkdir ~/videos`
 
+**Home Folder** File and directory paths can get long and awkward. If you’re addressing a path inside of your home folder though, you can make things easier by using the ~ character. So instead of writing cd /Users/your-username/projects/ , a simple cd ~/projects/ will do. And in case you should forget your user name, whoami will remind you.
+
+Commands            | Description
+--------------------|----------------------------------------------------------------------------------
+$ pwd               | Display path of current working directory
+$ cd <directory>    | Change directory to <directory>
+$ cd                | ..Navigate to parent directory
+$ ls                | List directory contents
+$ ls -la            | List detailed directory contents, including hidden files
+$ mkdir <directory> | Create new directory named <directory>
+
 **The “ctrl” key** Various keyboard shortcuts can assist you when entering text: Hitting `ctrl+A` moves the caret to the beginning and `ctrl+E` to the end of the line. In a similar fashion, `ctrl+K` deletes all characters after and `ctrl+U` all
 characters in front of the caret. Pressing `ctrl+L` clears the screen (similarly to the clear command). If you should ever want to abort a running command, `ctrl+C` will cancel it.
 
