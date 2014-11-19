@@ -10,16 +10,33 @@ Command Line Cheat Sheet and Tips
 
 Additionally, it is possble to execute a command only if its predecessor produces a certain result. Code placed after the `&&` operator will only be run if the previous command completes successfully, while the opposite `||` operator only continues if the previous command fails. The following command will create the folder “videos” only if the cd command fails (and the folder therefore doesn’t exist): `$ cd ~/videos || mkdir ~/videos`
 
-**Home Folder** File and directory paths can get long and awkward. If you’re addressing a path inside of your home folder though, you can make things easier by using the ~ character. So instead of writing cd /Users/your-username/projects/ , a simple cd ~/projects/ will do. And in case you should forget your user name, whoami will remind you.
+**Home Folder** File and directory paths can get long and awkward. If you’re addressing a path inside of your home folder though, you can make things easier by using the ~ character. So instead of writing cd /Users/your-username/projects/ , a simple cd ~/projects/ will do. And in case you should forget your user name, whoami will remind you. 
 
-Commands            | Description
---------------------|----------------------------------------------------------------------------------
-$ pwd               | Display path of current working directory
-$ cd <directory>    | Change directory to <directory>
-$ cd                | ..Navigate to parent directory
-$ ls                | List directory contents
-$ ls -la            | List detailed directory contents, including hidden files
-$ mkdir <directory> | Create new directory named <directory>
+Directory Commands   | Description
+---------------------|----------------------------------------------------------------------------------
+$ pwd                | Display path of current working directory
+$ cd <directory>     | Change directory to <directory>
+$ cd                 | ..Navigate to parent directory
+$ ls                 | List directory contents
+$ ls -la             | List detailed directory contents, including hidden files
+$ mkdir <directory>  | Create new directory named <directory>
+
+File Commands                     | Description
+----------------------------------|----------------------------------------------------------------------------------
+$ rm <file>                       | Delete <file>
+$ rm -r <directory>               | Delete <directory>
+$ rm -f <file>                    | Force-delete <file> (add -r to forcedelete a directory)   
+$ mv <file-old> <file-new>        | Rename <file-old> to <file-new>
+$ mv <file> <directory>           | Move <file> to <directory> (possibly overwriting an existing file)
+$ cp <file> <directory>           | Copy <file> to <directory> (possibly overwriting an existing file)
+$ cp -r <directory1> <directory2> | Copy <directory1> and its contents to <directory2> (possibly overwriting files)
+$ touch <file>                    | Update file access & modification time (and create <file> if it doesn’t exist)
+
+Search Commands             | Description
+----------------------------|----------------------------------------------------------------------------------
+$ find <dir> -name "<file>" | Find files named <file> inside <dir> (use wildcards `*` to search for part exmpl: `file.*`)
+$ grep "<text>" <file>      | Output all occurrences of <text> inside <file> (add -i for case-insensitivity)
+$ grep -rl "<text>" <dir>   | Search for all files containing <text> inside <dir>
 
 **The “ctrl” key** Various keyboard shortcuts can assist you when entering text: Hitting `ctrl+A` moves the caret to the beginning and `ctrl+E` to the end of the line. In a similar fashion, `ctrl+K` deletes all characters after and `ctrl+U` all
 characters in front of the caret. Pressing `ctrl+L` clears the screen (similarly to the clear command). If you should ever want to abort a running command, `ctrl+C` will cancel it.
@@ -34,40 +51,14 @@ characters in front of the caret. Pressing `ctrl+L` clears the screen (similarly
 - 2 — modify/write (w)
 - 1 — execute (x)
 
-Commands                           | Description
------------------------------------|----------------------------------------------------------------------------------
-$ chmod 755 <file>                 | Change permissions of <file> to 755, or * for all files in present directory
-$ chmod -R 600 <directory>         | Change permissions of <directory> (and its contents) to 600
-$ chown <user>:<group> <file>      | Change ownership of <file> to <user> and <group> (add -R to include a directory’s
-contents)
+Permission Commands           | Description
+------------------------------|--------------------------------------------------------------------------------------------
+$ chmod 755 <file>            | Change permissions of <file> to 755, or * for all files in present directory
+$ chmod -R 600 <directory>    | Change permissions of <directory> (and its contents) to 600
+$ chown <user>:<group> <file> | Change ownership of <file> to <user> and <group> (add -R to include a directory’s contents)
 
 For example, `755` means `rwx` for owner and `rx` for both group and anyone. `740` represents `rwx` for owner, `r` for group and no rights for other users.
 
-
-
-Directories               | Output | Files | Search | Network | Permissions | Processes
---------------------------|--------|-------|--------|---------|-------------|----------
-`$ pwd`                   |
-Display working directory |
---------------------------|--------|-------|--------|---------|-------------|----------
-`$ cd <directory>`    
-Change directory 
-
-Directories               | Output | Files | Search | Network | Permissions | Processes
---------------------------------------------|--------|-------|--------|---------|-------------|----------
-$ pwd
-Display path of current working directory
-$ cd <directory>
-Change directory to <directory>
-$ cd ..
-Navigate to parent directory
-$ ls
-List directory contents
-$ ls -la
-List detailed directory contents, including
-hidden files
-$ mkdir <directory>
-Create new directory named <directory>
 
 
 
