@@ -14,12 +14,12 @@ Additionally, it is possble to execute a command only if its predecessor produce
 
 Directory Commands    | Description
 ----------------------|----------------------------------------------------------------------------------
-$ pwd                 | Display path of current working directory
-$ cd \<directory\>    | Change directory to <directory>
-$ cd                  | ..Navigate to parent directory
-$ ls                  | List directory contents
-$ ls -la              | List detailed directory contents, including hidden files
-$ mkdir \<directory\> | Create new directory named <directory>
+`$ pwd`               | Display path of current working directory
+`$ cd <directory>`    | Change directory to <directory>
+`$ cd`                | ..Navigate to parent directory
+`$ ls`                | List directory contents
+`$ ls -la`            | List detailed directory contents, including hidden files
+`$ mkdir <directory>` | Create new directory named <directory>
 
 File Commands                         | Description
 --------------------------------------|----------------------------------------------------------------------------------
