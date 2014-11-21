@@ -130,7 +130,7 @@ Command                     | Description
 `$ git init [project-name]` | Creates a new local repository with the specified name
 `$ git clone [url]`         | Downloads a project and its entire version history
 
-**Make Changes** Review edits and craf a commit transaction. **Wite Good Commit Messages** Begin message with a short summary of your changes (up to 50 characters as a guideline).
+**Make Changes** Review edits and craf a commit transaction. **Wite Good Commit Messages** Begin message with a short summary of your changes (up to 50 characters as a guideline). *Commit Often** Committing often keeps your commits small and, again, helps you commit only related changes. Moreover, it allows you to share your code more frequently with others. That way it‘s easier for everyone to integrate changes regularly and avoid having merge conflicts. Having few large commits and sharing them rarely, in contrast, makes it hard to solve conflicts.
 
 Command                                   | Description
 ------------------------------------------|-----------------------------------------------------------------
