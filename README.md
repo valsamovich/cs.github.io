@@ -192,14 +192,14 @@ Command                                       | Description
 **Redo Commits** Erase mistakes and craf replacement history
 
 Command                       | Description
-------------------------------|-------------------------------------------------------------
+------------------------------|---------------------------------------------------------------
 `$ git reset [commit]`        | Undoes all commits afer `[commit]`, preserving changes locally
 `$ git reset --hard [commit]` | Discards all history and changes back to the specified commit
 
 **Synchronize Changes** Register a repository bookmark and exchange version history
 
 Command                           | Description
-----------------------------------|-------------------------------------------------------------
+----------------------------------|-----------------------------------------------------
 `$ git fetch [bookmark]`          | Downloads all history from the repository bookmark
 `$ git merge [bookmark]/[branch]` | Combines bookmark’s branch into current local branch
 `$ git push [alias] [branch]`     | Uploads all local branch commits to GitHub
@@ -211,6 +211,14 @@ Markdown
 [**Markdown**](http://en.wikipedia.org/wiki/Markdown) is a plain text formatting syntax designed so that it can be converted to HTML and many other formats using a tool by the same name. Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor. Extensions: `.md`, `.mardown`.
 
 **Headers**: `# H1`, `## H2`, `### H3`, `#### H4`, `##### H5`, `###### H6`. Alternatively, for H1 (double underline) and H2(single underline), an underline-ish style.
+
+**Emphasis**
+Type          | Code                                 | Preview
+--------------|--------------------------------------|------------------------------------
+Italics       |   `*asterisks*` or `_underscores_`   | *asterisks*` or `_underscores_
+Bold          | `**asterisks**` or `__underscores__` | **asterisks**` or `__underscores__
+Combined      | `**asterisks and _underscores_**`    | **asterisks and _underscores_**
+Strikethrough | `~~Scratch this.~~`                  | ~~Scratch this.~~
 
 Zend
 ----
