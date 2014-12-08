@@ -205,6 +205,13 @@ Command                           | Description
 `$ git push [alias] [branch]`     | Uploads all local branch commits to GitHub
 `$ git pull`                      | Downloads bookmark history and incorporates changes
 
+Markdown
+--------
+
+[**Markdown**](http://en.wikipedia.org/wiki/Markdown) is a plain text formatting syntax designed so that it can be converted to HTML and many other formats using a tool by the same name. Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor. Extensions: `.md`, `.mardown`.
+
+**Headers**: `# H1`, `## H2`, `### H3`, `#### H4`, `##### H5`, `###### H6`. Alternatively, for H1 (double underline) and H2(single underline), an underline-ish style.
+
 Zend
 ----
 
