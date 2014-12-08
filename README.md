@@ -208,7 +208,7 @@ Command                           | Description
 Zend
 ----
 
-**Zend Server** refers to a PHP application server product line offered by Zend Technologies, released in early 2009[1] with production support available for Windows, Linux, OS X and IBM i. Default location - `/usr/local/zend/bin/zendctl.sh restart`
+**Zend Server** refers to a PHP application server product line offered by Zend Technologies, released in early 2009 with production support available for Windows, Linux, OS X and IBM i. Default location - `/usr/local/zend/bin/zendctl.sh restart`
 
 Command                         | Description         
 --------------------------------|---------------------
