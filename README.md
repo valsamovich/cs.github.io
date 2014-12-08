@@ -213,6 +213,7 @@ Markdown
 **Headers**: `# H1`, `## H2`, `### H3`, `#### H4`, `##### H5`, `###### H6`. Alternatively, for H1 (double underline) and H2(single underline), an underline-ish style.
 
 **Emphasis**
+
 Type          | Code                                 | Preview
 --------------|--------------------------------------|------------------------------------
 Italics       |   `*asterisks*` or `_underscores_`   | *asterisks*` or `_underscores_
