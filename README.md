@@ -231,7 +231,6 @@ Strikethrough | `~~Scratch this.~~`                  | ~~Scratch this.~~
 ⋅⋅1. Ordered sub-list
 4. And another item.
 
-
 * Unordered list can use asterisks
 - Or minuses
 + Or pluses
