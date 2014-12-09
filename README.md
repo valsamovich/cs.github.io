@@ -221,33 +221,57 @@ Bold          | `**asterisks**` or `__underscores__` | **asterisks**` or `__unde
 Combined      | `**asterisks and _underscores_**`    | **asterisks and _underscores_**
 Strikethrough | `~~Scratch this.~~`                  | ~~Scratch this.~~
 
-**Lists**
+**Lists** can be ordered and uunordered.
 
 ```
-1. First ordered list item
-2. Another item
+1. Ordered list item
+2. Another list item
 ⋅⋅* Unordered sub-list. 
-1. Actual numbers don't matter, just that it's a number
+3. Thirt list item
 ⋅⋅1. Ordered sub-list
-4. And another item.
 
 * Unordered list can use asterisks
 - Or minuses
 + Or pluses
 ```
 
-1. First ordered list item
-2. Another item
+1. Ordered list item
+2. Another list item
   * Unordered sub-list. 
-1. Actual numbers don't matter, just that it's a number
+3. Thirt list item
   1. Ordered sub-list
-4. And another item.
 
 * Unordered list can use asterisks
 - Or minuses
 + Or pluses
 
-**Links**
+**Links** There are two ways to create links.
+
+```
+[I'm an inline-style link](https://www.google.com)
+[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+[I'm a reference-style link][Arbitrary case-insensitive reference text]
+[I'm a relative reference to a repository file](../blob/master/LICENSE)
+[You can use numbers for reference-style link definitions][1]
+Or leave it empty and use the [link text itself]
+Some text to show that the reference links can follow later.
+[arbitrary case-insensitive reference text]: https://www.mozilla.org
+[1]: http://slashdot.org
+[link text itself]: http://www.reddit.com
+I'm an inline-style link
+```
+
+I'm an inline-style link with title
+
+I'm a reference-style link
+
+I'm a relative reference to a repository file
+
+You can use numbers for reference-style link definitions
+
+Or leave it empty and use the link text itself
+
+Some text to show that the reference links can follow later.
 
 Zend
 ----
