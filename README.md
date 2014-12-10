@@ -1,7 +1,7 @@
 cheat-sheets
 ==================
 
-Collection of Commands and Tips for Unix (Command Line), Git, Zend Server etc. 
+Collection of Commands and Tips for Unix (Command Line), Git, Markdown, Zend Server etc. 
 
 Unix
 ----
