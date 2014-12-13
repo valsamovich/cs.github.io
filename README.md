@@ -251,6 +251,10 @@ Type     | Syntax                             | Preview
 ---------|------------------------------------|---------------------------------
 Inline   | `[Google](https://www.google.com)` | [Google](https://www.google.com)
 
+**Images**
+
+
+
 Zend
 ----
 
