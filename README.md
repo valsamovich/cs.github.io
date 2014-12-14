@@ -253,7 +253,7 @@ Inline   | `[Google](https://www.google.com)` | [Google](https://www.google.com)
 
 **Images**
 
-
+**Code and Syntax Highlighting**
 
 Zend
 ----
