@@ -150,7 +150,7 @@ Command                         | Description
 `$ git checkout [branch-name]`  | Switches to the specified branch and updates the working directory
 `$ git merge [branch]`          | Combines the specified branch’s history into the current branch
 `$ git branch -d [branch-name]` | Deletes the specified branch
-`$ git rebase [branch]`         | Rebase current HEAD onto `[branch]`. Don't rebase published commits.
+`$ git rebase [branch]`         | Rebase current **HEAD** onto `[branch]`. Don't rebase published commits.
 `$ git rebase --abort`          | Abort a rebase
 `$ git rebase --continue`       | Continue a rebase after resolving conflicts
 `$ git mergetool`               | Use configured merge tool to solve conflicts
