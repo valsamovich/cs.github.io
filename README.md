@@ -6,7 +6,7 @@ Collection of Commands and Tips for Unix (Command Line), Git, Markdown, Zend Ser
 Unix
 ----
 
-**Unix** (all-caps UNIX for the trademark) is a multitasking, multiuser computer operating system that exists in many variants. Unix makes little distinction between commands (user-level programs) for system operation and maintenance (e.g. cron), commands of general utility (e.g. grep), and more general-purpose applications such as the text formatting and typesetting package.
+**Unix** (all-caps UNIX for the trademark) is a multitasking, multi user computer operating system that exists in many variants. Unix makes little distinction between commands (user-level programs) for system operation and maintenance (e.g. cron), commands of general utility (e.g. grep), and more general-purpose applications such as the text formatting and typesetting package.
 
 **Getting Help** On the command line, help is always at hand: you can either type `<command>` or `<command> --help` to receive detailed documentation about the command in question. 
 
@@ -119,8 +119,8 @@ $ git help <command>
 
 Command                                              | Description
 -----------------------------------------------------|------------------------------------------------------------
-`$ git config --global user.name "[name]"`           | Sets the name you want atached to your commit transactions
-`$ git config --global user.email "[email address]"` | Sets the email you want atached to your commit transactions
+`$ git config --global user.name "[name]"`           | Sets the name you want attached to your commit transactions
+`$ git config --global user.email "[email address]"` | Sets the email you want attached to your commit transactions
 `$ git config --global color.ui auto`                | Enables helpful colorization of command line output
 
 **Create Repositories** Start a new repository or obtain one from an existing URL.
@@ -134,8 +134,8 @@ Command                     | Description
 
 Command                                   | Description
 ------------------------------------------|-----------------------------------------------------------------
-`$ git status`                            | Lists all new or modified files to be commited
-`$ git add [file]`                        | Snapshots the file in preparation for versioning
+`$ git status`                            | Lists all new or modified files to be committed
+`$ git add [file]`                        | Snapshots the file in preparation for visioning
 `$ git reset [file]`                      | Unstages the file, but preserve its contents
 `$ git diff`                              | Shows file differences not yet staged
 `$ git diff --staged`                     | Shows file differences between staging and the last file version
@@ -176,9 +176,9 @@ Command                                               | Description
 Command            | Description
 -------------------|----------------------------------------------
 `$ git stash`      | Temporarily stores all modified tracked files
-`$ git stash list` | Lists all stashed changesets
+`$ git stash list` | Lists all stashed change sets
 `$ git stash pop`  |Restores the most recently stashed files
-`$ git stash drop` | Discards the most recently stashed changeset
+`$ git stash drop` | Discards the most recently stashed change set
 
 **Review History** Browse and inspect the evolution of project files
 
@@ -221,13 +221,13 @@ Bold          | `**asterisks**` or `__underscores__` | **asterisks**` or `__unde
 Combined      | `**asterisks and _underscores_**`    | **asterisks and _underscores_**
 Strikethrough | `~~Scratch this.~~`                  | ~~Scratch this.~~
 
-**Lists** can be ordered and uunordered.
+**Lists** can be ordered and unordered.
 
 ```
 1. Ordered list item
 2. Another list item
 ⋅⋅* Unordered sub-list. 
-3. Thirt list item
+3. Third list item
 ⋅⋅1. Ordered sub-list
 
 * Unordered list can use asterisks
@@ -238,7 +238,7 @@ Strikethrough | `~~Scratch this.~~`                  | ~~Scratch this.~~
 1. Ordered list item
 2. Another list item
   * Unordered sub-list. 
-3. Thirt list item
+3. Third list item
   1. Ordered sub-list
 
 * Unordered list can use asterisks
@@ -275,29 +275,29 @@ In computer programming, [**Eclipse**](https://eclipse.org/home/index.php) is an
 [**IntelliJ IDEA**](https://www.jetbrains.com/idea/) is a Java IDE by [JetBrains](http://en.wikipedia.org/wiki/JetBrains).
 
 
-Eclipse            |	IntelliJ IDEA           |	Description
+Eclipse            |    IntelliJ IDEA         |    Description
 -------------------|--------------------------|------------------------------------------
-`F4`	             | `ctrl+h`	                | show the type hierarchy
-`crl+alt+g`	       | `ctrl+alt+F7`	          | find usages
-`ctrl+shift+u`	   | `ctrl+f7`	              | finds the usages in the same file
-`alt+shift+r`	     | `shift+F6`	              | rename
-`ctrl+shift+r`	   | `ctrl+shift+N`	          | find file / open resource
-`ctrl+shift+x, j`	 | `ctrl+shift+F10`	        | run (java program)
-`ctrl+shift+o`	   | `ctrl+alt+o`	            | organize imports
-`ctrl+o`	         | `ctrl+F12`	              | show current file structure / outline
-`ctrl+shift+m`     | `ctrl+alt+V`	            | create local variable refactoring
-`syso ctrl+space`  | `sout ctrj+j`	          | System.out.println(“”)
+`F4`               | `ctrl+h`                 | show the type hierarchy
+`crl+alt+g`        | `ctrl+alt+F7`            | find usages
+`ctrl+shift+u`     | `ctrl+f7`                | finds the usages in the same file
+`alt+shift+r`      | `shift+F6`               | rename
+`ctrl+shift+r`     | `ctrl+shift+N`           | find file / open resource
+`ctrl+shift+x, j`  | `ctrl+shift+F10`         | run (java program)
+`ctrl+shift+o`     | `ctrl+alt+o`             | organize imports
+`ctrl+o`           | `ctrl+F12`               | show current file structure / outline
+`ctrl+shift+m`     | `ctrl+alt+V`             | create local variable refactoring
+`syso ctrl+space`  | `sout ctrj+j`            | System.out.println(“”)
 `main Ctrl+Space`  | `psvm`                   | To create main() method
-`alt + up/down`	   | `ctrl + shift + up/down`	| move lines
-`ctrl + d`	       | `ctrl + y`	              | delete current line
-`???`	             | `alt + h`	              | show subversion history
-`ctrl + h`	       | `ctrl + shift + f`	      | search (find in path)
-`ctrl + 1`         | `ctrl + alt + v`	        | introduce local variable
-`alt + shift + s`	 | `alt + insert`	          | generate getters / setters
-`ctrl + shift + f` | `ctrl + alt + l`	        | format code
-`ctrl + y`	       | `ctrl + shift + z`	      | redo
-`ctrl + shift + c` | `ctrl + /`	              | comment out lines
-`ctrl + alt + h`	 | `ctrl + alt + h` (same!) | show call 
-`none ?`           | `ctrl + alt + f7`	      | to jump to one of the callers of a method
-`ctrl + shift + i` | `alt + f8`	              | evaluate expression (in debugger)
-`F3`	             | `ctrl + b`	              | go to declaration (e.g. go to method)
+`alt + up/down`    | `ctrl + shift + up/down` | move lines
+`ctrl + d`         | `ctrl + y`               | delete current line
+`???`              | `alt + h`                | show subversion history
+`ctrl + h`         | `ctrl + shift + f`       | search (find in path)
+`ctrl + 1`         | `ctrl + alt + v`         | introduce local variable
+`alt + shift + s`  | `alt + insert`           | generate getters / setters
+`ctrl + shift + f` | `ctrl + alt + l`         | format code
+`ctrl + y`         | `ctrl + shift + z`       | redo
+`ctrl + shift + c` | `ctrl + /`               | comment out lines
+`ctrl + alt + h`   | `ctrl + alt + h` (same!) | show call
+`none ?`           | `ctrl + alt + f7`        | to jump to one of the callers of a method
+`ctrl + shift + i` | `alt + f8`               | evaluate expression (in debugger)
+`F3`               | `ctrl + b`               | go to declaration (e.g. go to method)
