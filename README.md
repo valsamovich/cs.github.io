@@ -266,6 +266,15 @@ Command                     | Description
 `$ sudo zendctl.sh restart` | Restart Zend Server 
 `$ sudo zendctl.sh stop`    | Stop Zend Server    
 
+Java 
+----
+
+Commands for **Command Prompt** to Set Java  on Windows with Programmatic.
+
+Command                         | Description
+--------------------------------|----------------------------------------------------
+`%JAVA_HOME%`                   | Validate `JAVA_HOME` Directory
+`setx -m JAVA_HOME <directory>` | Set `JAVA_HOME` Directory as a Environment Variable 
 
 IntelliJ IDEA and Eclipse Shortcuts
 -----------------------------------
