@@ -269,12 +269,16 @@ Command                     | Description
 Java 
 ----
 
-Setting JAVA_HOME path from CMD.
+Setting JAVA_HOME path from CMD (Programmaticly).
 
-Command                   | Description
---------------------------|----------------------------------------------------
-`%JAVA_HOME%`             | Validate `JAVA_HOME` Directory
-`setx JAVA_HOME "<PATH>"` | Set `JAVA_HOME` Directory as a Environment Variable 
+Command                       | Description
+------------------------------|-----------------------------------------------------------------------------
+`echo %JAVA_HOME%`            | Validate `JAVA_HOME`
+`setx -m JAVA_HOME "<PATH>"`  | Set `JAVA_HOME`. `<PATH>` - example: `"C:\Program Files\Java\jdk1.7.0_71"`
+`%PATH%`                      | Validate `PATH`
+`setx -m PATH "%PATH%;<PATH>` | Set `PATH`. `PATH` - example: `"C:\Program Files\Java\jdk1.7.0_71\bin"`
+
+**Note:** Run the Command Prompt as Administrator. When you change an environment variable by using the Windows setx command, you must close and reopen the Command Prompt window for the change to take effect.
 
 IntelliJ IDEA and Eclipse Shortcuts
 -----------------------------------
