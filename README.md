@@ -58,7 +58,7 @@ Output Commands     |  Description
 `$ <cmd1> | <cmd2>` | Direct the output of `<cmd1>` to `<cmd2>`
 `$ clear`           | Clear the command line window
 
-**Directing Output** The output of a command does not necessarily have to be printed to the command line. Instead, you can decide to direct it to somewhere else. Using the > operator, for example, output can be directed to a file. The following command will save the running processes to a text file in your home folder: 
+**Directing Output** The output of a command does not necessarily have to be printed to the command line. Instead, you can decide to direct it to somewhere else. Using the `>` operator, for example, output can be directed to a file. The following command will save the running processes to a text file in your home folder: 
 
 ```
 $ ps ax > ~/processes.txt
