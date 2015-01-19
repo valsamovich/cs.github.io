@@ -300,7 +300,7 @@ Eclipse            |    IntelliJ IDEA         |    Description
 `ctrl+shift+o`     | `ctrl+alt+o`             | organize imports
 `ctrl+o`           | `ctrl+F12`               | show current file structure / outline
 `ctrl+shift+m`     | `ctrl+alt+V`             | create local variable refactoring
-`syso ctrl+space`  | `sout ctrj+j`            | System.out.println(“”)
+`syso ctrl+space`  | `sout ctrj+j`            | `System.out.println(“”)`
 `main Ctrl+Space`  | `psvm`                   | To create main() method
 `alt + up/down`    | `ctrl + shift + up/down` | move lines
 `ctrl + d`         | `ctrl + y`               | delete current line
