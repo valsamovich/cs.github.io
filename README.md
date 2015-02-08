@@ -295,10 +295,10 @@ Eclipse            |    IntelliJ IDEA         |    Description
 `crl+alt+g`        | `ctrl+alt+F7`            | find usages
 `ctrl+shift+u`     | `ctrl+f7`                | finds the usages in the same file
 `alt+shift+r`      | `shift+F6`               | rename
-`ctrl+shift+r`     | `ctrl+shift+N`           | find file / open resource
+`ctrl+shift+r`     | `ctrl+shift+N`           | find file `/` open resource
 `ctrl+shift+x, j`  | `ctrl+shift+F10`         | run (java program)
 `ctrl+shift+o`     | `ctrl+alt+o`             | organize imports
-`ctrl+o`           | `ctrl+F12`               | show current file structure / outline
+`ctrl+o`           | `ctrl+F12`               | show current file structure `/` outline
 `ctrl+shift+m`     | `ctrl+alt+V`             | create local variable refactoring
 `syso ctrl+space`  | `sout ctrj+j`            | `System.out.println(“”)`
 `main Ctrl+Space`  | `psvm`                   | To create main() method
