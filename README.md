@@ -377,12 +377,12 @@ Element	     | Description
 
 SOAP Building Blocks with Skeleton SOAP Message example
 
-Element	          | Description
-------------------|--------------------------------------------------------------------
-`<soap:Envelope>` | A container for data type definitions used by the web service.
-`<soap:Header>`	  | A typed definition of the data being communicated
-`<soap:Body>`     | A set of operations supported by one or more endpoints
-`<soap:Fault>`	  | A protocol and data format specification for a particular port type
+Element	          | Required | Description
+------------------|----------|--------------------------------------------------------------------------------------
+`<soap:Envelope>` | Yes      | An Envelope element that identifies the XML document as a SOAP message
+`<soap:Header>`	  | No       | A Header element that contains header information (like authentication, payment, etc)
+`<soap:Body>`     | Yes      | A Body element that contains call and response actual SOAP message information
+`<soap:Fault>`	  | No       | The SOAP Fault element holds errors and status information for a SOAP message.
 
 ```
 <?xml version="1.0"?>
