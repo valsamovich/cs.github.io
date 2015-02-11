@@ -360,8 +360,27 @@ Element	     | Description
   </binding>
 </definitions>
 ```
+**UDDI (Universal Description, Discovery, and Integration)** is an XML-based registry for businesses worldwide to list themselves on the Internet. Its ultimate goal is to streamline online transactions by enabling companies to find one another on the Web and make their systems interoperable for e-commerce.
 
-[**SOAP**](http://www.w3schools.com/webservices/ws_soap_intro.asp), originally an acronym for Simple Object Access protocol, is a protocol specification for exchanging structured information in the implementation of web services in computer networks.
+- UDDI stands for Universal Description, Discovery and Integration
+- UDDI is a directory service where companies can search for Web services.
+- UDDI is described in WSDL
+- UDDI communicates via SOAP
+
+The [**Resource Description Framework (RDF)**](http://www.w3schools.com/webservices/ws_rdf_intro.asp) is a family of World Wide Web Consortium (W3C) specifications originally designed as a metadata data model.
+
+- RDF stands for Resource Description Framework
+- RDF is a framework for describing resources on the web
+- RDF is designed to be read and understood by computers
+- RDF is not designed for being displayed to people
+- RDF is written in XML
+- RDF is a part of the W3C's Semantic Web Activity
+- RDF is a W3C Recommendation
+
+SOAP
+----
+
+[**SOAP**](http://www.w3schools.com/webservices/ws_soap_intro.asp), originally an acronym for **Simple Object Access protocol**, is a protocol specification for exchanging structured information in the implementation of web services in computer networks.
 
 - SOAP stands for Simple Object Access Protocol
 - SOAP is a communication protocol
@@ -401,19 +420,19 @@ Element	          | Required | Description
 </soap:Envelope>
 ```
 
-**UDDI (Universal Description, Discovery, and Integration)** is an XML-based registry for businesses worldwide to list themselves on the Internet. Its ultimate goal is to streamline online transactions by enabling companies to find one another on the Web and make their systems interoperable for e-commerce.
+REST
+----
 
-- UDDI stands for Universal Description, Discovery and Integration
-- UDDI is a directory service where companies can search for Web services.
-- UDDI is described in WSDL
-- UDDI communicates via SOAP
+**REST** stands for **Representational State Transfer**. (It is sometimes spelled "ReST".) It relies on a stateless, client-server, cacheable communications protocol -- and in virtually all cases, the HTTP protocol is used. REST is an architecture style for designing networked applications.
 
-The [**Resource Description Framework (RDF)**] is a family of World Wide Web Consortium (W3C) specifications originally designed as a metadata data model.
+- REST is an Architecture style or design pattern
+- Stateless, client-server, cacheable communications protocol
+- REST uses HTTP requests to GET, PUT, POST, DELETE data
+- REST is lightweight
+- REST uses nouns as URI, verbs as HTTP methods
 
-- RDF stands for Resource Description Framework
-- RDF is a framework for describing resources on the web
-- RDF is designed to be read and understood by computers
-- RDF is not designed for being displayed to people
-- RDF is written in XML
-- RDF is a part of the W3C's Semantic Web Activity
-- RDF is a W3C Recommendation
+In computing, a [**Uniform Resource Identifier (URI)**] is a string of characters used to identify a name of a resource. Such identification enables interaction with representations of the resource over a network, typically the World Wide Web, using specific protocols.
+
+```
+http://www.example.com/v1/hr/employees/19328389
+```
