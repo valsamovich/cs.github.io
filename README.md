@@ -318,6 +318,7 @@ Eclipse            |    IntelliJ IDEA         |    Description
 
 Web Services
 ------------
+A [Web server](http://www.w3schools.com/webservices/default.asp) is a program that, using the client/server model and the World Wide Web's Hypertext Transfer Protocol ( HTTP ), serves the files that form Web pages to Web users (whose computers contain HTTP clients that forward their requests).
 
 - Web services are application components
 - Web services communicate using open protocols
@@ -325,3 +326,12 @@ Web Services
 - Web services can be discovered using UDDI
 - Web services can be used by other applications
 - HTTP and XML is the basis for Web services
+
+The [Web Services Description Language (WSDL)](http://www.w3schools.com/webservices/ws_wsdl_intro.asp) is an XML-based language used to describe the services a business offers and to provide a way for individuals and other businesses to access those services electronically.
+
+- WSDL stands for Web Services Description Language
+- WSDL is written in XML
+- WSDL is an XML document
+- WSDL is used to describe Web services
+- WSDL is also used to locate Web services
+- WSDL is a W3C recommendation
