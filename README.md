@@ -389,15 +389,13 @@ Element	          | Description
 <soap:Envelope
   xmlns:soap="http://www.w3.org/2001/12/soap-envelope"
   soap:encodingStyle="http://www.w3.org/2001/12/soap-encoding">
-<soap:Header>
-  ...
-</soap:Header>
-<soap:Body>
-  ...
-  <soap:Fault>
+  <soap:Header>
     ...
-  </soap:Fault>
-</soap:Body>
-```
-
+  </soap:Header>
+  <soap:Body>
+    ...
+    <soap:Fault>
+      ...
+    </soap:Fault>
+  </soap:Body>
 </soap:Envelope>
