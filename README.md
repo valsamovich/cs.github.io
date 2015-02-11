@@ -318,3 +318,10 @@ Eclipse            |    IntelliJ IDEA         |    Description
 
 Web Services
 ------------
+
+- Web services are application components
+- Web services communicate using open protocols
+- Web services are self-contained and self-describing
+- Web services can be discovered using UDDI
+- Web services can be used by other applications
+- HTTP and XML is the basis for Web services
