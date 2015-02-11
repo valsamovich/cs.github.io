@@ -288,7 +288,6 @@ In computer programming, [**Eclipse**](https://eclipse.org/home/index.php) is an
 
 [**IntelliJ IDEA**](https://www.jetbrains.com/idea/) is a Java IDE by [JetBrains](http://en.wikipedia.org/wiki/JetBrains).
 
-
 Eclipse            |    IntelliJ IDEA         |    Description
 -------------------|--------------------------|------------------------------------------
 `F4`               | `ctrl+h`                 | show the type hierarchy
@@ -336,6 +335,8 @@ The [**Web Services Description Language (WSDL)**](http://www.w3schools.com/webs
 - WSDL is also used to locate Web services
 - WSDL is a W3C recommendation
 
+The WSDL Document Structure with example
+
 Element	     | Description
 -------------|--------------------------------------------------------------------
 `<types>`	   | A container for data type definitions used by the web service
@@ -359,3 +360,44 @@ Element	     | Description
   </binding>
 </definitions>
 ```
+
+[SOAP](http://www.w3schools.com/webservices/ws_soap_intro.asp), originally an acronym for Simple Object Access protocol, is a protocol specification for exchanging structured information in the implementation of web services in computer networks.
+
+- SOAP stands for Simple Object Access Protocol
+- SOAP is a communication protocol
+- SOAP is for communication between applications
+- SOAP is a format for sending messages
+- SOAP communicates via Internet
+- SOAP is platform independent
+- SOAP is language independent
+- SOAP is based on XML
+- SOAP is simple and extensible
+- SOAP allows you to get around firewalls
+- SOAP is a W3C recommendation
+
+SOAP Building Blocks with Skeleton SOAP Message example
+
+Element	          | Description
+------------------|--------------------------------------------------------------------
+`<soap:Envelope>` | A container for data type definitions used by the web service
+`<soap:Header>`	  | A typed definition of the data being communicated
+`<soap:Body>`     | A set of operations supported by one or more endpoints
+`<soap:Fault>`	  | A protocol and data format specification for a particular port type
+
+```
+<?xml version="1.0"?>
+<soap:Envelope
+  xmlns:soap="http://www.w3.org/2001/12/soap-envelope"
+  soap:encodingStyle="http://www.w3.org/2001/12/soap-encoding">
+<soap:Header>
+  ...
+</soap:Header>
+<soap:Body>
+  ...
+  <soap:Fault>
+    ...
+  </soap:Fault>
+</soap:Body>
+```
+
+</soap:Envelope>
