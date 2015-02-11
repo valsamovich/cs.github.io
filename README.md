@@ -318,7 +318,7 @@ Eclipse            |    IntelliJ IDEA         |    Description
 
 Web Services
 ------------
-A [Web server](http://www.w3schools.com/webservices/default.asp) is a program that, using the client/server model and the World Wide Web's Hypertext Transfer Protocol ( HTTP ), serves the files that form Web pages to Web users (whose computers contain HTTP clients that forward their requests).
+A [**Web server**](http://www.w3schools.com/webservices/default.asp) is a program that, using the client/server model and the World Wide Web's Hypertext Transfer Protocol ( HTTP ), serves the files that form Web pages to Web users (whose computers contain HTTP clients that forward their requests).
 
 - Web services are application components
 - Web services communicate using open protocols
@@ -327,7 +327,7 @@ A [Web server](http://www.w3schools.com/webservices/default.asp) is a program th
 - Web services can be used by other applications
 - HTTP and XML is the basis for Web services
 
-The [Web Services Description Language (WSDL)](http://www.w3schools.com/webservices/ws_wsdl_intro.asp) is an XML-based language used to describe the services a business offers and to provide a way for individuals and other businesses to access those services electronically.
+The [**Web Services Description Language (WSDL)**](http://www.w3schools.com/webservices/ws_wsdl_intro.asp) is an XML-based language used to describe the services a business offers and to provide a way for individuals and other businesses to access those services electronically.
 
 - WSDL stands for Web Services Description Language
 - WSDL is written in XML
@@ -335,3 +335,27 @@ The [Web Services Description Language (WSDL)](http://www.w3schools.com/webservi
 - WSDL is used to describe Web services
 - WSDL is also used to locate Web services
 - WSDL is a W3C recommendation
+
+Element	     | Description
+-------------|--------------------------------------------------------------------
+`<types>`	   | A container for data type definitions used by the web service
+`<message>`	 | A typed definition of the data being communicated
+`<portType>` | A set of operations supported by one or more endpoints
+`<binding>`	 | A protocol and data format specification for a particular port type
+
+```
+<definitions>
+  <types>
+    data type definitions........
+  </types>
+  <message>
+    definition of the data being communicated....
+  </message>
+  <portType>
+    set of operations......
+  </portType>
+  <binding>
+    protocol and data format specification....
+  </binding>
+</definitions>
+```
