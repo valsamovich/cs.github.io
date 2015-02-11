@@ -361,7 +361,7 @@ Element	     | Description
 </definitions>
 ```
 
-[SOAP](http://www.w3schools.com/webservices/ws_soap_intro.asp), originally an acronym for Simple Object Access protocol, is a protocol specification for exchanging structured information in the implementation of web services in computer networks.
+[**SOAP**](http://www.w3schools.com/webservices/ws_soap_intro.asp), originally an acronym for Simple Object Access protocol, is a protocol specification for exchanging structured information in the implementation of web services in computer networks.
 
 - SOAP stands for Simple Object Access Protocol
 - SOAP is a communication protocol
@@ -379,7 +379,7 @@ SOAP Building Blocks with Skeleton SOAP Message example
 
 Element	          | Description
 ------------------|--------------------------------------------------------------------
-`<soap:Envelope>` | A container for data type definitions used by the web service
+`<soap:Envelope>` | A container for data type definitions used by the web service.
 `<soap:Header>`	  | A typed definition of the data being communicated
 `<soap:Body>`     | A set of operations supported by one or more endpoints
 `<soap:Fault>`	  | A protocol and data format specification for a particular port type
@@ -399,3 +399,4 @@ Element	          | Description
     </soap:Fault>
   </soap:Body>
 </soap:Envelope>
+```
