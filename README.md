@@ -432,6 +432,10 @@ REST
 - REST is an Architecture style or design pattern
 - Stateless, client-server, cacheable communications protocol
 - REST uses HTTP requests to GET, PUT, POST, DELETE data
+  - **GET** Requests data from a specified resource
+  - **PUT**	Uploads a representation of the specified URI
+  - **POST** Submits (update) data to be processed to a specified resource
+  - **DELETE** Deletes the specified resource
 - REST is lightweight
 - REST uses nouns as URI, verbs as HTTP methods
 
