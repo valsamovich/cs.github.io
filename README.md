@@ -447,3 +447,9 @@ http://www.example.com/v1/hr/employees/19328389
 
 - [**URI Scheme**](http://en.wikipedia.org/wiki/URI_scheme)
 - [**HTTP status codes**](http://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
+
+
+Design Pattern
+--------------
+
+In software engineering, a **design pattern** is a general reusable solution to a commonly occurring problem within a given context in software design (solution to a common software problem). A **design pattern** is not a finished design that can be transformed directly into source or machine code.
