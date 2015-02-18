@@ -11,3 +11,5 @@ In software engineering, the [**singleton pattern**](http://en.wikipedia.org/wik
 The [**observer pattern**](http://en.wikipedia.org/wiki/Observer_pattern) is a software design pattern in which an object, called the subject, maintains a list of its dependents, called observers, and notifies them automatically of any state changes, usually by calling one of their methods.
 
 In class-based programming, the [**factory method pattern**](http://en.wikipedia.org/wiki/Factory_method_pattern) is a creational pattern which uses factory methods to deal with the problem of creating objects without specifying the exact class of object that will be created.
+
+In software engineering, the [**adapter pattern**](http://en.wikipedia.org/wiki/Adapter_pattern) is a software design pattern that allows the interface of an existing class to be used from another interface. It is often used to make existing classes work with others without modifying their source code.
