@@ -46,7 +46,7 @@ File Commands                       | Description
 `$ cp -r <directory1> <directory2>` | Copy `<directory1>` and its contents to `<directory2>` (possibly overwriting files)
 `$ touch <file>`                    | Update file access & modification time (and create `<file>` if it doesn’t exist)
 
-**Output and Output with "less"** The less command can display and paginate output. This means that it only displays one page full of content and then waits for your explicit instructions. You’ll know you have less in front of you if the last line of your screen either shows the file’s name or just a colon `:`. Apart from the arrow keys, hitting `SPACE` will scroll one page forward, b will scroll one page backward, and q will quit the less program.
+**Output and Output with "less"** The less command can display and paginate output. This means that it only displays one page full of content and then waits for your explicit instructions. You’ll know you have less in front of you if the last line of your screen either shows the file’s name or just a colon `:`. Apart from the arrow keys, hitting `SPACE` will scroll one page forward, b will scroll one page backward, and `q` will quit the less program.
 
 Output Commands     |  Description
 --------------------|----------------------------------------------------------------------------------
