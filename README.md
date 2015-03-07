@@ -169,7 +169,7 @@ Command                                   | Description
 Command                                               | Description
 ------------------------------------------------------|---------------------------------------------------------------
 `$ git ls-files --other --ignored --exclude-standard` | Lists all ignored files in this project
-`*.log` `build/` `temp-*` A text file named .gitignore suppresses accidental versioning offiles and paths matching the specified paterns
+`*.log` `build/` `temp-*`                             | A text file named .gitignore suppresses accidental versioning offiles and paths matching the specified paterns
 `$ git ls-files --other --ignored --exclude-standard` | Lists all ignored files in this project
 
 **Save Fragments** Shelve and restore incomplete changes
