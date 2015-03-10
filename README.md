@@ -6,7 +6,7 @@ Collection of Commands and Tips for Unix (Command Line), Git, Markdown, Zend Ser
 Unix
 ----
 
-**Unix** (all-caps **UNIX** for the trademark) is a multitasking, multi user computer operating system that exists in many variants. **Unix** makes little distinction between commands (user-level programs) for system operation and maintenance (e.g. cron), commands of general utility (e.g. grep), and more general-purpose applications such as the text formatting and typesetting package.
+> **Unix** (all-caps **UNIX** for the trademark) is a multitasking, multi user computer operating system that exists in many variants. **Unix** makes little distinction between commands (user-level programs) for system operation and maintenance (e.g. cron), commands of general utility (e.g. grep), and more general-purpose applications such as the text formatting and typesetting package.
 
 **Getting Help** On the command line, help is always at hand: you can either type `<command>` or `<command> --help` to receive detailed documentation about the command in question. 
 
