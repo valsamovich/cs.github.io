@@ -453,3 +453,8 @@ Design Pattern
 --------------
 
 In software engineering, a **design pattern** is a general reusable solution to a commonly occurring problem within a given context in software design (solution to a common software problem). A **design pattern** is not a finished design that can be transformed directly into source or machine code.
+
+Glossary
+--------
+
+In computer networks, a **proxy server** is a server (a computer system or an application) that acts as an intermediary for requests from clients seeking resources from other **servers**.
