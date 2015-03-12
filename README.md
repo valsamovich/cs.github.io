@@ -1,7 +1,7 @@
 engineering
 ===========
 
-Collection of Commands, Description and Tips for Unix (Command Line), Git, Markdown, Zend Server, ItelliJ, Eclipse, Java, Web Services, Design Patterns, and etc. 
+Collection of commands and Tips for Unix (Command Line), Git, Markdown, Zend Server, ItelliJ, Eclipse, Java, Web Services, Design Patterns, and etc. Glossary of software engineering, programming and etc.
 
 Unix
 ----
