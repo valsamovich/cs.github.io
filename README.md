@@ -110,7 +110,7 @@ Network Commands                          | Description
 Git
 ---
 
-**Git** is the open source distributed version control system that facilitates GitHub activities on your laptop or desktop. This cheat sheet summarizes commonly used Git command line instructions for quick reference. Small commits make it easier for other developers to understand the changes and roll them back if something went wrong. For **.gitignore** help  - [https://www.gitignore.io/](https://www.gitignore.io/)
+> **Git** is the open source distributed version control system that facilitates GitHub activities on your laptop or desktop. This cheat sheet summarizes commonly used Git command line instructions for quick reference. Small commits make it easier for other developers to understand the changes and roll them back if something went wrong. For **.gitignore** help  - [https://www.gitignore.io/](https://www.gitignore.io/)
 
 ```
 $ git help <command>
@@ -209,7 +209,7 @@ Command                           | Description
 Markdown
 --------
 
-[**Markdown**](http://en.wikipedia.org/wiki/Markdown) is a plain text formatting syntax designed so that it can be converted to HTML and many other formats using a tool by the same name. Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor. Extensions: `.md`, `.mardown`.
+> [**Markdown**](http://en.wikipedia.org/wiki/Markdown) is a plain text formatting syntax designed so that it can be converted to HTML and many other formats using a tool by the same name. Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor. Extensions: `.md`, `.mardown`.
 
 **Headers**: `# H1`, `## H2`, `### H3`, `#### H4`, `##### H5`, `###### H6`. Alternatively, for H1 (double underline) and H2(single underline), an underline-ish style.
 
@@ -288,9 +288,9 @@ In computer science, an [**implementation**](http://en.wikipedia.org/wiki/Implem
 IntelliJ IDEA and Eclipse Shortcuts
 -----------------------------------
 
-In computer programming, [**Eclipse**](https://eclipse.org/home/index.php) is an integrated development environment (IDE). It contains a base workspace and an extensible plug-in system for customizing the environment. Written mostly in Java. Eclipse may be used to develop applications in other programming languages: Ada, ABAP, C, C++, COBOL, Fortran, Haskell, JavaScript, Lasso, Natural, Perl, PHP, Prolog, Python, R, Ruby (including Ruby on Rails framework), Scala, Clojure, Groovy, Scheme, and Erlang.
+> In computer programming, [**Eclipse**](https://eclipse.org/home/index.php) is an integrated development environment (IDE). It contains a base workspace and an extensible plug-in system for customizing the environment. Written mostly in Java. Eclipse may be used to develop applications in other programming languages: Ada, ABAP, C, C++, COBOL, Fortran, Haskell, JavaScript, Lasso, Natural, Perl, PHP, Prolog, Python, R, Ruby (including Ruby on Rails framework), Scala, Clojure, Groovy, Scheme, and Erlang.
 
-[**IntelliJ IDEA**](https://www.jetbrains.com/idea/) is a Java IDE by [JetBrains](http://en.wikipedia.org/wiki/JetBrains).
+> [**IntelliJ IDEA**](https://www.jetbrains.com/idea/) is a Java IDE by [JetBrains](http://en.wikipedia.org/wiki/JetBrains).
 
 Eclipse            |    IntelliJ IDEA         |    Description
 -------------------|--------------------------|------------------------------------------
@@ -321,7 +321,7 @@ Eclipse            |    IntelliJ IDEA         |    Description
 
 Web Services
 ------------
-A [**Web server**](http://www.w3schools.com/webservices/default.asp) is a program that, using the client/server model and the World Wide Web's Hypertext Transfer Protocol ( HTTP ), serves the files that form Web pages to Web users (whose computers contain HTTP clients that forward their requests).
+> A [**Web server**](http://www.w3schools.com/webservices/default.asp) is a program that, using the client/server model and the World Wide Web's Hypertext Transfer Protocol ( HTTP ), serves the files that form Web pages to Web users (whose computers contain HTTP clients that forward their requests).
 
 - Web services are application components
 - Web services communicate using open protocols
