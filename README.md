@@ -16,3 +16,5 @@ Glossary
 
 - [Java](https://github.com/valerysamovich/engineering/blob/master/docs/java.md)
 - [Web Services](https://github.com/valerysamovich/engineering/blob/master/docs/web-services.md)
+- [Design Patterns](https://github.com/valerysamovich/engineering/blob/master/docs/design-patterns.md)
+- [Other](https://github.com/valerysamovich/engineering/blob/master/docs/others.md)
