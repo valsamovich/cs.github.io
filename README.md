@@ -10,8 +10,8 @@ Commands
 - [Git](https://github.com/valerysamovich/engineering/blob/master/docs/git.md)
 - [Markdown](https://github.com/valerysamovich/engineering/blob/master/docs/markdown.md)
 - [Zend](https://github.com/valerysamovich/engineering/blob/master/docs/zend.md)
-- [InelliJ](https://github.com/valerysamovich/engineering/blob/master/docs/intellij.md)
-- [Eclipse](https://github.com/valerysamovich/engineering/blob/master/docs/eclipse.md)
+- [InelliJ](https://github.com/valerysamovich/engineering/blob/master/docs/intellij&eclipse.md)
+- [Eclipse](https://github.com/valerysamovich/engineering/blob/master/docs/intellij&eclipse.md)
 
 Glossary
 --------
