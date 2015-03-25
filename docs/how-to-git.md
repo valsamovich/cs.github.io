@@ -62,5 +62,4 @@ git push origin NEW_BRANCH_NAME
 Sign your name bellow
 ---------------------
 
-Wayne Kenneth Seymour III
-Chris Earl.
+[your_name_here]
