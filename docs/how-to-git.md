@@ -6,7 +6,7 @@ how-to-git
 #### 1. Clone the remote repository and create a branch for your changes  
 
 ```shell
-git clone https://github.disney.com/studio-atlas/how-to-git.git
+git clone https://github.disney.com/how-to-git.git
 # Create a new branch locally on your box.
 git checkout -b NEW_BRANCH_NAME 
 ```  
