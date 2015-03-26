@@ -1,7 +1,7 @@
 engineering
 ===========
 
-Collection of commands for Unix (Command Line), Git, Markdown, Zend Server, ItelliJ, Eclipse, Java, Web Services, Design Patterns, and etc. Glossary of software engineering, programming and etc.
+Collection of commands for Unix (Command Line), Git, Markdown, Zend Server, ItelliJ, Eclipse, Java, Web Services, Design Patterns, and etc. Glossary of software engineering, programming, and etc. Guides for git, java, and etc. 
 
 Commands
 --------
@@ -19,3 +19,8 @@ Glossary
 - [Java](https://github.com/valerysamovich/engineering/blob/master/docs/java.md)
 - [Web Services](https://github.com/valerysamovich/engineering/blob/master/docs/web-services.md)
 - [Design Patterns](https://github.com/valerysamovich/engineering/blob/master/docs/design-patterns.md)
+
+Guides
+------
+
+- [How to Git](https://github.com/valerysamovich/engineering/blob/master/docs/how-to-git.md)
