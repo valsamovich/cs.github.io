@@ -3,6 +3,7 @@ how-to-git
 
 GET THE CODE AND MAKE CHANGES
 -----------------------------
+
 1. Clone the remote repository and create a branch for your changes  
 
 ```
@@ -19,18 +20,18 @@ git add README.md
 ```   
 
 4. Stage your changes to your local git repo.
-5. 
-```shell
+
+```
 git commit -m "Your Commit Message"
 ```  
 
-#### 5. Fetch & merge any new changes to the master branch (on the server) with your feature branch (on your local box).  
+5. Fetch & merge any new changes to the master branch (on the server) with your feature branch (on your local box).  
 
-```shell
+```
 git pull origin master # pull does two operations (fetch and merge)
 ```
 
-#### 6. If conflicts exist, resolve them  
+6. If conflicts exist, resolve them  
 Many ways of doing this, using IDE's, text editors, etc.
 You can also use the following command line:
 ```shell
