@@ -1,7 +1,7 @@
 how-to-git
 ==========
 
-GET THE CODE AND MAKE CHANGES
+Get the code and make changes
 -----------------------------
 
 Clone the remote repository and create a branch for your changes:
@@ -45,19 +45,17 @@ Push your branch to the remote repository
 git push origin NEW_BRANCH_NAME 
 ```
 
-GET YOUR CHANGES INTO `latest`
+Get yuor changes into `latest`
 -----------------------------
 
 In GitHub (using a web browser) :
 
-- Browse to: https://github.com/[name]/how-to-git
-- Click "Pull requests"
-- Click "New pull request"
-- Select your feature branch in the "compare" dropdown
+- Browse to: https://github.com/[name]/how-to-git.
+- Click "Pull requests".
+- Click "New pull request".
+- Select your feature branch in the "compare" dropdown.
 - Click the "Click to create a pull request for this comparison" button.
-- Give your pull request a title and description
-
-**Note:** *If you want more info see [this](https://wiki.nge.wdig.com/x/F5sPAw) draft.*
+- Give your pull request a title and description.
 
 Sign your name bellow
 ---------------------
