@@ -56,8 +56,3 @@ In GitHub (using a web browser) :
 - Select your feature branch in the "compare" dropdown.
 - Click the "Click to create a pull request for this comparison" button.
 - Give your pull request a title and description.
-
-Sign your name bellow
----------------------
-
-[your_name_here]
