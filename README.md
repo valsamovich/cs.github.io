@@ -7,7 +7,7 @@ Commands
 --------
 
 - [Unix](https://github.com/valerysamovich/engineering/blob/master/docs/unix.md)
-- [Unix](https://github.com/valerysamovich/engineering/blob/master/docs/unix-shortcuts.md) shortcuts
+- [Unix shortcuts](https://github.com/0nn0/terminal-mac-cheatsheet/wiki/Terminal-Cheatsheet-for-Mac-(-basics-)) 
 - [Git](https://github.com/valerysamovich/engineering/blob/master/docs/git.md)
 - [Markdown](https://github.com/valerysamovich/engineering/blob/master/docs/markdown.md)
 - [Zend](https://github.com/valerysamovich/engineering/blob/master/docs/zend.md)
