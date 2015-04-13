@@ -13,7 +13,7 @@ git clone https://github.com/[username]/how-to-git.git
 git checkout -b [new branch name]
 ```  
 
-Add your name this `README.md` file.  (Use a text editor, IDE, etc) <br/>
+Add your name this `how-to-git.md` file.  (Use a text editor, IDE, etc) <br/>
 Stage your changes to your local git repo.  
 
 ```
@@ -23,7 +23,7 @@ git add README.md
 Stage your changes to your local git repo.
 
 ```
-git commit -m "Your Commit Message"
+git commit -m "[Commit message]"
 ```  
 
 Fetch & merge any new changes to the master branch (on the server) with your feature branch (on your local box).  
@@ -43,10 +43,10 @@ git mergetool
 Push your branch to the remote repository
 
 ```
-git push origin NEW_BRANCH_NAME 
+git push origin [new branch name] 
 ```
 
-Get yuor changes into `latest`
+Get yuor changes into `upstream`
 -----------------------------
 
 In GitHub (using a web browser) :
