@@ -7,9 +7,10 @@ Get the code and make changes
 Clone the remote repository and create a branch for your changes:
 
 ```
-git clone https://github.com/how-to-git.git
+
+git clone https://github.com/[username]/how-to-git.git
 # Create a new branch locally on your box.
-git checkout -b NEW_BRANCH_NAME 
+git checkout -b [new branch name]
 ```  
 
 Add your name this `README.md` file.  (Use a text editor, IDE, etc) <br/>
