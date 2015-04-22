@@ -1,7 +1,7 @@
 Java 
 ----
 
-Setting JAVA_HOME path from CMD (Programmaticly).
+Setting `JAVA_HOME` path from CMD (Programmaticly).
 
 Command                       | Description
 ------------------------------|-----------------------------------------------------------------------------
