@@ -1,27 +1,18 @@
 how-to-git
 ==========
 
-Fork Model
-----------
+Fork and Clone
+--------------
 
 Fork the repository by clicking fork button on top right side of the page.
 Clone the remote repository
 
 ```
-git clone https://github.com/[username]/how-to-git.git
-```
+git clone https://github.com/[usename]/engineering.git
 
-Get the code and make changes
------------------------------
-
-Clone the remote repository and create a branch for your changes:
-
-```
-
-git clone https://github.com/[username]/how-to-git.git
-# Create a new branch locally on your box.
+# Optional: Create a new branch locally on your box.
 git checkout -b [new branch name]
-```  
+```
 
 Add your name this `how-to-git.md` file.  (Use a text editor, IDE, etc) <br/>
 Stage your changes to your local git repo.  
