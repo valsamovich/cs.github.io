@@ -5,7 +5,11 @@ Fork Model
 ----------
 
 Fork the repository by clicking fork button on top right side of the page.
-Clone
+Clone the remote repository
+
+```
+git clone https://github.com/[username]/how-to-git.git
+```
 
 Get the code and make changes
 -----------------------------
