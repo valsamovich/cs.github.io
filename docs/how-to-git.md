@@ -4,8 +4,7 @@ how-to-git
 Fork and Clone
 --------------
 
-Fork the repository by clicking fork button on top right side of the page.
-Clone the remote repository
+Fork the repository by clicking fork button on top right side of the page. Clone the remote repository.
 
 ```
 git clone https://github.com/[usename]/engineering.git
@@ -14,18 +13,18 @@ git clone https://github.com/[usename]/engineering.git
 git checkout -b [new branch name]
 ```
 
-Add your name this `how-to-git.md` file.  (Use a text editor, IDE, etc) <br/>
-Stage your changes to your local git repo.  
+Add your name to the buttom of this `how-to-git.md` file.  (Use a text editor, IDE, etc) and commit the changes.
 
 ```
+# Add your changes to your local git repo.  
 git add README.md 
-```   
 
-Stage your changes to your local git repo.
+# Stage your changes to your local git repo.
+git commit -m "[commit message]"
 
+# Push the cahnges to the origin
+git push origin master
 ```
-git commit -m "[Commit message]"
-```  
 
 Fetch & merge any new changes to the master branch (on the server) with your feature branch (on your local box).  
 
