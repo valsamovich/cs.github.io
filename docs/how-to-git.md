@@ -4,7 +4,7 @@ how-to-git
 Fork model
 ----------
 
-> **Fork** the repository by clicking fork button on top right side of the page. **Clone** the remote repository.
+**Fork** the repository by clicking fork button on top right side of the page. **Clone** the remote repository.
 
 ```
 git clone https://github.com/[usename]/engineering.git
@@ -13,7 +13,7 @@ git clone https://github.com/[usename]/engineering.git
 git checkout -b [new branch name]
 ```
 
-> **Add** your name to the buttom of this `how-to-git.md` file.  (Use a text editor, IDE, etc) and **commit** the changes.
+**Add** your name to the buttom of this `how-to-git.md` file.  (Use a text editor, IDE, etc) and **commit** the changes.
 
 ```
 # Add your changes to your local git repo.  
@@ -25,8 +25,13 @@ git commit -m "[commit message]"
 # Push the cahnges to the origin
 git push origin master
 ```
-
+**Open Pull Request** (PR) agains `upstream master`
 Fetch & merge any new changes to the master branch (on the server) with your feature branch (on your local box).  
+
+
+
+
+
 
 ```
 git pull origin master # pull does two operations (fetch and merge)
