@@ -1,6 +1,12 @@
 how-to-git
 ==========
 
+Fork Model
+----------
+
+Fork the repository by clicking fork button on top right side of the page.
+Clone
+
 Get the code and make changes
 -----------------------------
 
