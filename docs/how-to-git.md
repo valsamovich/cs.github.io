@@ -1,8 +1,8 @@
 how-to-git
 ==========
 
-Fork model
-----------
+Fork Workflow
+-------------
 
 **Fork** the repository by clicking fork button on top right side of the page. **Clone** the remote repository.
 
