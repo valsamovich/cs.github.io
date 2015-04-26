@@ -12,7 +12,7 @@ Commands
 - [Markdown](https://github.com/valerysamovich/engineering/blob/master/docs/markdown.md)
 - [Zend](https://github.com/valerysamovich/engineering/blob/master/docs/zend.md)
 - [InelliJ](https://github.com/valerysamovich/engineering/blob/master/docs/eclipse.md) IntelliJ IDEA and Eclipse Shortcuts
-- [Eclipse](https://github.com/valerysamovich/engineering/blob/master/docs/eclipse.md) 
+- [Eclipse](https://github.com/valerysamovich/engineering/blob/master/docs/eclipse.md) IntelliJ IDEA and Eclipse Shortcuts
 
 Glossary
 --------
