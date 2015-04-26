@@ -7,7 +7,7 @@ Commands
 --------
 
 - [Unix](https://github.com/valerysamovich/engineering/blob/master/docs/unix.md) Collection the terminal commands.
-- [Unix shortcuts](https://github.com/0nn0/terminal-mac-cheatsheet/wiki/Terminal-Cheatsheet-for-Mac-(-basics-)) 
+- [Unix shortcuts](https://github.com/0nn0/terminal-mac-cheatsheet/wiki/Terminal-Cheatsheet-for-Mac-(-basics-)) Terminal Cheatsheet shortcuts for Mac ( basics )
 - [Git](https://github.com/valerysamovich/engineering/blob/master/docs/git.md)
 - [Markdown](https://github.com/valerysamovich/engineering/blob/master/docs/markdown.md)
 - [Zend](https://github.com/valerysamovich/engineering/blob/master/docs/zend.md)
