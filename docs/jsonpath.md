@@ -1,1 +1,3 @@
 in progress...
+https://code.google.com/p/json-path/
+https://github.com/jayway/JsonPath
