@@ -3,7 +3,7 @@ engineering
 
 Collection of commands for Unix (Command Line/Terminal), Git, Markdown, Zend Server, ItelliJ IDE, Eclipse IDE, Java, Web Services, Design Patterns, and etc. Glossary of software engineering, programming, and etc. Guides for Git, Java, and etc. 
 
-Commands
+Glossary
 --------
 
 - [Unix](https://github.com/valerysamovich/engineering/blob/master/docs/unix.md) Collection the terminal commands.
@@ -13,13 +13,10 @@ Commands
 - [Zend](https://github.com/valerysamovich/engineering/blob/master/docs/zend.md) Generic commans to control the Zend server.
 - [InelliJ](https://github.com/valerysamovich/engineering/blob/master/docs/eclipse.md) **IntelliJ IDEA** and Eclipse Shortcuts.
 - [Eclipse](https://github.com/valerysamovich/engineering/blob/master/docs/eclipse.md) IntelliJ IDEA and **Eclipse** Shortcuts.
-
-Glossary
---------
-
 - [Java](https://github.com/valerysamovich/engineering/blob/master/docs/java.md) Setting `JAVA_HOME` path from CMD (Programmaticly).
 - [Web Services](https://github.com/valerysamovich/engineering/blob/master/docs/web-services.md)
 - [Design Patterns](https://github.com/valerysamovich/engineering/blob/master/docs/design-patterns.md)
+- [JsonPath](https://github.com/valerysamovich/engineering/blob/master/docs/jsonpath.md)
 
 Guides
 ------
