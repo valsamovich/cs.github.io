@@ -17,7 +17,7 @@ Commands
 Glossary
 --------
 
-- [Java](https://github.com/valerysamovich/engineering/blob/master/docs/java.md)
+- [Java](https://github.com/valerysamovich/engineering/blob/master/docs/java.md) Setting `JAVA_HOME` path from CMD (Programmaticly).
 - [Web Services](https://github.com/valerysamovich/engineering/blob/master/docs/web-services.md)
 - [Design Patterns](https://github.com/valerysamovich/engineering/blob/master/docs/design-patterns.md)
 
