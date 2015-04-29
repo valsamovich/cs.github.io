@@ -47,7 +47,14 @@ Forking Workflow
   ```
   > Repeat steps 5-7 till development is complete.
   
-8. Open a PR from fork to the upstrema on GitHub website.
+8. Open a PR from fork to the `upstream` on **GitHub** website.
+
+  - Browse to: `https://github.com/[usename]/how-to-git`.
+  - Click "Pull requests".
+  - Click "New pull request".
+  - Select your feature branch in the "compare" dropdown.
+  - Click the "Click to create a pull request for this comparison" button.
+  - Give your pull request a title and description.
 
 9. After PR merged, fetch and merge upstream changes that were done by you or other contributors:
 
@@ -67,14 +74,3 @@ Forking Workflow
   git push origin master
   ```
 
-Get your changes into `upstream`
---------------------------------
-
-In GitHub (using a web browser):
-
-- Browse to: https://github.com/[name]/how-to-git.
-- Click "Pull requests".
-- Click "New pull request".
-- Select your feature branch in the "compare" dropdown.
-- Click the "Click to create a pull request for this comparison" button.
-- Give your pull request a title and description.
