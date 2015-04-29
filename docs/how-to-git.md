@@ -4,13 +4,11 @@ how-to-git
 Fork Workflow
 -------------
 
-**Fork** the repository by clicking fork button on top right side of the page. **Clone** the remote repository.
+1. **Fork** the repository (repo) by clicking fork button on top right side of the page.<br>
+2. **Clone** the remote repositoryt to yuor local machine.
 
-```
+```sh
 git clone https://github.com/[usename]/engineering.git
-
-# Optional: Create a new branch locally on your box.
-git checkout -b [new branch name]
 ```
 
 **Add** your name to the buttom of this `how-to-git.md` file.  (Use a text editor, IDE, etc) and **commit** the changes.
