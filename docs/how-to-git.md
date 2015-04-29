@@ -8,78 +8,69 @@ Forking Workflow
 
 2. Clone the remote repository to your local machine.
 
-```sh
-git clone https://github.com/[usename]/engineering.git
-```
+  ```sh
+  git clone https://github.com/[usename]/engineering.git
+  ```
 
 3. [Configuring a remote for a fork](https://help.github.com/articles/configuring-a-remote-for-a-fork/). To sync changes you make in a fork with the original repository, you must configure a remote that points to the upstream repository in Git:
 
-```sh
-cd engineering
-git remote add upstream clone https://github.com/[usename]/engineering.git
-```
+  ```sh
+  cd engineering
+  git remote add upstream clone https://github.com/[usename]/engineering.git
+  ```
 
 4. Create a branch for a new check (optional):
 
-```sh
-git branch [new-branch]
-git checkout [new-banch]
-```
+  ```sh
+  git branch [new-branch]
+  git checkout [new-banch]
+  ```
 
-```sh
-git checkout -b [new-branch]
-```
+  ```sh
+  git checkout -b [new-branch]
+  ```
 
 5. Develop on `[new-branch]` only. Do not merge the upstream master with developement branch!
+
 6. Commit changes to `[new-branch]`:
 
-```sh
-git status
-git add . 
-git commit -m "commit message"
-```
+  ```sh
+  git status
+  git add . 
+  git commit -m "[commit message]"
+  ```
 
+7. Push brnach or changes to GitHub, to allow you open the PR for upstream:
 
-```
-# Add your changes to your local git repo.  
-git add README.md 
+  ```sh
+  git push origin [new-branch]
+  ```
+  > Repeat steps 5-7 till development is complete.
+  
+8. Open a PR from fork to the upstrema on GitHub website.
 
-# Stage your changes to your local git repo.
-git commit -m "[commit message]"
+9. After PR merged, fetch and merge upstream changes that were done by you or other contributors:
 
-# Push the cahnges to the origin
-git push origin master
-```
-**Open Pull Request** (PR) agains `upstream master`
-Fetch & merge any new changes to the master branch (on the server) with your feature branch (on your local box).  
+  ```sh
+  git fetch upstream
+  git checkout master
+  git merge upstream/master
+  ```
+  > This is also can be done by one command(`pull` does two operations `fetch` and `merge`):
+  
+  ```sh
+  git pull origin master 
+  ```
+10. Push the changes to your origin to keep in sync:
 
+  ```sh
+  git push origin master
+  ```
 
+Get your changes into `upstream`
+--------------------------------
 
-
-
-
-```
-git pull origin master # pull does two operations (fetch and merge)
-```
-
-If conflicts exist, resolve them.
-Many ways of doing this, using IDE's, text editors, etc.
-You can also use the following command line:
-
-```
-git mergetool
-```  
-
-Push your branch to the remote repository
-
-```
-git push origin [new branch name] 
-```
-
-Get yuor changes into `upstream`
------------------------------
-
-In GitHub (using a web browser) :
+In GitHub (using a web browser):
 
 - Browse to: https://github.com/[name]/how-to-git.
 - Click "Pull requests".
