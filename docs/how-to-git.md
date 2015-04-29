@@ -1,16 +1,26 @@
-how-to-git
+How to Git?
 ==========
 
-Fork Workflow
--------------
+Forking Workflow
+----------------
 
-1. **Fork** the repository (repo) by clicking fork button on top right side of the page.<br>
-2. **Clone** the remote repositoryt to yuor local machine.
+1. **Fork** the repository (repo) by clicking fork button on top right side of the page.
+- [https://help.github.com/articles/fork-a-repo/](https://help.github.com/articles/fork-a-repo/)
+
+2. **Clone** the remote repository to your local machine.
 
 ```sh
 git clone https://github.com/[usename]/engineering.git
 ```
 
+3. Configure remotes:
+- [Configuring a remote for a fork](https://help.github.com/articles/configuring-a-remote-for-a-fork/)
+- [Syncing a fork](https://help.github.com/articles/syncing-a-fork/)
+
+```sh
+cd engineering
+git remote add upstream clone https://github.com/[usename]/engineering.git
+```
 **Add** your name to the buttom of this `how-to-git.md` file.  (Use a text editor, IDE, etc) and **commit** the changes.
 
 ```
