@@ -21,4 +21,4 @@ Glossary
 Guides
 ------
 
-- [How to Git](https://github.com/valerysamovich/engineering/blob/master/docs/how-to-git.md)
+- [How to Git?](https://github.com/valerysamovich/engineering/blob/master/docs/how-to-git.md) Forking Workflow.
