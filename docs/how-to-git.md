@@ -4,9 +4,9 @@ How to Git?
 Forking Workflow
 ----------------
 
-1. [**Fork a repo**](https://help.github.com/articles/fork-a-repo/) (repository) by clicking fork button on top right side of the page.
+1. [Fork a repo](https://help.github.com/articles/fork-a-repo/) (repository) by clicking fork button on top right side of the page.
 
-2. **Clone** the remote repository to your local machine.
+2. Clone the remote repository to your local machine.
 
 ```sh
 git clone https://github.com/[usename]/engineering.git
@@ -18,7 +18,27 @@ git clone https://github.com/[usename]/engineering.git
 cd engineering
 git remote add upstream clone https://github.com/[usename]/engineering.git
 ```
-**Add** your name to the buttom of this `how-to-git.md` file.  (Use a text editor, IDE, etc) and **commit** the changes.
+
+4. Create a branch for a new check (optional):
+
+```sh
+git branch [new-branch]
+git checkout [new-banch]
+```
+
+```sh
+git checkout -b [new-branch]
+```
+
+5. Develop on `[new-branch]` only. Do not merge the upstream master with developement branch!
+6. Commit changes to `[new-branch]`:
+
+```sh
+git status
+git add . 
+git commit -m "commit message"
+```
+
 
 ```
 # Add your changes to your local git repo.  
