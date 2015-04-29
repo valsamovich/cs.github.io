@@ -5,6 +5,7 @@ Forking Workflow
 ----------------
 
 1. **Fork** the repository (repo) by clicking fork button on top right side of the page.
+
 - [https://help.github.com/articles/fork-a-repo/](https://help.github.com/articles/fork-a-repo/)
 
 2. **Clone** the remote repository to your local machine.
