@@ -6,7 +6,7 @@ Forking Workflow
 
 1. [Fork a repo](https://help.github.com/articles/fork-a-repo/) (repository) by clicking fork button on top right side of the page.
 
-2. Clone the remote repository to your local machine.
+2. **Clone** the remote repository to your local machine.
 
   ```sh
   git clone https://github.com/[usename]/engineering.git
@@ -30,9 +30,9 @@ Forking Workflow
   git checkout -b [new-branch]
   ```
 
-5. Develop on `[new-branch]` only. Do not merge the upstream master with developement branch!
+5. **** on `[new-branch]` only. Do not merge the **upstream** master with developement branch!
 
-6. Commit changes to `[new-branch]`:
+6. **Commit** changes to `[new-branch]`:
 
   ```sh
   git status
@@ -40,14 +40,14 @@ Forking Workflow
   git commit -m "[commit message]"
   ```
 
-7. Push brnach or changes to GitHub, to allow you open the PR for upstream:
+7. **Push** brnach or changes to GitHub, to allow you open the PR for upstream:
 
   ```sh
   git push origin [new-branch]
   ```
   > Repeat steps 5-7 till development is complete.
   
-8. Open a PR from fork to the `upstream` on **GitHub** website.
+8. Open a **PR** from fork to the `upstream` on **GitHub** website.
 
   - Browse to: `https://github.com/[usename]/how-to-git`.
   - Click "Pull requests".
@@ -56,7 +56,7 @@ Forking Workflow
   - Click the "Click to create a pull request for this comparison" button.
   - Give your pull request a title and description.
 
-9. After PR merged, fetch and merge upstream changes that were done by you or other contributors:
+9. After PR merged, **fetch** and **merge** upstream changes that were done by you or other contributors:
 
   ```sh
   git fetch upstream
@@ -68,7 +68,7 @@ Forking Workflow
   ```sh
   git pull origin master 
   ```
-10. Push the changes to your origin to keep in sync:
+10. **Push** the changes to your origin to keep in sync:
 
   ```sh
   git push origin master
