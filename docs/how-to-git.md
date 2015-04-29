@@ -4,9 +4,7 @@ How to Git?
 Forking Workflow
 ----------------
 
-1. **Fork** the repository (repo) by clicking fork button on top right side of the page.
-
-- [Fork A Repo](https://help.github.com/articles/fork-a-repo/)
+1. [**Fork a repo**](https://help.github.com/articles/fork-a-repo/) (repository) by clicking fork button on top right side of the page.
 
 2. **Clone** the remote repository to your local machine.
 
@@ -14,10 +12,7 @@ Forking Workflow
 git clone https://github.com/[usename]/engineering.git
 ```
 
-3. Configure remotes:
-
-- [Configuring a remote for a fork](https://help.github.com/articles/configuring-a-remote-for-a-fork/)
-- [Syncing a fork](https://help.github.com/articles/syncing-a-fork/)
+3. [Configuring a remote for a fork](https://help.github.com/articles/configuring-a-remote-for-a-fork/). To sync changes you make in a fork with the original repository, you must configure a remote that points to the upstream repository in Git:
 
 ```sh
 cd engineering
