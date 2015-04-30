@@ -30,7 +30,7 @@ Forking Workflow
   git checkout -b [new-branch]
   ```
 
-5. **** on `[new-branch]` only. Do not merge the **upstream** master with developement branch!
+5. **Develop** on `[new-branch]` only. Do not merge the **upstream** master with developement branch!
 
 6. **Commit** changes to `[new-branch]`:
 
