@@ -16,7 +16,7 @@ Glossary
 - [Java](https://github.com/valerysamovich/engineering/blob/master/docs/java.md) Setting `JAVA_HOME` path from CMD (Programmaticly).
 - [Web Services](https://github.com/valerysamovich/engineering/blob/master/docs/web-services.md) SOAP vs. REST.
 - [Design Patterns](https://github.com/valerysamovich/engineering/blob/master/docs/design-patterns.md)
-- [JsonPath](https://github.com/valerysamovich/engineering/blob/master/docs/jsonpath.md)
+- [JsonPath](https://github.com/valerysamovich/engineering/blob/master/docs/jsonpath.md) A Java DSL for reading JSON documents.
 
 Guides
 ------
