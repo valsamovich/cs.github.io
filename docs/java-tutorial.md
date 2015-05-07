@@ -3,10 +3,7 @@ java-tutorial
 
 **Java** is Object-Oriented, Platform independent, Simple, Secure, Architectural-Neutral, Portable, Robust, Multi-threaded, Interpreted, High Performance, Distributed, Dynamic, etc.
 
-Requirements
-------------
-
-External dependencies: TestNg, JUnit, Selenium WebDriver
+Dependencies: JSON, TestNg, JUnit, Selenium WebDriver, Hamcrest, EasyMock, Apache HttpClient.
 
 Syntax
 ------
@@ -51,7 +48,7 @@ Identifiers
 -----------
 
 All Java components require names. Names used for classes, variables and methods are called identifiers.
-- All identifiers should begin with a letter (A to Z or a to z ), currency character ($) or an underscore (_).
+- All identifiers should begin with a letter `A` to `Z` or `a` to `z`, currency character `$` or an underscore `_`.
 - After the first character identifiers can have any combination of characters.
 - A key word cannot be used as an identifier.
 - Most importantly identifiers are case sensitive.
@@ -512,6 +509,31 @@ Encapsualtion: Data Hiding                | x | x
 Polymorphism: Overloading, Overriding     | x | x
 Inheritance: Abstract classes, Interfaces |   | x
 
+Constructor
+-----------
+**Constructors** are the methods which are used to initiliaze objects. They are called or invoked when an object of class is created and can't be called explicitly. It is optional to write constructor mehtod in a class but due to therir utility they are used.
+
+- Constructor is a method that has the same name as the class. 
+- It is executed when an object is created.
+- It is used to set default values.
+- Does not return anything including void.
+- Cunstructor can be oveloaded (i.e. can create multiply constructor).
+
+```
+class Programming {
+	// Constructor method
+	Programming() {
+		System.out.println("Constructor method called.");	
+	}
+	public static void main(String[] args) {
+		// Creating the Programming object
+		Programming object = new Programming();
+	}
+}
+```
+
+**Constructor chaining** occurs when a class inherits another class i.e. in inheritance, as in inheritance sub class inherits the properties of superclass. Both the super and sub class may have constructor methods, when an object of sub class is created it's constructor is invoked it initializes subclass attributes, now super class constructor needs to be invoked, to achieve this java provides a `super` keyword through we can pass arguments to super class constructor.
+
 Inheritance
 -----------
 
@@ -553,13 +575,37 @@ Polymorphism
 Super
 -----
 
-**Super** keyword is used to access super class data and methods.
+**Super** keyword is used to access super class data and methods. 
 	
 	// Access super class data
 	System.out.println("Name from subclass : " + super.name);
 	
-	// Access super class data
-	System.out.println("Name from subclass : " + super.name);
+	// Invoke Super class's 'getClassName()' method 
+        super.getClassName();
+      
+This
+-----
+
+**This** keyword is used to access  class level data
+
+Static
+------
+**Static** is one per class, but not one per object. **Static** methods can only access other static data & methods.
+
+```
+// Static data.
+static int staticVariable;
+
+// Static method.
+static public void  staticMethod(){
+        // method body.
+}
+```
+
+Final
+-----
+
+**Final** data is constant and Cannot be changed. Final methods cannot be overridden and Final classes cannot be sub classed. Final keyword can be applied to data,methods, and classes.
 
 Annotations
 -----------
@@ -642,22 +688,22 @@ Meta-Annotations is annotation that apply to other annotations. Defined in java.
 
 **@Retention** annotation specifies how the marked annotation is stored.
 
-- RetentionPolicy.SOURCE – The marked annotation is retained only in the source level and is ignored by the compiler.
-- RetentionPolicy.CLASS – The marked annotation is retained by the compiler at compile time, but is ignored by the Java Virtual Machine (JVM).
-- RetentionPolicy.RUNTIME – The marked annotation is retained by the JVM so it can be used by the runtime environment.
+- `RetentionPolicy.SOURCE` – The marked annotation is retained only in the source level and is ignored by the compiler.
+- `RetentionPolicy.CLASS` – The marked annotation is retained by the compiler at compile time, but is ignored by the Java Virtual Machine (JVM).
+- `RetentionPolicy.RUNTIME` – The marked annotation is retained by the JVM so it can be used by the runtime environment.
 
 **@Documented** annotation indicates that whenever the specified annotation is used those elements should be documented using the Javadoc tool.
 
 **@Target** annotation marks another annotation to restrict what kind of Java elements the annotation can be applied to. A target annotation specifies one of the following element types as its value:
 
-- ElementType.ANNOTATION_TYPE can be applied to an annotation type.
-- ElementType.CONSTRUCTOR can be applied to a constructor.
-- ElementType.FIELD can be applied to a field or property.
-- ElementType.LOCAL_VARIABLE can be applied to a local variable.
-- ElementType.METHOD can be applied to a method-level annotation.
-- ElementType.PACKAGE can be applied to a package declaration.
-- ElementType.PARAMETER can be applied to the parameters of a method.
-- ElementType.TYPE can be applied to any element of a class.
+- `ElementType.ANNOTATION_TYPE` can be applied to an annotation type.
+- `ElementType.CONSTRUCTOR` can be applied to a constructor.
+- `ElementType.FIELD` can be applied to a field or property.
+- `ElementType.LOCAL_VARIABLE` can be applied to a local variable.
+- `ElementType.METHOD` can be applied to a method-level annotation.
+- `ElementType.PACKAGE` can be applied to a package declaration.
+- `ElementType.PARAMETER` can be applied to the parameters of a method.
+- `ElementType.TYP`E can be applied to any element of a class.
 
 **@Inherited** annotation indicates that the annotation type can be inherited from the super class.
 
@@ -678,7 +724,7 @@ Generic example
 
 **Generic Methods** can be called with arguments of different types. Based on the types of the arguments to the generic method, the compiler handles each method call approprietary. Generic Method Rules:
 
-- Declarations have a type parameter with angle brackets < ... >, which precedes with return type.
+- Declarations have a type parameter with angle brackets `<` ... `>`, which precedes with return type.
 - Geneneric type name or Type parameters (type variable) separated by commas. 
 - The type parameters can be used to declare the return type and act as placeholders.
 - A generic method's body is declared any other method. Parameters can represent only reference types.
@@ -763,49 +809,163 @@ Java contains the **Java Logging API**. This logging API allows you to configure
 	// Assumes the current class is called logger
 	private final static Logger LOGGER = Logger.getLogger(MyClass.class.getName());
 
-Testing
--------
+EasyMock
+--------
 
-A **Unit test** is a piece of code written by a developer that executes a specific functionality in the code to be tested. The percentage of code which is tested by unit tests is typically called test coverage. A unit test targets a small unit of code, e.g., a method or a class, (local tests).
+**EasyMock** is a mock framework which can be easly used in conjunction with JUnit. EasyMock instantiates an object based on an interface or class.
+
+```
+import static org.easymock.EasyMock.createNiceMock;
+...
+// ICalculateMethod is the object whitch is mocked
+ICalculateMethod calculateMethod = createNiceMock(ICalculateMethod.class);
+```
+
+The `createNiceMock()` method creates a mock whic returns default values for methods which are not overiden. A mock ceated with th `Mock()` method will fails is such a case.
+
+Concurrency
+-----------
+
+Computer users take it for granted that their systems can do more than one thing at a time. They assume that they can continue to work in a word processor, while other applications download files, manage the print queue, and stream audio. Software that can do such things is known as **concurrent software**. The Basic concurrency support defided in ``java.util.concurrent`` packages. In concurrent programming, there are two basic units of execution: **processes** and **threads**.
+
+A **Process** has a self-contained execution environment. A process generally has a complete, private set of basic run-time resources; in particular, each process has its own memory space.
+
+**Threads** are sometimes called lightweight processes. Both processes and threads provide an execution environment, but creating a new thread requires fewer resources than creating a new process.
+
+
+Junit
+-----
+
+**JUnit** is a testing framework for the Java Programming Language. A **Unit test** is a piece of code written by a developer that executes a specific functionality in the code to be tested. The percentage of code which is tested by unit tests is typically called test coverage. A unit test targets a small unit of code, e.g., a method or a class, (local tests). Features:
+
+- It's an open source framework.
+- Provides Annotations, Assertions, and Test Runners.
+- It's simple and can be run automatically.
+
+A **Unit Test Case** is a part of code which ensures that the another part of the code (method)works as expected. A formal written test-case is characterized by a known input and by an expected output, which is worked out before the test is executed. There must be at least two test cases for each requirement: one positive and one negative.
 
 Java Class
 
-	package com.valerysamovich.java.junit.first;
-	
-	// My Class
-	public class MyClass {
-  		public int multiply(int x, int y) {
-    			// the following is just an example
-    			if (x > 999) {
-      				throw new IllegalArgumentException("X should be less than 1000");
-    			}
-    			return x / y;
-  		}
-	} 
-	
+```
+package com.valerysamovich.java.junit.first;
+
+// My Class
+public class MyClass {
+  	public int multiply(int x, int y) {
+    		// the following is just an example
+    		if (x > 999) {
+      			throw new IllegalArgumentException("X should be less than 1000");
+    		}
+    		return x / y;
+  	}
+} 
+```
+
 JUnit Test
 
-	package com.valerysamovich.junit.first;
+```
+package com.valerysamovich.junit.first;
 
-	import static org.junit.Assert.assertEquals;
-	import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
 
-	public class MyClassTest {
-  
-		@Test(expected = IllegalArgumentException.class)
-		public void testExceptionIsThrown() {
-			MyClass tester = new MyClass();
-		tester.multiply(1000, 5);
-		}
-  	}
+public class MyClassTest {
 
-Appendix
---------
+	@Test(expected = IllegalArgumentException.class)
+	public void testExceptionIsThrown() {
+		MyClass tester = new MyClass();
+	tester.multiply(1000, 5);
+	}
+  }
+```
 
-- "Static" is one per class, but not one per object 
-- "Static" methods can only access other static data & methods
-- Final data is constant. Cannot be changed.
-- Final methods cannot be overridden. Final classes cannot be sub classed.
-- "Final" keyword can be applied to data,methods, and classes.
-- "Super" keyword id used to access superclass data and methods
-- "This" keyword is used to access  class level data
+JSON
+----
+
+**JSON** or JavaScript Object Notation is a lightweight is a text-based open standard designed for human-readable data interchange. The JSON format was originally specified by Douglas Crockford, and is described in RFC 4627. The official Internet media type for JSON is application/json. The JSON filename extension is `.json`.
+
+**JSON** syntax is basically considered as subset of JavaScript. Data is represented in name/value pairs. Curly braces `{}` hold objects and each name is followed by `:` (colon), the name/value pairs are separated by `,` (comma). Square brackets `[]` hold arraysand values are separated by `,` (comma). **JSON** supports following two data structures: **Collections of name/value pairs**, **Ordered list of values**.
+ 
+```
+{
+    "book": [
+    {
+       "id":"01",
+       "language": "Java",
+       "edition": "third",
+       "author": "Herbert Schildt"
+    },
+    {
+       "id":"07",
+       "language": "C++",
+       "edition": "second"
+       "author": "E.Balagurusamy"
+    }]
+}
+```
+
+Classes
+-------
+
+**Class** - A class can be defined as a template/ blue print that describe the behaviors/states that object of its type support. The class declarations can include these components, in order:
+
+1. Modifiers such as public, private, and a number of others that you will encounter later.
+2. The class name, with the initial letter capitalized by convention.
+3. The name of the class's parent (superclass), if any, preceded by the keyword extends. A class can only extend (subclass) one parent.
+4. A comma-separated list of interfaces implemented by the class, if any, preceded by the keyword implements. A class can implement more than one interface.
+5. The class body, surrounded by braces, {}.
+
+```
+class MyClass {
+    // field, constructor, and 
+    // method declarations
+}
+```
+
+```
+// MyClass is a subclass of MySuperClass and that it implements the YourInterface interface
+class MyClass extends MySuperClass implements YourInterface {
+    // field, constructor, and
+    // method declarations
+}
+```
+
+**Member varibles** There are several kinds of variables:
+
+- Member variables in a class—these are called fields.
+- Variables in a method or block of code—these are called local variables.
+- Variables in method declarations—these are called parameters.
+
+**Field declarations** are composed of three components, in order:
+
+1. Zero or more modifiers, such as public or private.
+2. The field's type.
+3. The field's name.
+
+**Access modifiers** Like other languages, it is possible to modify classes, methods, etc., by using modifiers. There are two categories of modifiers.
+
+Access Modifiers: `default, public , protected, private`
+
+Modifier      |	Class 	  | Package   | Subclass  | Project   
+--------------|-----------|-----------|-----------|------------
+public	      | Y     	  | Y	      | Y         | Y
+protected     |	Y     	  | Y	      | Y         | N
+default       |	Y     	  | Y	      | N         | N
+private	      |	N     	  | N	      | N         | N
+
+**Defining Methods** More generally, method declarations have six components, in order:
+
+- Modifiers—such as `public`, `private`, and others you will learn about later.
+- The return type—the data type of the value returned by the method, or `void` if the method does not return a value.
+- The method name—the rules for field names apply to method names as well, but the convention is a little different.
+- The parameter list in parenthesis—a comma-delimited list of input parameters, preceded by their data types, enclosed by parentheses, `()`. If there are no parameters, you must use empty parentheses.
+- An exception list—to (optional).
+- The method body, enclosed between braces—the method's code, including the declaration of local variables, goes here.
+
+```
+public double calculateAnswer(double wingSpan, int numberOfEngines, double length, double grossTons) {
+    //do the calculation here
+}
+```
+
+Required elements of a method declaration are the method's return type, name, a pair of parentheses, `()`, and a body between braces, `{}`.
