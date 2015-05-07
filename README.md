@@ -3,13 +3,18 @@ engineering
 
 Collection of commands for Unix (Command Line/Terminal), Git, Markdown, Zend Server, ItelliJ IDE, Eclipse IDE, Java, Web Services, Design Patterns, and etc. Glossary of software engineering, programming, and etc. Guides for Git, Java, and etc. 
 
+Tutorials
+---------
+
+- [Java](https://github.com/valerysamovich/engineering/blob/master/docs/java-tutorial.md) tutorial for basics, gui, and specialised.
+- [Git](https://github.com/valerysamovich/engineering/blob/master/docs/git.md) Cheat Sheet.
+- [Markdown](https://github.com/valerysamovich/engineering/blob/master/docs/markdown.md)
+
 Glossary
 --------
 
 - [Unix](https://github.com/valerysamovich/engineering/blob/master/docs/unix.md) Collection the terminal commands.
 - [Unix shortcuts](https://github.com/0nn0/terminal-mac-cheatsheet/wiki/Terminal-Cheatsheet-for-Mac-(-basics-)) Terminal Cheatsheet shortcuts for Mac (basics).
-- [Git](https://github.com/valerysamovich/engineering/blob/master/docs/git.md) Cheat Sheet.
-- [Markdown](https://github.com/valerysamovich/engineering/blob/master/docs/markdown.md)
 - [Zend](https://github.com/valerysamovich/engineering/blob/master/docs/zend.md) Generic commans to control the Zend server.
 - [InelliJ](https://github.com/valerysamovich/engineering/blob/master/docs/eclipse.md) **IntelliJ IDEA** and Eclipse Shortcuts.
 - [Eclipse](https://github.com/valerysamovich/engineering/blob/master/docs/eclipse.md) IntelliJ IDEA and **Eclipse** Shortcuts.
