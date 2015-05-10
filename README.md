@@ -22,7 +22,7 @@ Glossary
 - [Web Services](https://github.com/valerysamovich/engineering/blob/master/docs/web-services.md) SOAP vs. REST.
 - [Design Patterns](https://github.com/valerysamovich/engineering/blob/master/docs/design-patterns.md)
 - [JsonPath](https://github.com/valerysamovich/engineering/blob/master/docs/jsonpath.md) A Java DSL for reading JSON documents.
-- [HTML](http://dev.w3.org/html5/html-author/charref) Escape character
+- [HTML](http://dev.w3.org/html5/html-author/charref) Escape characters.
 
 Guides
 ------
