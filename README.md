@@ -15,7 +15,7 @@ Glossary
 
 - [Unix](https://github.com/valerysamovich/engineering/blob/master/docs/unix.md) Collection the terminal commands.
 - [Unix shortcuts](https://github.com/0nn0/terminal-mac-cheatsheet/wiki/Terminal-Cheatsheet-for-Mac-(-basics-)) Terminal Cheatsheet shortcuts for Mac (basics).
-- [Zend](https://github.com/valerysamovich/engineering/blob/master/docs/zend.md) Generic commans to control the Zend server.
+- [Zend](https://github.com/valerysamovich/engineering/blob/master/docs/zend.md) Framework (ZF) is an open source, object-oriented web application framework implemented in PHP 5 and licensed under the New BSD License.
 - [InelliJ](https://github.com/valerysamovich/engineering/blob/master/docs/eclipse.md) **IntelliJ IDEA** and Eclipse Shortcuts.
 - [Eclipse](https://github.com/valerysamovich/engineering/blob/master/docs/eclipse.md) IntelliJ IDEA and **Eclipse** Shortcuts.
 - [Java](https://github.com/valerysamovich/engineering/blob/master/docs/java.md) Setting `JAVA_HOME` path from CMD (Programmaticly).
