@@ -6,7 +6,7 @@ Collection of commands for Unix (Command Line/Terminal), Git, Markdown, Zend Ser
 Tutorials
 ---------
 
-- [Java](https://github.com/valerysamovich/engineering/blob/master/docs/java-tutorial.md) tutorial for basics, gui, and specialised.
+- [Java](https://github.com/valerysamovich/engineering/blob/master/docs/java-tutorial.md) is a general-purpose computer programming language that is concurrent, class-based, object-oriented,[12] and specifically designed to have as few implementation dependencies as possible.
 - [Git](https://github.com/valerysamovich/engineering/blob/master/docs/git.md) is a distributed revision control system with an emphasis on speed, data integrity, and support for distributed, non-linear workflows.
 - [Markdown](https://github.com/valerysamovich/engineering/blob/master/docs/markdown.md) is a markup language with plain text formatting syntax designed so that it can be converted to HTML and many other formats using a tool by the same name.
 
