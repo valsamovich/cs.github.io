@@ -6,9 +6,9 @@ Collection of commands for Unix (Command Line/Terminal), Git, Markdown, Zend Ser
 Tutorials
 ---------
 
-- [**Java**](https://github.com/valerysamovich/engineering/blob/master/docs/java-tutorial.md) is a general-purpose computer programming language that is concurrent, class-based, object-oriented, and specifically designed to have as few implementation dependencies.
-- [**Git**](https://github.com/valerysamovich/engineering/blob/master/docs/git.md) is a distributed revision control system with an emphasis on speed, data integrity, and support for distributed, non-linear workflows.
-- [**Markdown**](https://github.com/valerysamovich/engineering/blob/master/docs/markdown.md) is a markup language with plain text formatting syntax designed so that it can be converted to HTML and many other formats using a tool by the same name.
+- [Java](https://github.com/valerysamovich/engineering/blob/master/docs/java-tutorial.md) is a general-purpose computer programming language that is concurrent, class-based, object-oriented, and specifically designed to have as few implementation dependencies.
+- [Git](https://github.com/valerysamovich/engineering/blob/master/docs/git.md) is a distributed revision control system with an emphasis on speed, data integrity, and support for distributed, non-linear workflows.
+- [Markdown](https://github.com/valerysamovich/engineering/blob/master/docs/markdown.md) is a markup language with plain text formatting syntax designed so that it can be converted to HTML and many other formats using a tool by the same name.
 
 Glossary
 --------
@@ -16,7 +16,7 @@ Glossary
 - [Unix](https://github.com/valerysamovich/engineering/blob/master/docs/unix.md) Collection the terminal commands.
 - [Unix shortcuts](https://github.com/0nn0/terminal-mac-cheatsheet/wiki/Terminal-Cheatsheet-for-Mac-(-basics-)) Terminal Cheatsheet shortcuts for Mac (basics).
 - [Zend](https://github.com/valerysamovich/engineering/blob/master/docs/zend.md) Framework (ZF) is an open source, object-oriented web application framework implemented in PHP 5 and licensed under the New BSD License.
-- [InelliJ](https://github.com/valerysamovich/engineering/blob/master/docs/eclipse.md) **IntelliJ IDEA** and Eclipse Shortcuts.
+- [InelliJ IDEA & Eclipse](https://github.com/valerysamovich/engineering/blob/master/docs/eclipse.md)  is a Java integrated development environments (IDEs) for developing computer software.
 - [Eclipse](https://github.com/valerysamovich/engineering/blob/master/docs/eclipse.md) IntelliJ IDEA and **Eclipse** Shortcuts.
 - [Java](https://github.com/valerysamovich/engineering/blob/master/docs/java.md) Setting `JAVA_HOME` path from CMD (Programmaticly).
 - [Web Services](https://github.com/valerysamovich/engineering/blob/master/docs/web-services.md) SOAP vs. REST.
