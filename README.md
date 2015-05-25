@@ -18,7 +18,7 @@ Glossary
 - [Zend](https://github.com/valerysamovich/engineering/blob/master/docs/zend.md) Framework (ZF) is an open source, object-oriented web application framework implemented in PHP 5 and licensed under the New BSD License.
 - [InelliJ IDEA & Eclipse](https://github.com/valerysamovich/engineering/blob/master/docs/eclipse.md)  is a Java integrated development environments (IDEs) for developing computer software.
 - [Java](https://github.com/valerysamovich/engineering/blob/master/docs/java.md) Setting `JAVA_HOME` path from CMD (Programmaticly).
-- [Web Services](https://github.com/valerysamovich/engineering/blob/master/docs/web-services.md) is a methods of communication between two electronic devices over a network.
+- [Web Services](https://github.com/valerysamovich/engineering/blob/master/docs/web-services.md) is a method(s) of communication between two electronic devices over a network.
 - [Design Patterns](https://github.com/valerysamovich/engineering/blob/master/docs/design-patterns.md)
 - [JsonPath](https://github.com/valerysamovich/engineering/blob/master/docs/jsonpath.md) is to JSON what XPATH is to XML, a simple way to extract parts of a given document. JsonPath is available in many programming languages such as Javascript, Python, PHP, and Java!
 - [HTML](http://dev.w3.org/html5/html-author/charref) Escape characters.
