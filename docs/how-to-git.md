@@ -66,7 +66,7 @@ Forking Workflow
   > This is also can be done by one command(`pull` does two operations `fetch` and `merge`):
   
   ```sh
-  git pull origin master 
+  git pull upstream master 
   ```
 10. **Push** the changes to your origin to keep in sync:
 
