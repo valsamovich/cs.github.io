@@ -21,7 +21,7 @@ Glossary
 - [Web Services](https://github.com/valerysamovich/engineering/blob/master/docs/web-services.md) is a method(s) of communication between two electronic devices over a network.
 - [Design Patterns](https://github.com/valerysamovich/engineering/blob/master/docs/design-patterns.md)
 - [JsonPath](https://github.com/valerysamovich/engineering/blob/master/docs/jsonpath.md) is to JSON what XPATH is to XML, a simple way to extract parts of a given document. JsonPath is available in many programming languages such as Javascript, Python, PHP, and Java!
-- [HTML](http://dev.w3.org/html5/html-author/charref) Escape characters.
+- [HTML](http://dev.w3.org/html5/html-author/charref) Escape characters list.
 
 Guides
 ------
