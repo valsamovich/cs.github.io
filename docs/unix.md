@@ -68,10 +68,11 @@ $ ls | grep ".pdf" | less
 Processes Commands        | Description
 --------------------------|-----------------------------------------------------------
 `$ ps ax`                 | Output currently running processes
+`$ ps aux | grep 8080`    | **Display info about process 8080** (description, ID, etc.)
 `$ top`                   | Display live information about currently running processes
 `$ lsof -i | grep <port>` | Finding the process ID that is using a certain port
 `$ lsof -i tcp:<port>`    | Finding the process **ID** by certain port   
-`$ kill -9 <pid>`         | Quit process with ID `<pid>`
+`$ kill -9 <pid>`         | **Quit process with ID** `<pid>`
 
 **The “ctrl” key** Various keyboard shortcuts can assist you when entering text: Hitting `ctrl+A` moves the caret to the beginning and `ctrl+E` to the end of the line. In a similar fashion, `ctrl+K` deletes all characters after and `ctrl+U` all
 characters in front of the caret. Pressing `ctrl+L` clears the screen (similarly to the clear command). If you should ever want to abort a running command, `ctrl+C` will cancel it.
