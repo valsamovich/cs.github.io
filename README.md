@@ -7,7 +7,7 @@ Tutorials
 ---------
 
 - [Java](https://github.com/valerysamovich/engineering/blob/master/docs/java-tutorial.md) is a general-purpose computer programming language that is object-oriented.
-- [Git](https://github.com/valerysamovich/engineering/blob/master/docs/git.md) is a distributed revision control system with an emphasis on speed, data integrity, and support for distributed, non-linear workflows.
+- [Git](https://github.com/valerysamovich/engineering/blob/master/docs/git.md) is a distributed revision control system.
 - [Markdown](https://github.com/valerysamovich/engineering/blob/master/docs/markdown.md) is a markup language with plain text formatting syntax designed so that it can be converted to HTML and many other formats using a tool by the same name.
 
 Glossary
