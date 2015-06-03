@@ -1,7 +1,9 @@
-Unix
-----
+# Unix
+
 
 > **Unix** (all-caps **UNIX** for the trademark) is a multitasking, multi user computer operating system that exists in many variants. **Unix** makes little distinction between commands (user-level programs) for system operation and maintenance (e.g. cron), commands of general utility (e.g. grep), and more general-purpose applications such as the text formatting and typesetting package.
+
+## Search
 
 **Getting Help** On the command line, help is always at hand: you can either type `<command>` or `<command> --help` to receive detailed documentation about the command in question. 
 
@@ -19,6 +21,8 @@ Search Commands             | Description
 
 Additionally, it is possible to execute a command only if its predecessor produces a certain result. Code placed after the `&&` operator will only be run if the previous command completes successfully, while the opposite `||` operator only continues if the previous command fails. The following command will create the folder “videos” only if the cd command fails (and the folder therefore doesn’t exist): `$ cd ~/videos || mkdir ~/videos`
 
+## Directory
+
 **Home Folder** File and directory paths can get long and awkward. If you’re addressing a path inside of your home folder though, you can make things easier by using the ~ character. So instead of writing `cd /Users/your-username/projects/` , a simple `cd ~/projects/` will do. And in case you should forget your user name, whoami will remind you. 
 
 Directory Commands    | Description
@@ -29,6 +33,8 @@ Directory Commands    | Description
 `$ ls`                | List directory contents
 `$ ls -la`            | List detailed directory contents, including hidden files
 `$ mkdir <directory>` | Create new directory named `<directory>`
+
+## File
 
 File Commands                       | Description
 ------------------------------------|----------------------------------------------------------------------------------
@@ -64,7 +70,9 @@ It is also possible to pass output to another command using the `|` (pipe) opera
 ```
 $ ls | grep ".pdf" | less
 ```
-  
+
+## Process
+
 Processes Commands        | Description
 --------------------------|-----------------------------------------------------------
 `$ ps ax`                 | Output currently running processes
@@ -80,6 +88,8 @@ characters in front of the caret. Pressing `ctrl+L` clears the screen (similarly
 **The “Tab” key** Whenever entering paths and file names, the TAB key comes in very handy. It autocompletes what you’ve written, reducing typos quite efficiently. E.g. when you want to switch to a different directory, you can either type every component of the path by hand: `$ cd ~/projects/acmedesign/docs/` …or use the `TAB` key (try this yourself): `$ cd ~/pr[TAB]ojects/ac[TAB]medesign/d[TAB]ocs/` In case your typed characters are ambiguous (because “ac” could point to the “acmedesign” or the “actionscript” folder), the command line won’t be able to autocomplete. In that case, you can hit TAB twice to view all possible matches and then type a few more characters.
 
 **The Arrow keys** The command line keeps a history of the most recent commands you executed. By pressing the `ARROW UP` key, you can step through the last called commands (starting with the most recent). `ARROW DOWN` will move forward in history towards the most recent call. Bonus tip: Calling the `history` command prints a list of all recent commands. To execute the command from history press: `$ ! <line-number>`
+
+## Permissions
 
 **File Permissions** On Unix systems, file permissions are set using three digits: the first one representing the permissions for the owning user, the second one for its group, and the third one for anyone else. Add up the desired access rights for each digit as following:
 
