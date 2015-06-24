@@ -22,6 +22,7 @@ Glossary
 - [Design Patterns](https://github.com/valerysamovich/engineering/blob/master/docs/design-patterns.md) In software engineering, a design pattern is a general reusable solution to a commonly occurring problem within a given context in software design.
 - [JsonPath](https://github.com/valerysamovich/engineering/blob/master/docs/jsonpath.md) is to JSON what XPATH is to XML, a simple way to extract parts of a given document. JsonPath is available in many programming languages such as Javascript, Python, PHP, and Java!
 - [HTML](http://dev.w3.org/html5/html-author/charref) Escape characters list.
+- [Hadoop](https://hadoop.apache.org/) is a framework that allows for the distributed processing of large data sets across clusters of computers using simple programming models.
 
 Guides
 ------
