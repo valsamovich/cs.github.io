@@ -20,7 +20,9 @@ Collection of tutorials, bookmarks for Unix (Command Line/Terminal), Git, Markdo
 
 ## Bookmarks
 
-- [Apache Software Foundation](http://www.apache.org/)
+- [Apache Software Foundation](http://www.apache.org/) Community of open-source software .
+- [W3Schools](http://www.w3schools.com/) The world's largest web developement site.
+- [Google Developers](https://developers.google.com/) is Google's site for software development tools.
 
 
 
