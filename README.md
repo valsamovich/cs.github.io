@@ -1,6 +1,6 @@
 # Engineering
 
-Collection of tutorials, bookmarks for Unix (Command Line/Terminal), Git, Markdown, Zend Server, ItelliJ IDE, Eclipse IDE, Java, Web Services, Design Patterns, and etc. Glossary of software engineering, programming, and development. Guides for Git, Java, and etc. 
+Collection of tutorials, bookmarks for Unix, Git, Markdown, Zend Server, ItelliJ IDE, Eclipse IDE, Java, Web Services, Design Patterns, and etc. Glossary of software engineering, programming, and development. Guides for Git, Java, and etc. 
 
 ## Tutorials
 
