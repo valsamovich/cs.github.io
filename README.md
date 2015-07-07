@@ -1,28 +1,28 @@
 # Engineering
 
-Collection of tutorials, bookmarks for Unix, Git, Markdown, Zend Server, ItelliJ IDE, Eclipse IDE, Java, Web Services, Design Patterns, and etc. Glossary of software engineering, programming, and development. Guides for Git, Java, and etc. 
+> Collection of syntax tutorials, how to tutorials, bookmarks for Unix, Git, Markdown, Zend Server, ItelliJ IDE, Eclipse IDE, Java, Web Services, Design Patterns, and etc. 
 
 ## Tutorials
 
-- [Java](https://github.com/valerysamovich/engineering/blob/master/docs/java-tutorial.md) is a general-purpose computer programming language that is concurrent, class-based, object-oriented, and specifically designed to have as few implementation dependencies. Include how to set `JAVA_HOME` path from CMD (Programmaticly). 
-- [Git](https://github.com/valerysamovich/engineering/blob/master/docs/git.md) is a distributed revision control system with an emphasis on speed, data integrity, and support for distributed, non-linear workflows.
-- [How to Git?](https://github.com/valerysamovich/engineering/blob/master/docs/how-to-git.md) Forking Workflow.
-- [Markdown](https://github.com/valerysamovich/engineering/blob/master/docs/markdown.md) is a markup language with plain text formatting syntax designed so that it can be converted to HTML and many other formats using a tool by the same name.
-- [Web Service](https://github.com/valerysamovich/engineering/blob/master/docs/web-services.md) is a software system designed to support interoperable machine-to-machine interaction over a network.
+- [Java](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/java-tutorial.md) is a general-purpose computer programming language.
+- [Git](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/git.md) is a free and open source distributed version control system.
+- [Web Service](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/web-services.md) is a software system designed to support interoperable machine-to-machine interaction over a network.
 - [Unix](https://github.com/valerysamovich/engineering/blob/master/docs/unix.md) Collection the terminal commands.
-- [Unix shortcuts](https://github.com/0nn0/terminal-mac-cheatsheet/wiki/Terminal-Cheatsheet-for-Mac-(-basics-)) Terminal Cheatsheet shortcuts for Mac (basics).
-- [Zend](https://github.com/valerysamovich/engineering/blob/master/docs/zend.md) Framework (ZF) is an open source, object-oriented web application framework implemented in PHP 5 and licensed under the New BSD License.
-- [InelliJ IDEA & Eclipse](https://github.com/valerysamovich/engineering/blob/master/docs/eclipse.md)  is a Java integrated development environments (IDEs) for developing computer software.
-- [Design Patterns](https://github.com/valerysamovich/engineering/blob/master/docs/design-patterns.md) In software engineering, a design pattern is a general reusable solution to a commonly occurring problem within a given context in software design.
-- [JsonPath](https://github.com/valerysamovich/engineering/blob/master/docs/jsonpath.md) is to JSON what XPATH is to XML, a simple way to extract parts of a given document. JsonPath is available in many programming languages such as Javascript, Python, PHP, and Java!
-- [HTML](http://dev.w3.org/html5/html-author/charref) Escape characters list.
-- [Hadoop](https://hadoop.apache.org/) is a framework that allows for the distributed processing of large data sets across clusters of computers using simple programming models.
+- [Design Patterns](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/design-patterns.md) is a general reusable solution to a problem in software design.
+
+## How to?
+
+- How to [Git](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-git.md) with forking Workflow?
+- How to set [JAVA_HOME](https://github.com/valerysamovich/engineering/blob/master/docs/how/java.md) programmaticly?
+- How to work with [Zend Server?](https://github.com/valerysamovich/engineering/blob/master/docs/how/zend.md)
 
 ## Bookmarks
 
-- [Apache Software Foundation](http://www.apache.org/) Community of open-source software .
-- [W3Schools](http://www.w3schools.com/) The world's largest web developement site.
+- [Apache Software Foundation](http://www.apache.org/) is a community of open-source software.
+- [W3Schools](http://www.w3schools.com/) is a world's largest web developement site.
 - [Google Developers](https://developers.google.com/) is Google's site for software development tools.
+- [JsonPath](https://code.google.com/p/json-path/) is to JSON what XPATH is to XML, extract parts of a given document.
+- [Markdown](http://daringfireball.net/projects/markdown/) is a text-to-HTML conversion tool for web writers.
 
 
 
