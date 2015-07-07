@@ -1,13 +1,18 @@
-Git
----
+# Git
 
-> **Git** is the open source distributed version control system that facilitates **GitHub** activities on your laptop or desktop. This cheat sheet summarizes commonly used Git command line instructions for quick reference. Small commits make it easier for other developers to understand the changes and roll them back if something went wrong. For **.gitignore** help  - [https://www.gitignore.io/](https://www.gitignore.io/)
+
+> **Git** is the open source distributed version control system that facilitates **GitHub** activities on your laptop or desktop. This cheat sheet summarizes commonly used Git command line instructions for quick reference. Small commits make it easier for other developers to understand the changes and roll them back if something went wrong.
+
+- **[Git](https://git-scm.com/)** official website
+- **[Gitignore](https://www.gitignore.io/)** help
 
 ```
 $ git help <command>
 ```
 
-**Configure Tooling** Configure user information for all local repositories.
+## Configure Tooling
+
+Configure user information for all local repositories.
 
 Command                                              | Description
 -----------------------------------------------------|------------------------------------------------------------
@@ -15,14 +20,18 @@ Command                                              | Description
 `$ git config --global user.email "[email address]"` | Sets the email you want attached to your commit transactions
 `$ git config --global color.ui auto`                | Enables helpful colorization of command line output
 
-**Create Repositories** Start a new repository or obtain one from an existing URL.
+## Create Repositories
+
+Start a new repository or obtain one from an existing URL.
 
 Command                     | Description
 ----------------------------|-------------------------------------------------------
 `$ git init [project-name]` | Creates a new local repository with the specified name
 `$ git clone [url]`         | Downloads a project and its entire version history
 
-**Make Changes** Review edits and craf a commit transaction. **Wite Good Commit Messages** Begin message with a short summary of your changes (up to 50 characters as a guideline). *Commit Often** Committing often keeps your commits small and, again, helps you commit only related changes. Moreover, it allows you to share your code more frequently with others. That way it‘s easier for everyone to integrate changes regularly and avoid having merge conflicts. Having few large commits and sharing them rarely, in contrast, makes it hard to solve conflicts.
+## Make changes
+
+Review edits and craf a commit transaction. **Wite Good Commit Messages** Begin message with a short summary of your changes (up to 50 characters as a guideline). *Commit Often** Committing often keeps your commits small and, again, helps you commit only related changes. Moreover, it allows you to share your code more frequently with others. That way it‘s easier for everyone to integrate changes regularly and avoid having merge conflicts. Having few large commits and sharing them rarely, in contrast, makes it hard to solve conflicts.
 
 Command                                   | Description
 ------------------------------------------|-----------------------------------------------------------------
@@ -33,7 +42,9 @@ Command                                   | Description
 `$ git diff --staged`                     | Shows file differences between staging and the last file version
 `$ git commit -m "[descriptive message]"` | Records file snapshots permanently in version history
 
-**Group Changes** Name a series of commits and combine completed efforts **Use Branches** Branching is one of Git‘s most powerful features - and this is not by accident: quick and easy branching was a central requirement from day one. Branches are the perfect tool to help you avoid mixing up different lines of development. 
+## Group Changes
+
+Name a series of commits and combine completed efforts **Use Branches** Branching is one of Git‘s most powerful features - and this is not by accident: quick and easy branching was a central requirement from day one. Branches are the perfect tool to help you avoid mixing up different lines of development. 
 
 Command                         | Description
 --------------------------------|---------------------------------------------------------------------
@@ -47,7 +58,10 @@ Command                         | Description
 `$ git rebase --continue`       | Continue a rebase after resolving conflicts
 `$ git mergetool`               | Use configured merge tool to solve conflicts
 
-**Refactor Filenames** Relocate and remove versioned files
+
+## Refactor Filenames
+
+Relocate and remove versioned files.
 
 Command                                   | Description
 ------------------------------------------|---------------------------------------------------------------------
@@ -55,7 +69,9 @@ Command                                   | Description
 `$ git rm --cached [file]`                | Removes the file from version control but preserves the file locally
 `$ git mv [file-original] [file-renamed]` | Changes the file name and prepares it for commit
 
-**Suppress Tracking** Exclude temporary files and paths
+## Suppress Tracking
+
+Exclude temporary files and paths.
 
 Command                                               | Description
 ------------------------------------------------------|---------------------------------------------------------------
@@ -63,7 +79,9 @@ Command                                               | Description
 `*.log` `build/` `temp-*`                             | A text file named .gitignore suppresses accidental versioning offiles and paths matching the specified paterns
 `$ git ls-files --other --ignored --exclude-standard` | Lists all ignored files in this project
 
-**Save Fragments** Shelve and restore incomplete changes
+## Save Fragments
+
+Shelve and restore incomplete changes.
 
 Command            | Description
 -------------------|----------------------------------------------
@@ -72,7 +90,9 @@ Command            | Description
 `$ git stash pop`  | Restores the most recently stashed files
 `$ git stash drop` | Discards the most recently stashed change set
 
-**Review History** Browse and inspect the evolution of project files
+## Review History
+
+Browse and inspect the evolution of project files.
 
 Command                                       | Description
 ----------------------------------------------|-------------------------------------------------------------
@@ -81,14 +101,18 @@ Command                                       | Description
 `$ git diff [first-branch]...[second-branch]` | Shows content differences between two branches
 `$ git show [commit]`                         | Outputs metadata and content changes of the specified commit
 
-**Redo Commits** Erase mistakes and craf replacement history
+## Redo Commits
+
+Erase mistakes and craf replacement history.
 
 Command                       | Description
 ------------------------------|---------------------------------------------------------------
 `$ git reset [commit]`        | Undoes all commits afer `[commit]`, preserving changes locally
 `$ git reset --hard [commit]` | Discards all history and changes back to the specified commit
 
-**Synchronize Changes** Register a repository bookmark and exchange version history
+## Synchronize changes
+
+Register a repository bookmark and exchange version history.
 
 Command                           | Description
 ----------------------------------|-----------------------------------------------------
