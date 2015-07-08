@@ -1,5 +1,4 @@
-Java 
-----
+# `JAVA_HOME`
 
 Setting `JAVA_HOME` path from CMD (Programmaticly).
 
