@@ -1,19 +1,19 @@
 # Engineering
 
-> Collection of syntax tutorials, how to tutorials, bookmarks for Unix, Git, Markdown, Zend Server, ItelliJ IDE, Eclipse IDE, Java, Web Services, Design Patterns, and etc. 
+> Collection of syntax tutorials, how to tutorials, bookmarks, glossary and shortcuts for Unix, Git, Markdown, Zend Server, ItelliJ IDE, Eclipse IDE, Java, Web Services, Design Patterns, and etc. 
 
 ## Tutorials
 
 - [Java](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/java-tutorial.md) is a general-purpose computer programming language.
 - [Git](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/git.md) is a free and open source distributed version control system.
-- [Web Service](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/web-services.md) is a software system designed to support interoperable machine-to-machine interaction over a network.
+- [Web Service](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/web-services.md) are web application components.
 - [Unix](https://github.com/valerysamovich/engineering/blob/master/docs/unix.md) Collection the terminal commands.
 - [Design Patterns](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/design-patterns.md) is a general reusable solution to a problem in software design.
 
 ## How to?
 
 - How to [Git](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-git.md) with forking Workflow?
-- How to set [JAVA_HOME](https://github.com/valerysamovich/engineering/blob/master/docs/how/java.md) programmaticly?
+- How to set `[JAVA_HOME]`(https://github.com/valerysamovich/engineering/blob/master/docs/how/java.md) programmaticly?
 - How to work with [Zend Server?](https://github.com/valerysamovich/engineering/blob/master/docs/how/zend.md)
 
 ## Bookmarks
