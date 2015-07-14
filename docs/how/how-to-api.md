@@ -27,3 +27,5 @@ Main used for dependency injection.  By default all Spring beans are singleton. 
 ## Environments
 
 All environments setting are under src/main/recourses/environment/
+
+> http://codeplanet.io/principles-good-restful-api-design/
