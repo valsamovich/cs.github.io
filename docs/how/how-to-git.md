@@ -1,8 +1,6 @@
-How to Git?
-==========
+# How to Git?
 
-Forking Workflow
-----------------
+## Forking Workflow
 
 1. [Fork a repo](https://help.github.com/articles/fork-a-repo/) (repository) by clicking fork button on top right side of the page.
 
@@ -73,4 +71,3 @@ Forking Workflow
   ```sh
   git push origin master
   ```
-
