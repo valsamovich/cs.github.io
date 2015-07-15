@@ -19,9 +19,11 @@ First, decide how your data will be designed and how your core service / applica
 
 - [Request](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md#request)
 - [Response](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md#response)
-- [Status code](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md#status&codes)
+- [Status code](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md#status-codes)
 - [Endpoint](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md#endpoint)
 - [Filters](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md#status&filtering)
+- [Authentication](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md#status&authentication)
+- [Content type](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md#status&content-type)
 
 ## Request
 
@@ -114,6 +116,26 @@ When performing actions using the different HTTP verbs to Server endpoints, a Co
 - PUT `/collection/resource` Return the complete Resource object
 - PATCH `/collection/resource` Return the complete Resource object
 - DELETE `/collection/resource` Return an empty document
+
+## Authentication
+
+Most of the time a server will want to know exactly who is making which Requests. Some APIs provide endpoints to be consumed by the general (anonymous) public, but most of the time work is being perform on behalf of someone.
+
+[**OAuth 2.0**](https://tools.ietf.org/html/rfc6749) provides a great way of doing this. With each Request, you can be sure you know which Consumer is making requests, which User they are making requests on behalf of, and provides a (mostly) standardized way of expiring access or allowing Users to revoke access from a Consumer, all without the need for a third-party consumer to know the Users login credentials.
+
+There are also [**OAuth 1.0**](http://tools.ietf.org/html/rfc5849) and [**xAuth**](https://dev.twitter.com/oauth/xauth), which fill the same space. Whichever method you choose, make sure it is something common and well documented with many different libraries written for the languages/platforms which your Consumers will likely be using.
+
+## Content type
+
+Currently, the most “exciting” of APIs provide **JSON** data from RESTful interfaces. This includes Facebook, Twitter, GitHub, and etc. XML appears to have lost the war a while ago in SOAP (except in large corporate environments). Some API creators recommend adding a .json, .xml, or .html file extension to the URL (after the endpoint) for specifying the content type to be returned, although I’m personally not a fan of this.
+
+    {"employees":[
+        {"firstName":"John", "lastName":"Doe"},
+        {"firstName":"Anna", "lastName":"Smith"},
+        {"firstName":"Peter", "lastName":"Jones"}
+    ]}
+
+Read more about [JSON](http://www.w3schools.com/json/)
 
 ## Architecture
 
