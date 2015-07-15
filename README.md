@@ -13,7 +13,7 @@
 ## How to?
 
 - How to [Git](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-git.md) with forking Workflow?
-- How to set [`JAVA_HOME`](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-java.md) programmaticly?
+- How to set [`JAVA_HOME`](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-java-home.md) programmaticly?
 - How to work with [Zend Server](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-zend.md)?
 - How to design an [API](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md)?
 
