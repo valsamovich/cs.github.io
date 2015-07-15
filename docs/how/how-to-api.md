@@ -24,6 +24,7 @@ First, decide how your data will be designed and how your core service / applica
 - [Filters](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md#status&filtering)
 - [Authentication](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md#status&authentication)
 - [Content type](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md#status&content-type)
+- [Hypermedia](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md#status&hypermedia)
 
 ## Request
 
@@ -136,6 +137,38 @@ Currently, the most “exciting” of APIs provide **JSON** data from RESTful in
     ]}
 
 Read more about [JSON](http://www.w3schools.com/json/)
+
+## Hypermedia
+
+**Hypermedia** APIs are very likely the future of RESTful API design. They’re actually a pretty amazing concept, going “back to the roots” of how HTTP and HTML was intended to work.
+
+When working with non-Hypermedia RESTful APIs, the URL Endpoints are part of the contract between the Server and the Consumer. These Endpoints MUST be known by the Consumer ahead of time, and changing them means the Consumer is no longer able to communicate with the Server as intended. This, as you can assume, is quite a limitation.
+
+Now, API Consumers are of course not the only user agent making HTTP requests on the Internet. Far from it. Humans, with their web browsers, are the most common user agent making HTTP requests. Humans, however, are NOT locked into this predefined Endpoint URL contract that RESTful APIs are. What makes humans so special? Well, they’re able to read content, click links for headings which look interesting, and in general explore a website and interpret content to get to where they want to go. If a URL changes, a human is not affected (unless, that is, they bookmarked a page, in which case they go to the homepage and find a new route to their beloved data).
+
+The Hypermedia API concept works the same way a human would. Requesting the Root of the API returns a listing of URLs which point perhaps to each collection of information, and describing each collection in a way which the Consumer can understand. Providing IDs for each resource isn’t important (or necessarily required), as long as a URL is provided.
+
+With the Consumer of a Hypermedia API crawling links and gathering information, URLs are always up-to-date within responses, and do not need to be known beforehand as part of a contract. If a URL is ever cached, and a subsequent request returns a 404, the Consumer can simply go back to the root and discover the content again.
+
+When retrieving a list of Resources within a Collection, an attribute containing a complete URL for the individual Resources are returned. When performing a POST/PATCH/PUT, the response can be a 3xx redirect to the complete Resource.
+
+JSON doesn’t quite give us the semantics we need for specifying which attributes are URLs, nor how URLs relate to the current document. HTML, as you can probably guess, does provide this information. We may very well see our APIs coming full circle and returning back to consuming HTML. Considering how far we’ve come with CSS, one day we may even see  it be common practice for APIs and Websites to use the exact same URLs and content.
+
+## Documentation
+
+**Documentations** helps to understand API and how to use it.
+
+- Make your Documentation available to unauthenticated developers.
+- Do not use automatic documentation generators.
+- Do not truncate example request and response bodies.
+- Use a syntax highlighter in your documentation.
+- Document expected response codes and possible error messages for each endpoint.
+- Add what could have gone wrong to cause those error messages.
+- Build a developer API console so that developers can immediately experiment with your API.
+- Make sure your documentation can be printed.
+
+## Errata
+
 
 ## Architecture
 
