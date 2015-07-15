@@ -17,24 +17,25 @@ In computer programming, an **application programming interface** (API) is a set
 
 First, decide how your data will be designed and how your core service / application will work. If doing API First Development this should be easy. If you’re attaching an API to an existing project, you may need to provide more abstraction. After designed finished the creative and comps(comprehensive layout) must be approved. Usually disign include:
 
-- Request
-- Response
-- HTTP Method (for example - `GET`)
-- Errors support (400, 403, 404, 500)
-- Ur endpoint
-- Query parameters (used to filter and reduce the payload in the response)
+- [Request](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md#request)
+- [Response](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md#response)
+- [Status code](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md#status&codes)
+- [Endpoint](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md#endpoint)
+- [Filters](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md#status&filtering)
 
 ## Request
 
 These are the two most commonly requests (GET and POST) used when your browser visits different webpages. The term POST is so popular that it has even invaded common language, where people who know nothing about how the Internet works do know they can “post” something on a friends Facebook wall. Here are the verbs, and next to them are their associated database call: 
 
-- **GET** Retrieve a specific Resource from the Server, or a listing of Resources.
-- **POST** Create a new Resource on the Server.
-- **PUT** Update a Resource on the Server, providing the entire Resource.
-- **PATCH** Update a Resource on the Server, providing only changed attributes.
-- **DELETE** Remove a Resource from the Server.
-- **HEAD** Retrieve meta data about a Resource, such as a hash of the data or when it was last updated.
-- **OPTIONS** Retrieve information about what the Consumer is allowed to do with the Resource.
+Request   | Description
+----------|---------------------------------------------------------------------------------------------
+`GET`     | Retrieve a specific Resource from the Server, or a listing of Resources.
+`POST`    | Create a new Resource on the Server. 
+`PUT`     | Update a Resource on the Server, providing the entire Resource.
+`PATCH`   | Update a Resource on the Server, providing only changed attributes.
+`DELETE`  | Remove a Resource from the Server.
+`HEAD`    | Retrieve meta data about a Resource, such as a hash of the data or when it was last updated.
+`OPTIONS` | Retrieve information about what the Consumer is allowed to do with the Resource.
 
 Typically, **GET** requests can be cached (and often are!) Browsers, for example, will cache GET requests (depending on cache headers), and will go as far as prompt the user if they attempt to POST for a second time. A HEAD request is basically a GET without the response body, and can be cached as well.
 
@@ -102,6 +103,17 @@ It is very important that as a RESTful API, you make use of the proper HTTP Stat
 - The **3xx** range is reserved for traffic redirection.
 - The **4xx** range is reserved for responding to errors made by the Consumer.
 - The **5xx** range is reserved as a response when the Server makes a mistake.
+
+## Response
+
+When performing actions using the different HTTP verbs to Server endpoints, a Consumer needs to get some sort of information in return. This list is pretty typical of RESTful APIs:
+
+- GET `/collection` Return a listing (array) of Resource objects
+- GET `/collection/resource` Return an individual Resource object
+- POST `/collection` Return the newly created Resource object
+- PUT `/collection/resource` Return the complete Resource object
+- PATCH `/collection/resource` Return the complete Resource object
+- DELETE `/collection/resource` Return an empty document
 
 ## Architecture
 
