@@ -21,14 +21,14 @@ First, decide how your data will be designed and how your core service / applica
 - [Response](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md#response)
 - [Status code](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md#status-codes)
 - [Endpoint](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md#endpoint)
-- [Filters](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md#status&filtering)
-- [Authentication](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md#status&authentication)
-- [Content type](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md#status&content-type)
-- [Hypermedia](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md#status&hypermedia)
-- [Errata](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md#status&errata)
-- [Architecture](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md#status&architecture)
-- [Errors](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md#status&Errors)
-- [Environments](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md#status&environments)
+- [Filters](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md#filtering)
+- [Authentication](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md#authentication)
+- [Content type](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md#content-type)
+- [Hypermedia](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md#hypermedia)
+- [Errata](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md#errata)
+- [Architecture](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md#architecture)
+- [Errors](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md#Errors)
+- [Environments](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md#environments)
 
 Example:
 
