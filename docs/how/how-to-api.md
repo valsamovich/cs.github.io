@@ -25,6 +25,16 @@ First, decide how your data will be designed and how your core service / applica
 - [Authentication](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md#status&authentication)
 - [Content type](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md#status&content-type)
 - [Hypermedia](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md#status&hypermedia)
+- [Errata](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md#status&errata)
+- [Architecture](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md#status&architecture)
+- [Errors](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md#status&Errors)
+- [Environments](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md#status&environments)
+
+Example:
+
+- [API](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md#example-of-api)
+- [HTTP Request](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md#example-http-request)
+- [HTTP Response](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md#example-http-response)
 
 ## Request
 
@@ -80,6 +90,17 @@ When referring to what each endpoint can do, you’ll want to list valid HTTP Ve
 When a Consumer makes a request for a listing of objects, it is important that you give them a list of every single object matching the requested criteria. it is important that you don’t perform any arbitrary limitations of the data. 
 
 > Minimize the arbitrary limits imposed on Third Party Developers.
+
+ Relative path: `/guests/{id}/reservations?startDate={start-date}&endDate={end-date}`
+
+Path parameter | Required | Description                | Supported Values | Example
+---------------|----------|----------------------------|------------------|------------------------
+`{id}`         | 	Yes	    | The ID of the active guest	| Valid ID         | 	{ABCD-1234-1234-ABCD}
+
+Query parameter | Required | Description             | Implemented	| Functional	| Example
+----------------|----------|-------------------------|-------------|------------|---------------------
+startDate       |	No       | Display local startdate | Yes         | No         | startDate=2013-06-01
+endDate	        | No	      | Display local startdate | No          | No         | endDate=2013-06-03
 
 It is important, however, that you do offer the ability for a Consumer to specify some sort of **filtering/limitation** of the results. The most important reason for this is that the network activity is minimal and the Consumer gets their results back as soon as possible. **Filtering** is mostly useful for performing GETs on Collections of resources. Since these are GET requests, filtering information should be passed via the URL. Here are some examples of the types of filtering you could conceivably add to your API:
 
@@ -169,21 +190,63 @@ JSON doesn’t quite give us the semantics we need for specifying which attribut
 
 ## Errata
 
+When the Consumer sends a Request to the Server, they provide a set of Key/Value pairs, called a Header, along with two newline characters, and finally the request body. This is all sent in the same packet. The server then responds in the say Key/Value pair format, with two newlines and then the response body. HTTP is very much a request/response protocol.
+
+When designing your API, you should be able to work with tools which allow you to look at raw HTTP packets. Consider using Wireshark, for example. 
+
+## Example HTTP Request
+
+    POST /v1/animal HTTP/1.1
+    Host: api.example.org
+    Accept: application/json
+    Content-Type: application/json
+    Content-Length: 24
+     
+    {
+        "name": "John",
+        "guest_type": 12
+    }
+
+## Example HTTP Response
+
+    HTTP/1.1 200 OK
+    Date: Wed, 18 Dec 2013 06:08:22 GMT
+    Content-Type: application/json
+    Access-Control-Max-Age: 1728000
+    Cache-Control: no-cache
+     
+    {
+      "id": 12,
+      "created": 1386363036,
+      "modified": 1386363036,
+      "name": "John",
+      "guest_type": 12
 
 ## Architecture
 
-Usually parent pom file contain the common plugins (Checkstyle, PMD, Findbugs, JACOCO or Cobertura, Maven surefire) and setting, which can be inherited by child poms (Orica (for easy mapping), Retrofit, Jakson, Commander, and Company share common libraries). Include the Apache CXF (Framework for hosting/running web service), for data serialization (Java object to JSON or XML object) and deserialization (opposite) add Jackson.
+If the project build with Java and Maven, usually parent pom file contain the common plugins:
+
+- Checkstyle
+- PMD
+- Findbugs
+- JACOCO or Cobertura
+- Maven surefire
+
+Setting can be inherited by child poms 
+- Orica (for easy mapping)
+- Retrofit
+- Jakson
+- Commander
+- Company share common libraries
+
+Include the Apache CXF (Framework for hosting/running web service), for data serialization (Java object to JSON or XML object) and deserialization (opposite) add Jackson.
+
+Spring mainly used for dependency injection.  By default all Spring beans are singleton. It is more efficient and keeps the application code cleaner, because it's don't worry about creating dependencies. 
 
 ## Errors
 
 Throw an exception if application can't recover from the error scenario, for example if the back-end service throws an exception. To insure that resiliency of the rest service, you should design partial success scenarios and full failure scenarios. For partial success scenario, for example if you not able to retrieve all guests profiles then you return guests objects in the response and for guests that have errors you include error details inside guest json object. For full failure scenario the response will only include error details (error code, stack trace, error message. field validation error(field name, rejected values, for example date format)). wdpr-errors.
 
-## Spring
-
-Main used for dependency injection.  By default all Spring beans are singleton. It is more efficient and keeps the application code cleaner, because it's don't worry about creating dependencies. 
-
 ## Environments
 
-All environments setting are under src/main/recourses/environment/
-
-> http://codeplanet.io/principles-good-restful-api-design/
+All **environments** setting are under `src/main/recourses/environment/`
