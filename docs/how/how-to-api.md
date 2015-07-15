@@ -17,26 +17,91 @@ In computer programming, an **application programming interface** (API) is a set
 
 First, decide how your data will be designed and how your core service / application will work. If doing API First Development this should be easy. If you’re attaching an API to an existing project, you may need to provide more abstraction. After designed finished the creative and comps(comprehensive layout) must be approved. Usually disign include:
 
-- Request. 
-- Response.
-- HTTP Method (for example - `GET`).
-- Errors support (400, 403, 404, 500).
-- Url endpoint.
-- Query parameters (used to filter and reduce the payload in the response).
+- Request
+- Response
+- HTTP Method (for example - `GET`)
+- Errors support (400, 403, 404, 500)
+- Ur endpoint
+- Query parameters (used to filter and reduce the payload in the response)
 
-## Verbs
+## Request
 
 These are the two most commonly requests (GET and POST) used when your browser visits different webpages. The term POST is so popular that it has even invaded common language, where people who know nothing about how the Internet works do know they can “post” something on a friends Facebook wall. Here are the verbs, and next to them are their associated database call: 
 
-- GET (SELECT): Retrieve a specific Resource from the Server, or a listing of Resources.
-- POST (CREATE): Create a new Resource on the Server.
-- PUT (UPDATE): Update a Resource on the Server, providing the entire Resource.
-- PATCH (UPDATE): Update a Resource on the Server, providing only changed attributes.
-- DELETE (DELETE): Remove a Resource from the Server.
-- HEAD – Retrieve meta data about a Resource, such as a hash of the data or when it was last updated.
-- OPTIONS – Retrieve information about what the Consumer is allowed to do with the Resource.
+- **GET** Retrieve a specific Resource from the Server, or a listing of Resources.
+- **POST** Create a new Resource on the Server.
+- **PUT** Update a Resource on the Server, providing the entire Resource.
+- **PATCH** Update a Resource on the Server, providing only changed attributes.
+- **DELETE** Remove a Resource from the Server.
+- **HEAD** Retrieve meta data about a Resource, such as a hash of the data or when it was last updated.
+- **OPTIONS** Retrieve information about what the Consumer is allowed to do with the Resource.
 
 Typically, **GET** requests can be cached (and often are!) Browsers, for example, will cache GET requests (depending on cache headers), and will go as far as prompt the user if they attempt to POST for a second time. A HEAD request is basically a GET without the response body, and can be cached as well.
+
+## Versioning
+
+No matter what you are building, no matter how much planning you do beforehand, your core application is going to change, your data relationships will change, attributes will invariably be added and removed from your Resources. This is just how software development works, and is especially true if your project is alive and used by many people (which is likely the case if you’re building an API).
+
+If you make changes to the Servers API and these changes break backwards compatibility, you will break things for your Consumer and they will resent you for it. To ensure your application evolves AND you keep your Consumers happy, you need to occasionally introduce new versions of the API while still allowing old versions to be accessible. if you are simply ADDING new features to your API, such as new attributes on a Resource (which are not required and the Resource will function without), or if you are ADDING new Endpoints, you do not need to increment your API version number since these changes do not break backwards compatibility. You will want to update your API Documentation (your Contract), of course.
+
+Over time you can deprecate old versions of the API. To deprecate a feature doesn’t mean to shut if off or diminish the quality of it, but to tell Consumers of your API that the older version will be removed on a specific date and that they should upgrade to a newer version. A good RESTful API will keep track of the version in the URL. The other most common solution is to put a version number in a request header.
+
+## Analytics
+
+Keep track of the version/endpoints of your API being used by Consumers. This can be as simple as incrementing an integer in a database each time a request is made. There are many reasons that keeping track of API Analytics is a good idea, for example, the most commonly used API calls should be made efficient.
+
+## Root URL
+
+ It’s important that the root entry point into your API is as simple as possible, as a long complex **URL** will appear daunting and can turn developers away. Here are two common URL Roots:
+
+    https://example.org/api/v1/*
+    https://api.example.com/v1/*
+
+It’s a good idea to have content at the root of your API. Hitting the root of GitHub’s API returns a listing of endpoints, for example. Also, it have the HTTPS prefix. As a good RESTful API, you must host your API behind HTTPS.
+
+## Endpoint
+
+An **Endpoint** is a URL within your API which points to a specific Resource or a Collection of Resources.
+
+    https://api.example.com/v1/guests
+    https://api.example.com/v1/reservations
+
+When referring to what each endpoint can do, you’ll want to list valid HTTP Verb and Endpoint combinations. 
+
+    GET /guests/gid/name Retrieve a listing of guests (id and Name).
+    POST /owner: Create a new owner
+
+## Filtering
+
+When a Consumer makes a request for a listing of objects, it is important that you give them a list of every single object matching the requested criteria. it is important that you don’t perform any arbitrary limitations of the data. 
+
+> Minimize the arbitrary limits imposed on Third Party Developers.
+
+It is important, however, that you do offer the ability for a Consumer to specify some sort of **filtering/limitation** of the results. The most important reason for this is that the network activity is minimal and the Consumer gets their results back as soon as possible. **Filtering** is mostly useful for performing GETs on Collections of resources. Since these are GET requests, filtering information should be passed via the URL. Here are some examples of the types of filtering you could conceivably add to your API:
+
+    ?limit=10: Reduce the number of results returned to the Consumer (for Pagination)
+    ?offset=10: Send sets of information to the Consumer (for Pagination)
+    ?guest_type_id=1: Filter records which match the following condition (WHERE animal_type_id = 1)
+    ?sortby=name&order=asc: Sort the results based on the specified attribute (ORDER BY name ASC)
+
+## Status Codes
+
+It is very important that as a RESTful API, you make use of the proper HTTP Status Codes. Various network equipment is able to read these status codes. There are a [plethora of HTTP Status Codes](http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html) to choose from, however this list should be a good starting point:
+
+- **200** OK – `[GET]` The Consumer requested data from the Server, and the Server found it for them (Idempotent).
+- **201** CREATED – `[POST/PUT/PATCH]` The Consumer gave the Server data, and the Server created a resource.
+- **204** NO CONTENT – `[DELETE]` The Consumer asked the Server to delete a Resource, and the Server deleted it.
+- **400** INVALID REQUEST – `[POST/PUT/PATCH]` The Consumer gave bad data to the Server (Idempotent).
+- **404** NOT FOUND – `[*]` The Consumer referenced an inexistant Resource or Collection (Idempotent).
+- **500** INTERNAL SERVER ERROR – `[*]` The Server encountered an error, and request was successful.
+
+**Status Code Ranges**
+
+- The **1xx** range is reserved for low-level HTTP stuff.
+- The **2xx** range is reserved for successful messages where all goes as planned.
+- The **3xx** range is reserved for traffic redirection.
+- The **4xx** range is reserved for responding to errors made by the Consumer.
+- The **5xx** range is reserved as a response when the Server makes a mistake.
 
 ## Architecture
 
