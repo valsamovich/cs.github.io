@@ -32,13 +32,12 @@ First, decide how your data will be designed and how your core service / applica
 
 Example:
 
-- [API](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md#example-of-api)
 - [HTTP Request](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md#example-http-request)
 - [HTTP Response](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md#example-http-response)
 
 ## Request
 
-These are the two most commonly requests (GET and POST) used when your browser visits different webpages. The term POST is so popular that it has even invaded common language, where people who know nothing about how the Internet works do know they can “post” something on a friends Facebook wall. Here are the verbs, and next to them are their associated database call: 
+These are the two most commonly **requests** (`GET` and `POST`) used when your browser visits different webpages. The term POST is so popular that it has even invaded common language, where people who know nothing about how the Internet works do know they can “post” something on a friends Facebook wall. Here are the verbs, and next to them are their associated database call: 
 
 Request   | Description
 ----------|---------------------------------------------------------------------------------------------
@@ -50,19 +49,19 @@ Request   | Description
 `HEAD`    | Retrieve meta data about a Resource, such as a hash of the data or when it was last updated.
 `OPTIONS` | Retrieve information about what the Consumer is allowed to do with the Resource.
 
-Typically, **GET** requests can be cached (and often are!) Browsers, for example, will cache GET requests (depending on cache headers), and will go as far as prompt the user if they attempt to POST for a second time. A HEAD request is basically a GET without the response body, and can be cached as well.
+Typically, `GET` requests can be cached (and often are!) Browsers, for example, will cache `GET` requests (depending on cache headers), and will go as far as prompt the user if they attempt to POST for a second time. A `HEAD` request is basically a `GET` without the response body, and can be cached as well.
 
 ## Versioning
 
-No matter what you are building, no matter how much planning you do beforehand, your core application is going to change, your data relationships will change, attributes will invariably be added and removed from your Resources. This is just how software development works, and is especially true if your project is alive and used by many people (which is likely the case if you’re building an API).
+No matter what you are building, no matter how much planning you do beforehand, your core application is going to change, your data relationships will change, attributes will invariably be added and removed from your Resources. This is just how software development works, and is especially true if your project is alive and used by many people (which is likely the case if you’re building an **API**).
 
-If you make changes to the Servers API and these changes break backwards compatibility, you will break things for your Consumer and they will resent you for it. To ensure your application evolves AND you keep your Consumers happy, you need to occasionally introduce new versions of the API while still allowing old versions to be accessible. if you are simply ADDING new features to your API, such as new attributes on a Resource (which are not required and the Resource will function without), or if you are ADDING new Endpoints, you do not need to increment your API version number since these changes do not break backwards compatibility. You will want to update your API Documentation (your Contract), of course.
+If you make changes to the Servers **API** and these changes break backwards compatibility, you will break things for your Consumer and they will resent you for it. To ensure your application evolves AND you keep your Consumers happy, you need to occasionally introduce new **versions** of the API while still allowing old versions to be accessible. if you are simply ADDING new features to your API, such as new attributes on a Resource (which are not required and the Resource will function without), or if you are ADDING new Endpoints, you do not need to increment your API version number since these changes do not break backwards compatibility. You will want to update your API Documentation (your Contract), of course.
 
 Over time you can deprecate old versions of the API. To deprecate a feature doesn’t mean to shut if off or diminish the quality of it, but to tell Consumers of your API that the older version will be removed on a specific date and that they should upgrade to a newer version. A good RESTful API will keep track of the version in the URL. The other most common solution is to put a version number in a request header.
 
 ## Analytics
 
-Keep track of the version/endpoints of your API being used by Consumers. This can be as simple as incrementing an integer in a database each time a request is made. There are many reasons that keeping track of API Analytics is a good idea, for example, the most commonly used API calls should be made efficient.
+Keep track of the version/endpoints of your API being used by Consumers. This can be as simple as incrementing an integer in a database each time a request is made. There are many reasons that keeping track of **API Analytics** is a good idea, for example, the most commonly used API calls should be made efficient.
 
 ## Root URL
 
