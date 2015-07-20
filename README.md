@@ -9,6 +9,7 @@
 - [Web Service](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/web-services.md) are web application components.
 - [Unix](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/unix.md) Collection the terminal commands.
 - [Design Patterns](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/design-patterns.md) is a general reusable solution to a problem in software design.
+- [Hadoop](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/hadoop.md) is a framework that allows for the distributed processing of large data.
 
 ## How to?
 
