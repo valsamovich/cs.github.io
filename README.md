@@ -9,7 +9,7 @@
 - [Web Service](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/web-services.md) are web application components.
 - [Unix](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/unix.md) is a family of multitasking, multiuser computer operating systems.
 - [Design Patterns](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/design-patterns.md) is a general reusable solution to a problem in software design.
-- [Hadoop](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/hadoop.md) is a framework that allows for the distributed processing of large data.
+- [Hadoop](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/hadoop.md) is a framework for distributed processing of very large data.
 
 ## How to?
 
