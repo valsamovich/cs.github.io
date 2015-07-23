@@ -23,7 +23,7 @@ The Apache **Hadoop** software library is a framework that allows for the distri
 - Variety
 - Veracity
 
-# History
+## History
 
 - **2002** The Apache Nutch Project. 
   - Open source web crawler and search engine.
