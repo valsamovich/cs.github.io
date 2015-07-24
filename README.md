@@ -7,7 +7,7 @@
 - [Java](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/java-tutorial.md) is a general-purpose computer programming language.
 - [Git](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/git.md) is a free and open source distributed version control system.
 - [Web Service](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/web-services.md) are web application components.
-- [Unix](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/unix.md) is a family of multitasking, multiuser computer operating systems.
+- [Bash](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/bash.md) is a Unix shell and command language.
 - [Design Patterns](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/design-patterns.md) is a general reusable solution to a problem in software design.
 - [Hadoop](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/hadoop.md) is a framework for distributed processing of very large data.
 
