@@ -1,7 +1,6 @@
-# Unix
+# Bash
 
-
-> **Unix** (all-caps **UNIX** for the trademark) is a multitasking, multi user computer operating system that exists in many variants. **Unix** makes little distinction between commands (user-level programs) for system operation and maintenance (e.g. cron), commands of general utility (e.g. grep), and more general-purpose applications such as the text formatting and typesetting package.
+> Bash is a Unix shell and command language written by Brian Fox for the GNU Project as a free software replacement for the Bourne shell. Released in 1989, it has been distributed widely as the shell for the GNU operating system and as a default shell on Linux and OS X.
 
 ## Search
 
