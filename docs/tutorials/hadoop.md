@@ -58,6 +58,9 @@ A set of machines that are running HDFS and YARN is called **cluster**. Each ind
 - **Master node** run global managment processes.
 - **Worker nodes** run local data and appication processes.
 
+## HDFS
+
+**HDFS**is a distributed file system. HDFS provides redundant storage of extremely large data sets by keeping data in a cluster of cheap unreliable, but cost effective computers. By spreading data accross a cluster, HDFS ensures that data is made local to computational processess. 
 
 
 
