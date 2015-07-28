@@ -16,7 +16,7 @@ The Apache **Hadoop** software library is a framework that allows for the distri
 
 **Machine Learning** (ML) focuses on learning by example, and the more examples you have, the better the learner. Many modern applications are powered by ML algorithms that use Big Data to avoid tricky things like smoothing or sample error.
 
-**V's of Big Data** is a probllems with distributed computing:
+**V's of Big Data** is a problems with distributed computing:
 
 - Volume
 - Velocity
@@ -50,16 +50,26 @@ The Apache **Hadoop** software library is a framework that allows for the distri
 
 **Components:**
 
-- **HDFS**(Haddop Destributed file system), a distributed file system manages data accross the cluster and makes it avalable for processing.
-- **YARN**(Yet Another Resource Negotiator), a recource manager that manages and schedules computational assets and an application deplyment framework for runnig processing jobs.
+- **HDFS** (Haddop Destributed file system), a distributed file system manages data accross the cluster and makes it avalable for processing.
+- **YARN** (Yet Another Resource Negotiator), a recource manager that manages and schedules computational assets and an application deplyment framework for runnig processing jobs.
 - **Node** is a individual machine which run YARN and HDFS 
-  - **Master node** run global managment processes.
-  - **Worker nodes** run local data and appication processes.
+  - **Master node** (NameNode) run global managment processes.
+  - **Worker nodes** (DataNode ) run local data and appication processes.
 - **Cluster** is a set of machines that run YARN and HDFS. Cluster can have a single node or many thousands, the cluster sclaes linearly - every node bring more capacity and performance.
 
 ## HDFS
 
 **HDFS**is a distributed file system. HDFS provides redundant storage of extremely large data sets by keeping data in a cluster of cheap unreliable, but cost effective computers. By spreading data accross a cluster, HDFS ensures that data is made local to computational processess. 
+
+- HDFS is a software layer on top of a native file system** susch as ext4 or xfs. 
+- Interface to HDFS is similar to poxis-complient** such as Unix or Linux.
+- HDFS performs best with a modest number of large files.
+- HDFS is optimized for large, streaming reads of files.
+- HDFS is a **worm storage**, write once, read many.
+- All files are split into blocks, usually either 64 or 128MB. Its' configurable.
+
+Note that metadata associated with the files is stored in the memory of the NameNode. When a client application wants to read a file it requests metadata from the NameNode to locate blocks, then communicates directly with the DataNodes to read the data.
+
 
 
 
