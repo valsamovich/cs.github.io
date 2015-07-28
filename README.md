@@ -21,7 +21,7 @@ Collection of syntax tutorials, how to tutorials, bookmarks, glossary and shortc
 ## What is?
 
 - What is an **SDET** and what does it do?
-- 
+
 ## Bookmarks
 
 - [Apache Software Foundation](http://www.apache.org/) is a community of open-source software.
