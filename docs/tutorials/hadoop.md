@@ -39,7 +39,7 @@ The Apache **Hadoop** software library is a framework that allows for the distri
 
 ## Architecture
 
-**Core concepts:**
+**Concepts:**
 
 - Minimize the amount of network traffic.
 - Duplicate data to provide data safety.
@@ -48,15 +48,14 @@ The Apache **Hadoop** software library is a framework that allows for the distri
 - Jobs, nodes, and disks are failure tolerant via redundancy.
   - *Redundancy keeps data and computation safe.*
 
-**Primary components:**
+**Components:**
 
 - **HDFS**(Haddop Destributed file system), a distributed file system manages data accross the cluster and makes it avalable for processing.
 - **YARN**(Yet Another Resource Negotiator), a recource manager that manages and schedules computational assets and an application deplyment framework for runnig processing jobs.
-
-A set of machines that are running HDFS and YARN is called **cluster**. Each individual machine is referred to as a **node**. A cluster can have a single node or many thousands, the cluster sclaes linearly - every node bring more capacity and performance. Two kinds of nodes are differentiated by process:
-
-- **Master node** run global managment processes.
-- **Worker nodes** run local data and appication processes.
+- **Node** is a individual machine which run YARN and HDFS 
+  - **Master node** run global managment processes.
+  - **Worker nodes** run local data and appication processes.
+- **Cluster** is a set of machines that run YARN and HDFS. Cluster can have a single node or many thousands, the cluster sclaes linearly - every node bring more capacity and performance.
 
 ## HDFS
 
