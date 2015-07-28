@@ -18,6 +18,10 @@ Collection of syntax tutorials, how to tutorials, bookmarks, glossary and shortc
 - How to work with [Zend Server](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-zend.md)?
 - How to design an [API](https://github.com/valerysamovich/engineering/blob/master/docs/how/how-to-api.md)?
 
+## What is?
+
+- What is an **SDET** and what does it do?
+- 
 ## Bookmarks
 
 - [Apache Software Foundation](http://www.apache.org/) is a community of open-source software.
