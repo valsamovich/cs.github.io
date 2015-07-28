@@ -6,11 +6,11 @@ The Apache **Hadoop** software library is a framework that allows for the distri
 
 ## Content:
 
-- [Fundamentals]
-- [History]
-- [Architecture]
-- [HDFS]
-- [MapReduce]
+- [Fundamentals](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/hadoop.md#fundamentals)
+- [History](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/hadoop.md#Hhistory)
+- [Architecture](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/hadoop.md#architecture)
+- [HDFS](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/hadoop.md#hdfs)
+- [MapReduce](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/hadoop.md#mapreduce)
 
 ## Fundamentals
 
@@ -77,6 +77,8 @@ The Apache **Hadoop** software library is a framework that allows for the distri
 - All files are split into blocks, usually either 64 or 128MB. Its' configurable.
 
 Note that metadata associated with the files is stored in the memory of the NameNode. When a client application wants to read a file it requests metadata from the NameNode to locate blocks, then communicates directly with the DataNodes to read the data.
+
+## MapReduce
 
 
 
