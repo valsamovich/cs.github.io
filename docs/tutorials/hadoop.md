@@ -80,8 +80,42 @@ Note that metadata associated with the files is stored in the memory of the Name
 
 ## MapReduce
 
+MapReduce is a primary computation framework for Hadoop. MapReduce API is in Java, but Haddop Streaming enables in any Unix-pipe compatible language. It's based on a functional programming paradigm:
 
+    Map => Reduce
+    Input x => Function f => Output f(x)
 
+> Simple, powerfull, and flexible enough to implement many analytical algorithms in parallel.
+
+    def map(key, value):
+        ...
+        return (intermed_key, intermed_value)
+    
+    def reduce(key, value):
+        ...
+        return output
+
+A Mapreduce job is composed of many Map and Reduce tasks that operate on data that is stored locally, thus minimizing network traffic.
+
+    |      | Map          |      | Map          |      |
+    |      |     \        |      |     \        |      |
+    |      |      Reduce  |      |      Reduce  |      |
+    |      |     /      \ |      |     /      \ |      |
+    | HDFS | Map          | HDFS | Map          | HDFS |
+    |      |     \      / |      |     \      / |      |
+    |      |      Reduce  |      |      Reduce  |      |
+    |      |     /        |      |     /        |      |
+    |      | Map          |      | Map          |      |
+
+Details:
+
+- Automatic parallelization
+- Job distribution
+- Job managment
+- Fault tolerance
+- Monitoring
+
+// TO-DO: Distributed Computing with MapReduce 4:04
 
 
 
