@@ -2,6 +2,14 @@
 
 > Bash is a Unix shell and command language written by Brian Fox for the GNU Project as a free software replacement for the Bourne shell. Released in 1989, it has been distributed widely as the shell for the GNU operating system and as a default shell on Linux and OS X.
 
+## Content
+
+- [Search](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/bash.md#search)
+- [Directory](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/bash.md#directory)
+- [File](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/bash.md#file)
+- [Process](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/bash.md#process)
+- [Permissions](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/bash.md#permissions)
+
 ## Search
 
 **Getting Help** On the command line, help is always at hand: you can either type `<command>` or `<command> --help` to receive detailed documentation about the command in question. 
