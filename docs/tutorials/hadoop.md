@@ -85,12 +85,6 @@ MapReduce is a primary computation framework for Hadoop. MapReduce API is in Jav
     Map => Reduce
     Input x => Function f => Output f(x)
 
-A Map function takes as input a list and operates singly upon each individual element in the list, e.g. mapping a function to each item in a list:
-
-          Input list  [ ][ ][ ][ ][ ][ ][ ]
-    Mapping function   |  |  |  |  |  |  |
-         Output list  [ ][ ][ ][ ][ ][ ][ ]
-
 > Simple, powerfull, and flexible enough to implement many analytical algorithms in parallel.
 
     def map(key, value):
@@ -101,7 +95,7 @@ A Map function takes as input a list and operates singly upon each individual el
         ...
         return output
 
-A Mapreduce job is composed of many Map and Reduce tasks that operate on data that is stored locally, thus minimizing network traffic.
+A **MapReduce** job is composed of many Map and Reduce tasks that operate on data that is stored locally, thus minimizing network traffic.
 
     |      | Map          |      | Map          |      |
     |      |     \        |      |     \        |      |
@@ -113,16 +107,20 @@ A Mapreduce job is composed of many Map and Reduce tasks that operate on data th
     |      |     /        |      |     /        |      |
     |      | Map          |      | Map          |      |
 
-Hadoop takes care of the low-level distributed computing details:
-
-- Automatic parallelization
-- Job distribution
-- Job managment
-- Fault tolerance
-- Monitoring
-
 A **Job** is a full program, the complete execution of Map and Reduce functions across all input data. A **Job** is composed of many tasks, the execution of a singlr attempt at Map or Reduce on a block of data. Tasks are presided over by thr NodeManager.
 
+A **Map** function takes as input a list and operates singly upon each individual element in the list, e.g. mapping a function to each item in a list:
 
+          Input list  [l][l][l][l][l][l][l]
+    Mapping function   |  |  |  |  |  |  |
+         Output list  [l][l][l][l][l][l][l]
+
+A **Reducer** also takes a list as input, but then combines the values in the list to a single output value. Hadoop **Reducers** receive that list of values on a per-key basis via the key/value pairs the Mapper output:
+
+           Input list  [l][l][l][l][l][l][l]
+    Reducing function   \________|________/
+         Output value           [v]
+
+> The gurantee that a Reducer receives all values for a singlr key requires a shuffle and sort between **Map** and **Reduce**.
 
 
