@@ -123,4 +123,6 @@ A **Reducer** also takes a list as input, but then combines the values in the li
 
 > The gurantee that a Reducer receives all values for a singlr key requires a shuffle and sort between **Map** and **Reduce**.
 
+![alt text](/assets/hadoop-shuffling.png "Hadoop shuffling")
+
 
