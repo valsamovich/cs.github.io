@@ -85,6 +85,12 @@ MapReduce is a primary computation framework for Hadoop. MapReduce API is in Jav
     Map => Reduce
     Input x => Function f => Output f(x)
 
+A Map function takes as input a list and operates singly upon each individual element in the list, e.g. mapping a function to each item in a list:
+
+          Input list  [ ][ ][ ][ ][ ][ ][ ]
+    Mapping function   |  |  |  |  |  |  |
+         Output list  [ ][ ][ ][ ][ ][ ][ ]
+
 > Simple, powerfull, and flexible enough to implement many analytical algorithms in parallel.
 
     def map(key, value):
@@ -107,7 +113,7 @@ A Mapreduce job is composed of many Map and Reduce tasks that operate on data th
     |      |     /        |      |     /        |      |
     |      | Map          |      | Map          |      |
 
-Details:
+Hadoop takes care of the low-level distributed computing details:
 
 - Automatic parallelization
 - Job distribution
@@ -115,7 +121,8 @@ Details:
 - Fault tolerance
 - Monitoring
 
-// TO-DO: Distributed Computing with MapReduce 4:04
+A **Job** is a full program, the complete execution of Map and Reduce functions across all input data. A **Job** is composed of many tasks, the execution of a singlr attempt at Map or Reduce on a block of data. Tasks are presided over by thr NodeManager.
+
 
 
 
