@@ -13,6 +13,7 @@ The Apache **Hadoop** software library is a framework that allows for the distri
 - [Architecture](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/hadoop.md#architecture)
 - [HDFS](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/hadoop.md#hdfs)
 - [MapReduce](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/hadoop.md#mapreduce)
+- [Example](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/hadoop.md#example)
 
 ## Fundamentals
 
@@ -123,8 +124,9 @@ A **Reducer** also takes a list as input, but then combines the values in the li
     Reducing function   \________|________/
          Output value           [v]
 
-> The gurantee that a Reducer receives all values for a singlr key requires a shuffle and sort between **Map** and **Reduce**.
+> The gurantee that a Reducer receives all values for a singlr key requires a **shuffle and sort** between **Map** and **Reduce**.
 
 ![alt text](/assets/hadoop-shuffling.png "Hadoop shuffling")
 
+## Example
 
