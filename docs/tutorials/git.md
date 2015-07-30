@@ -3,8 +3,9 @@
 
 > **Git** is the open source distributed version control system that facilitates **GitHub** activities on your laptop or desktop. This cheat sheet summarizes commonly used Git command line instructions for quick reference. Small commits make it easier for other developers to understand the changes and roll them back if something went wrong.
 
-- **[Git](https://git-scm.com/)** official website
-- **[Gitignore](https://www.gitignore.io/)** help
+- [Git](https://git-scm.com/) official website
+- [Gitignore](https://www.gitignore.io/) help
+- [Gitinfo](http://githut.info/) a small place to discover languages in github
 
 ```
 $ git help <command>
