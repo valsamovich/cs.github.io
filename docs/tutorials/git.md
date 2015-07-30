@@ -5,7 +5,7 @@
 
 - [Git](https://git-scm.com/) official website
 - [Gitignore](https://www.gitignore.io/) help
-- [Gitinfo](http://githut.info/) a small place to discover languages in github
+- [Githut](http://githut.info/) is a place to discover languages GitHub
 
 ```
 $ git help <command>
