@@ -130,3 +130,4 @@ A **Reducer** also takes a list as input, but then combines the values in the li
 
 ## Example
 
+This section is demonstrate the data flow in a MapReduce algorithm with canonical WordCount example by Python.
