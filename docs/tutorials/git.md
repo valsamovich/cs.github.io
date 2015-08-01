@@ -1,12 +1,12 @@
 # Git
 
+> **Git** is the open source distributed version control system that facilitates **GitHub** activities on your laptop or desktop. This cheat sheet summarizes commonly used Git command line instructions for quick reference. 
 
-> **Git** is the open source distributed version control system that facilitates **GitHub** activities on your laptop or desktop. This cheat sheet summarizes commonly used Git command line instructions for quick reference. Small commits make it easier for other developers to understand the changes and roll them back if something went wrong.
-
-- [Git](https://git-scm.com/) official website
+- [Git](https://git-scm.com/) for All Platforms
 - [Gitignore](https://www.gitignore.io/) create useful `.gitignore` files for your project
-- [Githut](http://githut.info/) is a place to discover languages GitHub
-
+- [Githut](http://githut.info/) is a place to discover languages on GitHub
+- [Github](https://training.github.com) training
+- 
 ## Content
 
 - [Configure Tooling](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/git.md#configure-tooling)
@@ -19,10 +19,6 @@
 - [Review History](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/git.md#review-history)
 - [Redo Commits](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/git.md#redo-commits)
 - [Synchronize changes](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/git.md#synchronize-changes)
-
-```
-$ git help <command>
-```
 
 ## Configure Tooling
 
