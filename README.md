@@ -1,6 +1,6 @@
 # Engineering
 
-Collection of syntax tutorials, how to tutorials, bookmarks, glossary and shortcuts for Unix, Git, Markdown, Zend Server, ItelliJ IDE, Eclipse IDE, Java, Web Services, Design Patterns, and etc. 
+> Collection of syntax tutorials, how to tutorials, bookmarks, glossary and shortcuts for Unix, Git, Markdown, Zend Server, ItelliJ IDE, Eclipse IDE, Java, Web Services, Design Patterns, and etc. 
 
 ## Tutorials
 
