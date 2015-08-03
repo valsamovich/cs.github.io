@@ -130,4 +130,36 @@ A **Reducer** also takes a list as input, but then combines the values in the li
 
 ## Example
 
-This section is demonstrate the data flow in a MapReduce algorithm with canonical WordCount example by Python.
+This section is demonstrate the data flow in a MapReduce algorithm with canonical WordCount example by Python. **Goal** is to get from text woard and count.
+
+Functions:
+
+    # emit is a function that performs Hadoop IO
+    def map(key, value):
+        for word in value.split():
+            emit(word, 1)
+ 
+    # def reduce(key, values):
+        count = 0
+        for val in values:
+            count +=val
+        emit(key, count)
+
+Input:
+
+    # Intput to WordCount Mappers
+    (31416, "the cat in the hat ran fast")
+    (27183, "the fast cat wears no heat")
+
+Output:
+
+    # Output Mapper 1
+    ("the", 1), ("cat", 1), ("in", 1), ("the", 1), 
+    ("hat", 1),  ("ran", 1),  ("fast", 1)
+    
+    # Output Mapper 2
+    ("the", 1), ("fast", 1), ("cat", 1),
+    ("wears", 1), ("no", 1), ("hat", 1)
+    
+    
+    
