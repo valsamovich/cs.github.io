@@ -2,7 +2,7 @@
 
 **Apache Tomcat™** is an open source software implementation of the Java Servlet, JavaServer Pages, Java Expression Language and Java WebSocket technologies. The Java Servlet, JavaServer Pages, Java Expression Language and Java WebSocket specifications are developed under the *Java Community Process*.
 
-- [Apache tomcat](http://tomcat.apache.org/)
+- [Apache Tomcat™](http://tomcat.apache.org/)
 
 ## Run
 
