@@ -98,6 +98,8 @@ characters in front of the caret. Pressing `ctrl+L` clears the screen (similarly
 
 ## Permissions
 
+    sudo chmod 777 *
+
 **File Permissions** On Unix systems, file permissions are set using three digits: the first one representing the permissions for the owning user, the second one for its group, and the third one for anyone else. Add up the desired access rights for each digit as following:
 
 - 4 — access/read (`r`)
