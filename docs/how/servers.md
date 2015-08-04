@@ -22,6 +22,8 @@ Command                             | Description
 `$ sudo apachectl restart `         | Restart Apache HTTP
 `$ sudo apachectl graceful-restart` | Graceful restart
 
+- Validate the status of the HTTP in browser `http://localhost/`
+
 The use of **graceful** in stopping and restarting allows a less abrupt halt to proceedings allowing any existing webserving to complete before the process is terminated. To find the **Apache** version:
 
     httpd -v
