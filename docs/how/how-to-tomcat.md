@@ -12,3 +12,5 @@ Command                      | Description
 -----------------------------|---------------------
 `$ sudo ./catalina.sh start` | Start Apache Tomcat 
 `$ sudo ./catalina.sh stop`  | Stop Apache Tomcat
+
+To validate the status of the tomcat `ps -ef | grep tomcat`
