@@ -4,9 +4,9 @@ A **web server** is an information technology that processes requests via HTTP, 
 
 ## Context
 
-- [Apache HTTP]()
-- [Apache Tomcat]()
-- [Zend]() 
+- [Apache HTTP](https://github.com/valerysamovich/engineering/blob/master/docs/how/servers.md#apache-http)
+- [Apache Tomcat](https://github.com/valerysamovich/engineering/blob/master/docs/how/servers.md#apache-tomcat)
+- [Zend](https://github.com/valerysamovich/engineering/blob/master/docs/how/servers.md#zend) 
 
 ## Apache HTTP
 
