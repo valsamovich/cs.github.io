@@ -14,7 +14,7 @@
 
   ```sh
   cd engineering
-  git remote add upstream clone https://github.com/[usename]/engineering.git
+  git remote add upstream https://github.com/[usename]/engineering.git
   ```
 
 4. Create a branch for a new check (optional):
