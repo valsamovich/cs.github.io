@@ -34,7 +34,6 @@ Log in with your credentials. The process needed to start an ssh server depends 
 
 That should start the sshd server and you can then log in remotely.
 
-
 Read more: https://www.digitalocean.com/community/tutorials/how-to-use-ssh-to-connect-to-a-remote-server-in-ubuntu
 
 
