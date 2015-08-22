@@ -2,7 +2,7 @@
 
 **SSH** is one essential tool to master as a system administrator. **SSH**, or Securev *Shell*, is a protocol used to securely log into remote systems. It is the most common way to access remote Linux an Unix-like servers, such as VPS instances.
 
-## BasicSyntax
+## Basic Syntax
 
 The tool on Linux for connecting to a remote system using **SSH** is called, unsurprisingly , `ssh`. The most basic form of the command is:
 
