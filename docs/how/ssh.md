@@ -34,6 +34,16 @@ Log in with your credentials. The process needed to start an ssh server depends 
 
 That should start the sshd server and you can then log in remotely.
 
+## How to configure SSH?
+
+When you change the configuration of SSH, setting of the `sshd` servera will change. In Ubuntu, the main `sshd` configuration file is located `/etc/ssh/sshd_config`. To back up the current version of the file:
+
+    sudo cp /etc/ssh/sshd_config{,.back}
+
+Open it with a text editor:
+
+    sudo vi /etc/ssh/sshd_config
+    
 Read more: https://www.digitalocean.com/community/tutorials/how-to-use-ssh-to-connect-to-a-remote-server-in-ubuntu
 
 
