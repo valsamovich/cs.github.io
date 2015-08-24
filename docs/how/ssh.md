@@ -2,7 +2,7 @@
 
 **SSH** is one essential tool to master as a system administrator. **SSH**, or Securev *Shell*, is a protocol used to securely log into remote systems. It is the most common way to access remote Linux an Unix-like servers, such as VPS instances.
 
-## Basic Syntax
+## Syntax
 
 The tool on Linux for connecting to a remote system using **SSH** is called, unsurprisingly , `ssh`. The most basic form of the command is:
 
@@ -36,14 +36,18 @@ That should start the sshd server and you can then log in remotely.
 
 ## How to configure SSH?
 
-When you change the configuration of SSH, setting of the `sshd` servera will change. In Ubuntu, the main `sshd` configuration file is located `/etc/ssh/sshd_config`. To back up the current version of the file:
-
-    sudo cp /etc/ssh/sshd_config{,.back}
-
-Open it with a text editor:
+When you change the configuration of SSH, setting of the `sshd` servera will change. In Ubuntu, the main `sshd` configuration file is located `/etc/ssh/sshd_config`. Open it with a text editor and modify:
 
     sudo vi /etc/ssh/sshd_config
-    
+
+To restart sshd server to implement modifications:
+
+    sudo service ssh restart
+
+## SSH with keys
+
+Key based authentication works by creating a pair of keys: *private key* and a *public key*.
+
 Read more: https://www.digitalocean.com/community/tutorials/how-to-use-ssh-to-connect-to-a-remote-server-in-ubuntu
 
 
