@@ -5,6 +5,7 @@
 ![alt text](/assets/hadoop-logo.png "Hadoop logo")
 
 - [Apache Hadoop](http://hadoop.apache.org/) official website
+- [Apache Hadoop shell commands](http://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-common/FileSystemShell.html)
 
 ## Content:
 
