@@ -62,7 +62,7 @@
 
 **Components:**
 
-- **HDFS** (Haddop Destributed file system), a distributed file system manages data accross the cluster and makes it avalable for processing.
+- **HDFS** (Hadoop Destributed file system), a distributed file system manages data accross the cluster and makes it avalable for processing.
 - **YARN** (Yet Another Resource Negotiator), a recource manager that manages and schedules computational assets and an application deplyment framework for runnig processing jobs.
 - **Node** is a individual machine which run YARN and HDFS 
   - **Master node** (NameNode) run global managment processes.
