@@ -73,9 +73,9 @@
 
 **HDFS** is a distributed file system. HDFS provides redundant storage of extremely large data sets by keeping data in a cluster of cheap unreliable, but cost effective computers. By spreading data accross a cluster, HDFS ensures that data is made local to computational processess. 
 
-- HDFS is a software layer on top of a native file system** susch as ext4 or xfs. 
-- Interface to HDFS is similar to poxis-complient** such as Unix or Linux.
-- HDFS performs best with a modest number of large files.
+- **HDFS** is a software layer on top of a native file system** susch as ext4 or xfs. 
+- Interface to **HDFS** is similar to poxis-complient** such as Unix or Linux.
+- **HDFS** performs best with a modest number of large files.
 - HDFS is optimized for large, streaming reads of files.
 - HDFS is a **worm storage**, write once, read many.
 - All files are split into blocks, usually either 64 or 128MB. Its' configurable.
