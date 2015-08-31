@@ -29,3 +29,5 @@ Hive is a data warehouse system layer build on top of Hadoop. It's allows to def
 - **Hive** is not suited for real-time queries and row-level updates. Best used for batch jobs.
 
 ## Architecture
+
+![alt text](/assets/hive-architecture.png "Hive architecture")
