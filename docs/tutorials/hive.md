@@ -3,7 +3,7 @@
 The Apache Hive ™ data warehouse software facilitates querying and managing large datasets residing in distributed storage. Hive provides a mechanism to project structure onto this data and query the data using a SQL-like language called HiveQL. At the same time this language also allows traditional map/reduce programmers to plug in their custom mappers and reducers when it is inconvenient or inefficient to express this logic in HiveQL.
 
 - [Hive](https://hive.apache.org/) official website.
-- [Hive](http://archive.cloudera.com/cdh4/cdh/4/hive/language_manual/cli.html)command line options.
+- [Hive](http://archive.cloudera.com/cdh4/cdh/4/hive/language_manual/cli.html) command line options.
 
 ## Content
 
@@ -55,3 +55,21 @@ The **Hive** shell is tarted using the hive executable:
 Use the `-f` flag to specify a file that contains a hive script:
 
     $ hive -f query.hive
+
+## Table
+
+1. A **Hive Table** consists of:
+  - Data (typically a file or group of files in HDFS)
+  - Schemn (in the form data store in relational database)
+2. Schema and data are separate
+  - A schema can be defined for existing data
+  - Data can be added or removed independenlty
+  - Hive can be "pointed" at existing data
+3. Schema must be define if existing data in HDFS that you weant to use in **Hive**
+
+> Each row is comma delimited text. ***HiveQL* statements are terminated with a semicolon
+    
+    hive> CREATE TABLE mytable (name string, age int)
+        ROW FORMAT DELIMITE
+        FIELDS TERMINATED BY ';'
+        STORED AS TEXTFILE
