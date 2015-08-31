@@ -45,3 +45,12 @@ Pig and Hive work well together!
 3. Converts SQL queries into MapReduce jobs
   - User does not need to know MapReduce
 4. Supports plugging custom MapReduce scripts into queries
+
+The **Hive** shell is tarted using the hive executable:
+
+    $ hive
+    hive>
+
+Use the `-f` flag to specify a file that contains a hive script:
+
+    $ hive -f query.hive
