@@ -7,6 +7,7 @@ The Apache Hive ™ data warehouse software facilitates querying and managing la
 ## Content
 
 - Introduction
+- Architecture
 - HiveQL
 - Tables
 - Additional
@@ -31,3 +32,16 @@ Hive is a data warehouse system layer build on top of Hadoop. It's allows to def
 ## Architecture
 
 ![alt text](/assets/hive-architecture.png "Hive architecture")
+
+Pig and Hive work well together!
+
+## HiveQL
+
+1. HiveQL is similar to other SQLs
+  - Uses familiar relational database concepts
+  - Based on the SQL-92 specification
+2. Supports multi-table inserts via your code
+  - Accesses "Big Data" via tables 
+3. Converts SQL queries into MapReduce jobs
+  - User does not need to know MapReduce
+4. Supports plugging custom MapReduce scripts into queries
