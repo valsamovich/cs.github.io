@@ -27,3 +27,5 @@ Hive is a data warehouse system layer build on top of Hadoop. It's allows to def
 - **Hive** is not relational database. It's use a database to store metadata.
 - **Hive** designed for on-line transaction processing. Runs on Hadoop.
 - **Hive** is not suited for real-time queries and row-level updates. Best used for batch jobs.
+
+## Architecture
