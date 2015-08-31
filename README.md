@@ -10,6 +10,7 @@
 - [Bash](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/bash.md) is a Unix shell and command language.
 - [Design Patterns](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/design-patterns.md) is a general reusable solution to a problem in software design.
 - [Hadoop](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/hadoop.md) is a framework for distributed processing of very large data.
+- [Hive](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/hive.md)is a data warehouse infrastructure built on top of Hadoop.
 
 ## How to?
 
