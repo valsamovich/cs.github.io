@@ -9,6 +9,7 @@
 - [File](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/bash.md#file)
 - [Process](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/bash.md#process)
 - [Permissions](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/bash.md#permissions)
+- [scp](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/bash.md#scp)
 
 ## Search
 
@@ -121,3 +122,12 @@ Network Commands                          | Description
 `$ curl -O <url-to-file>`                 | Download `<file>` (via `HTTP[S] or FTP`)
 `$ ssh <username>@<host>`                 | Establish an `SSH` connection to `<host>` with user `<username>`
 `$ scp <file> <user>@<host>:/remote/path` | Copy `<file>` to a remote `<host>`
+
+## `scp`
+
+`scp` allows files to be copied to, from, or between different hosts. It uses ssh for data transfer and provides the same authentication and same level of security as `ssh`.
+
+    `scp <file> <env>:~/<directory>/` # Secure copy of the local host to the remote host  
+
+- [Example syntax for Secure Copy (scp)](http://www.hypexr.org/linux_scp_help.php)
+- [scp command Tutorial](https://www.garron.me/en/articles/scp.html)
