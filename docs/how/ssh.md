@@ -22,7 +22,7 @@ Once you have connected to the server, you will probably be asked to verify your
 
 In your VPS, the sshd server should already be running. If this is not the case, click on the *Console Access* button from your droplet page:
 
-![alt text](/assets/ssh-acceess.png "SSH - Console Access")
+![alt text](/assets/ssh-access.png "SSH - Console Access")
 
 You will be presented with a login screen:
 
