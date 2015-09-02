@@ -18,6 +18,7 @@
 - How to set [`JAVA_HOME`](https://github.com/valerysamovich/engineering/blob/master/docs/how/java.md) programmaticly?
 - How to work with [Web Servers](https://github.com/valerysamovich/engineering/blob/master/docs/how/servers.md)?
 - How to use [SSH](https://github.com/valerysamovich/engineering/blob/master/docs/how/ssh.md)?
+- How to use [Travis](http://www.codeaffine.com/2014/09/01/travis-continuous-integration-for-github-projects/) for GitHub projects.
 
 ## Bookmarks
 
