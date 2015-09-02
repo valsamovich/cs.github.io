@@ -9,12 +9,13 @@ The Apache Hive ™ data warehouse software facilitates querying and managing la
 
 ## Content
 
-- Introduction
-- Architecture
-- HiveQL
-- Tables
-- Additional
-
+- [Introduction](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/hive.md#introduction)
+- [Architecture](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/hive.md#architecture)
+- [HiveQL](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/hive.md#hiveql)
+- [Tables](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/hive.md#tables)
+- [Commands](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/hive.md#commands)
+- [Summary](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/hive.md#summary)
+- 
 ## Introduction
 
 Hive is a data warehouse system layer build on top of Hadoop. It's allows to define a structure for unstructured Big Data. It's simplifies analysis and queries with an SQL-like scripting language called **HiveQL** (Hive Query Language). 
@@ -75,6 +76,12 @@ Use the `-f` flag to specify a file that contains a hive script:
         ROW FORMAT DELIMITE
         FIELDS TERMINATED BY ';'
         STORED AS TEXTFILE
+
+## Commands
+
+- SQL to Hive [Cheat Sheet](http://hortonworks.com/wp-content/uploads/downloads/2013/08/Hortonworks.CheatSheet.SQLtoHive.pdf) SQL to Hive.
+- Hive Function [Cheat Sheet](http://www.qubole.com/resources/cheatsheet/hive-function-cheat-sheet/)
+- If abode don't work click [magic](http://lmgtfy.com/?q=+Hive+cheat+sheet)
 
 ## Summary
 
