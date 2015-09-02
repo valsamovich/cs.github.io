@@ -4,6 +4,7 @@ The Apache Hive ™ data warehouse software facilitates querying and managing la
 
 - [Hive](https://hive.apache.org/) official website.
 - [Hive](http://archive.cloudera.com/cdh4/cdh/4/hive/language_manual/cli.html) command line options.
+- [Cheat Sheet](http://hortonworks.com/wp-content/uploads/downloads/2013/08/Hortonworks.CheatSheet.SQLtoHive.pdf) SQL to Hive.
 
 ## Content
 
@@ -67,7 +68,7 @@ Use the `-f` flag to specify a file that contains a hive script:
   - Hive can be "pointed" at existing data
 3. Schema must be define if existing data in HDFS that you weant to use in **Hive**
 
-> Each row is comma delimited text. ***HiveQL* statements are terminated with a semicolon
+> Each row is comma delimited text. ***HiveQL** statements are terminated with a semicolon
     
     hive> CREATE TABLE myTable (name string, age int)
         ROW FORMAT DELIMITE
