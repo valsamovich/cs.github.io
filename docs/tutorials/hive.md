@@ -5,6 +5,7 @@ The Apache Hive ™ data warehouse software facilitates querying and managing la
 - [Hive](https://hive.apache.org/) official website.
 - [Hive](http://archive.cloudera.com/cdh4/cdh/4/hive/language_manual/cli.html) command line options.
 - [Cheat Sheet](http://hortonworks.com/wp-content/uploads/downloads/2013/08/Hortonworks.CheatSheet.SQLtoHive.pdf) SQL to Hive.
+- [Video](https://www.youtube.com/watch?v=Pn7Sp2-hUXE) tutorial.
 
 ## Content
 
@@ -75,7 +76,9 @@ Use the `-f` flag to specify a file that contains a hive script:
         FIELDS TERMINATED BY ';'
         STORED AS TEXTFILE
 
-`LOAD DATA` is use to import data in to `Hive` table:
+## Summary
 
-    hive> LOAD DATA LOCAL INPATH 'input/mydata/data.txt'` INTO TABLE myTable
-
+- Hive works with Hadoop to allow you to query and manage large-scale data using a familiar SQL-like interface.
+- Hive provides CLI access to the shell and Microsoft HD Insight provides console access.
+- Hive tables consist of data and schema; data and schema are separated for maximum flexibility.
+- Hive query language supports familiar SQL operations including joins, subqueries, order by, sort by, and so on.
