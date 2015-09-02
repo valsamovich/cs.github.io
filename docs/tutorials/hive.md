@@ -69,7 +69,12 @@ Use the `-f` flag to specify a file that contains a hive script:
 
 > Each row is comma delimited text. ***HiveQL* statements are terminated with a semicolon
     
-    hive> CREATE TABLE mytable (name string, age int)
+    hive> CREATE TABLE myTable (name string, age int)
         ROW FORMAT DELIMITE
         FIELDS TERMINATED BY ';'
         STORED AS TEXTFILE
+
+`LOAD DATA` is use to import data in to `Hive` table:
+
+    hive> LOAD DATA LOCAL INPATH 'input/mydata/data.txt'` INTO TABLE myTable
+
