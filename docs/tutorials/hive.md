@@ -80,8 +80,8 @@ Use the `-f` flag to specify a file that contains a hive script:
 ## Commands
 
 - SQL to Hive [Cheat Sheet](http://hortonworks.com/wp-content/uploads/downloads/2013/08/Hortonworks.CheatSheet.SQLtoHive.pdf) SQL to Hive.
-- Hive Function [Cheat Sheet](http://www.qubole.com/resources/cheatsheet/hive-function-cheat-sheet/)
-- If abode don't work click [magic](http://lmgtfy.com/?q=+Hive+cheat+sheet)
+- Hive Function [Cheat Sheet](http://www.qubole.com/resources/cheatsheet/hive-function-cheat-sheet/).
+- If abode don't work click [magic](http://lmgtfy.com/?q=+Hive+cheat+sheet).
 
 ## Summary
 
