@@ -15,7 +15,7 @@ The Apache Hive ™ data warehouse software facilitates querying and managing la
 - [Tables](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/hive.md#tables)
 - [Commands](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/hive.md#commands)
 - [Summary](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/hive.md#summary)
-- 
+
 ## Introduction
 
 Hive is a data warehouse system layer build on top of Hadoop. It's allows to define a structure for unstructured Big Data. It's simplifies analysis and queries with an SQL-like scripting language called **HiveQL** (Hive Query Language). 
