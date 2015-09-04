@@ -13,5 +13,6 @@
 
 ## Glossary
 
-**.NET Framework (.NET)** Microsoft’s comprehensive application development platform. It includes such components as ADO.NET and ASP.NET.
+**.NET Framework (.NET)** 
+  - Microsoft’s comprehensive application development platform. It includes such components as ADO.NET and ASP.NET.
 
