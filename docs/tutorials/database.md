@@ -12,14 +12,14 @@
 ## The Relational Model.
 
 The characteristics of a relation:
-- Rows contain data about entity.
-- Columns contain data about attributes of the entity.
+- Rows contain data about entity
+- Columns contain data about attributes of the entity
 - Cells of the table holds a single value.
-- All entries in a column are of the same kind.
+- All entries in a column are of the same kind
 - Each column has a unique name.
 - The order of the column is unimportant
 - The order of the rows is unimportant
-- No two rows may hold identical sets of data values.
+- No two rows may hold identical sets of data values
 
 Example of the relation structure:
 
