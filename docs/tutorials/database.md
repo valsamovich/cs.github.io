@@ -16,7 +16,7 @@ The characteristics of a relation:
 - Columns contain data about attributes of the entity
 - Cells of the table holds a single value.
 - All entries in a column are of the same kind
-- Each column has a unique name.
+- Each column has a unique name
 - The order of the column is unimportant
 - The order of the rows is unimportant
 - No two rows may hold identical sets of data values
