@@ -9,6 +9,12 @@
 
 ## Introduction
 
+Database system has four components:
+- Users
+- Database application
+- Database management system (DBMS)
+- Database
+
 ## The Relational Model.
 
 The characteristics of a relation:
@@ -21,7 +27,7 @@ The characteristics of a relation:
 - The order of the rows is unimportant
 - No two rows may hold identical sets of data values
 
-Example of the relation structure:
+Example of the **relation structure**:
 
     TABLE_NAME(Column1, Column2, Column3...., LastColumn)
 
