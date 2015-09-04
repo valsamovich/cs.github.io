@@ -1,7 +1,0 @@
-# Commands
-
-## SSH
-
-## HDFS
-
-## Hive
