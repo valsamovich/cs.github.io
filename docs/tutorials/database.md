@@ -51,10 +51,11 @@ Example of the **relation structure**:
 - A key that contains two or more attributes is called a **composite key**.
   - Composite keys, like one column keys, can be unique or nonunique.  
 - **Candidate keys** are keys that uniquely identify each row in a relation.
-- The **primary key** is the candidate key that ischosen as the key that the DMBS will use unique identify each row in a relation
+- The **primary key** is the candidate key that is chosen as the key that the DMBS will use unique identify each row in a relation.
 - Any "losing" candidate keys will still be present in the relation, and each will be known as an **alternate key**
+- A **surrogate key** is a column with a unique, DBMS-assigned identifier that has been added to a table to be the primary key. The unique values of the surrogate key are assigned by the DBMS each time a row is created, and the values never change.
+- The attribute in the second relation that holds relationship values is referred to as a **Foreign key**.
 
-> 
 
 ## Glossary
 
