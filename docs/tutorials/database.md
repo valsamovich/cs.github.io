@@ -54,7 +54,8 @@ Example of the **relation structure**:
 - The **primary key** is the candidate key that is chosen as the key that the DMBS will use unique identify each row in a relation.
 - Any "losing" candidate keys will still be present in the relation, and each will be known as an **alternate key**
 - A **surrogate key** is a column with a unique, DBMS-assigned identifier that has been added to a table to be the primary key. The unique values of the surrogate key are assigned by the DBMS each time a row is created, and the values never change.
-- The attribute in the second relation that holds relationship values is referred to as a **Foreign key**.
+- The attribute in the second relation that holds relationship values is referred to as a **Foreign key**. In most casee. it is important that every value of a foreign key matches a value of the primary key. This rule called *referential integrity constraint*.
+
 
 
 ## Glossary
@@ -496,7 +497,7 @@ Example of the **relation structure**:
 
 **Recursive relationship** A relationship among entities, objects, or rows of the same type. For example, if CUSTOMERs refer other CUSTOMERs, the relationship is recursive.
 
-**A relationship constraint on foreign key values. A referential integrity constraint specifies that the values of a foreign key must be a proper subset of the values of the primary key to which it refers.**
+**A relationship constraint** on foreign key values. A referential integrity constraint specifies that the values of a foreign key must be a proper subset of the values of the primary key to which it refers.
 
 **Relation** A two-dimensional array that contains single-value entries and no duplicate rows. The meaning of the columns is the same in every row. The order of the rows and columns is immaterial.
 
