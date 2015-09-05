@@ -18,14 +18,14 @@ Database system has four components:
 ## The Relational Model
 
 The characteristics of a relation:
-- Rows contain data about entity
-- Columns contain data about attributes of the entity
+- Rows contain data about entity.
+- Columns contain data about attributes of the entity.
 - Cells of the table holds a single value.
-- All entries in a column are of the same kind
-- Each column has a unique name
-- The order of the column is unimportant
-- The order of the rows is unimportant
-- No two rows may hold identical sets of data values
+- All entries in a column are of the same kind.
+- Each column has a unique name.
+- The order of the column is unimportant.
+- The order of the rows is unimportant.
+- No two rows may hold identical sets of data values.
 
 Example of the **relation structure**:
 
@@ -43,9 +43,10 @@ Example of the **relation structure**:
     Relation | Tuple  | Attribute
 ```
 
-**Types of Keys**
+**Keys**
 
-- A **key** is one or more column of a relation that is used to identify a row.
+A **key** is one or more column of a relation that is used to identify a row. Types of Keys:
+
 - **Unique key** is a key that identifies a unique row.
 - **Nonunique key** is a key that potentially identifies more than one row.
 - A key that contains two or more attributes is called a **composite key**.
@@ -55,6 +56,33 @@ Example of the **relation structure**:
 - Any "losing" candidate keys will still be present in the relation, and each will be known as an **alternate key**
 - A **surrogate key** is a column with a unique, DBMS-assigned identifier that has been added to a table to be the primary key. The unique values of the surrogate key are assigned by the DBMS each time a row is created, and the values never change.
 - The attribute in the second relation that holds relationship values is referred to as a **Foreign key**. In most casee. it is important that every value of a foreign key matches a value of the primary key. This rule called *referential integrity constraint*.
+
+**Functional dependency**
+
+      CookieCost = NumberOfBoxes x 5
+
+A more general way to express the relationship between `CookieCost` and `NumberOfBoxe`x is to say that `CookieCost` depends upon `NumberOfBoxes`. More formally we can say that CookieCost is **functional dependent** on `NumberOfBoxes`. Such a statement is called a **functional dependency**, where `NumberOfBoxes` is **dererminant**, and can be written as follows:
+
+      NumberOfBoxes -> CookieCost
+
+**Normalization**
+
+**Normalization** is the process (or set of steps for) breaking a table or relation with more that one theme into a set of tables such that each has only theme. Example of **Normalization**:
+
+      # Before normalization
+      ADVISER_LIST (AdviserID, AdviserName, Department, Phone, Office, StudentNumber, StudentName)
+      
+      # After normalization
+      StudentNumber → (AdviserID, AdviserName, Department, Phone, Office, StudentName)
+      ADVISER_LIST (AdviserID, AdviserName, Department, Phone, Office, StudentNumber, StudentName)
+                                                                       -------------
+
+From the discussion so far, we can formulate the following design principles for what we can call a **well-formed relation**:
+
+1. For a relation to be considered well formed, every determinant must be a candidate key.
+2. Any relation that is not well formed should be broken into two or more relations that are well formed.
+
+> Other defined normal forms: Boyce-Codd Normal Form (BCNF), first normal form (1NF).
 
 
 
