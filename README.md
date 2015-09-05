@@ -11,6 +11,7 @@ Collection of syntax tutorials, how to tutorials, bookmarks, [glossary](https://
 - [Design Patterns](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/design-patterns.md) is a general reusable solution to a problem in software design.
 - [Hadoop](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/hadoop.md) is a framework for distributed processing of very large data.
 - [Hive](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/hive.md) is a data warehouse infrastructure built on top of Hadoop.
+- [Database](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md) as a structured set of data held in a computer.
 
 ## How to?
 
