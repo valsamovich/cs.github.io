@@ -1,6 +1,6 @@
 # Engineering
 
-Collection of syntax tutorials, how to [tutorials](https://github.com/valerysamovich/engineering/blob/master/README.md#tutorials), [bookmarks](https://github.com/valerysamovich/engineering/blob/master/README.md#bookmarks), [glossary](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/glossary.md) and shortcuts for Unix, Git, Markdown, Zend Server, IDEs, Java, Web Services, Design Patterns, and etc. Contais 
+Collection of syntax tutorials, how to [tutorials](https://github.com/valerysamovich/engineering/blob/master/README.md#tutorials), [bookmarks](https://github.com/valerysamovich/engineering/blob/master/README.md#bookmarks), [glossary](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/glossary.md) and shortcuts for Unix, Git, Markdown, Zend Server, IDEs, Java, Web Services, Design Patterns, and etc.
 
 ## Tutorials
 
