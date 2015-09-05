@@ -45,15 +45,15 @@ Example of the **relation structure**:
 
 **Types of Keys**
 
-Key       | Description
-----------|----------------------------------------------------------------------------------
-Unique    | A key that identifies a unique row.
-Nonunique | A key that potentially identifies more than one row.
-Composite | A key of a relation that consists of two or more columns.
-Candidate | An attribute or a group of attributes that identifies a unique row in a relation. 
-Primary   | A candidate key selected to be the key of a relation.
+- A **key** is one or more column of a relation that is used to identify a row.
+- **Unique key** is a key that identifies a unique row.
+- **Nonunique key** is a key that potentially identifies more than one row.
+- A key that contains two or more attributes is called a **composite key**.
+  - Composite keys, like one column keys, can be unique or nonunique.  
+- **Candidate keys** are keys that uniquely identify each row in a relation.
+- The **primary key** is the candidate key that ischosen as the key that the DMBS will use unique identify each row in a relation
+- Any "losing" candidate keys will still be present in the relation, and each will be known as an **alternate key**
 
-> Composite keys, like one column keys, can be unique or nonunique.
 > 
 
 ## Glossary
