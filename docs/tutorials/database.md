@@ -33,15 +33,15 @@ Example of the **relation structure**:
 
 > Relation structures, such as one above, are part of a database schema. A **database schema** is a design on which a database and its associated applications are build.
 
-**Relational Structure**
+**Relational Structure** (Equivalent Sets of terms):
 
-Equivalent Sets of terms:
-
-Table    | Row    | Column
----------|--------|----------
-File     | Record | Field
-Relation | Tuple  | Attribute
-
+```
+    Table    | Row    | Column
+    ---------|--------|----------
+    File     | Record | Field
+    ---------|--------|----------
+    Relation | Tuple  | Attribute
+```
 
 **Types of Keys**
 
