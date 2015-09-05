@@ -1,8 +1,3 @@
-Other
---------
-
-**Proxy server** is a server (a computer system or an application) that acts as an intermediary for requests from clients seeking resources from other **servers**.
-
 # Glossary
 
 **.NET Framework (.NET)** Microsoft’s comprehensive application development platform. It includes such components as ADO.NET and ASP.NET.
