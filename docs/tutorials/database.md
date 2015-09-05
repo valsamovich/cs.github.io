@@ -31,15 +31,30 @@ Example of the **relation structure**:
 
     TABLE_NAME(Column1, Column2, Column3...., LastColumn)
 
-Equivalent Sets of terms
+> Relation structures, such as one above, are part of a database schema. A **database schema** is a design on which a database and its associated applications are build.
 
-```shell
-    Table    | Row    | Column
-    ---------|--------|----------
-    File     | Record | Field
-    ---------|--------|----------
-    Relation | Tuple  | Attribute
-```
+**Relational Structure**
+
+Equivalent Sets of terms:
+
+Table    | Row    | Column
+---------|--------|----------
+File     | Record | Field
+Relation | Tuple  | Attribute
+
+
+**Types of Keys**
+
+Key       | Description
+----------|----------------------------------------------------------------------------------
+Unique    | A key that identifies a unique row.
+Nonunique | A key that potentially identifies more than one row.
+Composite | A key of a relation that consists of two or more columns.
+Candidate | An attribute or a group of attributes that identifies a unique row in a relation. 
+Primary   | A candidate key selected to be the key of a relation.
+
+> Composite keys, like one column keys, can be unique or nonunique.
+> 
 
 ## Glossary
 
@@ -283,7 +298,7 @@ Equivalent Sets of terms
 
 **ID-dependent entity** An entity that cannot logically exist without the existence of another entity. APPOINTMENT, for example, cannot exist without CLIENT to make the appointment. To be an ID-dependent entity, the identifier of the entity must contain the identifier of the entity on which it depends. Such entities are a subset of a weak entity. See also [existence-dependent entity](), and [weak entity]().
 
-**Identifier** In an entity, a group of one or more attributes that determine entity instances. See also [nonunique identifier](), and [unique identifier]().
+**Identifier** In an entity, a group of one or more attributes that determine entity instances.
 
 **Identifying relationship** A relationship that is used when the child entity is ID-dependent upon the parent entity.
 
@@ -303,8 +318,6 @@ Equivalent Sets of terms
 
 **Information Engineering (IE) model** An E-R model developed by James Martin.
 
-**Inner join** See [join]().
-
 **Integrated Definition 1, Extended (IDEF1X)** A version of the entity-relationship model, adopted as a national standard, but difficult to understand and use. Most organizations use a simpler E-R version like the crow’s foot model.
 
 **Integrated Development Environment (IDE)** An application that provides a programmer or application developer with a complete set of development tools in one package.
@@ -323,7 +336,7 @@ Equivalent Sets of terms
 
 **Java Server Pages (JSP)** A combination of HTML and Java that is compiled into a servlet.
 
-**Join operation** or **Natural join** A relational algebra operation on two relations, A and B, that produces a third relation, C. A row of A is concatenated with a row of B to form a new row in C if the rows in A and B meet restrictions concerning their values. For example, A1 is an attribute in A, and B1 is an attribute in B. The join of A with B in which (A1 = B1) will result in a relation, C, having the concatenation of rows in A and B in which the value of A1 is equal to the value of B1. In theory, restrictions other than equality are allowed—a join could be made in which A1 < B1. However, such non-equal joins are not used in practice. Also known as inner join.
+**Join operation** or **Join** A relational algebra operation on two relations, A and B, that produces a third relation, C. A row of A is concatenated with a row of B to form a new row in C if the rows in A and B meet restrictions concerning their values. For example, A1 is an attribute in A, and B1 is an attribute in B. The join of A with B in which (A1 = B1) will result in a relation, C, having the concatenation of rows in A and B in which the value of A1 is equal to the value of B1. In theory, restrictions other than equality are allowed—a join could be made in which A1 < B1. However, such non-equal joins are not used in practice. Also known as inner join.
 
 ## K
 
