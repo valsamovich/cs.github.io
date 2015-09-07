@@ -22,7 +22,7 @@ The components of a **database system** are:
 - Database applications (one or more)
 - Users
 
-A **database* is a self-describing collection of related records. A **relational database** is a self-describing collection of related tables. A database is self-describing because it contains a description of its contents within itself, which is known as metadata. Tables are related by storing linking values of a common column. The contents of a database are user data; metadata; supporting structures, such as indexes; and sometimes application metadata.
+A **database** is a *self-describing collection of related records*. A **relational database** is a self-describing collection of related tables. A database is self-describing because it contains a description of its contents within itself, which is known as metadata. Tables are related by storing linking values of a common column. The contents of a database are user data; metadata; supporting structures, such as indexes; and sometimes application metadata.
 
 A **database management system (DBMS)** is a large, complicated program used to *create*, *process*, and *administer a database*. DBMS products are almost always licensed from software vendors. Specific functions of a DBMS are summarized below:
 
@@ -41,7 +41,7 @@ The functions of **database applications** are to *create and process forms*, to
 
 DBMS products for personal database systems provide functionality for application development and database management. They hide considerable complexity, but at a cost: Requirements unanticipated by DBMS features cannot be readily implemented. Enterprise-class database systems include multiple applications that might be written in multiple languages. These systems may support hundreds or thousands of users.
 
-An example of a **personal database system* is **Microsoft Access 2013**. Examples of enterprise-class DBMS products include Microsoft SQL Server 2014, Oracle MySQL 5.6, and Oracle Database Express Edition 11 Release 2. NoSQL refers to nonrelational databases used in Web 2.0 applications such as Facebook and Twitter. NoSQL databases are discussed in ... and Big Data.
+An example of a *personal database system* is **Microsoft Access 2013**. Examples of enterprise-class DBMS products include Microsoft SQL Server 2014, Oracle MySQL 5.6, and Oracle Database Express Edition 11 Release 2. NoSQL refers to nonrelational databases used in Web 2.0 applications such as Facebook and Twitter. NoSQL databases are discussed in ... and Big Data.
 
 ## The Relational Model
 
