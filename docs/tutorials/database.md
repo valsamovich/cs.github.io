@@ -9,11 +9,13 @@
 
 ## Introduction
 
-Database system has four components:
-- Users
-- Database application
-- Database management system (DBMS)
-- Database
+The importance of database processing increases every day because databases are used in information systems everywhere—and increasingly so. The purpose of this book is to teach you essential database concepts and to help you get started using and learning database technology. 
+
+The purpose of a database is to help people keep track of things. Lists can be used for this purpose, but if a list involves more than one theme modification problems will occur when data are inserted, updated, or deleted.
+
+Relational databases store data in the form of tables. Almost always, the tables are designed so that each table stores data about a single theme. Lists that involve multiple themes need to be broken up and stored in multiple tables, one for each theme. When this is done, a column needs to be added to link the tables to each other so that the relationship from a row in one table to a row in another table can be shown.
+
+
 
 ## The Relational Model
 
