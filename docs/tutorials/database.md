@@ -30,6 +30,11 @@ A database management system (DBMS) is a large, complicated program used to crea
 - Provide security
 - Perform backup and recovery
 
+The functions of database applications are to create and process forms, to process user queries, and to create and process reports. Application programs also execute specific application logic and control the application. Users provide data and data changes and read data in forms, queries, and reports.
+
+DBMS products for personal database systems provide functionality for application development and database management. They hide considerable complexity, but at a cost: Requirements unanticipated by DBMS features cannot be readily implemented. Enterprise-class database systems include multiple applications that might be written in multiple languages. These systems may support hundreds or thousands of users.
+
+An example of a personal database system is Microsoft Access 2013, which is discussed in this book in chapter sections titled “The Access Workbench.” These sections cover all the basic knowledge that you need to create and use databases in Microsoft Access 2013.Examples of enterprise-class DBMS products include Microsoft SQL Server 2014, Oracle MySQL 5.6, and Oracle Database Express Edition 11 Release 2. Information about these DBMS products is provided in , “Getting Started with Microsoft SQL Server 2014 Express Edition”; , “Getting Started with Oracle Database Express Edition 11g Release 2”; and , “Getting Started with Oracle MySQL 5.6 Community Server.” NoSQL refers to nonrelational databases used in Web 2.0 applications such as Facebook and Twitter. NoSQL databases are discussed in Chapter 8 and big Data.
 
 ## The Relational Model
 
