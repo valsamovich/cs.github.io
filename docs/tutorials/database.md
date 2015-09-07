@@ -9,12 +9,26 @@
 
 ## Introduction
 
-The importance of database processing increases every day because databases are used in information systems everywhere—and increasingly so. The purpose of this book is to teach you essential database concepts and to help you get started using and learning database technology. 
+The importance of database processing increases every day because databases are used in information systems everywhere—and increasingly so. The purpose of a database is to help people keep track of things. Lists can be used for this purpose, but if a list involves more than one theme modification problems will occur when data are inserted, updated, or deleted.
 
-The purpose of a database is to help people keep track of things. Lists can be used for this purpose, but if a list involves more than one theme modification problems will occur when data are inserted, updated, or deleted.
+**Relational databases** store data in the form of tables. Almost always, the **tables** are designed so that each table stores data about a single theme. **Lists** that involve multiple themes need to be broken up and stored in multiple tables, one for each theme. When this is done, a column needs to be added to link the tables to each other so that the relationship from a row in one table to a row in another table can be shown.
 
-Relational databases store data in the form of tables. Almost always, the tables are designed so that each table stores data about a single theme. Lists that involve multiple themes need to be broken up and stored in multiple tables, one for each theme. When this is done, a column needs to be added to link the tables to each other so that the relationship from a row in one table to a row in another table can be shown.
+**Structured Query Language (SQL)** is an international language for processing tables in relational databases. You can use SQL to join together and *display data stored in separate tables*, *create new tables*, and *query data from tables* in many ways. You can also use **SQL** to *insert*, *update*, and *delete* data.
 
+The components of a database system are the **database**, the **database management system (DBMS)**, one or more **database applications*, and **users**. A **database* is a self-describing collection of related records. A relational database is a self-describing collection of related tables. A database is self-describing because it contains a description of its contents within itself, which is known as metadata. Tables are related by storing linking values of a common column. The contents of a database are user data; metadata; supporting structures, such as indexes; and sometimes application metadata.
+
+A database management system (DBMS) is a large, complicated program used to create, process, and administer a database. DBMS products are almost always licensed from software vendors. Specific functions of a DBMS are summarized bewlow:
+
+- Create database
+- Create tables
+- Create supporting structures (e.g., indexes)
+- Read database data
+- Modify(insert, update, or delete) database data
+- Maintain database structures
+- Enforce rules
+- Control concurrency
+- Provide security
+- Perform backup and recovery
 
 
 ## The Relational Model
