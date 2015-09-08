@@ -45,7 +45,10 @@ An example of a *personal database system* is **Microsoft Access 2013**. Example
 
 ## The Relational Model
 
-The characteristics of a relation:
+The **relational model** is the most important standard in database processing today. It was first published by **E. F. Codd** in 1970. Today, it is used for the *design and implementation of almost every commercial database*.
+
+An **entity** is something of importance to a user that needs to be represented in a database. A **relation** is a *two-dimensional table that has the characteristics* listed below:
+
 - Rows contain data about entity.
 - Columns contain data about attributes of the entity.
 - Cells of the table holds a single value.
@@ -61,29 +64,18 @@ Example of the **relation structure**:
 
 > Relation structures, such as one above, are part of a database schema. A **database schema** is a design on which a database and its associated applications are build.
 
-**Relational Structure** (Equivalent Sets of terms):
+In the database world in general, the term **table** is used synonymously with the term **relation**. Three sets of terminology are used for relational structures. The terms **table**, **row**, and **column** are used most commonly, but **file**, **record**, and **field** are sometimes used in traditional data processing. Theorists also use the terms **relation**, **tuple**, and **attribute** for the same three constructs. Sometimes these terms are mixed and matched. Strictly speaking, a *relation may not have duplicate rows*; however, sometimes this condition is relaxed because eliminating duplicates can be a time-consuming process.
 
-```
-    Table    | Row    | Column
-    ---------|--------|----------
-    File     | Record | Field
-    ---------|--------|----------
-    Relation | Tuple  | Attribute
-```
+Table    | Row    | Column
+---------|--------|----------
+File     | Record | Field
+Relation | Tuple  | Attribute
 
-**Keys**
+A **key** is one or more columns of a relation that is used to identify a row. A **unique key** identifies a single row; a **nonunique key** identifies several rows. A **composite key** is a key that has two or more attributes. A relation has one primary key, which must be a unique key. A relation may also have additional unique keys, called **candidate keys**. A primary key is used to represent the table in relationships, and many DBMS products use values of the primary key to organize table storage. In addition, an index normally is constructed to provide fast access via primary key values. An **ideal primary key** is *short*, *numeric*, and *never changes*.
 
-A **key** is one or more column of a relation that is used to identify a row. Types of Keys:
+A **surrogate key* is a unique numeric value that is appended to a relation to serve as the primary key. Surrogate key values have no meaning to the user and are normally hidden on forms, query results, and reports.
 
-- **Unique key** is a key that identifies a unique row.
-- **Nonunique key** is a key that potentially identifies more than one row.
-- A key that contains two or more attributes is called a **composite key**.
-  - Composite keys, like one column keys, can be unique or nonunique.  
-- **Candidate keys** are keys that uniquely identify each row in a relation.
-- The **primary key** is the candidate key that is chosen as the key that the DMBS will use unique identify each row in a relation.
-- Any "losing" candidate keys will still be present in the relation, and each will be known as an **alternate key**
-- A **surrogate key** is a column with a unique, DBMS-assigned identifier that has been added to a table to be the primary key. The unique values of the surrogate key are assigned by the DBMS each time a row is created, and the values never change.
-- The attribute in the second relation that holds relationship values is referred to as a **Foreign key**. In most casee. it is important that every value of a foreign key matches a value of the primary key. This rule called *referential integrity constraint*.
+A **foreign key** is an attribute that is placed in a relation to represent a relationship. A foreign key is the primary key of a table that is different from (foreign to) the table in which it is placed. Primary and foreign keys may have different names, but they must use the same data types and sets of values. A **referential integrity constraint** specifies that the values of a foreign key be present in the primary key.
 
 **Functional dependency**
 
