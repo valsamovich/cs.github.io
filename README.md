@@ -7,7 +7,7 @@ Collection of syntax tutorials, how to [tutorials](https://github.com/valerysamo
 - [Java](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/java-tutorial.md) is a general-purpose computer programming language.
 - [Git](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/git.md) is a free and open source distributed version control system.
 - [Web Service](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/web-services.md) are web application components.
-- [Bash](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/bash.md) is a Unix shell and command language.
+- [Bash](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/bash.md) is a Unix shell and command language + [`scp`](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/bash.md#scp).
 - [Design Patterns](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/design-patterns.md) is a general reusable solution to a problem in software design.
 - [Hadoop](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/hadoop.md) is a framework for distributed processing of very large data.
 - [Hive](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/hive.md) is a data warehouse infrastructure built on top of Hadoop.
