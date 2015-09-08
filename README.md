@@ -20,6 +20,7 @@ Collection of syntax tutorials, how to [tutorials](https://github.com/valerysamo
 - How to work with [Web Servers](https://github.com/valerysamovich/engineering/blob/master/docs/how/servers.md)?
 - How to use [SSH](https://github.com/valerysamovich/engineering/blob/master/docs/how/ssh.md) (syntax and configuration)?
 - How to use [Travis](http://www.codeaffine.com/2014/09/01/travis-continuous-integration-for-github-projects/) for GitHub projects?
+- How to [Install JAVA 8 (JDK 8u60)](How to Install JAVA 8 (JDK 8u60) on Ubuntu & LinuxMint Via PPA) on Ubuntu & LinuxMint Via PPA?
 
 ## Bookmarks
 
