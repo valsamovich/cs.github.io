@@ -24,35 +24,37 @@ function setJava8 () {
 ### Java ###
 alias java7=setJava7
 alias java8=setJava8
-alias h=history
 
 echo "    ### ~/.bash_profile loaded"
 
 ### Alias ###
 alias c='pushd'
 alias d='popd'
-alias cdev='c ~/dev > /dev/null'
-alias cdown='c /Users/samov004/Downloads > /dev/null'
-alias cfs='c /Users/samov004/dev/lrn/node/rest/fake-service > /dev/null'
-alias cl='clear'
-alias cll='cl; ll'
 alias ea='c ~ > /dev/null; vim .bash_profile; d > /dev/null'
-alias gb='git branch'
-alias gs='cl; git status'
-alias h='history'
-alias l='cl; ls'
-alias ll='cl; ls -la'
 alias rs='c ~ > /dev/null; . .bash_profile; d > /dev/null'
+
+### Bash  ###
+alias cl='clear'
+alias hi='history'
+alias ll='cl; ls -la'
 alias ls='ls -GFh'
-alias testbrowser='open -a "Google Chrome" --args --profile-directory=EmptyUser'
-alias cdoc='c ~/Documents > /dev/null'
-alias cdown='c ~/Downloads > /dev/null'
 alias cper='sudo chmod 777 *'
 
+### Git ###
+alias gbra='git branch'
+alias gsta='git status'
+alias gpull='git pull upstream master'
+alias gpush='git push origin master'
+
+### Directories ###
+alias cchr='open -a "Google Chrome" --args --profile-directory=EmptyUser'
 alias cjvm='c /Library/Java/JavaVirtualMachines > /dev/null'
 alias cmav='c /usr/local/apache-maven-3.3.3 > /dev/null'
 alias ctom='c /usr/local/apache-tomcat-8.0.24 > /dev/null'
-alias cgit='c /Users/samov004/GitHub > /dev/null'
+alias cgit='c ~/GitHub > /dev/null'
+alias cdown='c ~/Downloads > /dev/null'
+alias cdoc='c ~/Documents > /dev/null'
+alias catom='c /applications/atom.app/Contents/MacOS/atom > /dev/null'
 
 ### Color ###
 export PS1="\[$(tput bold)\]\[$(tput setaf 4)\]\u\[$(tput sgr0)\]\[$(tput setaf 4)\]@\[$(tput setaf 1)\] \w\[$(tput setaf 3)\] (\$(git branch 2>/dev/null | grep '^*' | colrm 1 2))\[$(tput sgr0)\] \$ "
@@ -60,8 +62,6 @@ export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 
 set -o vi
-
-source ~/.profile
 
 [[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh # This loads NVM
 
