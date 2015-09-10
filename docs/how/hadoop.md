@@ -2,7 +2,7 @@
 
 The Cloudera distribution of Apache Hadoop and other related open-source projects, including Cloudera Impala and Cloudera Search. CDH also provides security and integration with numerous hardware and software solutions.
 
-- http://www.cloudera.com/content/cloudera/en/documentation/core/latest/topics/introduction.html
+- [Cloudera Documentation Set](http://www.cloudera.com/content/cloudera/en/documentation/core/latest/topics/introduction.html)
 
 Prerequisits
 
