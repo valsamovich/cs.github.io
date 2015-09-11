@@ -8,6 +8,7 @@ The **Cloudera distribution of Apache Hadoop** and other related open-source pro
 
 - Install [Virtual Box](http://sites.miis.edu/kb/2012/06/19/how-to-install-virtualbox-and-windows-on-your-mac/) Mac/Windows.
 - Install [Ubuntu Server](https://www.youtube.com/watch?v=MaAqAx77COM).
+  - [Cloning a VM in Virtual Box](https://www.youtube.com/watch?v=Qy1cdF2mtoU) 
 - Install [Java](http://tecadmin.net/install-oracle-java-8-jdk-8-ubuntu-via-ppa/) on Ubuntu Server.
 
 ## Steps
