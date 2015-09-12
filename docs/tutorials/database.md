@@ -5,6 +5,7 @@
 - Database Fundamentals
   - [Introduction](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#introduction)
   - [Relational Model](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#the-relational-model)
+  - [Structured Query Language](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#structured-query-language) (SQL).
 - Glossary
 
 ## Introduction
@@ -97,6 +98,12 @@ A **functional dependency** occurs when the value of one attribute (or set of at
       ADVISER_LIST (AdviserID, AdviserName, Department, Phone, Office, StudentNumber, StudentName)
                                                                        -------------
 A process for normalizing relations into BNCF is shown, and a discussion of multivalued dependencies and 4NF is found. According to this process, relations that have normalization problems are divided into two or more relations that do not have such problems. Foreign keys are established between the old and new relations, and referential integrity constraints are created.
+
+## Structured Query Language
+
+**Structured Query Language** (SQL) is a data sublanguage that has constructs for defining and processing a database. **SQL** has several components, two of which are discussed here: a **data definition language (DDL)**, which **is used for creating database tables and other structures*, and a **data manipulation language (DML)**, which is *used to query and modify database data*. **SQL** can be embedded into scripting languages, such as **VBScript**, or programming languages, such as **Java** and **C#**. In addition, **SQL** statements *can be processed from a command window*. **SQL** was developed by **IBM** and has been endorsed as a national standard by the **American National Standards Institute (ANSI)**. There have been several versions of **SQL**. This discussion is based on **SQL-92**, but later versions exist that have added, in particular, support for **Extensible Markup Language (XML)**. Modern **DBMS** products provide graphic facilities for accomplishing many of the tasks that **SQL** does. Use of **SQL** is mandatory for programmatically creating **SQL** statements.
+
+**Microsoft Access 2013** uses a variant of **SQL** known as **ANSI-89 SQL**, or **Microsoft Jet SQL**, which differs significantly from **SQL-92**. Not all SQL statements written in SQL-92 and later versions run in Access ANSI-89 SQL.
 
 ## Glossary
 
