@@ -111,7 +111,9 @@ Standard data types are **Char**, **VarChar**, **Integer**, **Numeric**, and **D
 
 If a primary key has only one column, you can define it by using the primary key constraint. Another way to define a primary key is to use the table constraint. You can use such constraints to define single-column and multicolumn primary keys, and you can also implement referential integrity constraints by defining foreign keys. Foreign key definitions can specify that updates and deletions should cascade.
 
-After the tables and constraints are created, you can add data by using The **SQL INSERT** statement and you can query data by using The SQL SELECT statement. The basic format of the SQL SELECT statement is SELECT (column names or the asterisk symbol [*]), **FROM** (table names, separated by commas if there is more than one), WHERE (conditions). You can use SELECT to obtain specific columns, specific rows, or both.
+After the tables and constraints are created, you can add data by using The **SQL INSERT** statement and you can query data by using The **SQL SELECT** statement. The basic format of the SQL SELECT statement is SELECT (column names or the asterisk symbol [*]), **FROM** (table names, separated by commas if there is more than one), WHERE (conditions). You can use SELECT to obtain specific columns, specific rows, or both.
+
+    SELECT *  FROM student;
 
 Conditions after **WHERE** require single quotes around values for Char and VarChar columns. However, single quotes are not used for Integer and Numeric columns. You can specify compound conditions with **AND** and **OR**. You can use sets of values with **IN** (match any in the set) and NOT IN (not match any in the set). You can use the wildcard symbols _ and % (? and * in Microsoft Access) with LIKE to specify a single unknown character or multiple unknown characters, respectively. You can use **IS NULL** to test for null values.
 
