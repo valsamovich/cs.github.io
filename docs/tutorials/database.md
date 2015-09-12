@@ -101,9 +101,27 @@ A process for normalizing relations into BNCF is shown, and a discussion of mult
 
 ## Structured Query Language
 
-**Structured Query Language** (SQL) is a data sublanguage that has constructs for defining and processing a database. SQL has several components, two of which are discussed here: a **data definition language (DDL)**, which *is used for creating database tables and other structures*, and a **data manipulation language (DML)**, which is *used to query and modify database data*. SQL can be embedded into scripting languages, such as **VBScript**, or programming languages, such as **Java** and **C#**. In addition, SQL statements *can be processed from a command window*. SQL was developed by **IBM** and has been endorsed as a national standard by the **American National Standards Institute (ANSI)**. There have been several versions of SQL. This discussion is based on SQL-92, but later versions exist that have added, in particular, support for **Extensible Markup Language (XML)**. Modern **DBMS** products provide graphic facilities for accomplishing many of the tasks that SQL does. Use of SQL is mandatory for programmatically creating SQL statements.
+**Structured Query Language** (SQL) is a data sublanguage that has constructs for defining and processing a database. SQL has several components, two of which are discussed here: a **data definition language (DDL)**, which *is used for creating database tables and other structures*, and a **data manipulation language (DML)**, which is *used to query and modify database data*. SQL can be embedded into scripting languages, such as VBScript, or programming languages, such as Java and **C#**. In addition, SQL statements *can be processed from a command window*. SQL was developed by **IBM** and has been endorsed as a national standard by the **American National Standards Institute (ANSI)**. There have been several versions of SQL. This discussion is based on SQL-92, but later versions exist that have added, in particular, support for **Extensible Markup Language (XML)**. Modern **DBMS** products provide graphic facilities for accomplishing many of the tasks that SQL does. Use of SQL is mandatory for programmatically creating SQL statements.
 
 > Microsoft Access 2013 uses a variant of SQL known as **ANSI-89 SQL**, or Microsoft Jet SQL, which differs significantly from **SQL-92**. Not all SQL statements written in SQL-92 and later versions run in Access ANSI-89 SQL.
+
+The **SQL CREATE TABLE** statement is *used to create relations*. Each column is described in three parts: the column name, the data type, and optional column constraints. Column constraints considered in this chapter are PRIMARY KEY, FOREIGN KEY, NULL, NOT NULL, and UNIQUE. The **DEFAULT** keyword (not considered a constraint) is also considered. If no column constraint is specified, the column is set to NULL.
+
+Standard data types are **Char**, **VarChar**, **Integer**, **Numeric**, and **DateTime** (supplemented by DBMS vendors).
+
+If a primary key has only one column, you can define it by using the primary key constraint. Another way to define a primary key is to use the table constraint. You can use such constraints to define single-column and multicolumn primary keys, and you can also implement referential integrity constraints by defining foreign keys. Foreign key definitions can specify that updates and deletions should cascade.
+
+After the tables and constraints are created, you can add data by using The **SQL INSERT** statement and you can query data by using The SQL SELECT statement. The basic format of the SQL SELECT statement is SELECT (column names or the asterisk symbol [*]), **FROM** (table names, separated by commas if there is more than one), WHERE (conditions). You can use SELECT to obtain specific columns, specific rows, or both.
+
+Conditions after **WHERE** require single quotes around values for Char and VarChar columns. However, single quotes are not used for Integer and Numeric columns. You can specify compound conditions with **AND** and **OR**. You can use sets of values with **IN** (match any in the set) and NOT IN (not match any in the set). You can use the wildcard symbols _ and % (? and * in Microsoft Access) with LIKE to specify a single unknown character or multiple unknown characters, respectively. You can use **IS NULL** to test for null values.
+
+You can sort results by using the **ORDER BY** command. The five SQL built-in functions are **COUNT, SUM, MAX, MIN, and AVG**. SQL can also perform mathematical calculations. You can create groups by using **GROUP BY**, and you can limit groups by using **HAVING**. If the keywords WHERE and HAVING both occur in an SQL statement, WHERE is applied before HAVING.
+
+You can query multiple tables by using either subqueries or joins. If all the result data come from a single table, then subqueries can be used. If results come from two or more tables, then joins must be used. The **JOIN ... ON** syntax can be used for joins. Rows that do not match the join conditions do not appear in the results. Outer joins can be used to ensure that all rows from a table appear in the results.
+
+You can modify data by using The **SQL UPDATE ... SET** statement and delete data by using The **SQL DELETE** statement. The **SQL UPDATE** and SQL DELETE statements can easily cause disasters, so the commands must be used with great care.
+
+You can remove tables (and their data) from a database by using the **SQL DROP TABLE** statement. You can remove constraints by using the **SQL ALTER TABLE DROP CONSTRAINT** command. You can modify tables and constraints by using The **SQL ALTER TABLE** statement. Finally, you can use the **CHECK** constraint to validate data values.
 
 ## Glossary
 
