@@ -4,7 +4,7 @@
 
 - Database Fundamentals
   - [Introduction](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#introduction)
-  - [Relational Model]
+  - [Relational Model](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#the-relational-model)
 - Glossary
 
 ## Introduction
@@ -75,15 +75,25 @@ A **key** is one or more columns of a relation that is used to identify a row. A
 
 A **surrogate key* is a unique numeric value that is appended to a relation to serve as the primary key. Surrogate key values have no meaning to the user and are normally hidden on forms, query results, and reports.
 
-A **foreign key** is an attribute that is placed in a relation to represent a relationship. A foreign key is the primary key of a table that is different from (foreign to) the table in which it is placed. Primary and foreign keys may have different names, but they must use the same data types and sets of values. A **referential integrity constraint** specifies that the values of a foreign key be present in the primary key.
+A **foreign key** is an attribute that is placed in a relation to represent a relationship. A foreign key is the primary key of a table that is different from (foreign to) the table in which it is placed. Primary and foreign keys may have different names, but they must use the same data types and sets of values. A **referential integrity constraint** *specifies that the values of a foreign key be present in the primary key*.
 
-**Functional dependency**
+A **null value** occurs when no value has been given to an *attribute*. The problem with a **null value** is that its meaning is ambiguous. It can mean that no value is appropriate, that a value is appropriate but has not yet been chosen, or that a value is appropriate and has been chosen but is unknown to the user. It is possible to eliminate null values by requiring attribute values.
 
-      CookieCost = NumberOfBoxes x 5
+A **functional dependency** occurs when the value of one attribute (or set of attributes) determines the value of a second attribute (or set of attributes). The attribute on the left side of a functional dependency is called the determinant. One way to view the purpose of a relation is to say that the relation exists to store instances of functional dependencies. Another way to define a primary (and candidate) key is to say that such a key is an attribute that functionally determines all the other attributes in a relation.
 
-A more general way to express the relationship between `CookieCost` and `NumberOfBoxe`x is to say that `CookieCost` depends upon `NumberOfBoxes`. More formally we can say that CookieCost is **functional dependent** on `NumberOfBoxes`. Such a statement is called a **functional dependency**, where `NumberOfBoxes` is **dererminant**, and can be written as follows:
+    CookieCost = NumberOfBoxes x 5
 
-      NumberOfBoxes -> CookieCost
+> A more general way to express the relationship between `CookieCost` and `NumberOfBoxe`x is to say that `CookieCost` depends upon `NumberOfBoxes`. More formally we can say that CookieCost is **functional dependent** on `NumberOfBoxes`. Such a statement is called a **functional dependency**, where `NumberOfBoxes` is **dererminant**, and can be written as follows:
+
+    NumberOfBoxes -> CookieCost
+  
+Normalization is the process of evaluating a relation and, when necessary, breaking the relation into two or more relations that are better designed and said to be well formed. According to normalization theory, a relation is poorly structured if it has a functional dependency that does not involve the primary key. Specifically, in a well-formed relation, every determinant is a candidate key.
+
+A process for normalizing relations into BNCF is shown, and a discussion of multivalued dependencies and 4NF is found. According to this process, relations that have normalization problems are divided into two or more relations that do not have such problems. Foreign keys are established between the old and new relations, and referential integrity constraints are created. For reference, a brief discussion of all normal forms is presented 
+
+
+
+
 
 **Normalization**
 
