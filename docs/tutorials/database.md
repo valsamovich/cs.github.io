@@ -87,17 +87,7 @@ A **functional dependency** occurs when the value of one attribute (or set of at
 
     NumberOfBoxes -> CookieCost
   
-Normalization is the process of evaluating a relation and, when necessary, breaking the relation into two or more relations that are better designed and said to be well formed. According to normalization theory, a relation is poorly structured if it has a functional dependency that does not involve the primary key. Specifically, in a well-formed relation, every determinant is a candidate key.
-
-A process for normalizing relations into BNCF is shown, and a discussion of multivalued dependencies and 4NF is found. According to this process, relations that have normalization problems are divided into two or more relations that do not have such problems. Foreign keys are established between the old and new relations, and referential integrity constraints are created. For reference, a brief discussion of all normal forms is presented 
-
-
-
-
-
-**Normalization**
-
-**Normalization** is the process (or set of steps for) breaking a table or relation with more that one theme into a set of tables such that each has only theme. Example of **Normalization**:
+**Normalization** is the process of evaluating a relation and, when necessary, breaking the relation into two or more relations that are better designed and said to be well formed. According to normalization theory, a relation is poorly structured if it has a functional dependency that does not involve the primary key. Specifically, in a well-formed relation, every determinant is a candidate key.
 
       # Before normalization
       ADVISER_LIST (AdviserID, AdviserName, Department, Phone, Office, StudentNumber, StudentName)
@@ -106,15 +96,7 @@ A process for normalizing relations into BNCF is shown, and a discussion of mult
       StudentNumber → (AdviserID, AdviserName, Department, Phone, Office, StudentName)
       ADVISER_LIST (AdviserID, AdviserName, Department, Phone, Office, StudentNumber, StudentName)
                                                                        -------------
-
-From the discussion so far, we can formulate the following design principles for what we can call a **well-formed relation**:
-
-1. For a relation to be considered well formed, every determinant must be a candidate key.
-2. Any relation that is not well formed should be broken into two or more relations that are well formed.
-
-> Other defined normal forms: Boyce-Codd Normal Form (BCNF), first normal form (1NF).
-
-
+A process for normalizing relations into BNCF is shown, and a discussion of multivalued dependencies and 4NF is found. According to this process, relations that have normalization problems are divided into two or more relations that do not have such problems. Foreign keys are established between the old and new relations, and referential integrity constraints are created.
 
 ## Glossary
 
