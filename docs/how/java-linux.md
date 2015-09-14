@@ -27,4 +27,5 @@ In **Webupd8** ppa repository also providing a package to set environment variab
 
     $ sudo apt-get install oracle-java8-set-default
     
-> References: `https://launchpad.net/~webupd8team/+archive/java`
+> References: [`https://launchpad.net/~webupd8team/+archive/java`](
+https://launchpad.net/~webupd8team/+archive/java)
