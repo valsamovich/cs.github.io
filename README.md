@@ -20,7 +20,7 @@ Collection of syntax tutorials, how to [tutorials](https://github.com/valerysamo
 - How to work with [Web Servers](https://github.com/valerysamovich/engineering/blob/master/docs/how/servers.md)?
 - How to use [SSH](https://github.com/valerysamovich/engineering/blob/master/docs/how/ssh.md) (syntax and configuration)?
 - How to use [Travis](http://www.codeaffine.com/2014/09/01/travis-continuous-integration-for-github-projects/) for GitHub projects?
-- How to [Install JAVA 8 (JDK 8u60)](http://tecadmin.net/install-oracle-java-8-jdk-8-ubuntu-via-ppa/) on Ubuntu Via PPA?
+- How to [Install JAVA 8 (JDK 8u60)](https://github.com/valerysamovich/engineering/blob/master/docs/how/java-linux.md) on Ubuntu Via PPA?
 - How to [Installing CDH 5 with YARN](https://github.com/valerysamovich/engineering/blob/master/docs/how/hadoop.md)?
 
 ## Bookmarks
