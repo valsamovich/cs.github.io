@@ -3,8 +3,9 @@
 ## Context
 
 - Database Fundamentals
-  - Introduction
-  - Relational Model
+  - [Introduction](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#introduction)
+  - [Relational Model](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#the-relational-model)
+  - [Structured Query Language](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#structured-query-language) (SQL)
 - Glossary
 
 ## Introduction
@@ -75,19 +76,19 @@ A **key** is one or more columns of a relation that is used to identify a row. A
 
 A **surrogate key* is a unique numeric value that is appended to a relation to serve as the primary key. Surrogate key values have no meaning to the user and are normally hidden on forms, query results, and reports.
 
-A **foreign key** is an attribute that is placed in a relation to represent a relationship. A foreign key is the primary key of a table that is different from (foreign to) the table in which it is placed. Primary and foreign keys may have different names, but they must use the same data types and sets of values. A **referential integrity constraint** specifies that the values of a foreign key be present in the primary key.
+A **foreign key** is an attribute that is placed in a relation to represent a relationship. A foreign key is the primary key of a table that is different from (foreign to) the table in which it is placed. Primary and foreign keys may have different names, but they must use the same data types and sets of values. A **referential integrity constraint** *specifies that the values of a foreign key be present in the primary key*.
 
-**Functional dependency**
+A **null value** occurs when no value has been given to an *attribute*. The problem with a **null value** is that its meaning is ambiguous. It can mean that no value is appropriate, that a value is appropriate but has not yet been chosen, or that a value is appropriate and has been chosen but is unknown to the user. It is possible to eliminate null values by requiring attribute values.
 
-      CookieCost = NumberOfBoxes x 5
+A **functional dependency** occurs when the value of one attribute (or set of attributes) determines the value of a second attribute (or set of attributes). The attribute on the left side of a functional dependency is called the determinant. One way to view the purpose of a relation is to say that the relation exists to store instances of functional dependencies. Another way to define a primary (and candidate) key is to say that such a key is an attribute that functionally determines all the other attributes in a relation.
 
-A more general way to express the relationship between `CookieCost` and `NumberOfBoxe`x is to say that `CookieCost` depends upon `NumberOfBoxes`. More formally we can say that CookieCost is **functional dependent** on `NumberOfBoxes`. Such a statement is called a **functional dependency**, where `NumberOfBoxes` is **dererminant**, and can be written as follows:
+    CookieCost = NumberOfBoxes x 5
 
-      NumberOfBoxes -> CookieCost
+> A more general way to express the relationship between `CookieCost` and `NumberOfBoxe`x is to say that `CookieCost` depends upon `NumberOfBoxes`. More formally we can say that CookieCost is **functional dependent** on `NumberOfBoxes`. Such a statement is called a **functional dependency**, where `NumberOfBoxes` is **dererminant**, and can be written as follows:
 
-**Normalization**
-
-**Normalization** is the process (or set of steps for) breaking a table or relation with more that one theme into a set of tables such that each has only theme. Example of **Normalization**:
+    NumberOfBoxes -> CookieCost
+  
+**Normalization** is the process of evaluating a relation and, when necessary, breaking the relation into two or more relations that are better designed and said to be well formed. According to normalization theory, a relation is poorly structured if it has a functional dependency that does not involve the primary key. Specifically, in a well-formed relation, every determinant is a candidate key.
 
       # Before normalization
       ADVISER_LIST (AdviserID, AdviserName, Department, Phone, Office, StudentNumber, StudentName)
@@ -96,15 +97,37 @@ A more general way to express the relationship between `CookieCost` and `NumberO
       StudentNumber → (AdviserID, AdviserName, Department, Phone, Office, StudentName)
       ADVISER_LIST (AdviserID, AdviserName, Department, Phone, Office, StudentNumber, StudentName)
                                                                        -------------
+A process for normalizing relations into BNCF is shown, and a discussion of multivalued dependencies and 4NF is found. According to this process, relations that have normalization problems are divided into two or more relations that do not have such problems. Foreign keys are established between the old and new relations, and referential integrity constraints are created.
 
-From the discussion so far, we can formulate the following design principles for what we can call a **well-formed relation**:
+## Structured Query Language
 
-1. For a relation to be considered well formed, every determinant must be a candidate key.
-2. Any relation that is not well formed should be broken into two or more relations that are well formed.
+**Structured Query Language** (SQL) is a data sublanguage that has constructs for defining and processing a database. SQL has several components, two of which are discussed here: a **data definition language (DDL)**, which *is used for creating database tables and other structures*, and a **data manipulation language (DML)**, which is *used to query and modify database data*. SQL can be embedded into scripting languages, such as VBScript, or programming languages, such as Java and **C#**. In addition, SQL statements *can be processed from a command window*. SQL was developed by **IBM** and has been endorsed as a national standard by the **American National Standards Institute (ANSI)**. There have been several versions of SQL. This discussion is based on SQL-92, but later versions exist that have added, in particular, support for **Extensible Markup Language (XML)**. Modern **DBMS** products provide graphic facilities for accomplishing many of the tasks that SQL does. Use of SQL is mandatory for programmatically creating SQL statements.
 
-> Other defined normal forms: Boyce-Codd Normal Form (BCNF), first normal form (1NF).
+> Microsoft Access 2013 uses a variant of SQL known as **ANSI-89 SQL**, or Microsoft Jet SQL, which differs significantly from **SQL-92**. Not all SQL statements written in SQL-92 and later versions run in Access ANSI-89 SQL.
 
+The **SQL CREATE TABLE** statement is *used to create relations*. Each column is described in three parts: the column name, the data type, and optional column constraints. Column constraints considered in this chapter are PRIMARY KEY, FOREIGN KEY, NULL, NOT NULL, and UNIQUE. The **DEFAULT** keyword (not considered a constraint) is also considered. If no column constraint is specified, the column is set to NULL.
 
+Standard data types are **Char**, **VarChar**, **Integer**, **Numeric**, and **DateTime** (supplemented by DBMS vendors).
+
+If a primary key has only one column, you can define it by using the primary key constraint. Another way to define a primary key is to use the table constraint. You can use such constraints to define single-column and multicolumn primary keys, and you can also implement referential integrity constraints by defining foreign keys. Foreign key definitions can specify that updates and deletions should cascade.
+
+After the tables and constraints are created, you can add data by using The **SQL INSERT** statement and you can query data by using The **SQL SELECT** statement. The basic format of the SQL SELECT statement is SELECT (column names or the asterisk symbol [*]), **FROM** (table names, separated by commas if there is more than one), **WHERE** (conditions). You can use SELECT to obtain specific columns, specific rows, or both.
+
+    -- Select all from student table 
+    SELECT *  FROM tblStudent;
+    
+    -- Select StudentNum, LastName, FirstName, SSN from student table
+    SELECT StudentNum, LastName, FirstName, SSN FROM tblStudent;
+
+Conditions after **WHERE** require single quotes around values for Char and VarChar columns. However, single quotes are not used for Integer and Numeric columns. You can specify compound conditions with **AND** and **OR**. You can use sets of values with **IN** (match any in the set) and NOT IN (not match any in the set). You can use the wildcard symbols _ and % (? and * in Microsoft Access) with LIKE to specify a single unknown character or multiple unknown characters, respectively. You can use **IS NULL** to test for null values.
+
+You can sort results by using the **ORDER BY** command. The five SQL built-in functions are **COUNT, SUM, MAX, MIN, and AVG**. SQL can also perform mathematical calculations. You can create groups by using **GROUP BY**, and you can limit groups by using **HAVING**. If the keywords WHERE and HAVING both occur in an SQL statement, WHERE is applied before HAVING.
+
+You can query multiple tables by using either subqueries or joins. If all the result data come from a single table, then subqueries can be used. If results come from two or more tables, then joins must be used. The **JOIN ... ON** syntax can be used for joins. Rows that do not match the join conditions do not appear in the results. Outer joins can be used to ensure that all rows from a table appear in the results.
+
+You can modify data by using The **SQL UPDATE ... SET** statement and delete data by using The **SQL DELETE** statement. The **SQL UPDATE** and SQL DELETE statements can easily cause disasters, so the commands must be used with great care.
+
+You can remove tables (and their data) from a database by using the **SQL DROP TABLE** statement. You can remove constraints by using the **SQL ALTER TABLE DROP CONSTRAINT** command. You can modify tables and constraints by using The **SQL ALTER TABLE** statement. Finally, you can use the **CHECK** constraint to validate data values.
 
 ## Glossary
 

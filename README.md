@@ -6,6 +6,7 @@ Collection of syntax tutorials, how to [tutorials](https://github.com/valerysamo
 
 - [Java](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/java-tutorial.md) is a general-purpose computer programming language.
 - [Git](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/git.md) is a free and open source distributed version control system.
+- [Vim](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/vim.md) is a clone of Bill Joy's **vi** editor for Unix.
 - [Web Service](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/web-services.md) are web application components.
 - [Bash](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/bash.md) is a Unix shell and command language + [`scp`](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/bash.md#scp).
 - [Design Patterns](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/design-patterns.md) is a general reusable solution to a problem in software design.
@@ -20,8 +21,8 @@ Collection of syntax tutorials, how to [tutorials](https://github.com/valerysamo
 - How to work with [Web Servers](https://github.com/valerysamovich/engineering/blob/master/docs/how/servers.md)?
 - How to use [SSH](https://github.com/valerysamovich/engineering/blob/master/docs/how/ssh.md) (syntax and configuration)?
 - How to use [Travis](http://www.codeaffine.com/2014/09/01/travis-continuous-integration-for-github-projects/) for GitHub projects?
-- How to [Install JAVA 8 (JDK 8u60)](http://tecadmin.net/install-oracle-java-8-jdk-8-ubuntu-via-ppa/) on Ubuntu Via PPA?
-- How to [Installing CDH 5 with YARN](http://www.cloudera.com/content/cloudera/en/documentation/core/latest/topics/cdh_qs_yarn_pseudo.html) on a Single Linux Node in Pseudo-distributed mode?
+- How to [Install JAVA 8 (JDK 8u60)](https://github.com/valerysamovich/engineering/blob/master/docs/how/java-linux.md) on Ubuntu Via PPA?
+- How to [Installing CDH 5 with YARN](https://github.com/valerysamovich/engineering/blob/master/docs/how/hadoop.md)?
 
 ## Bookmarks
 
