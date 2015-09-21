@@ -25,7 +25,7 @@ Collection of syntax tutorials, how to [tutorials](https://github.com/valerysamo
 - How to use [Travis](http://www.codeaffine.com/2014/09/01/travis-continuous-integration-for-github-projects/) for GitHub projects?
 - How to [Installing CDH 5 with YARN](https://github.com/valerysamovich/engineering/blob/master/docs/how/hadoop.md)?
   - Install [VirtualBox](http://sites.miis.edu/kb/2012/06/19/how-to-install-virtualbox-and-windows-on-your-mac/)
-  - Install [Ubuntu Server]()
+  - Install [Ubuntu Server 14.04.3 LTS]()
   - Install [JAVA 8 (JDK 8u60)](https://github.com/valerysamovich/engineering/blob/master/docs/how/java-linux.md) on Ubuntu Via PPA?
 
 ## Bookmarks
