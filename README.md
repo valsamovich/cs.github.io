@@ -26,7 +26,7 @@ Collection of syntax tutorials, how to [tutorials](https://github.com/valerysamo
 - How to [Installing CDH 5 with YARN](https://github.com/valerysamovich/engineering/blob/master/docs/how/hadoop.md)?
   - Install [VirtualBox](http://sites.miis.edu/kb/2012/06/19/how-to-install-virtualbox-and-windows-on-your-mac/) on Mac.
   - Install [Ubuntu Server 14.04.3 LTS](https://www.youtube.com/watch?v=MaAqAx77COM) on VirtualBox.
-  - Install [JAVA 8 (JDK 8u60)](https://github.com/valerysamovich/engineering/blob/master/docs/how/java-linux.md) on Ubuntu Via PPA.
+  - Install [JAVA 8 (JDK 8u60)](https://github.com/valerysamovich/engineering/blob/master/docs/how/hadoop.md#java) on Ubuntu Via PPA.
 
 ## Bookmarks
 
