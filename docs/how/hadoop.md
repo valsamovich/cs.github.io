@@ -3,7 +3,7 @@
 The **Cloudera distribution of Apache Hadoop** and other related open-source projects, including Cloudera Impala and Cloudera Search. CDH also provides security and integration with numerous hardware and software solutions.
 
 - [Cloudera Documentation Set](http://www.cloudera.com/content/cloudera/en/documentation/core/latest/topics/introduction.html)
-- - [Installing CDH 5 with YARN on a Single Linux Node in Pseudo-distributed mode](http://www.cloudera.com/content/cloudera/en/documentation/core/latest/topics/cdh_qs_yarn_pseudo.html)
+- [Installing CDH 5 with YARN on a Single Linux Node in Pseudo-distributed mode](http://www.cloudera.com/content/cloudera/en/documentation/core/latest/topics/cdh_qs_yarn_pseudo.html)
 
 ## VirtualBox
 
