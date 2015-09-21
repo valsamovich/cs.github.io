@@ -127,8 +127,8 @@ Network Commands                          | Description
 
 `scp` allows files to be copied to, from, or between different hosts. It uses ssh for data transfer and provides the same authentication and same level of security as `ssh`.
 
-    `scp <file> <env>:~/<directory>/` # Secure copy of the local host to the remote host  
-    scp serde.sh PROD01:~/samovich/ # Example of secure copy of the local host to the remote host
+    scp <file> <env>:~/<directory>/     # Secure copy of the local host to the remote host  
+    scp serde.sh PROD01:~/samovich/     # Example of secure copy of the local host to the remote host
 
 - [Example syntax for Secure Copy (scp)](http://www.hypexr.org/linux_scp_help.php)
 - [scp command Tutorial](https://www.garron.me/en/articles/scp.html)
