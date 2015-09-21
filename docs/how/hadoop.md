@@ -6,17 +6,21 @@ The **Cloudera distribution of Apache Hadoop** and other related open-source pro
 
 ## Prerequisits
 
-- Install [Virtual Box](http://sites.miis.edu/kb/2012/06/19/how-to-install-virtualbox-and-windows-on-your-mac/) Mac/Windows.
-- Install [Ubuntu Server](https://www.youtube.com/watch?v=MaAqAx77COM).
-  - [Cloning a VM in Virtual Box](https://www.youtube.com/watch?v=Qy1cdF2mtoU) 
-- Install [Java](https://github.com/valerysamovich/engineering/blob/master/docs/how/java-linux.md) on Ubuntu Server.
-
 Label       | Bootable flag | Size       | Mount point
 ------------|---------------|------------|------------
 boot( MBR)  | yes           | 2GB        | /boot
 swap        | n/a           | 8GB        | n/a
 root        | no            | remainder  | /
 tmp         | no            | 8GB        | /tmp
+
+Hard Disk = 64GB --remainder
+
+- Install [Virtual Box](http://sites.miis.edu/kb/2012/06/19/how-to-install-virtualbox-and-windows-on-your-mac/) Mac/Windows.
+- Install [Ubuntu Server](https://www.youtube.com/watch?v=MaAqAx77COM).
+  - [Cloning a VM in Virtual Box](https://www.youtube.com/watch?v=Qy1cdF2mtoU) 
+- Install [Java](https://github.com/valerysamovich/engineering/blob/master/docs/how/java-linux.md) on Ubuntu Server.
+
+
 
 
 ## Steps
