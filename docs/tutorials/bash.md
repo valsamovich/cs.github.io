@@ -130,5 +130,7 @@ Network Commands                          | Description
     scp <file> <env>:~/<directory>/     # Secure copy of the local host to the remote host  
     scp serde.sh PROD01:~/samovich/     # Example of secure copy of the local host to the remote host
 
+    scp scp PROD01:~/livechat-testing/serde.ddl.sql . 
+    
 - [Example syntax for Secure Copy (scp)](http://www.hypexr.org/linux_scp_help.php)
 - [scp command Tutorial](https://www.garron.me/en/articles/scp.html)
