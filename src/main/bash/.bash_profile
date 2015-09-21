@@ -56,6 +56,10 @@ alias cdown='c ~/Downloads > /dev/null'
 alias cdoc='c ~/Documents > /dev/null'
 alias catom='c /applications/atom.app/Contents/MacOS/atom > /dev/null'
 
+### ssh
+alias cdev='ssh DEV'
+alias cpro='ssh PROD01'
+
 ### Notes
 # xmllint --format -o chat.xml chat.xml --- lint xml file
 
