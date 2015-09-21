@@ -10,13 +10,13 @@ export PATH=$JAVA_HOME/bin:$ORIGINAL_PATH
 
 # Function to set Java 7
 function setJava7 () {
-  echo "    #### running setJava7";
+  echo "    ### running setJava7";
   export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home;
   export PATH=$JAVA_HOME/bin:$ORIGINAL_PATH
 }
 # Function to set Java 8
 function setJava8 () {
-  echo "    #### running setJava8";
+  echo "    ### running setJava8";
   export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home;
   export PATH=$JAVA_HOME/bin:$ORIGINAL_PATH
 }
@@ -55,6 +55,9 @@ alias cgit='c ~/GitHub > /dev/null'
 alias cdown='c ~/Downloads > /dev/null'
 alias cdoc='c ~/Documents > /dev/null'
 alias catom='c /applications/atom.app/Contents/MacOS/atom > /dev/null'
+
+### Notes
+# xmllint --format -o chat.xml chat.xml --- lint xml file
 
 ### Color ###
 export PS1="\[$(tput bold)\]\[$(tput setaf 4)\]\u\[$(tput sgr0)\]\[$(tput setaf 4)\]@\[$(tput setaf 1)\] \w\[$(tput setaf 3)\] (\$(git branch 2>/dev/null | grep '^*' | colrm 1 2))\[$(tput sgr0)\] \$ "
