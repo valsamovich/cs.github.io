@@ -9,7 +9,8 @@ Collection of syntax tutorials, how to [tutorials](https://github.com/valerysamo
 - [Vim](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/vim.md) is a clone of Bill Joy's **vi** editor for Unix.
 - [Web Service](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/web-services.md) are web application components.
 - [Bash](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/bash.md) is a Unix shell and command language + [`scp`](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/bash.md#scp).
-  - [Shell files](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/shell.md) 
+  - [Shell files](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/shell.md)
+  - [`.bash_profile`](https://github.com/valerysamovich/engineering/blob/master/src/main/bash/.bash_profile)
 - [Design Patterns](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/design-patterns.md) is a general reusable solution to a problem in software design.
 - [Hadoop](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/hadoop.md) is a framework for distributed processing of very large data.
 - [Hive](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/hive.md) is a data warehouse infrastructure built on top of Hadoop.
