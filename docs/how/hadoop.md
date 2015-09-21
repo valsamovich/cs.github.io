@@ -6,7 +6,10 @@ The **Cloudera distribution of Apache Hadoop** and other related open-source pro
 
 ## VirtualBox
 
-.. In progress
+[**VirtualBox**](https://www.virtualbox.org/) is a powerful x86 and AMD64/Intel64 virtualization product for enterprise as well as home use.
+
+- [Download VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+- Run the VirtualBox installer, which will place VirtualBox into your Applications folder.
 
 ## Ubuntu Server
 
