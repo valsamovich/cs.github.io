@@ -4,7 +4,11 @@ The **Cloudera distribution of Apache Hadoop** and other related open-source pro
 
 - [Cloudera Documentation Set](http://www.cloudera.com/content/cloudera/en/documentation/core/latest/topics/introduction.html)
 
-## Prerequisits
+## VirtualBox
+
+.. In progress
+
+## Ubuntu Server
 
 Label       | Bootable flag | Size       | Mount point
 ------------|---------------|------------|------------
@@ -15,9 +19,10 @@ tmp         | no            | 8GB        | /tmp
 
 Hard Disk = 64GB --remainder
 
-- Install [Virtual Box](http://sites.miis.edu/kb/2012/06/19/how-to-install-virtualbox-and-windows-on-your-mac/) Mac/Windows.
-- Install [Ubuntu Server](https://www.youtube.com/watch?v=MaAqAx77COM).
-  - [Cloning a VM in Virtual Box](https://www.youtube.com/watch?v=Qy1cdF2mtoU) 
+> Note: [Cloning a VM in Virtual Box](https://www.youtube.com/watch?v=Qy1cdF2mtoU) 
+
+## Java
+
 - Install [Java](https://github.com/valerysamovich/engineering/blob/master/docs/how/java-linux.md) on Ubuntu Server.
 
 
