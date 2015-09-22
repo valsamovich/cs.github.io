@@ -23,16 +23,23 @@ Open VirtualBox and click **New**. Follow creation steps:
 - Storage on physical hard drive: **Fixed size**
 - File location and size: **64.00GB**
 
-Label       | Bootable flag | Size       | Mount point
-------------|---------------|------------|------------
-boot( MBR)  | yes           | 2GB        | /boot
-swap        | n/a           | 8GB        | n/a
-root        | no            | remainder  | /
-tmp         | no            | 8GB        | /tmp
+Partition | Label | Bootable flag | Size       | Mount point
+----------|-------|---------------|------------|------------
+boot(MBR) | yes           | 2GB        | /boot  
+tmp       | no            | 8GB        | /tmp
+swap      | n/a           | 8GB        | n/a use as :swap area
+root      | no            | remainder  | /
 
 Hard Disk = 64GB --remainder
 
 > Note: [Cloning a VM in Virtual Box](https://www.youtube.com/watch?v=Qy1cdF2mtoU) 
+
+Free space, all primary, label just boot partition
+NO AUTOMATIC updates, open SSHserver, GRUB Boot loader - yes
+Bridge adapter - Network settings
+
+
+No proxy
 
 ## Java
 
