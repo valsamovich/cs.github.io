@@ -42,7 +42,7 @@ VirtualBox network settings - **Bridge adapter**
 
 ## Java
 
-This article will help you to Install Oracle JAVA 8 (JDK/JRE 8u25) on Ubuntu 14.04 LTS, 12.04 LTS and 10.04 and LinuxMint systems using PPA File. To Install Java 8 in CentOS, Redhat and Fedora read This Article.
+Install Oracle JAVA 8 (JDK/JRE 8u25) on Ubuntu 14.04 LTS, 12.04 LTS and 10.04 and LinuxMint systems using PPA File.
 
 **Add webupd8team Java PPA repository** in your system and **install Oracle Java 8** using following set of commands:
 
@@ -51,7 +51,6 @@ This article will help you to Install Oracle JAVA 8 (JDK/JRE 8u25) on Ubuntu 14.
     $ sudo apt-get install oracle-java8-installer
 
 Using step below **verify** installed version using following command:
-
     samov004@ubuntu-server:~$ java -version
     
     java version "1.8.0_60"
@@ -61,8 +60,5 @@ Using step below **verify** installed version using following command:
 In **Webupd8** ppa repository also providing a package to **set environment variables**, Install this package using following command.
 
     $ sudo apt-get install oracle-java8-set-default
-    
-> References: [`https://launchpad.net/~webupd8team/+archive/java`](
-https://launchpad.net/~webupd8team/+archive/java)
 
 
