@@ -61,4 +61,6 @@ In **Webupd8** ppa repository also providing a package to **set environment vari
 
     $ sudo apt-get install oracle-java8-set-default
 
+## CDH5 and YARN
+
 
