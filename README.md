@@ -1,6 +1,6 @@
 # Engineering
 
-Collection of syntax tutorials, how to [tutorials](https://github.com/valerysamovich/engineering/blob/master/README.md#tutorials), [bookmarks](https://github.com/valerysamovich/engineering/blob/master/README.md#bookmarks), [glossary](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/glossary.md) and shortcuts for Unix, Git, Markdown, Zend Server, IDEs, Java, Web Services, Design Patterns, and etc.
+Collection of syntax tutorials, how to [tutorials](https://github.com/valerysamovich/engineering/blob/master/README.md#tutorials), [bookmarks](https://github.com/valerysamovich/engineering/blob/master/README.md#bookmarks), [glossary](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/glossary.md) and shortcuts for Unix, Git, Markdown, Zend Server, IDEs, Java, Web Services, Design Patterns, etc.
 
 ## Tutorials
 
@@ -9,6 +9,8 @@ Collection of syntax tutorials, how to [tutorials](https://github.com/valerysamo
 - [Vim](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/vim.md) is a clone of Bill Joy's **vi** editor for Unix.
 - [Web Service](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/web-services.md) are web application components.
 - [Bash](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/bash.md) is a Unix shell and command language + [`scp`](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/bash.md#scp).
+  - [Shell files](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/shell.md)
+  - [`.bash_profile`](https://github.com/valerysamovich/engineering/blob/master/src/main/bash/.bash_profile)
 - [Design Patterns](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/design-patterns.md) is a general reusable solution to a problem in software design.
 - [Hadoop](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/hadoop.md) is a framework for distributed processing of very large data.
 - [Hive](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/hive.md) is a data warehouse infrastructure built on top of Hadoop.
@@ -21,8 +23,10 @@ Collection of syntax tutorials, how to [tutorials](https://github.com/valerysamo
 - How to work with [Web Servers](https://github.com/valerysamovich/engineering/blob/master/docs/how/servers.md)?
 - How to use [SSH](https://github.com/valerysamovich/engineering/blob/master/docs/how/ssh.md) (syntax and configuration)?
 - How to use [Travis](http://www.codeaffine.com/2014/09/01/travis-continuous-integration-for-github-projects/) for GitHub projects?
-- How to [Install JAVA 8 (JDK 8u60)](https://github.com/valerysamovich/engineering/blob/master/docs/how/java-linux.md) on Ubuntu Via PPA?
 - How to [Installing CDH 5 with YARN](https://github.com/valerysamovich/engineering/blob/master/docs/how/hadoop.md)?
+  - Install [VirtualBox](http://sites.miis.edu/kb/2012/06/19/how-to-install-virtualbox-and-windows-on-your-mac/) on Mac.
+  - Install [Ubuntu Server 14.04.3 LTS](https://www.youtube.com/watch?v=MaAqAx77COM) on VirtualBox.
+  - Install [JAVA 8 (JDK 8u60)](https://github.com/valerysamovich/engineering/blob/master/docs/how/hadoop.md#java) on Ubuntu Via PPA.
 
 ## Bookmarks
 
