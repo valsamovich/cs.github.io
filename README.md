@@ -44,5 +44,3 @@ Engineering is the application of mathematics, empirical evidence and scientific
 - [Markdown](http://daringfireball.net/projects/markdown/) is a text-to-HTML conversion tool for web writers.
 
 
-
-
