@@ -1,6 +1,12 @@
 # Engineering
 
-Collection of syntax tutorials, how to [tutorials](https://github.com/valerysamovich/engineering/blob/master/README.md#tutorials), [bookmarks](https://github.com/valerysamovich/engineering/blob/master/README.md#bookmarks), [glossary](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/glossary.md) and shortcuts for Unix, Git, Markdown, Zend Server, IDEs, Java, Web Services, Design Patterns, etc.
+Engineering is the application of mathematics, empirical evidence and scientific, economic, social, and practical knowledge in order to invent, design, build, maintain, research, and improve, structures, machines, tools, systems, components, materials, and processes.
+
+Context:
+- [Tutorials](https://github.com/valerysamovich/engineering/blob/master/README.md#tutorials)
+- [How to ... ?](https://github.com/valerysamovich/engineering/blob/master/README.md#tutorials)
+- [Bookmarks](https://github.com/valerysamovich/engineering/blob/master/README.md#bookmarks)
+- [Glossary](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/glossary.md)
 
 ## Tutorials
 
