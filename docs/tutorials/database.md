@@ -6,6 +6,7 @@
   - [Introduction](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#introduction)
   - [Relational Model](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#the-relational-model)
   - [Structured Query Language](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#structured-query-language) (SQL)
+  - [Data Modeling and ERT]() (Entity-Relationship Model)
 - Glossary
 
 ## Introduction
@@ -128,6 +129,45 @@ You can query multiple tables by using either subqueries or joins. If all the re
 You can modify data by using The **SQL UPDATE ... SET** statement and delete data by using The **SQL DELETE** statement. The **SQL UPDATE** and SQL DELETE statements can easily cause disasters, so the commands must be used with great care.
 
 You can remove tables (and their data) from a database by using the **SQL DROP TABLE** statement. You can remove constraints by using the **SQL ALTER TABLE DROP CONSTRAINT** command. You can modify tables and constraints by using The **SQL ALTER TABLE** statement. Finally, you can use the **CHECK** constraint to validate data values.
+
+## Data Modeling and ERT
+
+The process of developing a database system consists of three stages: 
+
+- Requirements analysis
+  - interview users
+  - document systems requirements
+  - construct a data model
+  - create prototypes of selected portions of the future system
+- Component design
+  - transform the data model into a relational database design
+- Implementation
+  - construct the database
+  - fill it with data
+  - create queries
+  - create forms
+  - create reports
+  - create application programs.
+
+In addition to creating a data model, you must also determine data-item data types, properties, and limits on data values. You also need to document business rules that constrain database activity.
+
+The **entity-relationship (E-R) model** is the most popular tool used to develop a **data model**. With the **E-R model**, entities, which are identifiable things of importance to the users, are defined. All the entities of a given type form an entity class. A particular entity is called an instance. Attributes describe the characteristics of entities, and one or more attributes identify an entity. Identifiers can be unique or nonunique.
+
+Relationships are associations among entities. The E-R model explicitly defines relationships. Each relationship has a name, and there are relationship classes as well as relationship instances. According to the original specification of the E-R model, relationships may have attributes; however, this is not common in contemporary data models.
+
+The degree of a relationship is the number of entities participating in the relationship. Most relationships are binary. The three types of binary relationships are 1:1, 1:N, and N:M. A recursive relationship occurs when an entity has a relationship to itself.
+
+In traditional E-R diagrams, such as the traditional E-R model, entities are shown in rectangles and relationships are shown in diamonds. The maximum cardinality of a relationship is shown inside the diamond. The minimum cardinality is indicated by a hash mark or an oval.
+
+A weak entity is one whose existence depends on another entity; an entity that is not weak is called a strong entity. In this text, we further define a weak entity as an entity that logically depends on another entity. An entity can have a minimum cardinality of one in a relationship with another entity and not necessarily be a weak entity. ID-dependent entities must include the identifier of the entity on which the ID-dependent entity depends as part of the identifier of the ID-dependent entity.
+
+When a data model has one or more attributes that seem to be associated with a relationship between two entities rather than with either of the entities themselves, an associative entity (also called an association entity) must be added to the data model. Each of the original entities will have a 1:N relationship with the associative entity, which will have a composite primary key consisting of the two primary keys of the original entities. The associative entity will be ID-dependent on both of the original entities.
+
+The extended E-R model introduced the concept of subtypes. A subtype entity is a special case of another entity known as its supertype. In some cases, an attribute of the supertype, called a discriminator, indicates which of the subtypes is appropriate for a given instance. Subtypes can be exclusive (the supertype relates to at most one subtype) or inclusive (the supertype can relate to one or more subtypes). The identifier of the subtype is the identifier of the supertype.
+
+This text’s E-R diagrams use the Information Engineering Crow’s Foot E-R model. You should be familiar with diagrams of that style, but you should also realize that when creating a database design no fundamental difference exists between the traditional style and this style. When creating a data model, it is important to document business rules that constrain database activity.
+
+After E-R models are completed, they must be evaluated. You can show the data model, or portions of the data model, directly to the users for evaluation. This requires the users to learn how to interpret an E-R diagram. Sometimes, instead of showing users a data model you may create prototypes that demonstrate the consequences of the data model. Such prototypes are easier for users to understand.
 
 ## Glossary
 
