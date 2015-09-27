@@ -149,7 +149,7 @@ The process of developing a database system consists of three stages:
   - create reports
   - create application programs.
 
-In addition to creating a data model, you must also determine data-item data types, properties, and limits on data values. You also need to document business rules that constrain database activity.
+In addition to creating a data model, you must also determine data-item data types, properties, and limits on data values. You also need to document **business rules** that constrain database activity.
 
 The **entity-relationship (E-R) model** is the most popular tool used to develop a **data model**. With the **E-R model**, entities, which are identifiable things of importance to the users, are defined. All the entities of a given type form an entity class. A particular entity is called an instance. Attributes describe the characteristics of entities, and one or more attributes identify an entity. Identifiers can be unique or nonunique.
 
@@ -165,7 +165,7 @@ When a data model has one or more attributes that seem to be associated with a r
 
 The extended E-R model introduced the concept of subtypes. A subtype entity is a special case of another entity known as its supertype. In some cases, an attribute of the supertype, called a discriminator, indicates which of the subtypes is appropriate for a given instance. Subtypes can be exclusive (the supertype relates to at most one subtype) or inclusive (the supertype can relate to one or more subtypes). The identifier of the subtype is the identifier of the supertype.
 
-This text’s E-R diagrams use the Information Engineering Crow’s Foot E-R model. You should be familiar with diagrams of that style, but you should also realize that when creating a database design no fundamental difference exists between the traditional style and this style. When creating a data model, it is important to document business rules that constrain database activity.
+This text’s E-R diagrams use the Information Engineering Crow’s Foot E-R model. You should be familiar with diagrams of that style, but you should also realize that when creating a database design no fundamental difference exists between the traditional style and this style. When creating a data model, it is important to document **business rules** that constrain database activity.
 
 After E-R models are completed, they must be evaluated. You can show the data model, or portions of the data model, directly to the users for evaluation. This requires the users to learn how to interpret an E-R diagram. Sometimes, instead of showing users a data model you may create prototypes that demonstrate the consequences of the data model. Such prototypes are easier for users to understand.
 
