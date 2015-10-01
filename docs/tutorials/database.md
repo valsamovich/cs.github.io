@@ -107,7 +107,7 @@ A process for normalizing relations into BNCF is shown, and a discussion of mult
 - **data definition language (DDL)** is used for creating database tables and other structures.
 - **data manipulation language (DML)** is used to query and modify database data. 
 
-. SQL was developed by **IBM** and has been endorsed as a national standard by the **American National Standards Institute (ANSI)**. There have been several versions of SQL. This discussion is based on SQL-92, but later versions exist that have added, in particular, support for **Extensible Markup Language (XML)**. Modern **DBMS** products provide graphic facilities for accomplishing many of the tasks that SQL does. Use of SQL is mandatory for programmatically creating SQL statements.
+SQL was developed by IBM and has been endorsed as a national standard by the American National Standards Institute **(ANSI)**. There have been several versions of SQL. This discussion is based on SQL-92, but later versions exist that have added, in particular, support for Extensible Markup Language **(XML)**. Modern DBMS products provide graphic facilities for accomplishing many of the tasks that SQL does. Use of SQL is mandatory for programmatically creating SQL statements.
 
 > Microsoft Access 2013 uses a variant of SQL known as **ANSI-89 SQL**, or Microsoft Jet SQL, which differs significantly from **SQL-92**. Not all SQL statements written in SQL-92 and later versions run in Access ANSI-89 SQL.
 
