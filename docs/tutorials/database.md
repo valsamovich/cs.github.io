@@ -111,7 +111,13 @@ SQL was developed by IBM and has been endorsed as a national standard by the Ame
 
 > Microsoft Access 2013 uses a variant of SQL known as **ANSI-89 SQL**, or Microsoft Jet SQL, which differs significantly from **SQL-92**. Not all SQL statements written in SQL-92 and later versions run in Access ANSI-89 SQL.
 
-The **SQL CREATE TABLE** statement is *used to create relations*. Each column is described in three parts: the column name, the data type, and optional column constraints. Column constraints considered in this chapter are PRIMARY KEY, FOREIGN KEY, NULL, NOT NULL, and UNIQUE. The **DEFAULT** keyword (not considered a constraint) is also considered. If no column constraint is specified, the column is set to NULL.
+The **SQL CREATE TABLE** statement is used to create relations. Each column is described in three parts: 
+
+- column name, 
+- the data type
+- optional column constraints. 
+
+Column constraints considered in this chapter are PRIMARY KEY, FOREIGN KEY, NULL, NOT NULL, and UNIQUE. The **DEFAULT** keyword (not considered a constraint) is also considered. If no column constraint is specified, the column is set to NULL.
 
 Standard data types are **Char**, **VarChar**, **Integer**, **Numeric**, and **DateTime** (supplemented by DBMS vendors).
 
