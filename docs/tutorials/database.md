@@ -117,9 +117,15 @@ The **SQL CREATE TABLE** statement is used to create relations. Each column is d
 - the data type
 - optional column constraints. 
 
-Column constraints considered in this chapter are PRIMARY KEY, FOREIGN KEY, NULL, NOT NULL, and UNIQUE. The **DEFAULT** keyword (not considered a constraint) is also considered. If no column constraint is specified, the column is set to NULL.
+Column constraints considered in this chapter are PRIMARY KEY, FOREIGN KEY, NULL, NOT NULL, and UNIQUE. The DEFAULT keyword (not considered a constraint) is also considered. If no column constraint is specified, the column is set to NULL.
 
-Standard data types are **Char**, **VarChar**, **Integer**, **Numeric**, and **DateTime** (supplemented by DBMS vendors).
+Standard data types:
+
+- **Char**
+- **VarChar**
+- **Integer**
+- **Numeric**
+- **DateTime** (supplemented by DBMS vendors).
 
 If a primary key has only one column, you can define it by using the primary key constraint. Another way to define a primary key is to use the table constraint. You can use such constraints to define single-column and multicolumn primary keys, and you can also implement referential integrity constraints by defining foreign keys. Foreign key definitions can specify that updates and deletions should cascade.
 
