@@ -25,6 +25,8 @@ Search Commands             | Description
 `$ grep <text> <file>`      | Output all occurrences of <text> inside <file> (add `-i` for case-insensitivity)
 `$ grep -rl <text> <dir>`   | Search for all files containing `<text>` inside `<dir>`
 
+> `grep` stands for **global regular expression print**
+
 **Combining Commands** If you plan to run a series of commands after another, it might be useful to combine them instead of waiting for each command to finish before typing the next one. To do so, simply separate the commands with a semicolon `;` on the same line.
 
 Additionally, it is possible to execute a command only if its predecessor produces a certain result. Code placed after the `&&` operator will only be run if the previous command completes successfully, while the opposite `||` operator only continues if the previous command fails. The following command will create the folder “videos” only if the cd command fails (and the folder therefore doesn’t exist): `$ cd ~/videos || mkdir ~/videos`
