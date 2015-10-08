@@ -4,6 +4,7 @@ A **database** is an organized collection of data.[1] It is the collection of sc
 
 A **database management system** (DBMS) is a computer software application that interacts with the user, other applications, and the database itself to capture and analyze data. A general-purpose DBMS is designed to allow the definition, creation, querying, update, and administration of databases. Well-known DBMSs include MySQL, PostgreSQL, Microsoft SQL Server, Oracle, Sybase and IBM DB2. A database is not generally portable across different DBMSs, but different DBMS can interoperate by using standards such as SQL and ODBC or JDBC to allow a single application to work with more than one DBMS. Database management systems are often classified according to the database model that they support; the most popular database systems since the 1980s have all supported the relational model as represented by the SQL language.[disputed – discuss] Sometimes a DBMS is loosely referred to as a 'database'.
 
+- [Wikipedia](https://en.wikipedia.org/wiki/Database)
 
 ## Context
 
