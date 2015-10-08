@@ -6,7 +6,7 @@
 - [Introduction](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#introduction)
 - [Relational Model](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#the-relational-model)
 - [Structured Query Language](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#structured-query-language) (SQL)
-- [Data Modeling and ERT](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#data-modeling-and-ert) (Entity-Relationship Model)
+- [Data Modeling and Entity-Relationship Model](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#data-modeling-and-ert) (ERT)
 - [Glossary](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#glossary)
 
 ## Introduction
