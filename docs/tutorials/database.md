@@ -151,14 +151,16 @@ You can remove tables (and their data) from a database by using the **SQL DROP T
 
 The process of developing a database system consists of three stages: 
 
-- Requirements analysis
+- **Requirements analysis**:
   - interview users
   - document systems requirements
   - construct a data model
   - create prototypes of selected portions of the future system
-- Component design
+ 
+- **Component design**:
   - transform the data model into a relational database design
-- Implementation
+ 
+- **Implementation**:
   - construct the database
   - fill it with data
   - create queries
