@@ -8,5 +8,5 @@
 ## Notes
 
 - To validate syntax without compiling: `python -m py_compile [fime-name].py`
-- [Escape Characters] http://www.tutorialspoint.com/python/python_strings.htm
+- [Escape Characters](http://www.tutorialspoint.com/python/python_strings.htm)
 
