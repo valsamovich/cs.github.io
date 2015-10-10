@@ -7,6 +7,7 @@ A **database management system** (DBMS) is a computer software application that 
 ## Context
 
 - [Introduction](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#introduction)
+  - [The History of Data](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#the-history-of-data)  
   - [Data Storing and Accessing](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#data-storing-and-processing)
 - [Relational Model](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#the-relational-model)
 - [Structured Query Language](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#structured-query-language) (SQL)
@@ -76,6 +77,10 @@ DBMS products for **personal database systems** (Microsoft Access 2013 )provide 
 **Enterprise-class database systems** (Microsoft SQL Server 2014, Oracle MySQL 5.6, Oracle Database Express Edition 11 Release 2) include multiple applications that might be written in multiple languages. These systems may support hundreds or thousands of users.
 
 NoSQL refers to nonrelational databases used in Web 2.0 applications such as Facebook and Twitter. NoSQL databases are discussed in Big Data.
+
+## The History of Data
+
+The **first** patent for a **data storage device** was issued to Herman Hollerith in 1884 for his punched card. Hollerith worked in the Census Office of the U.S. government. The census in the U.S. is conducted every ten years to count the population. The census of 1880 took eight years.
 
 ## Data Storing and Processing
 
