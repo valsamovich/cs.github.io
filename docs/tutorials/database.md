@@ -20,9 +20,13 @@ The importance of database processing increases every day because databases are 
 
 **Relational databases** store data in the form of tables. Almost always, the tables are designed so that each table stores data about a single theme. Lists that involve multiple themes need to be broken up and stored in multiple tables, one for each theme. When this is done, a column needs to be added to link the tables to each other so that the relationship from a row in one table to a row in another table can be shown.
 
-A **modification problem** ...
+A **modification problem** is a data corruption or loss that occurs when a table uses one row to store facts about two or more themes. In this case, a deletion of a row can remove facts about two or more themes, leading to a loss in data, or a data change must be made in multiple rows to maintain data consistency. Finally, unless creation of a new row is allowed based on only one theme, it may be impossible to store needed data. Three possible modification problems are: 
 
-**Structured Query Language (SQL)** is an international language for processing tables in relational databases. You can use SQL to join together and *display data stored in separate tables*, *create new tables*, and *query data from tables* in many ways. You can also use **SQL** to *insert*, *update*, and *delete* data.
+1. insert problems — missing data
+2. update problems — inconsistent data
+3. delete problems — data loss.
+
+**Structured Query Language** (SQL) is an international language for processing tables in relational databases. You can use SQL to join together and *display data stored in separate tables*, *create new tables*, and *query data from tables* in many ways. You can also use **SQL** to *insert*, *update*, and *delete* data.
 
 The components of a **database system** are:
 
@@ -31,9 +35,9 @@ The components of a **database system** are:
 - Database applications (one or more)
 - Users
 
-A **database** is a *self-describing collection of related records*. A **relational database** is a self-describing collection of related tables. A database is self-describing because it contains a description of its contents within itself, which is known as metadata. Tables are related by storing linking values of a common column. The contents of a database are user data; metadata; supporting structures, such as indexes; and sometimes application metadata.
+A **database** is a *self-describing collection of related records*. A relational database is a self-describing collection of related tables. A database is self-describing because it contains a description of its contents within itself, which is known as metadata. Tables are related by storing linking values of a common column. The contents of a database are user data; metadata; supporting structures, such as indexes; and sometimes application metadata.
 
-A **database management system (DBMS)** is a large, complicated program used to *create*, *process*, and *administer a database*. DBMS products are almost always licensed from software vendors. Specific functions of a DBMS are summarized below:
+A **database management system (DBMS)** is a large, complicated program used to create, process, and administer a database. DBMS products are almost always licensed from software vendors. Specific *functions* of a DBMS are summarized below:
 
 - Create database
 - Create tables
