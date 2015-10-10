@@ -126,18 +126,18 @@ Example of the **relation structure**:
 
 > Relation structures, such as one above, are part of a database schema. A **database schema** is a design on which a database and its associated applications are build.
 
-In the database world in general, the term **table** is used synonymously with the term **relation**. Three sets of terminology are used for relational structures. The terms **table**, **row**, and **column** are used most commonly, but **file**, **record**, and **field** are sometimes used in traditional data processing. Theorists also use the terms **relation**, **tuple**, and **attribute** for the same three constructs. Sometimes these terms are mixed and matched. Strictly speaking, a *relation may not have duplicate rows*; however, sometimes this condition is relaxed because eliminating duplicates can be a time-consuming process.
+In the database world in general, the term **table** is used synonymously with the term **relation**. Three sets of terminology are used for relational structures. Sometimes these terms are mixed and matched. Strictly speaking, a *relation may not have duplicate rows*; however, sometimes this condition is relaxed because eliminating duplicates can be a time-consuming process:
 
 Table    | Row    | Column
 ---------|--------|----------
 File     | Record | Field
 Relation | Tuple  | Attribute
 
-A **key** is one or more columns of a relation that is used to identify a row. A **unique key** identifies a single row; a **nonunique key** identifies several rows. A **composite key** is a key that has two or more attributes. A relation has one primary key, which must be a unique key. A relation may also have additional unique keys, called **candidate keys**. A primary key is used to represent the table in relationships, and many DBMS products use values of the primary key to organize table storage. In addition, an index normally is constructed to provide fast access via primary key values. An **ideal primary key** is *short*, *numeric*, and *never changes*.
+A **key** is one or more columns of a relation that is used to identify a row. A **unique key** identifies a single row; a **nonunique key** identifies several rows. A **composite key** is a key that has two or more attributes. A relation has one primary key, which must be a unique key. A relation may also have additional unique keys, called **candidate keys**. A primary key is used to represent the table in relationships, and many DBMS products use values of the primary key to organize table storage. In addition, an index normally is constructed to provide fast access via primary key values. An **ideal primary key** is short, numeric, and never changes.
 
 A **surrogate key* is a unique numeric value that is appended to a relation to serve as the primary key. Surrogate key values have no meaning to the user and are normally hidden on forms, query results, and reports.
 
-A **foreign key** is an attribute that is placed in a relation to represent a relationship. A foreign key is the primary key of a table that is different from (foreign to) the table in which it is placed. Primary and foreign keys may have different names, but they must use the same data types and sets of values. A **referential integrity constraint** *specifies that the values of a foreign key be present in the primary key*.
+A **foreign key** is an attribute that is placed in a relation to represent a relationship. A foreign key is the primary key of a table that is different from (foreign to) the table in which it is placed. Primary and foreign keys may have different names, but they must use the same data types and sets of values. A **referential integrity constraint** specifies that the values of a foreign key be present in the primary key.
 
 A **null value** occurs when no value has been given to an *attribute*. The problem with a **null value** is that its meaning is ambiguous. It can mean that no value is appropriate, that a value is appropriate but has not yet been chosen, or that a value is appropriate and has been chosen but is unknown to the user. It is possible to eliminate null values by requiring attribute values.
 
@@ -145,7 +145,7 @@ A **functional dependency** occurs when the value of one attribute (or set of at
 
     CookieCost = NumberOfBoxes x 5
 
-> A more general way to express the relationship between `CookieCost` and `NumberOfBoxe`x is to say that `CookieCost` depends upon `NumberOfBoxes`. More formally we can say that CookieCost is **functional dependent** on `NumberOfBoxes`. Such a statement is called a **functional dependency**, where `NumberOfBoxes` is **dererminant**, and can be written as follows:
+A more general way to express the relationship between `CookieCost` and `NumberOfBoxe`x is to say that `CookieCost` depends upon `NumberOfBoxes`. More formally we can say that CookieCost is **functional dependent** on `NumberOfBoxes`. Such a statement is called a **functional dependency**, where `NumberOfBoxes` is **dererminant**, and can be written as follows:
 
     NumberOfBoxes -> CookieCost
   
