@@ -7,7 +7,6 @@ A **database management system** (DBMS) is a computer software application that 
 ## Context
 
 - [Introduction](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#introduction)
-  - [Data Storing and Accessing](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#data-storing-and-processing)
 - [Relational Model](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#the-relational-model)
 - [Structured Query Language](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#structured-query-language) (SQL)
 - [Data Modeling and Entity-Relationship Model](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#data-modeling-and-ert) (ERT)
@@ -87,8 +86,6 @@ DBMS products for **personal database systems** (Microsoft Access 2013 )provide 
 **Data integration** is the ability to access all the pertinent data about an entity wherever that data may exist. Consider an employee file that contains a list of all current employees with their demographic and payroll information.
 
 **Data redundancy** is the process of storing the same data more than once. Data integration can be quite high in a file based system but this often requires a high degree of data redundancy. Simply put, data integration is desirable but data redundancy is not.
-
-## Data Storing and Processing
 
 The increasing volume of data and the expanding number of people requiring access to that data has led to additional issues including:
 
