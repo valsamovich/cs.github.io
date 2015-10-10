@@ -7,6 +7,7 @@ A **database management system** (DBMS) is a computer software application that 
 ## Context
 
 - [Introduction](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#introduction)
+  - [Data Storing and Accessing](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#data-storing-and-processing)
 - [Relational Model](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#the-relational-model)
 - [Structured Query Language](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#structured-query-language) (SQL)
 - [Data Modeling and Entity-Relationship Model](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#data-modeling-and-ert) (ERT)
@@ -75,6 +76,26 @@ DBMS products for **personal database systems** (Microsoft Access 2013 )provide 
 **Enterprise-class database systems** (Microsoft SQL Server 2014, Oracle MySQL 5.6, Oracle Database Express Edition 11 Release 2) include multiple applications that might be written in multiple languages. These systems may support hundreds or thousands of users.
 
 NoSQL refers to nonrelational databases used in Web 2.0 applications such as Facebook and Twitter. NoSQL databases are discussed in Big Data.
+
+## Data Storing and Processing
+
+The increasing volume of data and the expanding number of people requiring access to that data has led to additional issues including:
+
+- data security
+- data privacy
+- data accuracy
+- performance (fast access to data)
+- data recovery.
+
+**Data security** ensures that only authorized people access data. Certainly this involves limiting access via usernames and passwords and software security to prevent hacking. It also includes physical security. It is common to see a room with large computers protected with swipe card access but what about the personal computer on an employee's desk? The employee could have downloaded confidential data to this computer. Is this data secure?
+
+**Data privacy** is ensuring an employee accesses the minimum amount of data necessary to complete his/her job. While I, as a Seminole State College employee, can access my salary data, I can't access the salary data of any other employee. Some staff members in the college Human Resources department can access salary data but not all department employees can.
+
+**Data accuracy** involves the correctness and consistency of data. The volumes of data and multiple sources makes it more difficult to insure the data is correct. New files or databases are often created for new systems instead of using existing ones. This leads to the same data being stored in multiple places. It is not uncommon for people to receive multiple mailings from the same company. If a persons name is Robert, he might receive some mailings addressed to Robert and others addressed to Bob.
+
+**Performance** becomes an issue when dealing with large amounts of data and an increasing number of people trying to access it. Fast computers and large network bandwidth can certainly help. However the fastest computers and the speediest networks can't overcome a poorly designed database that stores large amount of data. Even a well designed database will have performance issues if it isn't tuned properly.
+
+**Recovery** capabilities are necessary to ensure data can be reconstructed if it is stolen, lost, or corrupted. Data can be damaged or destroyed by hardware failures, software errors, or even natural disasters like floods, hurricanes, and earthquakes. How long would employees patiently wait if the computer used to create their paychecks was destroyed along with the payroll data? I suspect it would be days not weeks! Imagine if the online site for a major airline crashed and was unavailable for several hours. The airline could lose millions of dollars as potential customers could easily switch to another airline's site. Healthcare in America is moving towards a paperless environment with electronic medical records, computerized admissions, automated pharmacy and prescription operations as well as a variety of other efforts. Imagine what would happen if the data to support all these areas wasn't available!
 
 ## The Relational Model
 
