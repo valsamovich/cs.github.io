@@ -70,15 +70,9 @@ Users provide data and data changes and read data in forms, queries, and reports
 
 The term **referential integrity constraint** is a rule that before a possible key value of one table can be placed in a second table as a linking value, the value must exist in the first table before it is used in the second table.
 
-DBMS products for **personal database systems** provide functionality for application development and database management. They hide considerable complexity, but at a cost: Requirements unanticipated by DBMS features cannot be readily implemented:
+DBMS products for **personal database systems** (Microsoft Access 2013 )provide functionality for application development and database management. They hide considerable complexity, but at a cost: Requirements unanticipated by DBMS features cannot be readily implemented. 
 
-- Microsoft Access 2013
-
-**Enterprise-class database systems** include multiple applications that might be written in multiple languages. These systems may support hundreds or thousands of users:
-
-- Microsoft SQL Server 2014
-- Oracle MySQL 5.6
-- Oracle Database Express Edition 11 Release 2
+**Enterprise-class database systems** (Microsoft SQL Server 2014, Oracle MySQL 5.6, Oracle Database Express Edition 11 Release 2) include multiple applications that might be written in multiple languages. These systems may support hundreds or thousands of users.
 
 NoSQL refers to nonrelational databases used in Web 2.0 applications such as Facebook and Twitter. NoSQL databases are discussed in Big Data.
 
