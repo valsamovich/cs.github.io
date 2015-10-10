@@ -7,7 +7,6 @@ A **database management system** (DBMS) is a computer software application that 
 ## Context
 
 - [Introduction](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#introduction)
-  - [The History of Data](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#the-history-of-data)  
   - [Data Storing and Accessing](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#data-storing-and-processing)
 - [Relational Model](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#the-relational-model)
 - [Structured Query Language](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#structured-query-language) (SQL)
@@ -16,15 +15,22 @@ A **database management system** (DBMS) is a computer software application that 
 
 ## Introduction
 
+The **first** patent for a **data storage device** was issued to Herman Hollerith in 1884 for his punched card. Hollerith worked in the Census Office of the U.S. government. The census in the U.S. is conducted every ten years to count the population. The census of 1880 took eight years.
+
 The importance of database processing increases every day because databases are used in information systems everywhere—and increasingly so. The **purpose of a database** is to help people keep track of things. Lists can be used for this purpose, but if a list involves more than one theme modification problems will occur when data are inserted, updated, or deleted.
 
 **Relational databases** store data in the form of tables. Almost always, the tables are designed so that each table stores data about a single theme. Lists that involve multiple themes need to be broken up and stored in multiple tables, one for each theme. When this is done, a column needs to be added to link the tables to each other so that the relationship from a row in one table to a row in another table can be shown.
 
-A **modification problem** is a data corruption or loss that occurs when a table uses one row to store facts about two or more themes. In this case, a deletion of a row can remove facts about two or more themes, leading to a loss in data, or a data change must be made in multiple rows to maintain data consistency. Finally, unless creation of a new row is allowed based on only one theme, it may be impossible to store needed data. Three possible modification problems are: 
+A **modification problem** is a data corruption or loss that occurs when a table uses one row to store facts about two or more themes. In this case, a deletion of a row can remove facts about two or more themes, leading to a loss in data, or a data change must be made in multiple rows to maintain data consistency. Finally, unless creation of a new row is allowed based on only one theme, it may be impossible to store needed data. 
 
-1. insert problems — missing data
-2. update problems — inconsistent data
-3. delete problems — data loss.
+An **anomaly** is defined as a abnormality or deviation from the expected. In a file system, an anomaly usually occurs when two or more files are merged to achieve data integration. Three possible modification **problems/anomalies** are:
+
+- Insert problems — missing data
+  - Insertion anomalies occur when adding data to a file that has redundancies.
+- Update problems — inconsistent data
+  - An update anomaly occurs when you make changes to records. 
+- Delete problems — data loss.
+  - Deletion anomalies occur when deleting a record from a file.
 
 [**Structured Query Language**](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#structured-query-language) (SQL) is an international language for processing tables in relational databases. You can use SQL to join together and *display data stored in separate tables*, *create new tables*, and *query data from tables* in many ways. You can also use **SQL** to *insert*, *update*, and *delete* data.
 
@@ -76,11 +82,11 @@ DBMS products for **personal database systems** (Microsoft Access 2013 )provide 
 
 **Enterprise-class database systems** (Microsoft SQL Server 2014, Oracle MySQL 5.6, Oracle Database Express Edition 11 Release 2) include multiple applications that might be written in multiple languages. These systems may support hundreds or thousands of users.
 
-NoSQL refers to nonrelational databases used in Web 2.0 applications such as Facebook and Twitter. NoSQL databases are discussed in Big Data.
+> NoSQL refers to nonrelational databases used in Web 2.0 applications such as Facebook and Twitter. NoSQL databases are discussed in Big Data.
 
-## The History of Data
+**Data integration** is the ability to access all the pertinent data about an entity wherever that data may exist. Consider an employee file that contains a list of all current employees with their demographic and payroll information.
 
-The **first** patent for a **data storage device** was issued to Herman Hollerith in 1884 for his punched card. Hollerith worked in the Census Office of the U.S. government. The census in the U.S. is conducted every ten years to count the population. The census of 1880 took eight years.
+**Data redundancy** is the process of storing the same data more than once. Data integration can be quite high in a file based system but this often requires a high degree of data redundancy. Simply put, data integration is desirable but data redundancy is not.
 
 ## Data Storing and Processing
 
