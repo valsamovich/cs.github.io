@@ -109,7 +109,7 @@ The increasing volume of data and the expanding number of people requiring acces
 
 The **relational model** is the most important standard in database processing today. It was first published by **E. F. Codd** in 1970. Today, it is used for the *design and implementation of almost every commercial database*.
 
-An **entity** is something of importance to a user that needs to be represented in a database. A **relation** is a *two-dimensional table that has the characteristics* listed below:
+An **entity** is something of importance to a user that needs to be represented in a database. A **relation** is a two-dimensional table that has the characteristics listed below:
 
 - Rows contain data about entity.
 - Columns contain data about attributes of the entity.
@@ -124,7 +124,7 @@ Example of the **relation structure**:
 
     TABLE_NAME(Column1, Column2, Column3...., LastColumn)
 
-> Relation structures, such as one above, are part of a database schema. A **database schema** is a design on which a database and its associated applications are build.
+Relation structures, such as one above, are part of a database schema. A **database schema** is a design on which a database and its associated applications are build.
 
 In the database world in general, the term **table** is used synonymously with the term **relation**. Three sets of terminology are used for relational structures. Sometimes these terms are mixed and matched. Strictly speaking, a *relation may not have duplicate rows*; however, sometimes this condition is relaxed because eliminating duplicates can be a time-consuming process:
 
