@@ -44,7 +44,15 @@ A **database management system (DBMS)** is a large, complicated program used to 
 - Provide security
 - Perform backup and recovery
 
-The functions of **database applications** are to *create and process forms*, to *process user queries*, and to *create and process reports*. Application programs also execute specific application logic and control the application. Users provide data and data changes and read data in forms, queries, and reports.
+The functions of **database applications** are:
+
+- Create and process forms 
+- Process user queries 
+- Create and process reports
+- Execute specific application logic
+- Control the application. 
+
+Users provide data and data changes and read data in forms, queries, and reports.
 
 DBMS products for personal database systems provide functionality for application development and database management. They hide considerable complexity, but at a cost: Requirements unanticipated by DBMS features cannot be readily implemented. Enterprise-class database systems include multiple applications that might be written in multiple languages. These systems may support hundreds or thousands of users.
 
