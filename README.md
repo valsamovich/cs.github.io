@@ -16,7 +16,7 @@
 - [Design Patterns](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/design-patterns.md) is a general reusable solution to a problem in software design.
 - [Hadoop](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/hadoop.md) is a framework for distributed processing of very large data.
 - [Hive](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/hive.md) is a data warehouse infrastructure built on top of Hadoop.
-- [Database Management](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md) as computer program designed to manage a database(s).
+- [Database Management](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md) includes Database, DBMS, SQL, etc.
 - [Python](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/python.md) as a high-level programming language.
 
 ## How to?
