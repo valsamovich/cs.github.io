@@ -170,6 +170,8 @@ A more general way to express the relationship between `CookieCost` and `NumberO
                                                                        -------------
 A process for normalizing relations into BNCF is shown, and a discussion of multivalued dependencies and 4NF is found. According to this process, relations that have normalization problems are divided into two or more relations that do not have such problems. Foreign keys are established between the old and new relations, and referential integrity constraints are created.
 
+A primary key and its related foreign key must have the same **domain of values**. In very simple terms, the domain of values are the range of valid values an attribute (column) can have. Having the same domain of values is just a fancy way to say the two attributes (columns) have the same **allowable** values. It means the attributes represent the same thing even though they are are in different relations (tables). 
+
 ## Structured Query Language
 
 **Structured Query Language** (SQL) is a data sublanguage that has constructs for defining and processing a database. SQL can be embedded into: VBScript (scripting languages), or into programming languages, such as *Java* and *C#*. SQL statements can be processed from a command window. SQL has several components, two of which are discussed here:
