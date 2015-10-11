@@ -81,8 +81,6 @@ DBMS products for **personal database systems** (Microsoft Access 2013 )provide 
 
 **Enterprise-class database systems** (Microsoft SQL Server 2014, Oracle MySQL 5.6, Oracle Database Express Edition 11 Release 2) include multiple applications that might be written in multiple languages. These systems may support hundreds or thousands of users.
 
-> NoSQL refers to nonrelational databases used in Web 2.0 applications such as Facebook and Twitter. NoSQL databases are discussed in Big Data.
-
 **Data integration** is the ability to access all the pertinent data about an entity wherever that data may exist. Consider an employee file that contains a list of all current employees with their demographic and payroll information.
 
 **Data redundancy** is the process of storing the same data more than once. Data integration can be quite high in a file based system but this often requires a high degree of data redundancy. Simply put, data integration is desirable but data redundancy is not.
@@ -109,7 +107,7 @@ The increasing volume of data and the expanding number of people requiring acces
 
 The **relational model** is the most important standard in database processing today. It was first published by **E. F. Codd** in 1970. Today, it is used for the *design and implementation of almost every commercial database*.
 
-An **entity** is something of importance to a user that needs to be represented in a database. A **relation** is a two-dimensional table that has the characteristics listed below:
+An **entity** is the formal name for a “thing” that is being tracked in a database, and is something of importance to a user that needs to be represented in a database. A **relation** is a two-dimensional table that has the characteristics listed below:
 
 - Rows contain data about entity.
 - Columns contain data about attributes of the entity.
@@ -135,11 +133,22 @@ Relation | Tuple  | Attribute
 
 A **key** is one or more columns of a relation that is used to identify a row. A **unique key** identifies a single row; a **nonunique key** identifies several rows. A **composite key** is a key that has two or more attributes. A relation has one primary key, which must be a unique key. A relation may also have additional unique keys, called **candidate keys**. A primary key is used to represent the table in relationships, and many DBMS products use values of the primary key to organize table storage. In addition, an index normally is constructed to provide fast access via primary key values. An **ideal primary key** is short, numeric, and never changes.
 
-A **surrogate key* is a unique numeric value that is appended to a relation to serve as the primary key. Surrogate key values have no meaning to the user and are normally hidden on forms, query results, and reports.
+A **surrogate key* is a unique numeric value that is appended to a relation to serve as the primary key. Surrogate key values have no meaning to the user and are normally hidden on forms, query results, and reports. They values supplied automatically by the DBMS.
 
 A **foreign key** is an attribute that is placed in a relation to represent a relationship. A foreign key is the primary key of a table that is different from (foreign to) the table in which it is placed. Primary and foreign keys may have different names, but they must use the same data types and sets of values. A **referential integrity constraint** specifies that the values of a foreign key be present in the primary key.
 
-A **null value** occurs when no value has been given to an *attribute*. The problem with a **null value** is that its meaning is ambiguous. It can mean that no value is appropriate, that a value is appropriate but has not yet been chosen, or that a value is appropriate and has been chosen but is unknown to the user. It is possible to eliminate null values by requiring attribute values.
+A **primary key** is one or more attributes that functionally determines all of the other attributes. A primary key can be used:
+
+- to identify a row.
+- to represent the row in foreign keys.
+- to organize storage for the relation.
+- as a basis for indexes and other structures to facilitate searching in storage.
+
+A **null value** occurs when no value has been given to an *attribute*. The problem with a null value is that its meaning is ambiguous. It can mean that no value is appropriate, that a value is appropriate but has not yet been chosen, or that a value is appropriate and has been chosen but is unknown to the user. It is possible to eliminate null values by requiring attribute values. Three possible **interpretations of a null value**:
+
+- Value not appropriate
+- Value known to be blank
+- Value appropriate and unknown
 
 A **functional dependency** occurs when the value of one attribute (or set of attributes) determines the value of a second attribute (or set of attributes). The attribute on the left side of a functional dependency is called the determinant. One way to view the purpose of a relation is to say that the relation exists to store instances of functional dependencies. Another way to define a primary (and candidate) key is to say that such a key is an attribute that functionally determines all the other attributes in a relation.
 
