@@ -10,3 +10,13 @@
 - To validate syntax without compiling: `python -m py_compile [fime-name].py`
 - [Escape Characters](http://www.tutorialspoint.com/python/python_strings.htm)
 
+## Access by index
+
+The string "PYTHON" has six characters, numbered 0 to 5, as shown below:
+
+    +---+---+---+---+---+---+
+    | P | Y | T | H | O | N |
+    +---+---+---+---+---+---+
+      0   1   2   3   4   5
+
+So if you wanted "Y", you could just type "PYTHON"[1] (always start counting from 0!)
