@@ -12,7 +12,7 @@ Data engineers are the designers, builders and managers of the information or "b
     scp scp <env>:~/<directory>/<file>      # Secure copy from remote to local host
     scp scp PROD01:~/files/serde.ddl.sql .  # Example
 
-## GZip
+## gzip
 
 `gzip` is a file format and a software application used for file compression and decompression. 
 
