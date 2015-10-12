@@ -25,5 +25,7 @@ Data engineers are the designers, builders and managers of the information or "b
 
 ## Hive
 
-The Apache Hive ™ data warehouse software facilitates querying and managing large datasets residing in distributed storage. 
-
+The Apache Hive ™ data warehouse software facilitates querying and managing large datasets residing in distributed storage. Use the -f flag to specify a file that contains a hive script.
+    
+    # execute the hive script
+    $ hive -f query.hive
