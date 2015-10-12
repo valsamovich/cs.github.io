@@ -21,3 +21,9 @@ Data engineers are the designers, builders and managers of the information or "b
     
     # to unzip file(s) or directorie(s)
     tar -zxvf [filename].gz
+
+
+# Hive
+
+The Apache Hive ™ data warehouse software facilitates querying and managing large datasets residing in distributed storage. 
+
