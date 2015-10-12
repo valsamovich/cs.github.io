@@ -13,7 +13,9 @@ Data engineers are the designers, builders and managers of the information or "b
     scp scp PROD01:~/files/serde.ddl.sql .  # Example
 
 ## GZip
-    
+
+`gzip` is a file format and a software application used for file compression and decompression. 
+
     # to zip file(s) or directorie(s) 
     tar -zcvf [filename].gz [fileOrDirectory1] [fileOrDirectly2] [fileOrDirectoryN]
     
