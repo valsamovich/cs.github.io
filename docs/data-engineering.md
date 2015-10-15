@@ -35,3 +35,4 @@ The Apache Hive ™ data warehouse software facilitates querying and managing la
 Run .jar via command line(**FQCN** stands for Fully-Qualified Class Name):
 
     java [first-argument] [second-argument] -classpath [jar-location] [FQCN]
+    java -Dinput=/Users/samov004/Downloads/test.xls -Doutput=/Users/samov004/Downloads/result.csv -classpath cima-data-utils-1.0-SNAPSHOT.jar com.disney.cima.converters.ConvertXLStoCSV
