@@ -29,3 +29,9 @@ The Apache Hive ™ data warehouse software facilitates querying and managing la
     
     # execute the hive script
     $ hive -f query.hive
+
+## Java
+
+Run .jar via command line(**FQCN** stands for Fully-Qualified Class Name):
+
+        java [first-argument] [second-argument] -classpath [jar-location] [FQCN]
