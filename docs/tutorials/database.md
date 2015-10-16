@@ -258,6 +258,10 @@ This text’s E-R diagrams use the Information Engineering Crow’s Foot E-R mod
 
 After E-R models are completed, they must be evaluated. You can show the data model, or portions of the data model, directly to the users for evaluation. This requires the users to learn how to interpret an E-R diagram. Sometimes, instead of showing users a data model you may create prototypes that demonstrate the consequences of the data model. Such prototypes are easier for users to understand.
 
+## Database design
+
+
+
 ## Glossary
 
 **.NET Framework (.NET)** Microsoft’s comprehensive application development platform. It includes such components as ADO.NET and ASP.NET.
