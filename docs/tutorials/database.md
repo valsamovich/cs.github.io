@@ -260,7 +260,30 @@ After E-R models are completed, they must be evaluated. You can show the data mo
 
 ## Database design
 
+A database design is a set of database specifications that can actually e implemented as a database in a DBMS. System analysis and design often identify three design stges:
 
+- Conceptual design (conceptual schema)
+- Logical design (logical schema)
+- Physical design (physical schema)
+
+Steps for transforming a data model into database design:
+
+- Create a table for each entity in the data model
+  - Specify primary key(consider surrogate keys as appropriate)
+  - Specify properties for each column: Data Types, Null status, Default value(if any), Data constraints(if any)
+  - Make sure that each of the tables is properly normalized
+- Create the relationships between tables by placing foreign keys
+  - Strong entity relationships (1:1, 1:N, N:M)
+  - ID-dependent and non-ID-dependent weak entity relations
+  - Subtypes
+  - Recursive (1:1, 1:N, N:M)
+
+Steps of representing entities with the Relational Model:
+
+- Define a table for each entity and give that table the same name as the entity.
+  - Primary key of the relation the identifier of the entity
+- Create a column in the relation for each attribute in the entity
+- Apply normalization process to remove any normalization problems
 
 ## Glossary
 
