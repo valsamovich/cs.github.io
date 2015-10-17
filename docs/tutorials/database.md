@@ -10,7 +10,8 @@ A **database management system** (DBMS) is a computer software application that 
   - [History of databases](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database-history.md) 
 - [Relational Model](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#the-relational-model)
 - [Structured Query Language](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#structured-query-language) (SQL)
-- [Data Modeling and Entity-Relationship Model](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#data-modeling-and-ert) (ERT)
+- [Entity Relationship Diagram](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#data-modeling-and-ert) (ERT)
+- [Database Design]()
 - [Glossary](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#glossary)
 
 ## Introduction
@@ -260,13 +261,13 @@ After E-R models are completed, they must be evaluated. You can show the data mo
 
 ## Database design
 
-A database design is a set of database specifications that can actually e implemented as a database in a DBMS. System analysis and design often identify three design stges:
+A **database design** is a set of database specifications that can actually e implemented as a database in a DBMS. System analysis and design often identify three design stges:
 
 - Conceptual design (conceptual schema)
 - Logical design (logical schema)
 - Physical design (physical schema)
 
-Steps for transforming a data model into database design:
+Steps for transforming a **data model** into database design:
 
 - Create a table for each entity in the data model
   - Specify primary key(consider surrogate keys as appropriate)
@@ -278,12 +279,19 @@ Steps for transforming a data model into database design:
   - Subtypes
   - Recursive (1:1, 1:N, N:M)
 
-Steps of representing entities with the Relational Model:
+Steps of **representing entities** with the Relational Model:
 
 - Define a table for each entity and give that table the same name as the entity.
   - Primary key of the relation the identifier of the entity
 - Create a column in the relation for each attribute in the entity
 - Apply normalization process to remove any normalization problems
+
+Column **properties**:
+
+- Data types, usually set whan the table is actually created in the database
+- Null Status: NoT NULL or NULL
+- Default Values, value that the DBMS automatically supplies when a new row is created
+- Data Constraints The data values in some columns may be subject to restrictions on the values that can exist in those columns. 
 
 ## Glossary
 
