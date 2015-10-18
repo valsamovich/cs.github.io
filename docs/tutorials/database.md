@@ -4,6 +4,8 @@ A **database** is an organized collection of data (help people kepp trak of thin
 
 A **database management system** (DBMS) is a computer software application that interacts with the user, other applications, and the database itself to capture and analyze data. A general-purpose DBMS is designed to allow the definition, creation, querying, update, and administration of databases. Well-known DBMSs includes: [MySQL](https://www.mysql.com/), [PostgreSQL](http://www.postgresql.org/), [Microsoft SQL Server](http://www.microsoft.com/en-us/server-cloud/products/sql-server/features.aspx), [Oracle](https://www.oracle.com/database/index.html), [Sybase](www.sap.com/Database) and [IBM DB2](http://www-01.ibm.com/software/data/db2/).
 
+- [Glossary](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#glossary)
+
 ## Context
 
 - [Introduction](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#introduction)
@@ -12,8 +14,7 @@ A **database management system** (DBMS) is a computer software application that 
 - [Relational Model](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#the-relational-model)
 - [Structured Query Language](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#structured-query-language) (SQL)
 - [Entity Relationship Diagram](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#data-modeling-and-ert) (ERT)
-- [Database Design]()
-- [Glossary](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#glossary)
+- [Database Design](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#database-design)
 
 ## Introduction
 
