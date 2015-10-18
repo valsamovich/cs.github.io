@@ -310,11 +310,13 @@ After E-R models are completed, they must be evaluated. You can show the data mo
 
 ## Database design
 
-A **database design** is a set of database specifications that can actually e implemented as a database in a DBMS. System analysis and design often identify three design stges:
+A **database design** is a set of database specifications that can actually e implemented as a database in a DBMS. System analysis and design often identify three design schemas:
 
 - Conceptual design (conceptual schema)
 - Logical design (logical schema)
 - Physical design (physical schema)
+
+To transform an E-R data model into a relational database design, you create a table for each entity. The attributes of the entity become the columns of the table, and the identifier of the entity becomes the primary key of the table. For each column, you must define data types, null status, any default values, and any data constraints. You then apply the normalization process to each table and create additional tables, if necessary. In some cases, you need to denormalize a table. When you do, the table will have insertion, update, and deletion problems.
 
 Steps for transforming a **data model** into database design:
 
@@ -341,6 +343,16 @@ Column **properties**:
 - Null Status: NoT NULL or NULL
 - Default Values, value that the DBMS automatically supplies when a new row is created
 - Data Constraints The data values in some columns may be subject to restrictions on the values that can exist in those columns. 
+
+**Denormalization** makes sense if the benefit of not normalizing outweighs the possible problems that could be caused by such modifications.
+
+**Weak entities** are represented by a table. ID-dependent entities must include the key columns of the tables on which they depend, as well as of the identifiers of the entities themselves. Non–ID-dependent entities must have their existence dependence recorded as business rules.
+
+**Supertypes** and **subtypes** are each represented by separate tables. The identifier of the supertype entity becomes the primary key of the supertype table, and the identifiers of the subtype entities become the primary keys of the subtype tables. The primary key of each subtype is also the same primary key that is used for the supertype, and the primary key of each subtype serves as a foreign key that links the subtype back to the supertype.
+
+The **E-R model** has three types of binary relationships: **1:1, 1:N, and N:M**. To represent a 1:1 relationship, you place the key of one table into the other table. To implement the 1:1 relationship, the specified foreign key must be constrained as UNIQUE. To represent a 1:N relationship, you place the key of the parent table in the child table. Finally, to represent an M:N relationship, you create an intersection table that contains the keys of the other two tables.
+
+**Recursive relationships** are relationships in which the participants in the relationship arise from the same entity class. The three types of recursive relationships are 1:1, 1:N, and N:M. These types of relationships are represented in the same way as are their equivalent nonrecursive relationships. For 1:1 and 1:N relationships, you add a foreign key to the relation that represents the entity. For an N:M recursion, you create an intersection table that represents the M:N relationship.
 
 ## Glossary
 
