@@ -35,9 +35,11 @@ The Apache Hive ™ data warehouse software facilitates querying and managing la
     # use database
     use [database-name];
     
-    # Add new parittions to the hive
-    ALTER TABLE [table-name] ADD PARTITION([patition-name]="[fragmnet]");
+    # Add new parittions: ALTER TABLE [table-name] ADD PARTITION([patition-name]="[fragmnet]");
     ALTER TABLE simba_merchandise_revenue ADD PARTITION(fiscal_year_week="2016-02");
+    
+    # show table ddl statement
+    show create table [table-name];
 
 ## Java
 
