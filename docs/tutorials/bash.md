@@ -12,7 +12,7 @@ Bash is a Unix shell and command language written by Brian Fox for the GNU Proje
   - [Permissions](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/bash.md#permissions)
   - [scp](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/bash.md#scp)
 - [Configuration Files](https://github.com/valerysamovich/shell-files#configuration-files)
- - [~/.bash_profile]()
+ - [~/.bash_profile](https://github.com/valerysamovich/engineering/blob/master/src/main/bash/.bash_profile)
 - [Environment variables](https://github.com/valerysamovich/shell-files#file-name-completion)
 - [File name completion](https://github.com/valerysamovich/shell-files#file-name-completion)
 - [Aliases](https://github.com/valerysamovich/shell-files#aliases)
