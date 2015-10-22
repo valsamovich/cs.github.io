@@ -17,7 +17,7 @@ Bash is a Unix shell and command language written by Brian Fox for the GNU Proje
 - [File name completion](https://github.com/valerysamovich/shell-files#file-name-completion)
 - [Aliases](https://github.com/valerysamovich/shell-files#aliases)
 - [Functions](https://github.com/valerysamovich/shell-files#functions)
-- 
+
 ## Search
 
 **Getting Help** On the command line, help is always at hand: you can either type `<command>` or `<command> --help` to receive detailed documentation about the command in question. 
