@@ -31,6 +31,13 @@ The Apache Hive ™ data warehouse software facilitates querying and managing la
     
     # execute the hive script
     $ hive -f query.hive
+    
+    # use database
+    use [database-name];
+    
+    # Add new parittions to the hive
+    ALTER TABLE [table-name] ADD PARTITION([patition-name]="[fragmnet]");
+    ALTER TABLE simba_merchandise_revenue ADD PARTITION(fiscal_year_week="2016-02");
 
 ## Java
 
