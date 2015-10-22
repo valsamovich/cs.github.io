@@ -9,7 +9,6 @@ A **Unix shell** is a command-line interpreter or **shell** that provides a trad
 ## Context
 
 - [Configuration Files](https://github.com/valerysamovich/shell-files#configuration-files)
-    - [`~/.bash_profile`](https://github.com/valerysamovich/bourne-again-shell/blob/master/files/.bash_profile)
 - [Environment variables](https://github.com/valerysamovich/shell-files#file-name-completion)
 - [File name completion](https://github.com/valerysamovich/shell-files#file-name-completion)
 - [Aliases](https://github.com/valerysamovich/shell-files#aliases)
