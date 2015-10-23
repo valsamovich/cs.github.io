@@ -59,4 +59,6 @@ Run .jar via command line(**FQCN** stands for Fully-Qualified Class Name):
     for I in $(seq 1 10); do echo $I; done
     for ((I=1; I <= 10 ; I++)); do echo $I; done
 
+    # Strip first line in file(.txt, .csv)
+    tail -n+2 /path/to/file > /path/to/output
 
