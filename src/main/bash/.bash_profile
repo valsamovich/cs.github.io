@@ -33,7 +33,7 @@ alias d='popd'
 alias ea='c ~ > /dev/null; vim .bash_profile; d > /dev/null'
 alias rs='c ~ > /dev/null; . .bash_profile; d > /dev/null'
 
-### Bash  ###
+### Bash ###
 alias cl='clear'
 alias hi='history'
 alias ll='cl; ls -la'
