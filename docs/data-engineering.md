@@ -62,4 +62,7 @@ Run .jar via command line(**FQCN** stands for Fully-Qualified Class Name):
 
     # Strip first line in file(.txt, .csv)
     tail -n+2 /path/to/file > /path/to/output
+    
+    # Merge multiply files into one(.csv, .txt):
+    cat *.txt > merged.txt
 
