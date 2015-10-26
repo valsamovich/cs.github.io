@@ -10,6 +10,7 @@
 - [Java](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/java-tutorial.md) is a general-purpose computer programming language.
 - [Git](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/git.md) is a free and open source distributed version control system.
 - [Vim](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/vim.md) is a clone of Bill Joy's **vi** editor for Unix.
+  - [`.vimrc`](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/.vimrc)
 - [Web Service](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/web-services.md) are web application components.
 - [Bash](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/bash.md) is a Unix shell and command language + [`scp`](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/bash.md#scp).
   - [Shell files](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/shell.md)
