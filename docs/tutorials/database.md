@@ -18,7 +18,7 @@ A **database management system** (DBMS) is a computer software application that 
 
 ## Introduction
 
-The **first** patent for a **data storage device** was issued to Herman Hollerith in 1884 for his punched card. Hollerith worked in the Census Office of the U.S. government. The census in the U.S. is conducted every ten years to count the population. The census of 1880 took eight years.
+The **first** patent for a **data storage device** was issued to *Herman Hollerith in 1884 for his punched card*. Hollerith worked in the Census Office of the U.S. government. The census in the U.S. is conducted every ten years to count the population. The census of 1880 took eight years.
 
 The importance of database processing increases every day because databases are used in information systems everywhere—and increasingly so. The **purpose of a database** is to help people keep track of things. Lists can be used for this purpose, but if a list involves more than one theme modification problems will occur when data are inserted, updated, or deleted.
 
