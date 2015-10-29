@@ -10,7 +10,7 @@
 - To validate syntax without compiling: `python -m py_compile [fime-name].py`
 - [Escape Characters](http://www.tutorialspoint.com/python/python_strings.htm)
 - [Style Guide](https://www.python.org/dev/peps/pep-0008/)
-- 
+
 ## Access by index
 
 The string "PYTHON" has six characters, numbered 0 to 5, as shown below:
