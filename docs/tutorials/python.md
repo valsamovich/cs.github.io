@@ -7,9 +7,9 @@
 
 ## Notes
 
-- To validate syntax without compiling: `python -m py_compile [fime-name].py`
-- [Escape Characters](http://www.tutorialspoint.com/python/python_strings.htm)
-- [Style Guide](https://www.python.org/dev/peps/pep-0008/)
+- To validate syntax without compiling: `python -m py_compile [fime-name].py`.
+- [Escape Characters](http://www.tutorialspoint.com/python/python_strings.htm).
+- [Style Guide](https://www.python.org/dev/peps/pep-0008/) for Python Code.
 
 ## Access by index
 
