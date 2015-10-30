@@ -29,10 +29,13 @@ In computing, **Extract, Transform and Load** (ETL) refers to a process in datab
 
 The Apache Hive ™ data warehouse software facilitates querying and managing large datasets residing in distributed storage. Use the -f flag to specify a file that contains a hive script.
     
-    # execute the hive script
+    # Enable header
+    set hive.cli.print.header=true;
+    
+    # Execute the hive script
     $ hive -f query.hive
     
-    # use database
+    # Use database
     use [database-name];
     
     # Add new parittions: ALTER TABLE [table-name] ADD PARTITION([patition-name]="[fragmnet]");
