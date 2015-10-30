@@ -39,8 +39,11 @@ The Apache Hive ™ data warehouse software facilitates querying and managing la
     ALTER TABLE simba_merchandise_revenue ADD PARTITION(fiscal_year_week="2016-02");
     
     # show table ddl statement
-    show create table [table-name];
-
+    Show create table [table-name];
+    
+    # Show talbe partitions
+    show partitions [table-name];
+    
 ## Java
 
 Run .jar via command line(**FQCN** stands for Fully-Qualified Class Name):
