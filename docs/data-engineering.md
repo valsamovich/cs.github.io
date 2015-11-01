@@ -24,7 +24,6 @@ In computing, **Extract, Transform and Load** (ETL) refers to a process in datab
     # to unzip file(s) or directorie(s)
     tar -zxvf [filename].gz
 
-
 ## Hive
 
 The Apache Hive ™ data warehouse software facilitates querying and managing large datasets residing in distributed storage. Use the -f flag to specify a file that contains a hive script.
