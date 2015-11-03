@@ -20,7 +20,7 @@
 - [Hive](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/hive.md) is a data warehouse infrastructure built on top of Hadoop.
 - [Database](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md) design and management.
 - [Python](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/python.md) as a high-level programming language.
-
+- [Regex](http://regexone.com/) Learn Regular Expressions with simple, interactive exercises.
 ## How to?
 
 - How to [Git](https://github.com/valerysamovich/engineering/blob/master/docs/how/git.md) with forking Workflow?
@@ -41,5 +41,4 @@
 - [Google Developers](https://developers.google.com/) is **Google's** site for software development tools.
 - [JsonPath](https://code.google.com/p/json-path/) is to [JSON](http://www.json.org/) what **XPATH** is to **XML**, extract parts of a given document.
 - [Markdown](http://daringfireball.net/projects/markdown/) is a text-to-HTML conversion tool for web writers.
-- [Regex](http://regexone.com/) Learn Regular Expressions with simple, interactive exercises.
 
