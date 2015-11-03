@@ -21,6 +21,7 @@
 - [Database](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md) design and management.
 - [Python](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/python.md) as a high-level programming language.
 - [Regex](http://regexone.com/) Learn Regular Expressions with simple, interactive exercises.
+
 ## How to?
 
 - How to [Git](https://github.com/valerysamovich/engineering/blob/master/docs/how/git.md) with forking Workflow?
