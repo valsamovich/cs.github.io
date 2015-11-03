@@ -41,5 +41,5 @@
 - [Google Developers](https://developers.google.com/) is **Google's** site for software development tools.
 - [JsonPath](https://code.google.com/p/json-path/) is to [JSON](http://www.json.org/) what **XPATH** is to **XML**, extract parts of a given document.
 - [Markdown](http://daringfireball.net/projects/markdown/) is a text-to-HTML conversion tool for web writers.
-
+- [Regex](http://regexone.com/) Learn Regular Expressions with simple, interactive exercises.
 
