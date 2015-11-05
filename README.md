@@ -20,7 +20,6 @@
 - [Hive](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/hive.md) is a data warehouse infrastructure built on top of Hadoop.
 - [Database](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md) design and management.
 - [Python](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/python.md) as a high-level programming language.
-- Learn [Regular Expressions](http://regexone.com/) (Regex) with simple, interactive exercises.
 
 ## How to?
 
