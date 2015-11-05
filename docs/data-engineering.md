@@ -73,7 +73,7 @@ Run .jar via command line(**FQCN** stands for Fully-Qualified Class Name):
     
     # Regex vs. String
     REGEX='<a href="(getfile.php\?c=.+)">'
-    FILE='[&nbsp;<a href="getfile.php?c=sg6B5z2M4mH3bqnKkm738rxp2jQscKp9kdGS&g=HkCspQ4wRck8FPMk2tr3cCz56Nft4nDQMbcn">download</a>&nbsp;]</span><br />'
+    FILE='[&nbsp;<a href="getfile.php?c=QscKp9kdGS&g=HkCsp">download</a>&nbsp;]</span><br />'
     
     if [[ ${FILE} =~ ${REGEX} ]]; then
         echo The regex matches!
