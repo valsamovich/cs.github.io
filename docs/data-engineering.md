@@ -37,14 +37,19 @@ The Apache Hive ™ data warehouse software facilitates querying and managing la
     # Use database
     use [database-name];
     
-    # Add new parittions: ALTER TABLE [table-name] ADD PARTITION([patition-name]="[fragmnet]");
-    ALTER TABLE simba_merchandise_revenue ADD PARTITION(fiscal_year_week="2016-02");
-    
     # show table ddl statement
     Show create table [table-name];
     
+Hive organizes tables into **partitions**. It is a way of dividing a table into related parts based on the values of partitioned columns such as date, city, and department. Using partition, it is easy to query a portion of the data.
+
     # Show talbe partitions
     show partitions [table-name];
+    
+    # Adding a Partition
+    ALTER TABLE [table-name] ADD [IF NOT EXISTS] PARTITION([patition-name]="[fragmnet]");
+    
+    # Dropping a Partition
+    ALTER TABLE [table-name] DROP [IF EXISTS] PARTITION([patition-name]="[fragmnet]");
     
 ## Java
 
