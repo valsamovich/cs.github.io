@@ -15,7 +15,7 @@ A **database management system** (DBMS) is a computer software application that 
 - [Structured Query Language](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#structured-query-language) (SQL)
 - [Entity Relationship Diagram](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#data-modeling-and-ert) (ERD)
 - [Database Design](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#database-design)
--[Database Administration](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#database-administration)
+- [Database Administration](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/database.md#database-administration)
 
 ## Introduction
 
