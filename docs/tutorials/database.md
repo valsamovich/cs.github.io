@@ -370,9 +370,11 @@ All databases need database administration. The database administration for smal
 
 The goal of **concurrency control** is to ensure that one user’s work does not inappropriately influence another user’s work. No single concurrency control technique is ideal for all circumstances. Trade-offs need to be made between the *level of protection* and *data throughput*.
 
-A **transaction**, or logical unit of work, is a series of actions taken against a database that occur as an atomic unit; either all of them occur or none of them do. The activity of concurrent transactions is interleaved on the database server. In some cases, updates can be lost if concurrent transactions are not controlled. Another concurrency problem concerns *inconsistent reads*.
+A **transaction**, or logical unit of work, is a series of actions taken against a database that occur as an atomic unit; either all of them occur or none of them do. The activity of concurrent transactions is interleaved on the database server. In some cases, updates can be lost if concurrent transactions are not controlled. Another concurrency problem concerns *inconsistent reads*:
 
-A **dirty read** occurs when one transaction reads a changed record that has not been committed to the database. A **nonrepeatable read** occurs when one transaction rereads data it has previously read and finds modifications or deletions caused by another transaction. A **phantom read** occurs when a transaction rereads data and finds new rows that were inserted by a different transaction.
+- A **dirty read** occurs when one transaction reads a changed record that has not been committed to the database. 
+- A **nonrepeatable read** occurs when one transaction rereads data it has previously read and finds modifications or deletions caused by another transaction. 
+- A **phantom read** occurs when a transaction rereads data and finds new rows that were inserted by a different transaction.
 
 To avoid concurrency problems, database elements are locked. Implicit locks are placed by the DBMS; explicit locks are issued by the application program. The size of a locked resource is called **lock granularity**. An exclusive lock prohibits other users from reading the locked resource; a shared lock allows other users to read the locked resource but not to update it.
 
@@ -384,7 +386,7 @@ Two transactions that run concurrently and generate results that are consistent 
 
 Most application programs do not explicitly declare locks. Instead, they mark transaction boundaries with SQL transaction control statements—such as BEGIN, COMMIT, and ROLLBACK statements—and declare the concurrent behavior they want. The DBMS then places locks for the application that will result in the desired behavior. An ACID transaction is one that is atomic, consistent, isolated, and durable. Durable means that database changes are permanent. Consistency can refer to either statement-level or transaction-level consistency. With transaction-level consistency, a transaction may not see its own changes.
 
-The three types of data read problems that can occur are dirty read, nonrepeatable read, and phantom read. These problems are summarized below. The 1992 SQL standard defines four transaction isolation levels: read uncommitted, read committed, repeatable read, and serializable. The characteristics of each are summarized below:
+The three types of data read problems that can occur are dirty read, nonrepeatable read, and phantom read. These problems are summarized below: 
 
 Data Read Problem Type | Definition
 -----------------------|----------------------
@@ -392,13 +394,21 @@ Dirty read             | The transaction reads a row that has been changed, but 
 Nonrepeatable Read     | The transaction rereads data that has been changed, and finds changes due to committed transactions.
 Phantom Read           | The transaction rereads data and finds new rows inserted by a committed transaction.
 
-A cursor is a pointer into a set of records. Four cursor types are prevalent: forward only, static, keyset, and dynamic. Developers should select isolation levels and cursor types that are appropriate for their application workload and for the DBMS product in use.
+The 1992 SQL standard defines four transaction isolation levels: read uncommitted, read committed, repeatable read, and serializable. The characteristics of each are summarized below:
 
-The goal of database security is to ensure that only authorized users can perform authorized activities at authorized times. To develop effective database security, the processing rights and responsibilities of all users must be determined.
+Problem Type       | Read Uncommited | Read Committed | Repeatable Read | Serializable
+-------------------|-----------------|----------------|-----------------|-------------
+Dirty Read         | Possible        | Not possible   | Not possible    | Not possible
+Nonrepeatable Read | Possible        | Possible       | Not possible    | Not possible
+Phantom Read       | Possible        | Possible       | Possible        | Not possible
+
+A **cursor** is a pointer into a set of records. Four cursor types are prevalent: forward only, static, keyset, and dynamic. Developers should select isolation levels and cursor types that are appropriate for their application workload and for the DBMS product in use.
+
+The goal of **database security** is to ensure that only authorized users can perform authorized activities at authorized times. To develop effective database security, the processing rights and responsibilities of all users must be determined.
 
 DBMS products provide security facilities. Most involve the declaration of users, groups, objects to be protected, and permissions or privileges on those objects. Almost all DBMS products use some form of user name and password security. DBMS security can be augmented by application security.
 
-In the event of system failure, the database must be restored to a usable state as soon as possible. Transactions in process at the time of the failure must be reapplied or restarted. Although in some cases recovery can be done by reprocessing, the use of logs and before-images and after-images with rollback and rollforward is almost always preferred. Checkpoints can be made to reduce the amount of work that needs to be done after a failure.
+In the event of system failure, the database must be **restored** to a usable state as soon as possible. Transactions in process at the time of the failure must be reapplied or restarted. Although in some cases recovery can be done by reprocessing, the use of logs and before-images and after-images with rollback and rollforward is almost always preferred. Checkpoints can be made to reduce the amount of work that needs to be done after a failure.
 
 In addition to concurrency control, security, and backup and recovery, a DBA needs to ensure that a system exists to gather and record errors and problems. The DBA works with the development team to resolve such problems on a prioritized basis and also to evaluate features and functions of new releases of the DBMS. In addition, the DBA needs to create and manage a process for controlling the database configuration so that changes to the database structure are made with a community-wide view. Finally, the DBA is responsible for ensuring that appropriate documentation is maintained about database structure, concurrency control, security, backup and recovery, and other details that concern the management and use of the database.
 
