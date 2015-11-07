@@ -363,18 +363,17 @@ All databases need database administration. The database administration for smal
 
 - Concurrency control
 - Security
-- Backup 
-- Recovery
+- Backup & Recovery
 
-The goal of **concurrency control** is to ensure that one user’s work does not inappropriately influence another user’s work. No single concurrency control technique is ideal for all circumstances. Trade-offs need to be made between the level of protection and data throughput.
+The goal of **concurrency control** is to ensure that one user’s work does not inappropriately influence another user’s work. No single concurrency control technique is ideal for all circumstances. Trade-offs need to be made between the *level of protection* and *data throughput*.
 
-A transaction, or logical unit of work, is a series of actions taken against a database that occur as an atomic unit; either all of them occur or none of them do. The activity of concurrent transactions is interleaved on the database server. In some cases, updates can be lost if concurrent transactions are not controlled. Another concurrency problem concerns inconsistent reads.
+A **transaction**, or logical unit of work, is a series of actions taken against a database that occur as an atomic unit; either all of them occur or none of them do. The activity of concurrent transactions is interleaved on the database server. In some cases, updates can be lost if concurrent transactions are not controlled. Another concurrency problem concerns *inconsistent reads*.
 
-A dirty read occurs when one transaction reads a changed record that has not been committed to the database. A nonrepeatable read occurs when one transaction rereads data it has previously read and finds modifications or deletions caused by another transaction. A phantom read occurs when a transaction rereads data and finds new rows that were inserted by a different transaction.
+A **dirty read** occurs when one transaction reads a changed record that has not been committed to the database. A **nonrepeatable read** occurs when one transaction rereads data it has previously read and finds modifications or deletions caused by another transaction. A **phantom read** occurs when a transaction rereads data and finds new rows that were inserted by a different transaction.
 
-To avoid concurrency problems, database elements are locked. Implicit locks are placed by the DBMS; explicit locks are issued by the application program. The size of a locked resource is called lock granularity. An exclusive lock prohibits other users from reading the locked resource; a shared lock allows other users to read the locked resource but not to update it.
+To avoid concurrency problems, database elements are locked. Implicit locks are placed by the DBMS; explicit locks are issued by the application program. The size of a locked resource is called **lock granularity**. An exclusive lock prohibits other users from reading the locked resource; a shared lock allows other users to read the locked resource but not to update it.
 
-Two transactions that run concurrently and generate results that are consistent with the results that would have occurred if the transactions had run separately are referred to as serializable transactions. Two-phase locking, in which locks are acquired in a growing phase and released in a shrinking phase, is one scheme for serializability. A special case of two-phase locking is to acquire locks throughout the transaction but not to free any lock until the transaction is finished.
+Two transactions that run concurrently and generate results that are consistent with the results that would have occurred if the transactions had run separately are referred to as serializable transactions. **Two-phase locking**, in which locks are acquired in a growing phase and released in a shrinking phase, is one scheme for serializability. A special case of two-phase locking is to acquire locks throughout the transaction but not to free any lock until the transaction is finished.
 
 Deadlock, or the deadly embrace, occurs when two transactions are each waiting on a resource that the other transaction holds. Deadlock can be prevented by requiring transactions to acquire all locks at the same time. When deadlock occurs, the only way to cure it is to abort one of the transactions and back out of partially completed work.
 
