@@ -354,6 +354,23 @@ The **E-R model** has three types of binary relationships: **1:1, 1:N, and N:M**
 
 **Recursive relationships** are relationships in which the participants in the relationship arise from the same entity class. The three types of recursive relationships are 1:1, 1:N, and N:M. These types of relationships are represented in the same way as are their equivalent nonrecursive relationships. For 1:1 and 1:N relationships, you add a foreign key to the relation that represents the entity. For an N:M recursion, you create an intersection table that represents the M:N relationship.
 
+## Database administration
+
+**Database administration** is a business function that involves managing a database in order to maximize its value to an organization. The conflicting goals of protecting the database and maximizing its availability and benefit to users must be balanced using good administration.
+
+All databases need database administration. The database administration for small, personal databases is informal; database administration for large, multiuser databases can involve an office and many people. DBA can stand for *database administration* or *database administrator.*  Three basic database administration functions are necessary: 
+
+- Concurrency control
+- Security
+- Backup 
+- Recovery
+
+The goal of **concurrency control** is to ensure that one user’s work does not inappropriately influence another user’s work. No single concurrency control technique is ideal for all circumstances. Trade-offs need to be made between the level of protection and data throughput.
+
+A transaction, or logical unit of work, is a series of actions taken against a database that occur as an atomic unit; either all of them occur or none of them do. The activity of concurrent transactions is interleaved on the database server. In some cases, updates can be lost if concurrent transactions are not controlled. Another concurrency problem concerns inconsistent reads.
+
+
+
 ## Glossary
 
 **.NET Framework (.NET)** Microsoft’s comprehensive application development platform. It includes such components as ADO.NET and ASP.NET.
