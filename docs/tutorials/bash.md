@@ -9,6 +9,8 @@ Bash is a Unix shell and command language written by Brian Fox for the GNU Proje
 - [File](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/bash.md#file)
 - [Process](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/bash.md#process)
 - [Permissions](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/bash.md#permissions)
+- Legacy
+  - [Operators](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/bash.md#operators)
 - [scp](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/bash.md#scp)
 
 ## Search
@@ -125,7 +127,7 @@ Network Commands                          | Description
 `$ ssh <username>@<host>`                 | Establish an `SSH` connection to `<host>` with user `<username>`
 `$ scp <file> <user>@<host>:/remote/path` | Copy `<file>` to a remote `<host>`
 
-## Legacy integer comparison operators
+## Operators
 
     -eq 
     is equal to
