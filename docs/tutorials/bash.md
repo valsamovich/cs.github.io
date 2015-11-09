@@ -125,6 +125,32 @@ Network Commands                          | Description
 `$ ssh <username>@<host>`                 | Establish an `SSH` connection to `<host>` with user `<username>`
 `$ scp <file> <user>@<host>:/remote/path` | Copy `<file>` to a remote `<host>`
 
+## Legacy integer comparison operators
+
+    -eq 
+    is equal to
+    if [[ "$a" -eq "$b" ]]
+    
+    -ne
+    is not equal to
+    if [[ "$a" -ne "$b" ]]
+    
+    -gt
+    is greater than
+    if [[ "$a" -gt "$b" ]]
+    
+    -ge
+    is greater than or equal to
+    if [[ "$a" -ge "$b" ]]
+    
+    -lt
+    is less than
+    if [[ "$a" -lt "$b" ]]
+    
+    -le
+    is less than or equal to
+    if [[ "$a" -le "$b" ]]
+
 ## `scp`
 
 `scp` allows files to be copied to, from, or between different hosts. It uses ssh for data transfer and provides the same authentication and same level of security as `ssh`.
