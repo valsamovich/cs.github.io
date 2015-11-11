@@ -11,7 +11,7 @@ Dependencies: JSON, TestNg, JUnit, Selenium WebDriver, Hamcrest, EasyMock, Apach
 - Identifiers
 - Modifiers
 
-Syntax
+## Syntax
 
 **Object** - Objects have states or **fields** and behaviors or **methods**. Example: A dog has states-color, name, breed as well as behaviors -wagging, barking, eating. An object is an instance of a class.
 
