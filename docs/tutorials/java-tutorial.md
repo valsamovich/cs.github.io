@@ -1,12 +1,17 @@
-java-tutorial
-=============
+# Java
 
 **Java** is Object-Oriented, Platform independent, Simple, Secure, Architectural-Neutral, Portable, Robust, Multi-threaded, Interpreted, High Performance, Distributed, Dynamic, etc.
 
 Dependencies: JSON, TestNg, JUnit, Selenium WebDriver, Hamcrest, EasyMock, Apache HttpClient.
 
+## Context
+
+- Syntax
+- Program
+- Identifiers
+- Modifiers
+
 Syntax
-------
 
 **Object** - Objects have states or **fields** and behaviors or **methods**. Example: A dog has states-color, name, breed as well as behaviors -wagging, barking, eating. An object is an instance of a class.
 
@@ -20,8 +25,7 @@ Syntax
 
 Note: To verify the Java version on machine: **java -version**
 
-Program
--------
+## Program
 
 Simple code that would print the words `Hello World`:
 
@@ -44,8 +48,7 @@ Simple code that would print the words `Hello World`:
 - **Program File Name** - Name of the program file should exactly match the class name. Example: Assume `'MyFirstJavaProgram'` is the class name. Then the file should be saved as `'MyFirstJavaProgram.java'`
 - `public static void main(String args[])` - java program processing starts from the `main()` method which is a mandatory part of every java program.
 
-Identifiers
------------
+## Identifiers
 
 All Java components require names. Names used for classes, variables and methods are called identifiers.
 - All identifiers should begin with a letter `A` to `Z` or `a` to `z`, currency character `$` or an underscore `_`.
@@ -55,8 +58,8 @@ All Java components require names. Names used for classes, variables and methods
 - Examples of legal identifiers:age, `$salary, value, __1_value`
 - Examples of illegal identifiers : `123abc, -salary`
 
-Modifiers
----------
+## Modifiers
+
 Like other languages, it is possible to modify classes, methods, etc., by using modifiers. There are two categories of modifiers.
 
 Access Modifiers: `default, public , protected, private`
