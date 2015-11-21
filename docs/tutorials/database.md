@@ -437,30 +437,31 @@ Direct reading of operational databases is not feasible for any but the smallest
 
 Operational data may have problems. Because of the problems with operational data, many organizations have chosen to create and staff data warehouses and data marts. **Extract, transform, and load (ETL)** systems are used to extract data from operational systems; transform the data and load them into data warehouses; and maintain metadata that describes the source, format, assumptions, and constraints about the data. A **data mart** is a collection of data that is smaller than that held in a data warehouse and that addresses a particular component or functional area of the business.
 
-                                                --------------------------------------
-                                                | Web  |      |       BI Tools       |
-                                                | Log  | ---> | for Web-Click-Stream |
-                                                | Data |      |       Analysis       |----> Web Page Design Features
-                                                --------------------------------------
-                        Data        Data        |        Web Sales data Mart         |
-                      Warehouse   Warehouse     --------------------------------------
+                                                ------------------------------------------
+                                                | Web  |      |         BI Tools         |
+                                                | Log  | ---> |   for Web-Click-Stream   |
+                                                | Data |      |         Analysis         |--> Web Page Design Features
+                                                ------------------------------------------
+                        Data        Data        |        Web Sales data Mart             |
+                      Warehouse   Warehouse     ------------------------------------------
                        Metadata    Database  /  
                          \          /       / 
-                          \        /       /    --------------------------------------
-                           \      /       /     | Web  |      |       BI Tools       |
-                            \    /       /      | Log  | ---> |      for Store       |       Market Basket
-    Data Producers --> Data warehouse DBMS ---- | Data |      |      Managment       |----> Analysis for Sales                                                                 \     --------------------------------------         Training
-                                           \    |       Store Sales Data mart        |
-                                            \   --------------------------------------
+                          \        /       /    ------------------------------------------
+                           \      /       /     | Store  |      |       BI Tools         |
+                            \    /       /      | Sales  | ---> |      for Store         |       Market Basket
+    Data Producers --> Data warehouse DBMS ---- | Data   |      |      Managment         |--> Analysis for Sales 
+                                                ------------------------------------------
+                                           \    |       Store Sales Data mart            |
+                                            \   ------------------------------------------
                                              \
                                               \
-                                                --------------------------------------
-                                                | Web  |      |       BI Tools       |
-                                                | Log  | ---> | for Web-Click-Stream |      Inventory Layout
-                                                | Data |      |       Analysis       |----> for Optimal Item
-                                                --------------------------------------          Picking
-                                                |        Web Sales data Mart         |
-                                                --------------------------------------
+                                                ------------------------------------------
+                                                | Inventory |     |       BI Tools       |
+                                                |  Histiry  | --> | for Web-Click-Stream |      Inventory Layout
+                                                |   Data    |     |       Analysis       |--> for Optimal Item
+                                                ------------------------------------------          Picking
+                                                |        Web Sales data Mart             |
+                                                ------------------------------------------
 
 
 ## Glossary
