@@ -1,4 +1,4 @@
-# Database Management
+# Database Design and Management
 
 A **database** is an *organized collection of data* (help people kepp trak of thinks). It is the collection of schemes, tables, queries, reports, views and other objects.
 
