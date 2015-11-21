@@ -477,7 +477,7 @@ The purpose of a reporting system is to create meaningful information from dispa
 
 Online Analytical Processing (OLAP) reporting applications enable users to dynamically restructure reports. A measure is a data item of interest. A dimension is a characteristic of a measure. An OLAP report, or OLAP cube, is an arrangement of measures and dimensions. With OLAP, users can drill down and exchange the order of dimensions.
 
-A distributed database is a database that is stored and processed on more than one computer. A replicated database is one in which multiple copies of some or all of the database are stored on different computers. A partitioned database is one in which different pieces of the database are stored on different computers. A distributed database can be replicated and distributed.
+A **distributed database** is a database that is stored and processed on more than one computer. A **replicated database** is one in which multiple copies of some or all of the database are stored on different computers. A **partitioned database** is one in which different pieces of the database are stored on different computers. A distributed database can be replicated and distributed.
 
 Distributed databases pose processing challenges. If a database is updated on a single computer, then the challenge is simply to ensure that the copies of the database are logically consistent when they are distributed. However, if updates are to be made on more than one computer, the challenges become significant. If the database is partitioned and not replicated, then challenges occur if transactions span data on more than one computer. If the database is replicated and if updates occur to the replicated portions, then a special locking algorithm called distributed two-phase locking is required. Implementing this algorithm can be difficult and expensive.
 
@@ -515,7 +515,7 @@ The NoSQL movement (now often read as “not only SQL”) is built upon the need
 
 **Association relationship** In database design, a table pattern where an intersection table contains additional attributes beyond the attributes that make up the composite primary key.
 
-**Associative entity** Also called an association entity, this is an entity that represents the combination of at least two other objects and that contains data about that combination. It is often used in contracting and assignment applications.
+**Associative entity** Also called an association entity, this is an entity that represents the combination of at least two other objects and that cont MBains data about that combination. It is often used in contracting and assignment applications.
 
 **Asterisk (*)** A wildcard character used in Microsoft Access queries to represent one or more unspecified characters. See SQL percent sign (%) wildcard character.
 
