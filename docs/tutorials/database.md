@@ -444,11 +444,11 @@ Operational data may have problems. Because of the problems with operational dat
                                                 ------------------------------------------
                         Data        Data        |        Web Sales data Mart             |
                       Warehouse   Warehouse     ------------------------------------------
-                       Metadata    Database  /  
-                         \          /       / 
-                          \        /       /    ------------------------------------------
-                           \      /       /     | Store  |      |       BI Tools         |
-                            \    /       /      | Sales  | ---> |      for Store         |       Market Basket
+                       Metadata    Database   /  
+                         \          /        / 
+                          \        /        /   ------------------------------------------
+                           \      /        /    | Store  |      |       BI Tools         |
+                            \    /        /     | Sales  | ---> |      for Store         |       Market Basket
     Data Producers --> Data warehouse DBMS ---- | Data   |      |      Managment         |--> Analysis for Sales 
                                           \     ------------------------------------------
                                            \    |       Store Sales Data mart            |
@@ -463,7 +463,7 @@ Operational data may have problems. Because of the problems with operational dat
                                                 |        Web Sales data Mart             |
                                                 ------------------------------------------
 
-Operational databases and dimensional databases have different characteristics, as shown below
+Operational databases and dimensional databases have different characteristics, as shown below:
 
 Operational Database                             | Dimensional Database  
 -------------------------------------------------|-------------------------------------------------
@@ -471,7 +471,19 @@ Used for structured transaction data processing  | Used for unstructured analyti
 Current data are used                            | Current and historical data are used
 Data are inserted, updated, and deleted by users | Data are loaded and updated systematically
 
+**Dimensional databases** use a star schema with a fully normalized fact table that connects to dimension tables that may be non-normalized. Dimensional databases must deal with slowly changing dimensions, and therefore a time dimension is important in a dimensional database. Fact tables hold measures of interest, and dimension tables hold attribute values used in queries. The star schema can be extended with additional fact tables, dimension tables, and conformed dimensions.
 
+The purpose of a reporting system is to create meaningful information from disparate data sources and to deliver that information to the proper users on a timely basis. Reports are produced by sorting, filtering, grouping, and making simple calculations on the data. RFM analysis is a typical reporting application. Customers are grouped and classified according to how recently they have placed an order (R), how frequently they order (F), and how much money (M) they spend on orders. An RFM report can be produced using SQL statements.
+
+Online Analytical Processing (OLAP) reporting applications enable users to dynamically restructure reports. A measure is a data item of interest. A dimension is a characteristic of a measure. An OLAP report, or OLAP cube, is an arrangement of measures and dimensions. With OLAP, users can drill down and exchange the order of dimensions.
+
+A distributed database is a database that is stored and processed on more than one computer. A replicated database is one in which multiple copies of some or all of the database are stored on different computers. A partitioned database is one in which different pieces of the database are stored on different computers. A distributed database can be replicated and distributed.
+
+Distributed databases pose processing challenges. If a database is updated on a single computer, then the challenge is simply to ensure that the copies of the database are logically consistent when they are distributed. However, if updates are to be made on more than one computer, the challenges become significant. If the database is partitioned and not replicated, then challenges occur if transactions span data on more than one computer. If the database is replicated and if updates occur to the replicated portions, then a special locking algorithm called distributed two-phase locking is required. Implementing this algorithm can be difficult and expensive.
+
+Objects consist of methods and properties or data values. All objects of a given class have the same methods, but they have different property values. Object persistence is the process of storing object property values. Relational databases are difficult to use for object persistence. Some specialized products called object-oriented DBMSs were developed in the 1990s but never received commercial acceptance. Oracle and others have extended the capabilities of their relational DBMS products to provide support for object persistence. Such databases are referred to as object-relational databases.
+
+The NoSQL movement (now often read as “not only SQL”) is built upon the need to meet the Big Data storage needs of companies such as Amazon.com, Google, and Facebook. The tools used to do this are nonrelational DBMSs know as structured storage. An early example was Bigtable, and a more recent popular example is Cassandra. These products use a non-normalized table structure built on columns, super columns, column families, and super column families tied together by rowkey values from a keyspace. Data processing of the very large data sets found in Big Data is done by the MapReduce process, which breaks a data processing task in many parallel tasks done by many computers in the cluster and then combines these results to produce a final result. An emerging product that is supported by Microsoft and Oracle Corporation is the Hadoop Distributed File System (HDFS), with its spinoffs HBase, a nonrelational storage component, and Pig, a query language.
 
 ## Glossary
 
