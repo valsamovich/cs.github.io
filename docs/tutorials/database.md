@@ -274,7 +274,7 @@ You can modify data by using The **SQL UPDATE ... SET** statement and delete dat
 
 You can remove tables (and their data) from a database by using the **SQL DROP TABLE** statement. You can remove constraints by using the **SQL ALTER TABLE DROP CONSTRAINT** command. You can modify tables and constraints by using The **SQL ALTER TABLE** statement. Finally, you can use the **CHECK** constraint to validate data values.
 
-## Data Modeling and ERT
+## Data Modeleing and Entity Relationship Diagram (ERD)
 
 The process of developing a database system consists of three stages: 
 
@@ -435,7 +435,7 @@ BI applications obtain data from three sources: *operational databases*, *extrac
 
 Direct reading of operational databases is not feasible for any but the smallest and simplest BI applications and databases—for several reasons. Querying operational data can unacceptably slow the performance of operational systems, operational data have problems that limit their usefulness for BI applications, and BI system creation and maintenance require programs, facilities, and expertise that are normally not available for an operational database.
 
-Operational data may have problems. Because of the problems with operational data, many organizations have chosen to create and staff data warehouses and data marts. **Extract, transform, and load (ETL)** systems are used to extract data from operational systems; transform the data and load them into data warehouses; and maintain metadata that describes the source, format, assumptions, and constraints about the data. A **data mart** is a collection of data that is smaller than that held in a data warehouse and that addresses a particular component or functional area of the business.
+Operational data may have problems. Because of the problems with operational data, many organizations have chosen to create and staff data warehouses and data marts. **Extract, transform, and load (ETL)** systems are used to extract data from operational systems; transform the data and load them into data warehouses; and maintain metadata that describes the source, format, assumptions, and constraints about the data. A **data mart** is a collection of data that is smaller than that held in a data warehouse and that addresses a particular component or functional area of the business. In the enterprise data warehouse distributes data to three smaller data marts, each of which services the needs of a different aspect of the business.
 
                                                 ------------------------------------------
                                                 | Web  |      |         BI Tools         |
@@ -450,7 +450,7 @@ Operational data may have problems. Because of the problems with operational dat
                            \      /       /     | Store  |      |       BI Tools         |
                             \    /       /      | Sales  | ---> |      for Store         |       Market Basket
     Data Producers --> Data warehouse DBMS ---- | Data   |      |      Managment         |--> Analysis for Sales 
-                                                ------------------------------------------
+                                          \     ------------------------------------------
                                            \    |       Store Sales Data mart            |
                                             \   ------------------------------------------
                                              \
@@ -462,6 +462,15 @@ Operational data may have problems. Because of the problems with operational dat
                                                 ------------------------------------------          Picking
                                                 |        Web Sales data Mart             |
                                                 ------------------------------------------
+
+Operational databases and dimensional databases have different characteristics, as shown below
+
+Operational Database                             | Dimensional Database  
+-------------------------------------------------|-------------------------------------------------
+Used for structured transaction data processing  | Used for unstructured analytical data processing
+Current data are used                            | Current and historical data are used
+Data are inserted, updated, and deleted by users | Data are loaded and updated systematically
+
 
 
 ## Glossary
