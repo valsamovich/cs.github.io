@@ -415,6 +415,17 @@ In addition to concurrency control, security, and backup and recovery, a DBA nee
 
 ## Big Data, Data Warehouses, and Business Intelligence Systems
 
+**Business intelligence (BI) systems** assist managers and other professionals in the analysis of current and past activities and in the prediction of future events. BI applications are of two major types: *reporting applications* and *data mining applications*. Reporting applications make elementary calculations on data. Data mining applications use sophisticated mathematical and statistical techniques.
+
+BI applications obtain data from three sources: *operational databases*, *extracts of operational databases*, and *purchased data*. A BI system sometimes has its own DBMS, which may or not be the operational DBMS. Characteristics of reporting and data mining applications are listed in below:
+
+- Reporting
+  - Filter, sort, group, and make simple calculations
+  - Summarize current status
+  - Compare current status to past or predicted status
+  - Classify entities (customers, products, employees, etc.)
+  - Report delivery crucial
+
 ## Glossary
 
 **.NET Framework (.NET)** Microsoft’s comprehensive application development platform. It includes such components as ADO.NET and ASP.NET.
