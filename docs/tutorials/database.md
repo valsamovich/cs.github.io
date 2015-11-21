@@ -417,7 +417,7 @@ In addition to concurrency control, security, and backup and recovery, a DBA nee
 
 **Business intelligence (BI) systems** assist managers and other professionals in the analysis of current and past activities and in the prediction of future events. BI applications are of two major types: *reporting applications* and *data mining applications*. Reporting applications make elementary calculations on data. Data mining applications use sophisticated mathematical and statistical techniques.
 
-BI applications obtain data from three sources: *operational databases*, *extracts of operational databases*, and *purchased data*. A BI system sometimes has its own DBMS, which may or not be the operational DBMS. Characteristics of reporting and data mining applications are listed in below:
+BI applications obtain data from three sources: *operational databases*, *extracts of operational databases*, and *purchased data*. A BI system sometimes has its own DBMS, which may or not be the operational DBMS. *Characteristics of reporting and data mining applications* are listed in below:
 
 - Reporting
   - Filter, sort, group, and make simple calculations
@@ -425,6 +425,43 @@ BI applications obtain data from three sources: *operational databases*, *extrac
   - Compare current status to past or predicted status
   - Classify entities (customers, products, employees, etc.)
   - Report delivery crucial
+- Data Mining
+  - Often employ sophisticated statistical and mathematical techniques
+  - User for:
+    - What-if analyses
+    - Predictions
+    - Decisions
+  - Results often incorporated into other report or system 
+
+Direct reading of operational databases is not feasible for any but the smallest and simplest BI applications and databases—for several reasons. Querying operational data can unacceptably slow the performance of operational systems, operational data have problems that limit their usefulness for BI applications, and BI system creation and maintenance require programs, facilities, and expertise that are normally not available for an operational database.
+
+Operational data may have problems. Because of the problems with operational data, many organizations have chosen to create and staff data warehouses and data marts. **Extract, transform, and load (ETL)** systems are used to extract data from operational systems; transform the data and load them into data warehouses; and maintain metadata that describes the source, format, assumptions, and constraints about the data. A **data mart** is a collection of data that is smaller than that held in a data warehouse and that addresses a particular component or functional area of the business.
+
+                                                --------------------------------------
+                                                | Web  |      |       BI Tools       |
+                                                | Log  | ---> | for Web-Click-Stream |
+                                                | Data |      |       Analysis       |----> Web Page Design Features
+                                                --------------------------------------
+                        Data        Data        |        Web Sales data Mart         |
+                      Warehouse   Warehouse     --------------------------------------
+                       Metadata    Database  /  
+                         \          /       / 
+                          \        /       /    --------------------------------------
+                           \      /       /     | Web  |      |       BI Tools       |
+                            \    /       /      | Log  | ---> |      for Store       |       Market Basket
+    Data Producers --> Data warehouse DBMS ---- | Data |      |      Managment       |----> Analysis for Sales                                                                 \     --------------------------------------         Training
+                                           \    |       Store Sales Data mart        |
+                                            \   --------------------------------------
+                                             \
+                                              \
+                                                --------------------------------------
+                                                | Web  |      |       BI Tools       |
+                                                | Log  | ---> | for Web-Click-Stream |      Inventory Layout
+                                                | Data |      |       Analysis       |----> for Optimal Item
+                                                --------------------------------------          Picking
+                                                |        Web Sales data Mart         |
+                                                --------------------------------------
+
 
 ## Glossary
 
