@@ -45,6 +45,9 @@ Hive organizes tables into **partitions**. It is a way of dividing a table into 
     # Show talbe partitions
     show partitions [table-name];
     
+    # Select a partition
+    SELECT [column-1], [colum-2], [column-n] FROM [table-name] WHERE ([patition-name]="[fragmnet]");
+    
     # Adding a Partition
     ALTER TABLE [table-name] ADD [IF NOT EXISTS] PARTITION([patition-name]="[fragmnet]");
     
