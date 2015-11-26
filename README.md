@@ -35,7 +35,7 @@
 
 ## Bookmarks
 
-- [Apache Software Foundation](http://www.apache.org/) is a community of open-source software.
+- [Apache Software Foundation](http://www.apache.org/) is a community of *open-source software*.
 - [W3Schools](http://www.w3schools.com/) is a world's largest web developement site.
 - [Codecademy](https://www.codecademy.com/) is great free coding tutorials.
 - [Google Developers](https://developers.google.com/) is **Google's** site for software development tools.
