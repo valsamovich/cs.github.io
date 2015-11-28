@@ -26,7 +26,7 @@ In computing, **Extract, Transform and Load** (ETL) refers to a process in datab
 
 ## Hive
 
-The Apache Hive ™ data warehouse software facilitates querying and managing large datasets residing in distributed storage. Use the -f flag to specify a file that contains a hive script.
+The Apache **Hive** ™ data warehouse software facilitates querying and managing large datasets residing in distributed storage. Use the -f flag to specify a file that contains a hive script.
     
     # Enable header
     set hive.cli.print.header=true;
@@ -56,7 +56,7 @@ Hive organizes tables into **partitions**. It is a way of dividing a table into 
     
 ## Java
 
-Run .jar via command line(**FQCN** stands for Fully-Qualified Class Name):
+Run `.jar` via command line(**FQCN** stands for Fully-Qualified Class Name):
 
     java [first-argument] [second-argument] -classpath [jar-location] [FQCN]
     java -Dinput=/Users/samov004/Downloads/test.xls -Doutput=/Users/samov004/Downloads/result.csv -classpath cima-data-utils-1.0-SNAPSHOT.jar com.disney.cima.converters.ConvertXLStoCSV
