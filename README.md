@@ -1,6 +1,6 @@
 # Engineering
 
-**Engineering** is  the *application* of mathematics, empirical evidence and scientific, economic, social, and practical knowledge in order to invent, design, build, maintain, research, and improve, structures, machines, tools, systems, components, materials, and processes.
+**Engineering** is  the *application* of mathematics, empirical evidence and scientific, economic, social, and practical knowledge in order to invent, *design*, *build*, *maintain*, research, and improve, structures, machines, tools, systems, components, materials, and processes.
 
 - [Glossary](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/glossary.md)
 - [Data Engineering](https://github.com/valerysamovich/engineering/blob/master/docs/data-engineering.md)
