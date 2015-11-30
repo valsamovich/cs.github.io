@@ -79,7 +79,6 @@ Run `.jar` via command line(**FQCN** stands for Fully-Qualified Class Name):
     # Save a line to a file
     grep [options] [input-file] >> [new-file]
     grep '[[:space:]]47[[:space:]]' 2015_26-53.txt >> 47.txt    # example
-
     
     # Merge multiply files into one(.csv, .txt):
     cat *.txt > merged.txt
