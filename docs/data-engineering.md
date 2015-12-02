@@ -14,7 +14,7 @@ In computing, **Extract, Transform and Load** (ETL) refers to a process in datab
     scp scp <env>:~/<directory>/<file>      # Secure copy from remote to local host
     scp scp PROD01:~/files/serde.ddl.sql .  # Example
 
-## gzip
+## `gzip`
 
 `gzip` is a file format and a software application used for file compression and decompression. 
 
