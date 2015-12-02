@@ -92,4 +92,7 @@ Run `.jar` via command line(**FQCN** stands for Fully-Qualified Class Name):
         echo $BASH_REMATCH
         echo ${BASH_REMATCH[1]}
     fi
+    
+    # Remove empty line
+    grep -v '^$' [file.txt] > [new-file.txt]
 
