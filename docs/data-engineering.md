@@ -96,3 +96,23 @@ Run `.jar` via command line(**FQCN** stands for Fully-Qualified Class Name):
     # Remove empty line
     grep -v '^$' [file.txt] > [new-file.txt]
 
+## Python
+
+Reading specific columns from a text file
+    
+    # Open text file
+    file = open(inputFile, "r")
+    
+    # Global variables
+    lines=file.readlines()
+    result=[]
+    
+    # Loop over lines and add facility ids to list
+    for x in lines:
+        result.append(x.split('\t')[12])
+    
+    # Print the list
+    print result
+    
+    # CLose text file
+    file.close()
