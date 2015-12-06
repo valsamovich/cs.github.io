@@ -12,7 +12,6 @@ In computing, **Extract, Transform and Load** (ETL) refers to a process in datab
 
 **Transactional Control Language** (TCL) is used to manage different transactions occurring within a database. Examples: COMMIT, ROLLBACK statements
 
-
 ## `scp`
 
 `scp` allows files to be copied to, from, or between different hosts. It uses ssh for data transfer and provides the same authentication and same level of security as `ssh`.
