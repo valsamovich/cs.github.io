@@ -119,10 +119,8 @@ Reading specific columns from a text file
     print result
     # CLose text file
     file.close()
-
-List comprehension is a syntactic construct available
     
-    # List of strings
+    # List of strings. List comprehension is a syntactic construct available
     listOfValues = ['1', '2', '3']
     # Convert string values to number
     listOfValues = [int(i) for i in listOfValues]
