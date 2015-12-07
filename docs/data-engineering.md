@@ -109,18 +109,14 @@ Reading specific columns from a text file
     
     # Open text file
     file = open(inputFile, "r")
-    
     # Global variables
     lines=file.readlines()
     result=[]
-    
     # Loop over lines and add values to list
     for x in lines:
         result.append(x.split('\t')[12])
-    
     # Print the list
     print result
-    
     # CLose text file
     file.close()
 
@@ -128,6 +124,5 @@ List comprehension is a syntactic construct available
     
     # List of strings
     listOfValues = ['1', '2', '3']
-    
     # Convert string values to number
     listOfValues = [int(i) for i in listOfValues]
