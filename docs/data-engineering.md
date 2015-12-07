@@ -115,7 +115,7 @@ Reading specific columns from a text file
     lines=file.readlines()
     result=[]
     
-    # Loop over lines and add facility ids to list
+    # Loop over lines and add values to list
     for x in lines:
         result.append(x.split('\t')[12])
     
