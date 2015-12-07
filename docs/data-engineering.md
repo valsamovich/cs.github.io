@@ -124,3 +124,11 @@ Reading specific columns from a text file
     
     # CLose text file
     file.close()
+
+List comprehension is a syntactic construct available
+    
+    # List of strings
+    listOfValues = ['1', '2', '3']
+    
+    # Convert string values to number
+    listOfValues = [int(i) for i in listOfValues]
