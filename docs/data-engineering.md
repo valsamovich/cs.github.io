@@ -4,13 +4,12 @@
 
 In computing, **Extract, Transform and Load** (ETL) refers to a process in database usage and especially in data warehousing that: Extracts data from homogeneous or heterogeneous data sources. Transforms the data for storing it in proper format or structure for querying and analysis purpose.
 
-**Data Manipulation Language** (DML) is used to retrieve, store, modify, delete, insert and update data in database. Examples: SELECT, UPDATE, INSERT statements
+Computer programming languages for defining data structures:
 
-**Data Definition Language** (DDL) is used to create and modify the structure of database objects in database. Examples: CREATE, ALTER, DROP statements
-
-**Data Control Language** (DCL)is used to create roles, permissions, and referential integrity as well it is used to control access to database by securing it. Examples: GRANT, REVOKE statements
-
-**Transactional Control Language** (TCL) is used to manage different transactions occurring within a database. Examples: COMMIT, ROLLBACK statements
+- **Data Manipulation Language** (DML) -  is used to retrieve, store, modify, delete, insert and update data in database. Examples: `SELECT`, `UPDATE`, `INSERT` statements
+- **Data Definition Language** (DDL) is used to create and modify the structure of database objects in database. Examples: `CREATE`, `ALTER`, `DROP` statements
+- **Data Control Language** (DCL)is used to create roles, permissions, and referential integrity as well it is used to control access to database by securing it. Examples: `GRANT`, `REVOKE` statements
+- **Transactional Control Language** (TCL) is used to manage different transactions occurring within a database. Examples: `COMMIT`, `ROLLBACK` statements
 
 ## `scp`
 
