@@ -126,3 +126,9 @@ http://www.example.com/v1/hr/employees/19328389
 
 - [**URI Scheme**](http://en.wikipedia.org/wiki/URI_scheme)
 - [**HTTP status codes**](http://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
+
+Architecture of the **REST Service**
+
+- **REST layer** This layer receives the incoming HTTP request and converts the request into a data model that is handed down to the Service Layer. It also takes any response from the Service layer and sends it back to the client via Apache CXF.
+- **Service layer** This is where the heavy lifting is done. Business rules, validations, transactions and calls to the DAO layer happens here.
+- **DAO layer** This layer is responsible for accessing the data used by the service layer. This is where calls to relational databases, NoSQL stores and other backend services are made.
