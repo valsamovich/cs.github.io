@@ -38,8 +38,8 @@ The Apache **Hive** ™ data warehouse software facilitates querying and managin
     # Enable header
     set hive.cli.print.header=true;
     
-    # Execute the hive script
-    $ hive -f query.hive
+    # Execute the hive script from file
+    $ hive -f query.sql
     
     # Use database
     use [database-name];
