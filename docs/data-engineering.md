@@ -124,3 +124,14 @@ Reading specific columns from a text file
     listOfValues = ['1', '2', '3']
     # Convert string values to number
     listOfValues = [int(i) for i in listOfValues]
+
+## MySQL
+
+Connecting to the MySQL Server
+
+    mysql -u [username] -p[password] -h [hostname] [database] 
+
+    -u: username
+    -p: password (**no space after**)
+    -h: host
+    last one is name of the database that you wanted to connect.
