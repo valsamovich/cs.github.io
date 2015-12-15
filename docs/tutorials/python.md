@@ -5,6 +5,7 @@
 - Official [website](https://www.python.org/)
 - [Codecademy](https://www.codecademy.com/en/tracks/python) tutorial
 - [Tutorialpoint](http://www.tutorialspoint.com/python/) tutorial
+
 ## Notes
 
 - To validate syntax without compiling: `python -m py_compile [fime-name].py`.
