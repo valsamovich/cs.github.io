@@ -2,8 +2,7 @@
 
 ## Context
 
-- Set SDK for project
-
+- [Set SDK for project](https://github.com/valerysamovich/engineering/blob/master/docs/how/intellij-idea.md#set-sdk-for-project)
 
 ## Set SDK for project
 
