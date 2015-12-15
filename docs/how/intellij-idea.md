@@ -1,5 +1,10 @@
 # Intellij IDEA
 
+IntelliJ IDEA is a Java integrated development environment (IDE) for developing computer software. It is developed by JetBrains (formerly known as IntelliJ), and is available as an Apache 2 Licensed community edition, and in a proprietary commercial edition.
+
+- [JetBrains](https://www.jetbrains.com/)
+- [IntelliJ IDEA](https://www.jetbrains.com/idea/)
+
 ## Context
 
 - [Set SDK for project](https://github.com/valerysamovich/engineering/blob/master/docs/how/intellij-idea.md#set-sdk-for-project)
