@@ -14,11 +14,24 @@
 
 ## Access by index
 
-The string "PYTHON" has six characters, numbered 0 to 5, as shown below:
+The string "PYTHON" has six characters, numbered 0 to 5, as shown below. So if you wanted "Y", you could just type "PYTHON"[1] (always start counting from 0!):
 
     +---+---+---+---+---+---+
     | P | Y | T | H | O | N |
     +---+---+---+---+---+---+
       0   1   2   3   4   5
 
-So if you wanted "Y", you could just type "PYTHON"[1] (always start counting from 0!)
+## Preview Python modules installed on computer
+
+    #!/usr/local/bin/python2.7
+
+    import pip
+    
+    installed_packages = pip.get_installed_distributions()
+    installed_packages_list = sorted(["%s==%s" % (i.key, i.version)
+                                      for i in installed_packages])
+    print(installed_packages_list)
+
+
+
+
