@@ -21,7 +21,7 @@ The string "PYTHON" has six characters, numbered 0 to 5, as shown below. So if y
     +---+---+---+---+---+---+
       0   1   2   3   4   5
 
-## Preview Python modules installed on computer
+## Preview Python modules
 
     #!/usr/local/bin/python2.7
 
