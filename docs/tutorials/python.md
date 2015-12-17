@@ -5,6 +5,7 @@
 - Official [website](https://www.python.org/)
 - [Codecademy](https://www.codecademy.com/en/tracks/python) tutorial
 - [Tutorialpoint](http://www.tutorialspoint.com/python/) tutorial
+- [Regex](http://pythex.org/) for Python
 
 ## Notes
 
