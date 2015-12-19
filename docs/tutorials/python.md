@@ -6,9 +6,6 @@
 - [Codecademy](https://www.codecademy.com/en/tracks/python) tutorial
 - [Tutorialpoint](http://www.tutorialspoint.com/python/) tutorial
 - [Regex](http://pythex.org/) for Python
-
-## Notes
-
 - To validate syntax without compiling: `python -m py_compile [fime-name].py`.
 - [Escape Characters](http://www.tutorialspoint.com/python/python_strings.htm).
 - [Style Guide](https://www.python.org/dev/peps/pep-0008/) for Python Code.
