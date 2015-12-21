@@ -127,7 +127,7 @@ Reading specific columns from a text file
 
 ## MySQL
 
-Connecting to the MySQL Server
+Connecting to the **MySQL** Server
 
     mysql -u [username] -p[password] -h [hostname] [database] 
 
