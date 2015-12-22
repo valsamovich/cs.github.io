@@ -19,13 +19,13 @@ Select the installation path of interpreter, for example **Python**:
 
 ## Override console buffer size
 
-DEA_HOME\bin\idea.properties
+`IDEA_HOME\bin\idea.properties`
     
     #-----------------------------------------------------------------------
     # This option controls console cyclic buffer: keeps the console output size not higher than the specified buffer size (Kb). Older lines are deleted.
     # In order to disable cycle buffer use idea.cycle.buffer.size=disabled
     idea.cycle.buffer.size=1024
     
-Override console cycle buffer size will override the size specified in `IDEA_HOME\bin\idea.properties`
+**Override console cycle buffer size** will override the size specified in `IDEA_HOME\bin\idea.properties`
 
     Preferences -> Editor -> General -> Console -> Override console cycle buffer size
