@@ -38,7 +38,7 @@
 
 - [Apache Software Foundation](http://www.apache.org/) is a community of *open-source software*.
 - [W3Schools](http://www.w3schools.com/) is a world's largest web developement site.
-- [Codecademy](https://www.codecademy.com/) is great free coding tutorials.
+- [Codecademy](https://www.codecademy.com/) is great **free** coding tutorials.
 - [Google Developers](https://developers.google.com/) is **Google's** site for software development tools.
 - [Mozilla Developer Network](https://developer.mozilla.org) is Mozilla docs for developers and about the web.
 - [JsonPath](https://code.google.com/p/json-path/) is to [JSON](http://www.json.org/) what **XPATH** is to **XML**, extract parts of a given document.
