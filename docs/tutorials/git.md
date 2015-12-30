@@ -7,6 +7,7 @@
 - [Githut](http://githut.info/) is a place to discover languages on GitHub
 - [Github](https://training.github.com) training
 - Read more about [Open source licensing](https://help.github.com/articles/open-source-licensing/) and [choosealicense](http://choosealicense.com/) 
+
 ## Content
 
 - [Configure Tooling](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/git.md#configure-tooling)
