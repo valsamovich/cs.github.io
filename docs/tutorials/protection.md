@@ -2,5 +2,5 @@
 
 Information by classifications: 
 - Public 
-- internal 
-- Confidentional
+- internal (email, trademarks, marketing materials) 
+- Confidentional (Client, Employee)
