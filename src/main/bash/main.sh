@@ -1,12 +1,21 @@
 #!/usr/bin/env bash
 
-# Example how to execute [name].ddl.sql or [name].dml.sql
-hive --database [database-name] -f "[name].ddl.sql"
+feed-main(){
+    # Example of file execution
+    python process.py
+    
+    # Example how to execute [name].ddl.sql or [name].dml.sql
+    hive --database [database-name] -f "[name].ddl.sql"
+    
+    # Example of SQL statement execution form bash file.
+    SQL = "INSERT INTO TABLE [table-name] [column-name], [column-name];"
+    hive --datavase [database_name] -e "${SQL}"
+    
+    # Store date and time
+    COMPLETION_TIME=`date`
 
-# Example of SQL statement execution form bash file.
-# Important: Query must be in 1 one!
-SQL = "INSERT INTO TABLE [table-name] [column-name], [column-name];"
-hive --datavase [database_name] -e "${SQL}"
+    # Display message about completion
+    echo "Process completed at ${COMPLETION_TIME}"
+}
 
-# Example for day variable
-YESTERDAYS_DATE=$(date -d "Yesterday" +"%Y-%m-%d")
+feed-main
