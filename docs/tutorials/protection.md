@@ -6,6 +6,7 @@
 - Password
 - Social Engineering
 - Physical Security
+- Content Protection
 
 Information by classifications: 
 - Public 
