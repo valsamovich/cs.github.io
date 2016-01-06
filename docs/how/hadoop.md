@@ -19,7 +19,7 @@ Open VirtualBox and click **New**. Follow creation steps:
 - Name and Operating system: **Ubuntu Server**
 - Memory Size: **4096**
 - Hard disk: **Create a virtual disc now**
-- Hard disc file type: **VDI (Virtual Disc Image)**
+    - Hard disc file type: **VDI (Virtual Disc Image)**
 - Storage on physical hard drive: **Fixed size**
 - File location and size: **64.00GB**
 
