@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 def map(key, value):
     for word in value.split():
         emit(word, 1)
