@@ -93,14 +93,6 @@ MapReduce isa a functional programming paradigm:
 - Simple, powerfull, and flexible enough to implement many analytical algorithms in parallel.
 - MapReduce API is in Java, but Hadoop Streaming enables MapReduce in any Unix-pipe compatible language.
 
-    def map(key, value):
-        ...
-        return (intermed_key, intermed_value)
-    
-    def reduce(key, value):
-        ...
-        return output
-
 A **MapReduce** job is composed of many Map and Reduce tasks that operate on data that is stored locally, thus minimizing network traffic.
 
     |      | Map          |      | Map          |      |
