@@ -84,12 +84,14 @@ Note that metadata associated with the files is stored in the memory of the Name
 
 ## MapReduce
 
-MapReduce is a primary computation framework for Hadoop. MapReduce API is in Java, but Haddop Streaming enables in any Unix-pipe compatible language. It's based on a functional programming paradigm:
+MapReduce isa a functional programming paradigm:
 
     Map => Reduce
     Input x => Function f => Output f(x)
 
-> Simple, powerfull, and flexible enough to implement many analytical algorithms in parallel.
+- On Haddop, Map Reduce is the first and primary methodology fo cluster computing.
+- Simple, powerfull, and flexible enough to implement many analytical algorithms in parallel.
+- MapReduce API is in Java, but Hadoop Streaming enables MapReduce in any Unix-pipe compatible language.
 
     def map(key, value):
         ...
