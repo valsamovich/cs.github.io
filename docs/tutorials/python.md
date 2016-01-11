@@ -29,6 +29,19 @@ The string "PYTHON" has six characters, numbered 0 to 5, as shown below. So if y
     installed_packages_list = sorted(["%s==%s" % (i.key, i.version)
                                       for i in installed_packages])
     print(installed_packages_list)
+    
+## Comprehensions 
+
+Its' convenient way to work with iterables. Comprehensions let skip the for loop and start creating lists, dicts, and sets straight from your iterables. Comprehensions also let emulate functional programming aspects like map() and filter() in a more accessible way.
+    
+    # Without comprehensions
+    nums = range(5, 20)
+    halves = []
+    for num in nums:
+        halves.append(num/2)
+    
+    # With comprehensions
+    halves = [num/2 for num in nums]
 
 
 

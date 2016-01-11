@@ -84,20 +84,25 @@ Note that metadata associated with the files is stored in the memory of the Name
 
 ## MapReduce
 
-MapReduce is a primary computation framework for Hadoop. MapReduce API is in Java, but Haddop Streaming enables in any Unix-pipe compatible language. It's based on a functional programming paradigm:
+**MapReduce** isa a functional programming paradigm:
 
     Map => Reduce
     Input x => Function f => Output f(x)
 
-> Simple, powerfull, and flexible enough to implement many analytical algorithms in parallel.
+- On Haddop, Map Reduce is the first and primary methodology fo cluster computing.
+- Simple, powerfull, and flexible enough to implement many analytical algorithms in parallel.
+- MapReduce API is in Java, but Hadoop Streaming enables MapReduce in any Unix-pipe compatible language.
+- MapReduce is parallel by design, hence its selection for use in a distributed computing framework!
 
-    def map(key, value):
+MapReduce example in *python*:
+
+    def map(hey, value):
         ...
-        return (intermed_key, intermed_value)
-    
-    def reduce(key, value):
+        return(intermed_key, intermed_value)
+        
+    def reduce(hey, value):
         ...
-        return output
+        return outut
 
 A **MapReduce** job is composed of many Map and Reduce tasks that operate on data that is stored locally, thus minimizing network traffic.
 
@@ -110,6 +115,14 @@ A **MapReduce** job is composed of many Map and Reduce tasks that operate on dat
     |      |      Reduce  |      |      Reduce  |      |
     |      |     /        |      |     /        |      |
     |      | Map          |      | Map          |      |
+
+Hadoop takes care of the low-level distributed computing details:
+
+- automatic parallelization
+- job distribution
+- job managment
+- fault tolerance
+- monitoring
 
 A **Job** is a full program, the complete execution of Map and Reduce functions across all input data. A **Job** is composed of many tasks, the execution of a singlr attempt at Map or Reduce on a block of data. Tasks are presided over by thr NodeManager.
 
@@ -128,6 +141,14 @@ A **Reducer** also takes a list as input, but then combines the values in the li
 > The gurantee that a Reducer receives all values for a singlr key requires a **shuffle and sort** between **Map** and **Reduce**.
 
 ![alt text](/assets/hadoop-shuffling.png "Hadoop shuffling")
+
+The **phases of MapReduce** are as follows:
+
+1. Local data is loaded into a mapping process as key/value pairs from HDFS. 
+2. The Mapper output zero or more key/value pair, mapping computer values to particular key. 
+3. Those pairs then sorted and shuffled based on the key and are then paseds to the reducer such that all values for a key available to it. 
+4. The Reducer then must output zero or more final key/value pairs which are the output. 
+5. Output is then went back to HDFS.
 
 ## Example
 
