@@ -84,7 +84,7 @@ Note that metadata associated with the files is stored in the memory of the Name
 
 ## MapReduce
 
-MapReduce isa a functional programming paradigm:
+**MapReduce** isa a functional programming paradigm:
 
     Map => Reduce
     Input x => Function f => Output f(x)
@@ -92,6 +92,17 @@ MapReduce isa a functional programming paradigm:
 - On Haddop, Map Reduce is the first and primary methodology fo cluster computing.
 - Simple, powerfull, and flexible enough to implement many analytical algorithms in parallel.
 - MapReduce API is in Java, but Hadoop Streaming enables MapReduce in any Unix-pipe compatible language.
+- MapReduce is parallel by design, hence its selection for use in a distributed computing framework!
+
+MapReduce example in *python*:
+
+    def map(hey, value):
+        ...
+        return(intermed_key, intermed_value)
+        
+    def reduce(hey, value):
+        ...
+        return outut
 
 A **MapReduce** job is composed of many Map and Reduce tasks that operate on data that is stored locally, thus minimizing network traffic.
 
