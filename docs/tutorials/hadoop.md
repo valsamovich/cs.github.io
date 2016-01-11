@@ -116,6 +116,14 @@ A **MapReduce** job is composed of many Map and Reduce tasks that operate on dat
     |      |     /        |      |     /        |      |
     |      | Map          |      | Map          |      |
 
+Hadoop takes care of the low-level distributed computing details:
+
+- automatic parallelization
+- job distribution
+- job managment
+- fault tolerance
+- monitoring
+
 A **Job** is a full program, the complete execution of Map and Reduce functions across all input data. A **Job** is composed of many tasks, the execution of a singlr attempt at Map or Reduce on a block of data. Tasks are presided over by thr NodeManager.
 
 A **Map** function takes as input a list and operates singly upon each individual element in the list, e.g. mapping a function to each item in a list:
