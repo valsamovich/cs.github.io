@@ -142,6 +142,14 @@ A **Reducer** also takes a list as input, but then combines the values in the li
 
 ![alt text](/assets/hadoop-shuffling.png "Hadoop shuffling")
 
+The **phases of MapReduce** are as follows:
+
+1. Local data is loaded into a mapping process as key/value pairs from HDFS. 
+2. The Mapper output zero or more key/value pair, mapping computer values to particular key. 
+3. Those pairs then sorted and shuffled based on the key and are then paseds to the reducer such that all values for a key available to it. 
+4. The Reducer then must output zero or more final key/value pairs which are the output. 
+5. Output is then went back to HDFS.
+
 ## Example
 
 This section is demonstrate the data flow in a MapReduce algorithm with canonical WordCount example by Python. **Goal** is to get from text woard and count.
