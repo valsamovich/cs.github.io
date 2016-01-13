@@ -5,7 +5,7 @@
 1. Don’t put files on the desktop
 2. Limit folder creation
 3. Get used to thinking in hierarchies
-4. /archive is your friend
+4. `/archive` is your friend
 
 ## Cloud
 
