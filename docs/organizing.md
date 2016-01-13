@@ -19,7 +19,7 @@
     - `/programs`
     - `/developement`
   - **`/Documents`**
-    - /bills` – All regular bills, dated with company names and year/month.
+    - `/bills` – All regular bills, dated with company names and year/month.
     - `/book` – Book summaries, subfolders for type (business, health etc)
     - `/business` - All business related docs
     - `/fashion` – Notes, documents and media related to fashion and style.
