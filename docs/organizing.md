@@ -29,7 +29,7 @@
     - `/receipts` receipts scanned and tagged with date and vendor.
     - `/recipes` kitchen recipes in text files.
     - `/profile` profile photos for uploading to various social media sites etc.
-    - `/taxes/` subfolders for taxes by year.
+    - `/taxes` subfolders for taxes by year.
   - **`/Google Drive`**
     - copy of *Drive Structure* for cloud
   - **`/Multimedia`**
