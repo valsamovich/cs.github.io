@@ -26,6 +26,8 @@ It is an absolutely amazing tool for backing up your documents and using them be
 
 ## Hierarchies
 
+The general rule to follow is to pick a folder structure that matches how you mentally organize things.
+
 - **Drive**
   - **`/applications`**
     - `/[product-name]` examples of `[product-name]`: Google, GitHub, Amazon, etc.
