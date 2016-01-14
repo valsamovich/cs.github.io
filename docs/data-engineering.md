@@ -35,7 +35,7 @@ Using **`gzip -d`** command:
     $ gzip -d file.gz
     $ ls file
 
-If file extension is `**.tar.gz**`, type the command:
+If file extension is **`.tar.gz`**, type the command:
 
     # to unzip file(s) or directorie(s)
     $ tar -zxvf file.tar.gz
