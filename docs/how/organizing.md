@@ -9,13 +9,6 @@ One of the simplest and most overlooked aspects of being organized is getting yo
 3. Get used to thinking in **hierarchies**
 4. `/archive` is your friend
 
-## Cloud
-
-It is an absolutely amazing tool for backing up your documents and using them between different devices and computers. It’s also great for sharing documents with others.
-
-- [Goolge Drive](https://www.google.com/drive/)
-- [Dropbox](https://www.dropbox.com/)
-
 ## Naming
 
 1. Use **capital letters** to delimit words, **not spaces**: `RiscManagment.txt`
@@ -23,6 +16,13 @@ It is an absolutely amazing tool for backing up your documents and using them be
 3. Dates in the file name always state the date **‘back to front’** in format: `YYYY`, `YYYYMM`, `YYYYMMDD`. 
 4. Order the elements in a most appropriate way **to retrieve** the record: `20140630Agenda.csv`
 5. Give it as a **two-digit** number rather than one in file: `OrgHier2014V02.xls`
+
+## Cloud
+
+It is an absolutely amazing tool for backing up your documents and using them between different devices and computers. It’s also great for sharing documents with others.
+
+- [Goolge Drive](https://www.google.com/drive/)
+- [Dropbox](https://www.dropbox.com/)
 
 ## Hierarchies
 
