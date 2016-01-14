@@ -23,9 +23,9 @@
 ## Hierarchies
 
 - **Drive**
-  - **`/Applications`**
+  - **`/applications`**
     - `/[product-name]` examples of `[product-name]`: Google, GitHub, Amazon, etc.
-  - **`/Documents`**
+  - **`/documents`**
     - `/bills` regular bills, dated with company names and year/month.
     - `/books` books summaries, subfolders for type (business, health, etc.).
     - `/business` business related documents
@@ -41,7 +41,7 @@
     - `/taxes` subfolders for taxes by year.
   - **`/Google Drive`**
     - copy of *Drive Structure* for cloud
-  - **`/Multimedia`**
+  - **`/multimedia`**
     - `/flash` collections of flash files
     - `/music` placeto store music files.
     - `/images` location to store pictures.
