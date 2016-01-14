@@ -42,8 +42,9 @@
   - **`/Google Drive`**
     - copy of *Drive Structure* for cloud
   - **`/Multimedia`**
-    - `/movies` movies and video files locations.
+    - `/flash` collections of flash files
     - `/music` placeto store music files.
-    - `/pictures` default location to store pictures.
-    - `/photos` default location to store photos.
+    - `/images` location to store pictures.
+    - `/photos` location to store photos.
+    - `/videos` movies and video files locations.
     
