@@ -1,4 +1,4 @@
-# Organizing Your Files, Folders and Documents
+# Organizing files, folders and documents
 
 One of the simplest and most overlooked aspects of being organized is getting your computer files organized. It’s something that’s easy to take for granted, especially when you forget that most people don’t use their computers like us crazy systems-people do.
 
