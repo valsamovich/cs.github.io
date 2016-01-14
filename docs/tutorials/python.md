@@ -19,7 +19,9 @@ The string "PYTHON" has six characters, numbered 0 to 5, as shown below. So if y
     +---+---+---+---+---+---+
       0   1   2   3   4   5
 
-## Preview Python modules
+## Modules
+
+Preview Python modules
 
     #!/usr/local/bin/python2.7
 
@@ -30,6 +32,18 @@ The string "PYTHON" has six characters, numbered 0 to 5, as shown below. So if y
                                       for i in installed_packages])
     print(installed_packages_list)
     
+Preview modules via command line **bash**
+    
+    # view all modules
+    pip list
+    
+    # preview specific modules
+    pip list | grep "matplotlib*\|numpy*"
+
+Need a Python library published at the Python Package Index
+
+    pip install [library-name]
+
 ## Comprehensions 
 
 Its' convenient way to work with iterables. Comprehensions let skip the for loop and start creating lists, dicts, and sets straight from your iterables. Comprehensions also let emulate functional programming aspects like map() and filter() in a more accessible way.
