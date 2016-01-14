@@ -30,7 +30,7 @@ The general rule to follow is to pick a folder structure that matches how you me
 
 - **Drive**
   - **`/applications`**
-    - `/[product-name]` examples of `[product-name]`: Google, GitHub, Amazon, etc.
+    - `/[product-name]` examples of `[product-name]`: google, github, amazon, etc.
   - **`/documents`**
     - `/bills` regular bills, dated with company names and year/month.
     - `/books` books summaries, subfolders for type (business, health, etc.).
@@ -47,7 +47,7 @@ The general rule to follow is to pick a folder structure that matches how you me
     - `/profile` profile photos for uploading to various social media sites etc.
     - `/taxes` subfolders for taxes by year.
   - **`/Google Drive`**
-    - copy of *Drive Structure* for cloud
+    - copy of **Drive** structure for cloud
   - **`/multimedia`**
     - `/flash` collections of flash files
     - `/music` placeto store music files.
