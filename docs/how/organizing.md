@@ -1,5 +1,7 @@
 # Organizing Your Files, Folders and Documents
 
+One of the simplest and most overlooked aspects of being organized is getting your computer files organized. It’s something that’s easy to take for granted, especially when you forget that most people don’t use their computers like us crazy systems-people do.
+
 ## Rules
 
 1. Don’t put files on the desktop
@@ -8,6 +10,8 @@
 4. `/archive` is your friend
 
 ## Cloud
+
+It is an absolutely amazing tool for backing up your documents and using them between different devices and computers. It’s also great for sharing documents with others.
 
 - [Goolge Drive](https://www.google.com/drive/)
 - [Dropbox](https://www.dropbox.com/)
