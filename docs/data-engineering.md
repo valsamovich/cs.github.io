@@ -24,12 +24,24 @@ Computer programming languages for **defining data structures**:
 ## `gzip`
 
 `gzip` is a file format and a software application used for file compression and decompression. 
-
-    # to zip file(s) or directorie(s) 
-    tar -zcvf [filename].gz [fileOrDirectory1] [fileOrDirectly2] [fileOrDirectoryN]
     
+Using gunzip command to **`unzip`** file:
+
+    $ gunzip file.gz
+    $ ls file
+
+Using **`gzip -d`** command:
+    
+    $ gzip -d file.gz
+    $ ls file
+
+If file extension is `**.tar.gz**`, type the command:
+
     # to unzip file(s) or directorie(s)
-    tar -zxvf [filename].gz
+    $ tar -zxvf file.tar.gz
+    
+    # to zip file(s) or directorie(s) with .tar.gz
+    tar -zcvf [filename].tar.gz [fileOrDirectory1] [fileOrDirectly2] [fileOrDirectoryN]
 
 ## Hive
 
