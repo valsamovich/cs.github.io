@@ -9,8 +9,8 @@
 
 ## Cloud
 
-- Goolge Drive
-- Dropbox
+- [Goolge Drive](https://www.google.com/drive/)
+- [Dropbox](https://www.dropbox.com/)
 
 ## Naming
 
@@ -34,6 +34,7 @@
     - `/health` subfolders for dentist, doctor, gym, insurance, etc.
     - `/housing` by city or by year.
     - `/identity` identity documents (passport, driver’s licence etc.).
+    - `/notes` place to store notex, ideas and other rndom files.
     - `/personal` letters and documents (sorted into subfolders), notes on hobbies.
     - `/receipts` receipts scanned and tagged with date and vendor.
     - `/recipes` kitchen recipes in text files.
@@ -47,4 +48,3 @@
     - `/images` location to store pictures.
     - `/photos` location to store photos.
     - `/videos` movies and video files locations.
-    
