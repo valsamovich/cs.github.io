@@ -28,20 +28,20 @@ Computer programming languages for **defining data structures**:
 Using gunzip command to **`unzip`** file:
 
     $ gunzip file.gz
-    $ ls file
+    $ ls [file]
 
 Using **`gzip -d`** command:
     
     $ gzip -d file.gz
-    $ ls file
+    $ ls [file]
 
 If file extension is **`.tar.gz`**, type the command:
 
     # to unzip file(s) or directorie(s)
-    $ tar -zxvf file.tar.gz
+    $ tar -zxvf [file].tar.gz
     
     # to zip file(s) or directorie(s) with .tar.gz
-    tar -zcvf [filename].tar.gz [fileOrDirectory1] [fileOrDirectly2] [fileOrDirectoryN]
+    tar -zcvf [file].tar.gz [fileOrDirectory1] [fileOrDirectly2] [fileOrDirectoryN]
 
 ## Hive
 
