@@ -1,4 +1,4 @@
-# Data Engineering
+# Data Engineering & Science
 
 **Quote:** "*Data engineers are the designers, builders and managers of the information or "big data" infrastructure. They develop the architecture that helps analyze and process data in the way the organization needs it. And they make sure those systems are performing smoothly*.
 
@@ -10,6 +10,14 @@ Computer programming languages for **defining data structures**:
 - **Data Definition Language** (DDL) is used to create and modify the structure of database objects in database. Examples: `CREATE`, `ALTER`, `DROP` statements.
 - **Data Control Language** (DCL) is used to create roles, permissions, and referential integrity as well it is used to control access to database by securing it. Examples: `GRANT`, `REVOKE` statements.
 - **Transactional Control Language** (TCL) is used to manage different transactions occurring within a database. Examples: `COMMIT`, `ROLLBACK` statements.
+
+Sample methods used to ensure representativeness:
+
+- Simple Random Sampling
+- Stratified Sampling
+- Cluster Sampling
+- Quantitative Sampling
+- Systematic Sampling
 
 ## `scp`
 
@@ -24,12 +32,24 @@ Computer programming languages for **defining data structures**:
 ## `gzip`
 
 `gzip` is a file format and a software application used for file compression and decompression. 
-
-    # to zip file(s) or directorie(s) 
-    tar -zcvf [filename].gz [fileOrDirectory1] [fileOrDirectly2] [fileOrDirectoryN]
     
+Using gunzip command to **`unzip`** file:
+
+    $ gunzip file.gz
+    $ ls [file]
+
+Using **`gzip -d`** command:
+    
+    $ gzip -d file.gz
+    $ ls [file]
+
+If file extension is **`.tar.gz`**, type the command:
+
     # to unzip file(s) or directorie(s)
-    tar -zxvf [filename].gz
+    $ tar -zxvf [file].tar.gz
+    
+    # to zip file(s) or directorie(s) with .tar.gz
+    tar -zcvf [file].tar.gz [fileOrDirectory1] [fileOrDirectly2] [fileOrDirectoryN]
 
 ## Hive
 
