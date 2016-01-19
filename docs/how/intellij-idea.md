@@ -32,4 +32,4 @@ Select the installation path of interpreter, for example **Python**:
 
 ## Selection
 
-Vertical selection: hold `alt` + `left click`(on Mouse).
+Vertical selection: press `alt` and drag cursor (by `left click`).
