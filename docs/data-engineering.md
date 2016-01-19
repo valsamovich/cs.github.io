@@ -81,7 +81,7 @@ Hive organizes tables into **partitions**. It is a way of dividing a table into 
     # Dropping a Partition
     ALTER TABLE [table-name] DROP [IF EXISTS] PARTITION([patition-name]="[fragmnet]");
 
-Code formatting for SQL queries
+Code formatting for SQL queries (tabbing and alignment has no standard, commas are usually leading).
 
     SELECT [clause] 
          , [clause-1]
