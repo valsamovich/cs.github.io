@@ -57,6 +57,8 @@ Its' convenient way to work with iterables. Comprehensions let skip the for loop
     # With comprehensions
     halves = [num/2 for num in nums]
 
+Streaming
+
 
 
 
