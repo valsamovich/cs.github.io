@@ -57,8 +57,16 @@ Its' convenient way to work with iterables. Comprehensions let skip the for loop
     # With comprehensions
     halves = [num/2 for num in nums]
 
-Streaming
+## Streaming
 
 
+
+## Regex
+
+    import re
+    word = 'fubar'
+    regexp = re.compile(r'ba[r|z|d]')
+    if regexp.search(word) is not None:
+        print 'matched'
 
 
