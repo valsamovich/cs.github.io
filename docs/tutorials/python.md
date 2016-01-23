@@ -59,7 +59,7 @@ Its' convenient way to work with iterables. Comprehensions let skip the for loop
 
 ## Streaming
 
-
+- Classic [example](https://github.com/valerysamovich/engineering/tree/master/src/main/python/streaming) with `world count`
 
 ## Regex
 
