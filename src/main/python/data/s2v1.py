@@ -2,7 +2,7 @@ import csv
 import io
 
 # open data fie using csv module
-def open_with_csv(filename, d='\t'):
+def open_with_csv(filename, d= '\t' ):
     # create a list
     data = []
     # open a file with utf encoding
