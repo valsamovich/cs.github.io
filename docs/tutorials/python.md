@@ -57,6 +57,16 @@ Its' convenient way to work with iterables. Comprehensions let skip the for loop
     # With comprehensions
     halves = [num/2 for num in nums]
 
+## Streaming
 
+- Classic [example](https://github.com/valerysamovich/engineering/tree/master/src/main/python/streaming) with `world count`
+
+## Regex
+
+    import re
+    word = 'fubar'
+    regexp = re.compile(r'ba[r|z|d]')
+    if regexp.search(word) is not None:
+        print 'matched'
 
 

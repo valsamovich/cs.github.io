@@ -14,7 +14,7 @@ One of the simplest and most overlooked aspects of being organized is getting yo
 1. Use **capital letters** to delimit words, **not spaces**: `RiscManagment.txt`
 2. Keep file names **short**, but **meaningful**: `2015GlobalMarketShare.doc` 
 3. Dates in the file name always state the date **‘back to front’** in format: `YYYY`, `YYYYMM`, `YYYYMMDD`. 
-4. Order the elements in a most appropriate way **to retrieve** the record: `20140630Agenda.csv`
+4. Order the elements in a most appropriate way **to retrieve** the record: `20140630Resume.csv`
 5. Give it as a **two-digit** number rather than one in file: `OrgHier2014V02.xls`
 
 ## Cloud

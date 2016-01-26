@@ -80,7 +80,19 @@ Hive organizes tables into **partitions**. It is a way of dividing a table into 
     
     # Dropping a Partition
     ALTER TABLE [table-name] DROP [IF EXISTS] PARTITION([patition-name]="[fragmnet]");
-    
+
+Code formatting for SQL queries (tabbing and alignment has no standard, commas are usually leading).
+
+    SELECT [clause] 
+         , [clause-1]
+         , [clause-2]
+         , [clause-n]
+    FROM   [clause] 
+    WHERE  [clause] 
+      AND  [clause]
+    ORDER  BY [clause]
+            , [clause-1];
+ 
 ## Java
 
 Run `.jar` via command line(**FQCN** stands for Fully-Qualified Class Name):

@@ -29,3 +29,7 @@ Select the installation path of interpreter, for example **Python**:
 **Override console cycle buffer size** will override the size specified in `IDEA_HOME\bin\idea.properties`
 
     Preferences -> Editor -> General -> Console -> Override console cycle buffer size
+
+## Selection
+
+Vertical selection: press `alt` and drag cursor (by `left click`).
