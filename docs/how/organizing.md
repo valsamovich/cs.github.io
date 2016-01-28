@@ -31,6 +31,8 @@ The general rule to follow is to pick a folder structure that matches how you me
 - **Drive**
   - **`/applications`**
     - `/[product-name]` examples of `[product-name]`: google, github, amazon, etc.
+  - **`/archive`** 
+    - copy of all staff in `.tar.gz` or `.zip` 
   - **`/documents`**
     - `/bills` regular bills, dated with company names and `YYYYMMDD`.
     - `/books` books summaries, subfolders for type (business, health, etc.).
