@@ -30,7 +30,7 @@ The general rule to follow is to pick a folder structure that matches how you me
 
 - **Drive**
   - **`/applications`**
-    - `/[product-name]` examples of `[product-name]`: google, github, amazon, etc.
+    - `/[product-name]` examples: google, github, amazon, etc.
   - **`/archive`** 
     - copy of all staff in `.tar.gz` or `.zip` 
   - **`/documents`**
@@ -52,6 +52,6 @@ The general rule to follow is to pick a folder structure that matches how you me
   - **`/multimedia`**
     - `/flash` collections of flash files
     - `/music` place to store music and audio files.
-    - `/images` location to store pictures.
+    - `/images` location to store images.
     - `/photos` location to store camera photos.
     - `/videos` movies and video files locations.
