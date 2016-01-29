@@ -11,10 +11,12 @@ On a high-level, both wget and curl are command line utilities that do the same 
 
 Downloads the file and stores in the same name as the remote server.
 
+    wget [url]
     wget http://www.openss7.org/repos/tarballs/strx25-0.9.2.1.tar.bz2
 
 Download the file and stores in a different name than the remote server.
 
+    wget -O [filename] [url]
     wget -O taglist.zip http://www.vim.org/scripts/download_script.php?src_id=7701
 
 ## `curl`
