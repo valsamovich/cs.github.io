@@ -42,7 +42,7 @@ The general rule to follow is to pick a folder structure that matches how you me
     - `/health` subfolders for dentist, doctor, gym, insurance, etc.
     - `/housing` by city or by year.
     - `/notes` place to store notex, ideas and other rndom files.
-    - `/personal` identity or immigration documents, letters etc.
+    - `/personal` subfolders for letters, identity or immigration documents,  and etc.
     - `/receipts` receipts scanned and tagged with date and vendor.
     - `/recipes` kitchen recipes in text files.
     - `/profile` profile photos for uploading to various social media sites etc.
