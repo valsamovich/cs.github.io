@@ -31,6 +31,8 @@ The general rule to follow is to pick a folder structure that matches how you me
 - **Drive**
   - **`/applications`**
     - `/[product-name]` examples: google, github, amazon, etc.
+    - `/drivers` for PC, Mac, or Linux.
+    - `/utilities` like software any software programms
   - **`/archive`** 
     - copy of all staff in `.tar.gz` or `.zip` 
   - **`/documents`**
