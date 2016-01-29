@@ -41,9 +41,9 @@ The general rule to follow is to pick a folder structure that matches how you me
     - `/finances` subfolders for banks, and any financial stuff.
     - `/health` subfolders for dentist, doctor, gym, insurance, etc.
     - `/housing` by city or by year.
-    - `/identity` identity documents (passport, driver’s licence etc.).
     - `/notes` place to store notex, ideas and other rndom files.
     - `/personal` letters and documents (sorted into subfolders), notes on hobbies.
+      - `/identity` identity documents (passport, driver’s licence etc.).
     - `/receipts` receipts scanned and tagged with date and vendor.
     - `/recipes` kitchen recipes in text files.
     - `/profile` profile photos for uploading to various social media sites etc.
