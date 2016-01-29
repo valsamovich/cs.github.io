@@ -23,6 +23,6 @@ Download the file and stores in a different name than the remote server.
 - Uses **libcurl** which is a cross-platform library.
 - Supports protocols : `SCP`, `SFTP`, `TFTP`, `TELNET`, `LDAP(S)`, `FILE`, `POP3`, `IMAP`, `SMTP`, `RTMP` and `RTSP`.
 
-  Option `-O` (upper-case O) is important. Without this, `curl` will start dumping the downloaded file on the stdout. Using `-O`, it downloads the files in the same name as the remote server.
+Option `-O` (upper-case O) is important. Without this, `curl` will start dumping the downloaded file on the stdout. Using `-O`, it downloads the files in the same name as the remote server.
 
     curl -O http://www.openss7.org/repos/tarballs/strx25-0.9.2.1.tar.bz2
