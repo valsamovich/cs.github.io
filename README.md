@@ -34,6 +34,7 @@
   - Install [JAVA 8 (JDK 8u60)](https://github.com/valerysamovich/engineering/blob/master/docs/how/hadoop.md#java) on Ubuntu Via PPA.
 - How to use [IntelliJ IDEA](https://github.com/valerysamovich/engineering/blob/master/docs/how/intellij-idea.md)?
 - How to use [organize](https://github.com/valerysamovich/engineering/blob/master/docs/how/organizing.md)  files and folders?
+- How to use [`wget`](https://github.com/valerysamovich/engineering/blob/master/docs/how/wget-curl.md) and [`curl`](https://github.com/valerysamovich/engineering/blob/master/docs/how/wget-curl.md)?
 
 ## Bookmarks
 
