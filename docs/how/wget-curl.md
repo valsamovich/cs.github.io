@@ -1,4 +1,4 @@
-## How to download files using `wget` and `curl`
+## How to download files using `wget` and `curl`?
 
 On a high-level, both wget and curl are command line utilities that do the same thing.
 
