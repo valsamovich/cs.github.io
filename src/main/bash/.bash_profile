@@ -21,6 +21,9 @@ function setJava8 () {
   export PATH=$JAVA_HOME/bin:$ORIGINAL_PATH
 }
 
+# Java memory settings
+export JAVA_OPTS="-Xmx2g -Xms2g"
+
 ### Java ###
 alias java7=setJava7
 alias java8=setJava8
@@ -33,7 +36,7 @@ alias d='popd'
 alias ea='c ~ > /dev/null; vim .bash_profile; d > /dev/null'
 alias rs='c ~ > /dev/null; . .bash_profile; d > /dev/null'
 
-### Bash ###
+### Bash  ###
 alias cl='clear'
 alias hi='history'
 alias ll='cl; ls -la'
@@ -58,10 +61,9 @@ alias catom='c /applications/atom.app/Contents/MacOS/atom > /dev/null'
 
 ### ssh
 alias cdev='ssh DEV'
-alias cpro='ssh PROD01'
-
-### Notes
-# xmllint --format -o chat.xml chat.xml --- lint xml file
+alias cprod='ssh PROD01'
+alias caws='ssh AWS'
+alias cdfs='ssh HADOOP'
 
 ### Color ###
 export PS1="\[$(tput bold)\]\[$(tput setaf 4)\]\u\[$(tput sgr0)\]\[$(tput setaf 4)\]@\[$(tput setaf 1)\] \w\[$(tput setaf 3)\] (\$(git branch 2>/dev/null | grep '^*' | colrm 1 2))\[$(tput sgr0)\] \$ "
