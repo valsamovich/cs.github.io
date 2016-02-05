@@ -8,7 +8,7 @@
 
 ## Context
 
-- Big Data
+- **Big Data**
   - [Hadoop](https://github.com/valerysamovich/engineering/blob/master/docs/big-data/hadoop.md)
   - [Hive](https://github.com/valerysamovich/engineering/blob/master/docs/big-data/hive.md)
 - CI
