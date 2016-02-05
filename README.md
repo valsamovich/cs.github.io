@@ -6,6 +6,19 @@
 - [Data Engineering](https://github.com/valerysamovich/engineering/blob/master/docs/data-engineering.md)
 - Look inside [docs](https://github.com/valerysamovich/engineering/tree/master/docs) folder for tutorials, how to staff, etc.
 
+Context
+
+- Big Data
+  - Hadoop
+  - Hive
+- CI
+  - Travis
+- Config files
+  - `.vimrc`
+- Databases
+  - Design and managment
+  - History
+
 ## Bookmarks
 
 - [Apache Software Foundation](http://www.apache.org/) is a community of *open-source software*.
