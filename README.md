@@ -11,7 +11,7 @@
 - **Big Data**
   - [Hadoop](https://github.com/valerysamovich/engineering/blob/master/docs/big-data/hadoop.md)
   - [Hive](https://github.com/valerysamovich/engineering/blob/master/docs/big-data/hive.md)
-- Look inside [docs](https://github.com/valerysamovich/engineering/tree/master/docs) folder for more tutorials, how to staff, etc.  
+- Look inside [**docs**](https://github.com/valerysamovich/engineering/tree/master/docs) folder for more tutorials, how to staff, etc.  
 
 ## Bookmarks
 
