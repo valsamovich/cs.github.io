@@ -6,11 +6,11 @@
 - [Data Engineering](https://github.com/valerysamovich/engineering/blob/master/docs/data-engineering.md)
 - Look inside [docs](https://github.com/valerysamovich/engineering/tree/master/docs) folder for tutorials, how to staff, etc.
 
-Context
+## Context
 
 - Big Data
-  - Hadoop
-  - Hive
+  - [Hadoop](https://github.com/valerysamovich/engineering/blob/master/docs/big-data/hadoop.md)
+  - [Hive](https://github.com/valerysamovich/engineering/blob/master/docs/big-data/hive.md)
 - CI
   - Travis
 - Config files
