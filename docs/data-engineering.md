@@ -134,6 +134,15 @@ Run `.jar` via command line(**FQCN** stands for Fully-Qualified Class Name):
     
     # Remove empty line
     grep -v '^$' [file.txt] > [new-file.txt]
+    
+    # regex with string
+    REGEX="^[[:upper:]]{2}[[:lower:]]*$"
+    STRING="HEllo"
+    if [[ $STRING =~ $REGEX ]]; then
+      echo "Match."
+    else
+      echo "No match."
+    fi
 
 ## Python
 
