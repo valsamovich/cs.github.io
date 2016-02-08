@@ -1,6 +1,6 @@
 # Travis
 
-In software development, Travis CI is an open-source hosted, distributed[1] continuous integration service used to build and test projects hosted at GitHub.
+In software development, **Travis CI** is an open-source hosted, distributed continuous integration service used to build and test projects hosted at GitHub.
 
 - Travis
 
