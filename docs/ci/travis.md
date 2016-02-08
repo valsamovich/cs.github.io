@@ -45,7 +45,5 @@ Travis not only builds every commit that is made by repository collaborators but
 
 ## Build Status
 
-By default, email notifications are sent if a build was broken. However, the notification policy is configureable. Recipients, occasions (success or failure) and channels (email, IRC, Campfire, webhooks, ect.) can be specified in the `.travis.yml` file.
-
-To publish the build status, for example on the project’s home page, you can embed a link to an image that indicates **success** ![alt text](/assets/travis-build-passing.png "travis build pussing") or **failure** ![alt text](/assets/travis-build-failing.png "travis build failing").
+By default, email notifications are sent if a build was broken. However, the notification policy is configureable. Recipients, occasions (success or failure) and channels (email, IRC, Campfire, webhooks, ect.) can be specified in the `.travis.yml` file. To publish the build status, for example on the project’s home page, you can embed a link to an image that indicates **success** ![alt text](/assets/travis-build-passing.png "travis build pussing") or **failure** ![alt text](/assets/travis-build-failing.png "travis build failing").
 
