@@ -42,3 +42,10 @@ What is kept forever though is everything that is written to the console during 
 Travis not only builds every commit that is made by repository collaborators but also takes care of Pull Requests. Every commit in the Pull Request triggers a build that – once it is done – leaves a comment in the Pull Request discussion.
 
  > Image
+
+## Build Status
+
+By default, email notifications are sent if a build was broken. However, the notification policy is configureable. Recipients, occasions (success or failure) and channels (email, IRC, Campfire, webhooks, ect.) can be specified in the `.travis.yml` file.
+
+To publish the build status, for example on the project’s home page, you can embed a link to an image that indicates **success** or **failure**.
+
