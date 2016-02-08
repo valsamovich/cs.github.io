@@ -144,6 +144,9 @@ Run `.jar` via command line(**FQCN** stands for Fully-Qualified Class Name):
       echo "No match."
     fi
 
+- [Bash manual](http://www.gnu.org/software/bash/manual/bashref.html#index-_005b_005b)
+- [Posix document](http://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap09.html)
+
 ## Python
 
 Reading specific columns from a text file
