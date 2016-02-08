@@ -8,7 +8,7 @@ In software development, **Travis CI** is an open-source hosted, distributed con
 
 Setting up Travis to build your own project(s) is quick and straightforward: Once you have signed in with your GitHub account and granted Travis a set of access permissions, you can select which repositories should be built.
 
-> Image
+![alt text](/assets/travis-app-access.png "travis app access")
 
 From there on a build is triggered whenever a commit is made. Though Travis is able to somehow build the code, you usually will want to add a file named .travis.yml to the root of each of the selected repositories. This YAML format text file specifies how you want your project to be built.
 
@@ -41,11 +41,11 @@ What is kept forever though is everything that is written to the console during 
 
 Travis not only builds every commit that is made by repository collaborators but also takes care of Pull Requests. Every commit in the Pull Request triggers a build that – once it is done – leaves a comment in the Pull Request discussion.
 
- > Image
+![alt text](/assets/travis-merge-pull-request.png "travis merge pull request") 
 
 ## Build Status
 
 By default, email notifications are sent if a build was broken. However, the notification policy is configureable. Recipients, occasions (success or failure) and channels (email, IRC, Campfire, webhooks, ect.) can be specified in the `.travis.yml` file.
 
-To publish the build status, for example on the project’s home page, you can embed a link to an image that indicates **success** or **failure**.
+To publish the build status, for example on the project’s home page, you can embed a link to an image that indicates **success** ![alt text](/assets/travis-build-passing.png "travis build pussing") or **failure** ![alt text](/assets/travis-build-failing.png "travis build failing").
 
