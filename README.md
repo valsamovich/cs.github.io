@@ -11,13 +11,13 @@
   - [Hadoop](/docs/big-data/hadoop.md)
   - [Hive](/docs/big-data/hive.md)
 - **CI**
-  - [Travis](https://github.com/valerysamovich/engineering/blob/master/docs/ci/travis.md)
+  - [Travis](/docs/ci/travis.md)
 - **Config Files**
-  - [.vimrc](https://github.com/valerysamovich/engineering/blob/master/docs/config-files/.vimrc) 
+  - [.vimrc](/docs/config-files/.vimrc) 
 - **Databases**
   - [History](/docs/databases/database-history.md)
-  - [Design and managment](https://github.com/valerysamovich/engineering/blob/master/docs/databases/database-design-managment.md)
-- Look inside [**docs**](https://github.com/valerysamovich/engineering/tree/master/docs) folder for more tutorials, how to staff, etc.  
+  - [Design and managment](/docs/databases/database-design-managment.md)
+- Look inside [**docs**](/docs) folder for more tutorials, how to staff, etc.
 
 ## Bookmarks
 
