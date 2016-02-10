@@ -16,6 +16,7 @@
 - **Config Files**
   - [.vimrc](https://github.com/valerysamovich/engineering/blob/master/docs/config-files/.vimrc) 
 - **Databases**
+  - [History](engineering/docs/databases/database-history.md)
   - [Design and managment](https://github.com/valerysamovich/engineering/blob/master/docs/databases/database-design-managment.md)
 - Look inside [**docs**](https://github.com/valerysamovich/engineering/tree/master/docs) folder for more tutorials, how to staff, etc.  
 
