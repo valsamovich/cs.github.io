@@ -1,5 +1,5 @@
-// Welcomer class
-public class Welcomer {
+// Welcome class
+public class Welcome {
 	// Declares the variable and assigning the value
 	// Instance variable of field name "welcome"
 	// Private - it's can be used only inside this class
