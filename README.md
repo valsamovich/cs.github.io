@@ -2,15 +2,15 @@
 
 **Engineering** is  the application of mathematics, empirical evidence and scientific, economic, social, and practical knowledge in order to invent, design, build, maintain, research, and improve, structures, machines, tools, systems, components, materials, and processes.
 
-- [Glossary](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/glossary.md)
-- [Data Engineering](https://github.com/valerysamovich/engineering/blob/master/docs/data-engineering.md)
+- [Glossary](/docs/tutorials/glossary.md)
+- [Data Engineering](/docs/data-engineering.md)
 
 
 ## Context
 
 - **Big Data**
-  - [Hadoop](https://github.com/valerysamovich/engineering/blob/master/docs/big-data/hadoop.md)
-  - [Hive](https://github.com/valerysamovich/engineering/blob/master/docs/big-data/hive.md)
+  - [Hadoop](/docs/big-data/hadoop.md)
+  - [Hive](/docs/big-data/hive.md)
 - **CI**
   - [Travis](https://github.com/valerysamovich/engineering/blob/master/docs/ci/travis.md)
 - **Config Files**
