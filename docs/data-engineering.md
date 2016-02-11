@@ -143,7 +143,10 @@ Run `.jar` via command line(**FQCN** stands for Fully-Qualified Class Name):
     else
       echo "No match."
     fi
-
+    
+    # recursive statistics on file types in directory
+    find . -type f | sed 's/.*\.//' | sort | uniq -c
+    
 - [Bash manual](http://www.gnu.org/software/bash/manual/bashref.html#index-_005b_005b)
 - [Posix document](http://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap09.html)
 
