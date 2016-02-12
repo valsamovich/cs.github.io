@@ -17,7 +17,13 @@
 - **Databases**
   - [History](/docs/databases/database-history.md)
   - [Design and managment](/docs/databases/database-design-managment.md)
+- Programming
+  - [Bash](/docs/programming/bash.md)
+  - [Java](/docs/programming/java.md)
+  - [Python](/docs/programming/python.md)
+  - [Shell files, environmnet vars, etc.](/docs/programming/shell.md)
 - Look inside [**docs**](/docs) folder for more tutorials, how to staff, etc.
+
 
 ## Bookmarks
 
