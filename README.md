@@ -17,7 +17,7 @@
 - **Databases**
   - [History](/docs/databases/database-history.md)
   - [Design and managment](/docs/databases/database-design-managment.md)
-- Programming
+- **Programming**
   - [Bash](/docs/programming/bash.md)
   - [Java](/docs/programming/java.md)
   - [Python](/docs/programming/python.md)
