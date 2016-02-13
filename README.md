@@ -22,6 +22,8 @@
   - [Java](/docs/programming/java.md)
   - [Python](/docs/programming/python.md)
   - [Shell files, environmnet vars, etc.](/docs/programming/shell.md)
+- **Servers** 
+  - [Web Servers](/docs/web/servers.md)
 - Look inside [**docs**](/docs) folder for more tutorials, how to staff, etc.
 
 
