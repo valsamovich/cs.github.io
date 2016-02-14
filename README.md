@@ -8,7 +8,7 @@
 ## Context
 
 - **Big Data**
-  - [Hadoop](/docs/big-data/hadoop.md)
+  - The [Apache™ Hadoop®](/docs/big-data/hadoop.md) project develops open-source software for reliable, scalable, distributed computing.
   - [Hive](/docs/big-data/hive.md)
 - **CI**
   - [Travis](/docs/ci/travis.md)
