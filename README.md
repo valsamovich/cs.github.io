@@ -20,7 +20,7 @@
 - **Programming**
   - [Bash](/docs/programming/bash.md)
   - [Java](/docs/programming/java.md)
-  - [Python](/docs/programming/python.md)
+  - [Python](/docs/programming/python.md) is a widely used general-purpose, high-level programming language.
   - [Shell files, environmnet vars, etc.](/docs/programming/shell.md)
 - **Servers** 
   - [Web Servers](/docs/web/servers.md)
