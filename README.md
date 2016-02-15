@@ -11,7 +11,7 @@
   - The [Apache™ Hadoop®](/docs/big-data/hadoop.md) open-source software for reliable, scalable, distributed computing.
   - [Apache Hive](/docs/big-data/hive.md) is a data warehouse infrastructure for providing data summarization, query, and analysis.
 - **CI**
-  - [Travis](/docs/ci/travis.md)
+  - [Travis](/docs/ci/travis.md) CI is a FOSS, hosted, distributed continuous integration service.
 - **Config Files**
   - [.vimrc](/docs/config-files/.vimrc) 
 - **Databases**
