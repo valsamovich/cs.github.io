@@ -5,25 +5,32 @@
 - [Data Engineering](/docs/data-engineering.md)
 
 
-## Context
+## Big Data
 
-- **Big Data**
-  - The [Apache™ Hadoop®](/docs/big-data/hadoop.md) open-source software for reliable, scalable, distributed computing.
-  - [Apache Hive](/docs/big-data/hive.md) is a data warehouse infrastructure for providing data summarization, query, and analysis.
-- **CI**
-  - [Travis](/docs/ci/travis.md) CI is a FOSS, hosted, distributed continuous integration service.
-- **Config Files**
-  - [.vimrc](/docs/config-files/.vimrc) 
-- **Databases**
-  - [History](/docs/databases/database-history.md)
-  - [Design and managment](/docs/databases/database-design-managment.md)
-- **Programming**
-  - [Bash](/docs/programming/bash.md)
-  - [Java](/docs/programming/java.md)
-  - [Python](/docs/programming/python.md)
-  - [Shell files, environmnet vars, etc.](/docs/programming/shell.md)
-- **Servers** 
-  - [Web Servers](/docs/web/servers.md)
+- The [Apache™ Hadoop®](/docs/big-data/hadoop.md) open-source software for reliable, scalable, distributed computing.
+- [Apache Hive](/docs/big-data/hive.md) is a data warehouse infrastructure for providing data summarization, query, and analysis.
+
+## CI
+- [Travis](/docs/ci/travis.md) CI is a FOSS, hosted, distributed continuous integration service.
+
+## Config Files
+- [.vimrc](/docs/config-files/.vimrc)
+
+## Databases
+
+- [History](/docs/databases/database-history.md)
+- [Design and managment](/docs/databases/database-design-managment.md)
+
+## Programming
+
+- [Bash](/docs/programming/bash.md)
+- [Java](/docs/programming/java.md)
+- [Python](/docs/programming/python.md)
+- [Shell files, environmnet vars, etc.](/docs/programming/shell.md)
+
+## Servers
+
+- [Web Servers](/docs/web/servers.md)
 - Look inside [**docs**](/docs) folder for more tutorials, how to staff, etc.
 
 
