@@ -13,7 +13,7 @@
 - **CI**
   - [Travis](/docs/ci/travis.md) CI is a FOSS, hosted, distributed continuous integration service.
 - **Config Files**
-  - [.vimrc](/docs/config-files/.vimrc) 
+  - [.vimrc](/docs/config-files/.vimrc) file contains optional runtime configuration settings to initialize Vim when it starts.
 - **Databases**
   - [History](/docs/databases/database-history.md)
   - [Design and managment](/docs/databases/database-design-managment.md)
