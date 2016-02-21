@@ -2,8 +2,6 @@
 
 **Java** is Object-Oriented, Platform independent, Simple, Secure, Architectural-Neutral, Portable, Robust, Multi-threaded, Interpreted, High Performance, Distributed, Dynamic, etc.
 
-Dependencies: JSON, TestNg, JUnit, Selenium WebDriver, Hamcrest, EasyMock, Apache HttpClient.
-
 ## Context
 
 - Syntax
