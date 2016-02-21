@@ -19,7 +19,7 @@
   - [Design and managment](/docs/databases/database-design-managment.md)
 - **Programming**
   - [Bash](/docs/programming/bash.md)
-  - [Java](/docs/programming/java.md) is Object-Oriented, Platform independent, Simple, Secure, Architectural-Neutral, .., .
+  - [Java](/docs/programming/java.md) is Object-Oriented, Platform independent, Simple, Secure, Architectural-Neutral...
   - [Python](/docs/programming/python.md) is a widely used general-purpose, high-level programming language.
   - [Shell files, environmnet vars, etc.](/docs/programming/shell.md)
 - **Servers** 
