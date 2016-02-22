@@ -103,3 +103,31 @@ create a package that only has a __init__.py and then put all your code into __i
     |-- README
 
 [Open Sourcing a Python Project the Right Way](https://www.jeffknupp.com/blog/2013/08/16/open-sourcing-a-python-project-the-right-way/)
+
+
+## Execute
+
+Execute python with python:
+
+## test1.py
+
+    def some_func():
+        print 'in test 1, unproductive'
+    
+    if __name__ == '__main__':
+        # test1.py executed as script
+        # do something
+        some_func()
+
+service.py
+
+    import test1
+
+    def service_func():
+        print 'service func'
+    
+    if __name__ == '__main__':
+        # service.py executed as script
+        # do something
+        service_func()
+        test1.some_func()
