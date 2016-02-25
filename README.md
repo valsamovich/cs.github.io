@@ -15,7 +15,7 @@
 - **Config Files**
   - [.vimrc](/docs/config-files/.vimrc) file contains optional runtime configuration settings to initialize Vim when it starts.
 - **Databases**
-  - [History](/docs/databases/database-history.md)
+  - A Short [History](/docs/databases/database-history.md) of Databases.
   - [Design and managment](/docs/databases/database-design-managment.md)
 - **Programming**
   - [Bash](/docs/programming/bash.md)
