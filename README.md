@@ -16,7 +16,6 @@
   - [.vimrc](/docs/config-files/.vimrc) file contains optional runtime configuration settings to initialize Vim when it starts.
 - **Databases**
   - [History](/docs/databases/database-history.md), [design](/docs/databases/database-design-managment.md), and [managment](/docs/databases/database-design-managment.md) of Databases.
-  - 
 - **Programming**
   - [Bash](/docs/programming/bash.md)
   - [Java](/docs/programming/java.md) is Object-Oriented, Platform independent, Simple, Secure, Architectural-Neutral...
