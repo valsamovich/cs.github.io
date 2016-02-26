@@ -17,7 +17,7 @@
 - **Databases**
   - [History](/docs/databases/database-history.md), [design](/docs/databases/database-design-managment.md), and [managment](/docs/databases/database-design-managment.md) of Databases.
 - **Programming**
-  - [Bash](/docs/programming/bash.md)
+  - [Bash](/docs/programming/bash.md) scripting is one of the easiest types of scripting to learn.
   - [Java](/docs/programming/java.md) is Object-Oriented, Platform independent, Simple, Secure, Architectural-Neutral...
   - [Python](/docs/programming/python.md) is a widely used general-purpose, high-level programming language.
   - [Shell files, environmnet vars, etc.](/docs/programming/shell.md)
