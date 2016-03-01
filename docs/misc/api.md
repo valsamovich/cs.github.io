@@ -1,6 +1,6 @@
 # How to design an API?
 
-> In computer programming, an **application programming interface** (API) is a set of routines, protocols, and tools for building software applications. An **API** expresses a software component in terms of its operations, inputs, outputs, and underlying types. An **API** represents a contract between you and those who Consume your data. Documentations is big part of it. Here’s a few of the important terms for api design:
+In computer programming, an **application programming interface** (API) is a set of routines, protocols, and tools for building software applications. An **API** expresses a software component in terms of its operations, inputs, outputs, and underlying types. An **API** represents a contract between you and those who Consume your data. Documentations is big part of it. Here’s a few of the important terms for api design:
 
 - Resource as a single instance of an object.
 - Collection as a collection of homogeneous objects.
