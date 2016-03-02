@@ -49,6 +49,9 @@ alias gsta='git status'
 alias gpull='git pull upstream master'
 alias gpush='git push origin master'
 
+### Python ###
+alias pcmp='python -m py_compile'
+
 ### Directories ###
 alias cchr='open -a "Google Chrome" --args --profile-directory=EmptyUser'
 alias cjvm='c /Library/Java/JavaVirtualMachines > /dev/null'
@@ -61,9 +64,10 @@ alias catom='c /applications/atom.app/Contents/MacOS/atom > /dev/null'
 
 ### ssh
 alias cdev='ssh DEV'
-alias cprod='ssh PROD01'
+alias cprd='ssh PROD01'
 alias caws='ssh AWS'
 alias cdfs='ssh HADOOP'
+alias chue='ssh HUE'
 
 ### Color ###
 export PS1="\[$(tput bold)\]\[$(tput setaf 4)\]\u\[$(tput sgr0)\]\[$(tput setaf 4)\]@\[$(tput setaf 1)\] \w\[$(tput setaf 3)\] (\$(git branch 2>/dev/null | grep '^*' | colrm 1 2))\[$(tput sgr0)\] \$ "
