@@ -13,7 +13,8 @@
 - **CI**
   - [Travis](/docs/ci/travis.md) CI is a FOSS, hosted, distributed continuous integration service.
 - **Config Files**
-  - [.vimrc](/docs/config-files/.vimrc) file contains optional runtime configuration settings to initialize Vim when it starts.
+  - [.vimrc](/docs/config-files/.vimrc) contains runtime configuration settings to initialize Vim when it starts.
+  - [.bash_profile](/src/main/bash/.bash_profile) user specific environment and startup programs.
 - **Databases**
   - [History](/docs/databases/database-history.md), [design](/docs/databases/database-design-managment.md), and [managment](/docs/databases/database-design-managment.md) of Databases.
 - **Programming**
