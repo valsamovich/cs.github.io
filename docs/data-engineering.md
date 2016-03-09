@@ -171,6 +171,9 @@ Reading specific columns from a text file
     listOfValues = ['1', '2', '3']
     # Convert string values to number
     listOfValues = [int(i) for i in listOfValues]
+    
+    # Run MapReduce locally
+    cat sample.txt | ./mapper.py | ./reducer.py
 
 ## MySQL
 
