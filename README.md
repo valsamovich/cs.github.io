@@ -17,6 +17,8 @@
   - [.bash_profile](/src/main/bash/.bash_profile) user specific environment and startup programs.
 - **Databases**
   - [History](/docs/databases/database-history.md), [design](/docs/databases/database-design-managment.md), and [managment](/docs/databases/database-design-managment.md) of Databases.
+- **Misc**
+  - [Git]()
 - **Programming**
   - [Bash](/docs/programming/bash.md) scripting is one of the easiest types of scripting to learn.
   - [Java](/docs/programming/java.md) is Object-Oriented, Platform independent, Simple, Secure, Architectural-Neutral...
