@@ -33,22 +33,27 @@ The general rule to follow is to pick a folder structure that matches how you me
     - `/[product-name]` examples: google, github, amazon, etc.
     - `/drivers` for PC, Mac, or Linux.
     - `/utilities` like software any software programms
+    - `/software` examples: php, haskell, etc.
   - **`/archive`** 
     - copy of all staff in `.tar.gz` or `.zip` 
   - **`/documents`**
+    - `/animals` registration documnets, pics, pet staff.
     - `/bills` regular bills, dated with company names and `YYYYMMDD`.
     - `/books` books summaries, subfolders for type (business, health, etc.).
     - `/business` business related documents.
+    - `/design` all related design documnets, drawing, arts.
     - `/education` schools and any education notes.
     - `/finances` subfolders for banks, and any financial stuff.
     - `/health` subfolders for dentist, doctor, gym, insurance, etc.
     - `/housing` by city or by year.
+    - `/manuals` all istructions, or any related documnets about how to?
     - `/notes` place to store notex, ideas and other rndom files.
     - `/personal` subfolders for letters, identity or immigration documents,  and etc.
     - `/receipts` receipts scanned and tagged with date and vendor.
     - `/recipes` kitchen recipes in text files.
     - `/profile` profile photos for uploading to various social media sites etc.
     - `/taxes` subfolders for taxes by year and irs information.
+    - `/transport` cars, insurance, sunpass, tickets, donations, records
   - **`/Google Drive`**
     - copy of **Drive** structure for cloud
   - **`/multimedia`**
