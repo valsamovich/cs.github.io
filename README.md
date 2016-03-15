@@ -19,8 +19,8 @@
   - [History](/docs/databases/database-history.md), [design](/docs/databases/database-design-managment.md), and [managment](/docs/databases/database-design-managment.md) of Databases.
 - **Misc**
   - How to design an [API]()?
-  - [Organizing](/docs/misc/organizing.md) files, folders and documents.
-  - [Git]()
+  - [Organizing](/docs/misc/organizing.md) files, folders and documents on computer.
+  - [Git](docs/misc/git.md) is a widely used source code management system for software development.
 - **Programming**
   - [Bash](/docs/programming/bash.md) scripting is one of the easiest types of scripting to learn.
   - [Java](/docs/programming/java.md) is Object-Oriented, Platform independent, Simple, Secure, Architectural-Neutral...
