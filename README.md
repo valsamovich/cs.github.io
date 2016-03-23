@@ -18,6 +18,7 @@
 - **Databases**
   - [History](/docs/databases/database-history.md), [design](/docs/databases/database-design-managment.md), and [managment](/docs/databases/database-design-managment.md) of Databases.
 - **Misc**
+  - [API](/docs/misc/api.md) is a set of routines, protocols, and tools for building software and applications.
   - [Organizing](/docs/misc/organizing.md) files, folders and documents on computer.
   - [Git](docs/misc/git.md) is a widely used source code management system for software development.
   - [Intellij IDEA](docs/misc/intellij-idea.md) is a Java integrated development environment (IDE) for developing computer software.
