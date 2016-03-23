@@ -20,6 +20,7 @@
 - **Misc**
   - [Organizing](/docs/misc/organizing.md) files, folders and documents on computer.
   - [Git](docs/misc/git.md) is a widely used source code management system for software development.
+  - [Intellij IDEA](docs/misc/idea.md) is a Java integrated development environment (IDE) for developing computer software.
 - **Programming**
   - [Bash](/docs/programming/bash.md) scripting is one of the easiest types of scripting to learn.
   - [Java](/docs/programming/java.md) is Object-Oriented, Platform independent, Simple, Secure, Architectural-Neutral...
