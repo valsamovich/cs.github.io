@@ -33,3 +33,6 @@ Select the installation path of interpreter, for example **Python**:
 ## Selection
 
 Vertical selection: press `alt` and drag cursor (by `left click`).
+
+## Modules
+To add project as module to the main project: `File/Project Structure/` click plus `+` choose `new` or `import`.
