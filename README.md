@@ -22,6 +22,7 @@
   - [Organizing](/docs/misc/organizing.md) files, folders and documents on computer.
   - [Git](docs/misc/git.md) is a widely used source code management system for software development.
   - [Intellij IDEA](docs/misc/intellij-idea.md) is a Java integrated development environment (IDE) for developing computer software.
+  - [SEO](docs/misc/seo.md) is the process of affecting the visibility of a website or a web page in a search engine's.
 - **Programming**
   - [Bash](/docs/programming/bash.md) scripting is one of the easiest types of scripting to learn.
   - [Java](/docs/programming/java.md) is Object-Oriented, Platform independent, Simple, Secure, Architectural-Neutral...
