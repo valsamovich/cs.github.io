@@ -10,4 +10,11 @@ Web search engines (like Google) automatically add new web sites to their search
 - [Yahoo](https://search.yahoo.com/info/submit.html)
 - [Bing](http://www.bing.com/toolbox/submit-site-url)
 
+## Sitemap
+
+An XML sitemap lists the pages of your website and the priorities of those pages. XML stands for Extensible Markup Language. Search engines like Google, Yahoo, Bing, and Ask, an XML sitemap helps search engine robots crawl and index the content of your website more efficiently.
+
+- Free [Sitemap generator](https://www.xml-sitemaps.com/)
+- [Build and submit a sitemap](https://support.google.com/webmasters/answer/183668?hl=en) with Google.
+
 
