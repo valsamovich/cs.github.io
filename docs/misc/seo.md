@@ -4,12 +4,7 @@ Search engine optimization **(SEO)** is the process of affecting the visibility 
 
 ## Search engines
 
-Web search engines (like Google) automatically add new web sites to their search index every time they crawl the web.
-
-If your web site is new and unknown, it may take some time before your site is "discovered".
-
-Luckily most search engines invites you to submit your site: *
-
+Web search engines (like Google) automatically add new web sites to their search **index** every time they crawl the web. If your web site is new and unknown, it may take some time before your site is "discovered". Most search engines invites you to submit your site:
 
 - [Goolge](https://www.google.com/webmasters/tools/submit-url?continue=/addurl)
 - [Yahoo](https://search.yahoo.com/info/submit.html)
