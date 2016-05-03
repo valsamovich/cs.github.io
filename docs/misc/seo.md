@@ -23,7 +23,7 @@ A great way to develop a following for your website is to get involved in the so
 
 ## Misc
 
--The **title tag** is the most important element on any web page. If you do a ‘Control + U’ on any page, you’ll see the title tag in source code. It’s bounded by title tags.
+The **title tag** is the most important element on any web page. If you do a ‘Control + U’ on any page, you’ll see the title tag in source code. It’s bounded by title tags.
       
       <html>
         <head>
