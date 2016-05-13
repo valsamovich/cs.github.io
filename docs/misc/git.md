@@ -12,8 +12,8 @@
 ## Content
 
 - [Configure Tooling](/docs/misc/git.md#configure-tooling)
-- [Create Repositories](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/git.md#create-repositories)
-- [Make changes](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/git.md#make-changes)
+- [Create Repositories](/docs/misc/git.md#create-repositories)
+- [Make changes](/docs/misc/git.md#make-changes)
 - [Group Changes](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/git.md#group-changes)
 - [Refactor Filenames](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/git.md#refactor-filenames)
 - [Suppress Tracking](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/git.md#suppress-tracking)
