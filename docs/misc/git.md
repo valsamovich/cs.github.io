@@ -11,7 +11,7 @@
 
 ## Content
 
-- [Configure Tooling](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/git.md#configure-tooling)
+- [Configure Tooling](/docs/tutorials/git.md#configure-tooling)
 - [Create Repositories](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/git.md#create-repositories)
 - [Make changes](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/git.md#make-changes)
 - [Group Changes](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/git.md#group-changes)
