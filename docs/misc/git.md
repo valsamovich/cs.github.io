@@ -14,13 +14,13 @@
 - [Configure Tooling](/docs/misc/git.md#configure-tooling)
 - [Create Repositories](/docs/misc/git.md#create-repositories)
 - [Make changes](/docs/misc/git.md#make-changes)
-- [Group Changes](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/git.md#group-changes)
-- [Refactor Filenames](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/git.md#refactor-filenames)
-- [Suppress Tracking](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/git.md#suppress-tracking)
-- [Save Fragments](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/git.md#save-fragments)
-- [Review History](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/git.md#review-history)
-- [Redo Commits](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/git.md#redo-commits)
-- [Synchronize changes](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/git.md#synchronize-changes)
+- [Group Changes](/docs/misc/git.md#group-changes)
+- [Refactor Filenames](/docs/misc/git.md#refactor-filenames)
+- [Suppress Tracking](/docs/misc/git.md#suppress-tracking)
+- [Save Fragments](/docs/misc/git.md#save-fragments)
+- [Review History](/docs/misc/git.md#review-history)
+- [Redo Commits](/docs/misc/git.md#redo-commits)
+- [Synchronize changes](/docs/misc/git.md#synchronize-changes)
 
 ## Configure Tooling
 
