@@ -4,7 +4,6 @@
 
 - [Data Engineering](/docs/data-engineering.md)
 
-
 ## Context
 
 - **Big Data**
@@ -31,7 +30,6 @@
 - **Servers** 
   - A [Web Servers](/docs/web/servers.md) is an information technology that processes requests via HTTP...
 - Look inside [**docs**](/docs) folder for more tutorials, how to staff, etc.
-
 
 ## Bookmarks
 
