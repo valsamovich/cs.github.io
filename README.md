@@ -29,6 +29,7 @@
   - [Shell files, environmnet vars, etc.](/docs/programming/shell.md)
 - **Servers** 
   - A [Web Servers](/docs/web/servers.md) is an information technology that processes requests via HTTP...
+  - A [Web Services](/docs/web/services.md) is an information technology that processes requests via HTTP...
 - Look inside [**docs**](/docs) folder for more tutorials, how to staff, etc.
 
 ## Bookmarks
