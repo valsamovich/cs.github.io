@@ -35,5 +35,14 @@ The **title tag** is the most important element on any web page. If you do a ‘
 - Keywords 
 - Headers
 
+## Guides
+- https://moz.com/beginners-guide-to-seo
+- https://www.quicksprout.com/the-advanced-guide-to-seo/
+ 
+## Blogs
+- http://searchengineland.com/
+- https://moz.com/blog
+- https://searchenginewatch.com/category/seo/
+- https://www.seroundtable.com/
 
 
