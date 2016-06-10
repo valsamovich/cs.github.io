@@ -35,14 +35,31 @@ The **title tag** is the most important element on any web page. If you do a ‘
 - Keywords 
 - Headers
 
-## Guides
-- https://moz.com/beginners-guide-to-seo
-- https://www.quicksprout.com/the-advanced-guide-to-seo/
- 
-## Blogs
-- http://searchengineland.com/
-- https://moz.com/blog
-- https://searchenginewatch.com/category/seo/
-- https://www.seroundtable.com/
+## Guides & Blogs
+
+- [moz](https://moz.com/beginners-guide-to-seo)
+- [quicksprout](https://www.quicksprout.com/the-advanced-guide-to-seo/)
+- [searchengineland](http://searchengineland.com/)
+- [moz](https://moz.com/blog) blog
+- [searchenginewatch](https://searchenginewatch.com/category/seo/) blog
+- [seroundtable](https://www.seroundtable.com/) blog
+
+## Tools
+
+- [Moz](https://moz.com/products) They also have some free tools, but they are not in depth.
+- [Screaming Frog](https://www.screamingfrog.co.uk/seo-spider/) Good for capturing SEO info of a site and gives you raw data so you can analyze and identify SEO issues. There is no checklist of things to do from this tool, but I use it to give me more info about key SEO tactics.  
+- [Upcity](http://upcity.com/) It does a site/page analysis (haven’t used this tool).
+- [WooRank](https://www.woorank.com/) Same type of tool to do page analysis.
+- [SEO guidelines tool](https://varvy.com/) Not bad to make sure your site is accessible. Free but may not be as good as something you pay for.
+- [Google Page Speed](https://developers.google.com/speed/pagespeed/insights/) Good tool to see how to improve page speed. Important because faster is better and mobile is key to the business.
+[Google keyword tool](https://adwords.google.com/KeywordPlanner) Helps identify search demand of a keyword phrase, page, or site.
+
+## Tools for local Search
+
+- [Yext](http://www.yext.com/en/)
+- [Bright Local](https://www.brightlocal.com/)
+- [All Local](http://www.alllocal.com/)
+
+All three are pretty good, but price might be your biggest concern. Moz could be your best bet because you have everything there, but it might be a little costly.
 
 
