@@ -58,6 +58,6 @@ The **title tag** is the most important element on any web page. If you do a ‘
  - [Bright Local](https://www.brightlocal.com/)
  - [All Local](http://www.alllocal.com/)
 
-All three are pretty good, but price might be your biggest concern. Moz could be your best bet because you have everything there, but it might be a little costly.
+Note: *All three are pretty good, but price might be your biggest concern. Moz could be your best bet because you have everything there, but it might be a little costly.*
 
 
