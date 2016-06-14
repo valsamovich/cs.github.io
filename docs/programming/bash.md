@@ -5,13 +5,13 @@
 ## Content
 
 - [Search](bash.md#search)
-- [Directory](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/bash.md#directory)
-- [File](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/bash.md#file)
-- [Process](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/bash.md#process)
-- [Permissions](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/bash.md#permissions)
-- Legacy
-  - [Operators](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/bash.md#operators)
-- [scp](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/bash.md#scp)
+- [Directory](bash.md#directory)
+- [File](bash.md#file)
+- [Process](bash.md#process)
+- [Permissions](bash.md#permissions)
+- Legacy [Operators](bash.md#operators)
+- [scp](bash.md#scp)
+- [Screen](bash.md#screen)
 
 ## Search
 
@@ -162,3 +162,12 @@ Network Commands                          | Description
 
     scp scp <env>:~/<directory>/<file>      # Secure copy from remote to local host
     scp scp PROD01:~/files/serde.ddl.sql .  # Example
+
+## Screen
+
+Screen Commands    |  Description
+-------------------|----------------------------------------------------------------------------------
+`screen -S <name>` | start a new screen session with session name
+`screen -ls`       | list running sessions/screens	
+`screen -x`        | attach to a running session	
+`screen -r <name>` | to session with name	
