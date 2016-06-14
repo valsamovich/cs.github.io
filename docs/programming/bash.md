@@ -173,6 +173,6 @@ Screen Commands    |  Description
 `screen -x`        | attach to a running session	
 `screen -r <name>` | to session with name
 Ctrl+a k           | Kill the current window/session
-Ctrl+a d           | Detach but keep shell window open
+Ctrl+a d           | Detach the screen
 Ctrl-a Ctrl-\	   | Quit screen
 Ctrl-a ?	       | Display help screen i.e. display a list of commands
