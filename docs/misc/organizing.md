@@ -16,7 +16,7 @@ One of the simplest and most overlooked aspects of being organized is getting yo
 3. Dates in the file name always state the date **‘back to front’** in format: `YYYY`, `YYYYMM`, `YYYYMMDD`. 
 4. Order the elements in a most appropriate way **to retrieve** the record: `20140630Resume.csv`
 5. Give it as a **two-digit** number rather than one in file: `OrgHier2014V02.xls`
- - For bills use syntax `[company][type][date]` example: `BrightHousePayment20160606`
+ - For bills use syntax `[company][type][date].[ext]` example: `BrightHousePayment20160606`
 
 ## Cloud
 
