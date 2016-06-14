@@ -4,7 +4,7 @@
 
 ## Content
 
-- [Search](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/bash.md#search)
+- [Search](bash.md#search)
 - [Directory](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/bash.md#directory)
 - [File](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/bash.md#file)
 - [Process](https://github.com/valerysamovich/engineering/blob/master/docs/tutorials/bash.md#process)
