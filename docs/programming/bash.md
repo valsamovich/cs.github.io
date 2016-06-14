@@ -168,6 +168,11 @@ Network Commands                          | Description
 Screen Commands    |  Description
 -------------------|----------------------------------------------------------------------------------
 `screen -S <name>` | start a new screen session with session name
-`screen -ls`       | list running sessions/screens	
+`screen -ls`       | list running sessions/screens(state, PID, name)
+`screen -R <name>` | enable a session with screen name `<name>` 
 `screen -x`        | attach to a running session	
-`screen -r <name>` | to session with name	
+`screen -r <name>` | to session with name
+Ctrl+a k           | Kill the current window/session
+Ctrl+a d           | Detach but keep shell window open
+Ctrl-a Ctrl-\	   | Quit screen
+Ctrl-a ?	       | Display help screen i.e. display a list of commands
