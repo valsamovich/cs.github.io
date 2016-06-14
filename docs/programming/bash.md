@@ -171,7 +171,7 @@ Screen Commands    |  Description
 `screen -ls`       | list running sessions/screens(state, PID, name)
 `screen -R <name>` | enable a session with screen name `<name>` 
 `screen -x`        | attach to a running session	
-`screen -r <name>` | to session with name
+`screen -r <name>` | Re-attach the screen
 Ctrl+a k           | Kill the current window/session
 Ctrl+a d           | Detach the screen
 Ctrl-a Ctrl-\	   | Quit screen
