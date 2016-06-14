@@ -24,7 +24,7 @@
   - [SEO](docs/misc/seo.md) is the process of affecting the visibility of a website or a web page in a search engine's.
   - [Vim](/docs/misc/vim.md) is a clone of Bill Joy's vi editor for Unix. 
 - **Programming**
-  - [Bash](/docs/programming/bash.md) scripting is one of the easiest types of scripting to learn.
+  - [Bash](/docs/programming/bash.md) scripting is one of the easiest types of scripting to learn([scp](/docs/programming/bash.md#scp), [screen](/docs/programming/bash.md#screen)).
   - [Java](/docs/programming/java.md) is Object-Oriented, Platform independent, Simple, Secure, Architectural-Neutral...
   - [Python](/docs/programming/python.md) is a widely used general-purpose, high-level programming language.
   - [Shell files, environmnet vars, etc.](/docs/programming/shell.md)
