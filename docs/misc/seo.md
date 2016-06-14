@@ -38,7 +38,7 @@ The **title tag** is the most important element on any web page. If you do a ‘
 ## Guides & Blogs
 
 - [MOZ](https://moz.com/beginners-guide-to-seo) Products to Power Your Online Visibility.
-- [quicksprout](https://www.quicksprout.com/the-advanced-guide-to-seo/)
+- [QuickSprout](https://www.quicksprout.com/the-advanced-guide-to-seo/) is the easiest way to make better content and traffic continue to grow.
 - [searchengineland](http://searchengineland.com/)
 - [moz](https://moz.com/blog) blog
 - [searchenginewatch](https://searchenginewatch.com/category/seo/) blog
