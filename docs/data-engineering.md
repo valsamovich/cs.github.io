@@ -102,6 +102,9 @@ Run `.jar` via command line(**FQCN** stands for Fully-Qualified Class Name):
 
 ## Bash
     
+    # Save -n lines to file first(.txt, .csv)
+    head -100 file > file.txt
+    
     # Execute script 30 times from 22 to 52, by passing different value
     for I in {[number-from]..[number-to]}; do bash [script-name].sh $I; done
     for I in {22..52}; do bash simba.main.sh $I; done
