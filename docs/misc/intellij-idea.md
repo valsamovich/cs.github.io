@@ -2,6 +2,12 @@
 
 **IntelliJ IDEA** is a Java integrated development environment (IDE) for developing computer software. It is developed by JetBrains (formerly known as IntelliJ), and is available as an Apache 2 Licensed community edition, and in a proprietary commercial edition.
 
+Best Quote (why can't IntelliJ work with single files?): 
+
+        "No, it not possible. IDEA it's not easy text editor like Sublime Text or Notepad++. 
+        But you can create project with simple structure and open(drag and drop) or create 
+        there any files."
+
 - [JetBrains](https://www.jetbrains.com/)
 - [IntelliJ IDEA](https://www.jetbrains.com/idea/)
 
