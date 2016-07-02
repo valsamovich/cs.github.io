@@ -36,7 +36,7 @@ Select the installation path of interpreter, for example **Python**:
 
     Preferences -> Editor -> General -> Console -> Override console cycle buffer size
 
-## Selection
+## Vertical selection (Windows)
 
 Vertical selection: press `alt` and drag cursor (by `left click`).
 
