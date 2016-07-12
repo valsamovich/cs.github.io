@@ -29,7 +29,7 @@
   - [Python](/docs/programming/python.md) is a widely used general-purpose, high-level programming language.
   - [Shell files, environmnet vars, etc.](/docs/programming/shell.md)
   - [R](/docs/programming/r.md) is a programming language and software environment for statistical computing and graphics
-- **Servers** 
+- **Servers**
   - A [Web Servers](/docs/web/servers.md) is an information technology that processes requests via HTTP...
   - A [Web Services](/docs/web/services.md) is a service communicating with each other via the World Wide Web.
 - Look inside [**docs**](/docs) folder for more tutorials, how to staff, etc.
