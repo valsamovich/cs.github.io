@@ -1,6 +1,6 @@
-# Understanding Computer 
+# Understanding Computer Files 
 
-Files Data items can be stored on two broad types of storage devices in a computer system: 
+Data items can be stored on two broad types of storage devices in a computer system: 
 
 - **Volatile storage** is temporary; values that are volatile, such as those stored in variables, are lost when a computer loses power. Random access memory (RAM) is the temporary 676 storage within a computer. When you write a java program that stores a value in a variable, you are using RAM. Most computer professionals simply call volatile storage memory.
 - **Nonvolatile storage** is permanent storage; it is not lost when a computer loses power. When you write a Java program and save it to a disk, you are using permanent storage.
