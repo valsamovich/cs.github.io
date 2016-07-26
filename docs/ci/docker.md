@@ -20,6 +20,7 @@ To preview images on working station:
 
 To create and run a container:
 
+Command Descritpino
     # basic command
     docker run
     
@@ -31,3 +32,6 @@ To create and run a container:
     
     # to shutdown 
     exit
+    
+    # list on containers
+    docker ps
