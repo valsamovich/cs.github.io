@@ -6,6 +6,12 @@
 - [Docker Hub](https://hub.docker.com) to get Docker repository
 - [Self-pased training](https://training.docker.com/self-paced-training)
 
+## Image
+
+To preview images on working station:
+
+    docker images
+
 ## Container
 
 To create and run a container:
