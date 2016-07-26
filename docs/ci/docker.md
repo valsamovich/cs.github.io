@@ -6,6 +6,10 @@
 - [Docker Hub](https://hub.docker.com) to get Docker repository
 - [Self-pased training](https://training.docker.com/self-paced-training)
 
+## Repository
+    
+Repository is a service responsible for hosting and distributing images.
+
 ## Image
 
 To preview images on working station:
