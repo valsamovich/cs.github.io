@@ -9,7 +9,7 @@
 - **Big Data**
   - [Apache™ Hadoop®](/docs/big-data/hadoop.md) open-source software for reliable, scalable, distributed computing.
   - [Apache Hive](/docs/big-data/hive.md) is a data warehouse infrastructure for providing data summarization, query, and analysis.
-- **CI**
+- **CI & Deployment**
   - [Travis](/docs/ci/travis.md) CI is a FOSS, hosted, distributed continuous integration service.
 - **Config Files**
   - [.vimrc](/docs/config-files/.vimrc) contains runtime configuration settings to initialize Vim when it starts.
