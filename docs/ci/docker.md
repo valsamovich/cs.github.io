@@ -14,4 +14,4 @@ To create and run a container:
     docker run
     
     # full syntax
-    sudo docker run [options] [image] [commnad] [args]
+    sudo docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
