@@ -28,3 +28,6 @@ To create and run a container:
     
     # run terminal on ubuntu
     docker run -i -t ubuntu:14.04 /bin/bash
+    
+    # to shutdown 
+    exit
