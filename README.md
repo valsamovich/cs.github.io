@@ -11,6 +11,7 @@
   - [Apache Hive](/docs/big-data/hive.md) is a data warehouse infrastructure for providing data summarization, query, and analysis.
 - **CI & Deployment**
   - [Travis](/docs/ci/travis.md) CI is a FOSS, hosted, distributed continuous integration service.
+  - [Docker](/docs/ci/docker.md) is an open-source project that automates the deployment of applications inside software containers.
 - **Config Files**
   - [.vimrc](/docs/config-files/.vimrc) contains runtime configuration settings to initialize Vim when it starts.
   - [.bash_profile](/src/main/bash/.bash_profile) user specific environment and startup programs.
