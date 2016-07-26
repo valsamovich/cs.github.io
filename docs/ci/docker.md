@@ -10,8 +10,8 @@
 
 To create and run a container:
 
-  # basic command
-  docker run
-  
-  # full syntax
-  sudo docker run [options] [image] [commnad] [args]
+    # basic command
+    docker run
+    
+    # full syntax
+    sudo docker run [options] [image] [commnad] [args]
