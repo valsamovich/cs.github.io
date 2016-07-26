@@ -25,3 +25,6 @@ To create and run a container:
     
     # full syntax
     sudo docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
+    
+    # run terminal on ubuntu
+    docker run -i -t ubuntu:14.04 /bin/bash
