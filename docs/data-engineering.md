@@ -65,7 +65,7 @@ The Apache **Hive** ™ data warehouse software facilitates querying and managin
     use [database-name];
     
     # show table ddl statement
-    Show create table [table-name];
+    show create table [table-name];
     
 Hive organizes tables into **partitions**. It is a way of dividing a table into related parts based on the values of partitioned columns such as date, city, and department. Using partition, it is easy to query a portion of the data.
 
