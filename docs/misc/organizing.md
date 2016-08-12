@@ -40,7 +40,7 @@ The general rule to follow is to pick a folder structure that matches how you me
   - **`/documents`**
     - `/animals` registration documnets, pics, pet staff.
     - `/bills` regular bills, dated with company names and `YYYYMMDD`.
-    - `/books` books summaries, subfolders: articles, cards, templates, notes, manuals, etc.
+    - `/books` books summaries, subfolders: articles, cards, templates, notes, manuals, recipes, etc.
     - `/business` business related documents.
     - `/design` all related design documnets, drawing, arts.
     - `/education` schools and any education notes.
@@ -49,7 +49,6 @@ The general rule to follow is to pick a folder structure that matches how you me
     - `/housing` by city or by year, subfolders: insurance, realty.
     - `/personal` subfolders: identity or immigration documents, etc.
     - `/receipts` receipts scanned and tagged with date and vendor.
-    - `/recipes` kitchen recipes in text files.
     - `/profile` profile photos for uploading to various social media sites etc.
     - `/taxes` subfolders for taxes by year and irs information.
     - `/transport` cars, insurance, sunpass, tickets, donations, records
