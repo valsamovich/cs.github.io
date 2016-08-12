@@ -40,6 +40,9 @@ The general rule to follow is to pick a folder structure that matches how you me
   - **`/documents`**
     - `/animals` registration documnets, pics, pet staff.
     - `/bills` regular bills, dated with company names and `YYYYMMDD`.
+     - `energy`
+     - `internet`
+     - `water`
     - `/books` books summaries, subfolders for type (business, health, etc.).
     - `/business` business related documents.
     - `/design` all related design documnets, drawing, arts.
@@ -55,6 +58,7 @@ The general rule to follow is to pick a folder structure that matches how you me
     - `/profile` profile photos for uploading to various social media sites etc.
     - `/taxes` subfolders for taxes by year and irs information.
     - `/transport` cars, insurance, sunpass, tickets, donations, records
+    - `/travel` cruises, flights, resorts, reservations
   - **`/Google Drive`**
     - copy of **Drive** structure for cloud
   - **`/multimedia`**
