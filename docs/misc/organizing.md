@@ -39,6 +39,7 @@ The general rule to follow is to pick a folder structure that matches how you me
     - copy of all staff in `.tar.gz` or `.zip` 
   - **`/documents`**
     - `/animals` registration documnets, pics, pet staff.
+    - `/avatar` profile photos for uploading to various social media sites etc.
     - `/bills` regular bills, dated with company names and `YYYYMMDD`.
     - `/books` books summaries, subfolders: articles, cards, templates, notes, manuals, recipes, etc.
     - `/business` business related documents.
@@ -49,7 +50,6 @@ The general rule to follow is to pick a folder structure that matches how you me
     - `/housing` by city or by year, subfolders: insurance, realty.
     - `/personal` subfolders: identity or immigration documents, etc.
     - `/receipts` receipts scanned and tagged with date and vendor.
-    - `/profile` profile photos for uploading to various social media sites etc.
     - `/taxes` subfolders for taxes by year and irs information.
     - `/transport` cars, insurance, sunpass, tickets, donations, records
     - `/travel` cruises, flights, resorts, reservations
