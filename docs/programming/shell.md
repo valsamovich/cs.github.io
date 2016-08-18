@@ -173,7 +173,23 @@ Screen Commands           |  Description
 `screen -r <name>`        | Re-attach the screen
 `screen -x`               | Attach to a running session
 `screen -X -S <PID> kill` | Kill attached Screen
-Ctrl+a k                  | Kill the current window/session
-Ctrl+a d                  | Detach the screen
-Ctrl-a ?	              | Display help screen i.e. display a list of commands
+`Ctrl+a k`                | Kill the current window/session
+`Ctrl+a d`                | Detach the screen
+`Ctrl-a ?`	              | Display help screen i.e. display a list of commands
 
+Screen flow:
+    
+    # create a screen
+    screen -S <name>
+    # execute script
+    python main.py
+    # detach a screen
+    press: Ctrl+a d
+    
+    # list the screens
+    screen -ls
+    # re-attach the screen
+    screen -r wdw
+    # or kill the screen
+    screen -X -S <PID> kill
+    
