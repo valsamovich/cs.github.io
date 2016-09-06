@@ -104,6 +104,18 @@ create a package that only has a __init__.py and then put all your code into __i
 
 [Open Sourcing a Python Project the Right Way](https://www.jeffknupp.com/blog/2013/08/16/open-sourcing-a-python-project-the-right-way/)
 
+## CLI arguments
+
+To accept argumnets:
+
+    #!/usr/local/bin/python2.7
+    import sys
+    print sys.argv[1]
+    
+Result:
+    
+    # it's gonna printed everything what is accepted
+    [value]
 
 ## Execute
 
