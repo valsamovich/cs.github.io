@@ -11,7 +11,7 @@
 - [Permissions](bash.md#permissions)
 - Legacy [Operators](bash.md#operators)
 - [scp](bash.md#scp)
-- [Screen](bash.md#screen)
+- [screen](bash.md#screen)
 
 ## Search
 
