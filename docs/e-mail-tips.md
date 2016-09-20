@@ -1,4 +1,4 @@
-# Tips for writing e-mail message
+# Tips for writing e-mail message(s)
 
 - Put the key message in your subject line to ensure that your reader doesn't delete your message.
 - Keep your message short. Try to put all the pertinent information on the first screen.
