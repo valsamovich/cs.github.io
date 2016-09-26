@@ -1,10 +1,11 @@
 ### Maven ###
 export M2_HOME=/usr/local/apache-maven-3.3.3
+export ANDROID_HOME=/Users/samov004/Library/Android/sdk
 
 ORIGINAL_PATH=$PATH:$M2_HOME/bin
 
 ### Path ###
-export PATH=$JAVA_HOME/bin:$ORIGINAL_PATH
+export PATH=$JAVA_HOME/bin:$ORIGINAL_PATH:$ANDROID_HOME
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
@@ -17,7 +18,7 @@ function setJava7 () {
 # Function to set Java 8
 function setJava8 () {
   echo "    ### running setJava8";
-  export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home;
+  export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home;
   export PATH=$JAVA_HOME/bin:$ORIGINAL_PATH
 }
 
@@ -44,10 +45,9 @@ alias ls='ls -GFh'
 alias cper='sudo chmod 777 *'
 
 ### Git ###
-alias gbra='git branch'
-alias gsta='git status'
-alias gpull='git pull upstream master'
-alias gpush='git push origin master'
+alias gpum='git pull upstream master'
+alias gpom='git push origin master'
+alias gsync='gpum;gpom'
 
 ### Python ###
 alias pcmp='python -m py_compile'
@@ -66,7 +66,7 @@ alias catom='c /applications/atom.app/Contents/MacOS/atom > /dev/null'
 alias cdev='ssh DEV'
 alias cprd='ssh PROD01'
 alias caws='ssh AWS'
-alias cdfs='ssh HADOOP'
+alias cclo='ssh CLOUDERA'
 alias chue='ssh HUE'
 
 ### Color ###
@@ -80,3 +80,7 @@ set -o vi
 
 # Set Java 8 by default
 java8
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/Users/samov004/.sdkman"
+[[ -s "/Users/samov004/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/samov004/.sdkman/bin/sdkman-init.sh"
