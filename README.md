@@ -22,6 +22,7 @@
   - [Organizing](/docs/misc/organizing.md) files, folders and documents on computer.
   - [Git](docs/misc/git.md) is a widely used source code management system for software development.
   - [Intellij IDEA](docs/misc/intellij-idea.md) is a Java integrated development environment (IDE) for developing computer software.
+  - Google [Chrome](docs/misc/chrome.md) is a freeware web browser developed by Google
   - [SEO](docs/misc/seo.md) is the process of affecting the visibility of a website or a web page in a search engine's.
   - [Vim](/docs/misc/vim.md) is a clone of Bill Joy's vi editor for Unix. 
 - **Programming**
