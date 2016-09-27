@@ -9,6 +9,8 @@ An [**architectural pattern**](https://en.wikipedia.org/wiki/Architectural_patte
 - Pipe and Filter
 - Batch-Sequential
 - Model-Centered (Shared Data)
+  - Model-View-Controller (MVC)
+  - Model-View-Template (MVT)
 - Publish-Subscribe
 - Client-Server (and N-Tier)
 - Peer-to-peer
