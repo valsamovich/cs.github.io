@@ -24,7 +24,8 @@
   - [Intellij IDEA](docs/misc/intellij-idea.md) is a Java integrated development environment (IDE) for developing computer software.
   - Google [Chrome](docs/misc/chrome.md) is a freeware web browser developed by Google
   - [SEO](docs/misc/seo.md) is the process of affecting the visibility of a website or a web page in a search engine's.
-  - [Vim](/docs/misc/vim.md) is a clone of Bill Joy's vi editor for Unix. 
+  - [Vim](/docs/misc/vim.md) is a clone of Bill Joy's vi editor for Unix.
+  - [URL](/docs/misc/url.md) is a reference to a web resource that specifies its location on a computer network.
 - **Programming**
   - [Shell](/docs/programming/shell.md) scripting is one of the easiest types of scripting to learn: [`scp`](/docs/programming/shell.md#scp), [`screen`](/docs/programming/shell.md#screen).
   - [Java](/docs/programming/java.md) is a concurrent, class-based, and object-oriented programming language.
