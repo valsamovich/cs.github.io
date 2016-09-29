@@ -20,7 +20,7 @@ One of the simplest and most overlooked aspects of being organized is getting yo
 
 ## Cloud
 
-It is an absolutely amazing tool for backing up your documents and using them between different devices and computers. It’s also great for sharing documents with others.
+It is an absolutely amazing tool for **backing up** your documents and using them between different devices and computers. It’s also great for sharing documents with others.
 
 - [Goolge Drive](https://www.google.com/drive/)
 - [Dropbox](https://www.dropbox.com/)
