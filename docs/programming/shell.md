@@ -163,7 +163,7 @@ Network Commands                          | Description
     scp scp <env>:~/<directory>/<file>      # Secure copy from remote to local host
     scp scp PROD01:~/files/serde.ddl.sql .  # Example
 
-## Screen
+## `screen`
 
 Screen Commands           |  Description
 --------------------------|----------------------------------------------------------------------------------
