@@ -17,6 +17,13 @@ An XML sitemap lists the pages of your website and the priorities of those pages
 - Free [Sitemap generator](https://www.xml-sitemaps.com/)
 - [Build and submit a sitemap](https://support.google.com/webmasters/answer/183668?hl=en) with Google.
 
+## Robots
+
+**Web Robots** (also known as Web Wanderers, Crawlers, or Spiders), are programs that traverse the Web automatically. Search engines such as Google use them to index the web content, spammers use them to scan for email addresses, and they have many other uses.
+
+- Robots [website](http://www.robotstxt.org/)
+- Free [robots generator](http://www.mcanerin.com)
+
 ## Social networks
 
 A great way to develop a following for your website is to get involved in the social networking arena. Becoming active on social networking sites will bring traffic to your site as well as develop back links. The goal of this is to get social with others on the web while promoting your site at the same time.
