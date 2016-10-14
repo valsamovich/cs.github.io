@@ -51,14 +51,13 @@ The **title tag** is the most important element on any web page. If you do a ‘
 - [searchenginewatch](https://searchenginewatch.com/category/seo/) blog
 - [seroundtable](https://www.seroundtable.com/) blog
 
-## Tools
-- Global search
- - [Moz](https://moz.com/products) They also have some free tools, but they are not in depth.
- - [Screaming Frog](https://www.screamingfrog.co.uk/seo-spider/) Good for capturing SEO info of a site and gives you raw data so you can analyze and identify SEO issues. There is no checklist of things to do from this tool, but I use it to give me more info about key SEO tactics.  
- - [Upcity](http://upcity.com/) It does a site/page analysis (haven’t used this tool).
- - [WooRank](https://www.woorank.com/) Same type of tool to do page analysis.
- - [SEO guidelines tool](https://varvy.com/) Not bad to make sure your site is accessible. Free but may not be as good as something you pay for.
- - [Google Page Speed](https://developers.google.com/speed/pagespeed/insights/) Good tool to see how to improve page speed. Important because faster is better and mobile is key to the business.
+## Tools - Global search
+- [Moz](https://moz.com/products) They also have some free tools, but they are not in depth.
+- [Screaming Frog](https://www.screamingfrog.co.uk/seo-spider/) Good for capturing SEO info of a site and gives you raw data so you can analyze and identify SEO issues. There is no checklist of things to do from this tool, but I use it to give me more info about key SEO tactics.  
+- [Upcity](http://upcity.com/) It does a site/page analysis (haven’t used this tool).
+- [WooRank](https://www.woorank.com/) Same type of tool to do page analysis.
+- [SEO guidelines tool](https://varvy.com/) Not bad to make sure your site is accessible. Free but may not be as good as something you pay for.
+- [Google Page Speed](https://developers.google.com/speed/pagespeed/insights/) Good tool to see how to improve page speed. Important because faster is better and mobile is key to the business.
 [Google keyword tool](https://adwords.google.com/KeywordPlanner) Helps identify search demand of a keyword phrase, page, or site.
 - Local search
  - [Yext](http://www.yext.com/en/)
