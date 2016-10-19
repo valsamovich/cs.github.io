@@ -188,3 +188,8 @@ Connecting to the **MySQL** Server
     -p: password (**no space after**)
     -h: host
     last one is name of the database that you wanted to connect.
+
+Using MySQL client (e.g CLI, Query Browser) to check MySQL version:
+    
+    SELECT version();
+    SELECT @@version;
