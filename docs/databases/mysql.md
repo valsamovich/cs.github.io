@@ -28,3 +28,7 @@ Using MySQL client (e.g CLI, Query Browser) to check MySQL version:
 Reset MySQL root(generated default password) password:
 
     SET PASSWORD = PASSWORD('[new-password]');
+
+Create database:
+
+    create database [database-name];
