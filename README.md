@@ -17,6 +17,7 @@
   - [.bash_profile](/src/main/bash/.bash_profile) user specific environment and startup programs.
 - **Databases**
   - [History](/docs/databases/database-history.md), [design](/docs/databases/database-design-managment.md), and [managment](/docs/databases/database-design-managment.md) of Databases.
+  - [MySQL](/docs/databases/mysql.md) is an open-source relational database management system (RDBMS).
 - **Misc**
   - [API](/docs/misc/api.md) is a set of routines, protocols, and tools for building software and applications.
   - [Organizing](/docs/misc/organizing.md) files, folders and documents on computer.
