@@ -11,3 +11,17 @@
 5. **Restart your computer.** When the computer reboots, it will startup the database server allowing you to connect to it.
 6. **Use MySQL.** Type in: `/usr/local/mysql/bin/mysql -u root -p` The last part of the command tells it you want to start it up as the root user and that you'd like to be prompted for a password. MySQL command prompt shoud appear: `mysql>`
 
+Connecting to the **MySQL** Server
+
+    mysql -u [username] -p[password] -h [hostname] [database] 
+
+    -u: username
+    -p: password (**no space after**)
+    -h: host
+    last one is name of the database that you wanted to connect.
+
+Using MySQL client (e.g CLI, Query Browser) to check MySQL version:
+    
+    SELECT version();
+    SELECT @@version;
+
