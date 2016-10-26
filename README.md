@@ -39,6 +39,8 @@
 - **Servers**
   - A [Web Servers](/docs/web/servers.md) is an information technology that processes requests via HTTP...
   - A [Web Services](/docs/web/services.md) is a service communicating with each other via the World Wide Web.
+    - [Spring RESTful Web Service](https://github.com/vsamov/spring-restful-web-service)
+    - [Spring Boot RESTful Web Service](https://github.com/vsamov/spring-boot-restful-web-service)
 - Look inside [**docs**](/docs) folder for more tutorials, how to staff, etc.
 
 ## Bookmarks
