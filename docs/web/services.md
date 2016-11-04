@@ -136,7 +136,7 @@ Architecture of the **REST Service**
   - BR - Business Rules/BL - Business Logic (Validations, combine, etc) 
   - This is where the heavy lifting is done. Business rules, validations, transactions and calls to the DAO layer happens here.
 - **DAO/DAE layer** `commands`
-  - Data Access of Backend/Opposite of the *REST* layer
+  - Data Access Object of Backend/Opposite of the *REST* layer
   - This layer is responsible for accessing the data used by the service layer. This is where calls to relational databases, NoSQL stores and other backend services are made.
 
 Example of the [REST Service with Spring](https://github.com/valerysamovich/spring-service)
