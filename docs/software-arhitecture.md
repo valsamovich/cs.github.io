@@ -15,6 +15,14 @@ A **software architect** is a software expert who makes high-level design choice
 
 Each of those architecture share *soft skills*, *continues delivery*, *understanding large codebases*
 
+## Path
+
+           0                              1                              2                              3
+           |                              |                              |                              |
+      -----|------------------------------|------------------------------|------------------------------|-----
+           |                              |                              |                              |
+    Software Engineer             Analytics Engineer              Mobile Engineer                IoT Engineer
+    
 ## Resources
 
  - [Software Architecture Fundamentals](https://www.safaribooksonline.com/library/view/learning-path-software/9781491957974/)
