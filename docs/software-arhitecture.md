@@ -17,12 +17,16 @@ Each of those architecture share *soft skills*, *continues delivery*, *understan
 
 ## Path
 
-           0                            1                            2                            3
-           |                            |                            |                            |
-      -----|----------------------------|----------------------------|----------------------------|-----
-           |                            |                            |                            |
-    Software Engineer           Analytics Engineer            Mobile Engineer                IoT Engineer
-    
+    Software Engineer       Analytics Engineer       Mobile Engineer          IoT Engineer              
+            |                       |                       |                       |                 
+       -----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|---------------
+            |                       |     |     |           |                       |                          
+    0...    1                       2     |     |           3                       4
+                                          |     |
+                                      Big Data  |
+                                                |
+                                        Machine Learning
+                                        
 ## Resources
 
  - [Software Architecture Fundamentals](https://www.safaribooksonline.com/library/view/learning-path-software/9781491957974/)
