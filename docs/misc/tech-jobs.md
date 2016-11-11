@@ -1,6 +1,6 @@
-# Best Tech Jobs for 2016
+# Tech Jobs
 
-## List
+## List of top tech jobs for 2016
 
 - **Data Scientist**
  - Job Score: 4.7
