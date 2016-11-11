@@ -1,3 +1,3 @@
+# Software Architectue
 
-
-/docs/misc/architectural-pattern.md
+- [Arhitectural patterns](/docs/misc/architectural-pattern.md)
