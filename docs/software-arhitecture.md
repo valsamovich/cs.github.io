@@ -17,11 +17,11 @@ Each of those architecture share *soft skills*, *continues delivery*, *understan
 
 ## Path
 
-           0                              1                              2                              3
-           |                              |                              |                              |
-      -----|------------------------------|------------------------------|------------------------------|-----
-           |                              |                              |                              |
-    Software Engineer             Analytics Engineer              Mobile Engineer                IoT Engineer
+           0                            1                            2                            3
+           |                            |                            |                            |
+      -----|----------------------------|----------------------------|----------------------------|-----
+           |                            |                            |                            |
+    Software Engineer           Analytics Engineer            Mobile Engineer                IoT Engineer
     
 ## Resources
 
