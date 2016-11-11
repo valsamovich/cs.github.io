@@ -1,5 +1,7 @@
 # Tech Jobs
 
+Tech job is a technology position focus on building a computer systems, designing programs, for preventing cyber attacks.
+
 ## List of top tech jobs for 2016
 
 - **Data Scientist**
