@@ -7,6 +7,14 @@ A **software architect** is a software expert who makes high-level design choice
 - [Arhitectural patterns](/docs/misc/architectural-pattern.md)
 - [Tech jobs](/docs/misc/tech-jobs.md)
 
+## Architecture types
+
+- Application 
+- Integration
+- Enterprice
+
+Each of those architecture share *soft skills*, *continues delivery*, *understanding large codebases*
+
 ## Resources
 
  - [Software Architecture Fundamentals](https://www.safaribooksonline.com/library/view/learning-path-software/9781491957974/)
