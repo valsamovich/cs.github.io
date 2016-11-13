@@ -18,15 +18,14 @@ Each of those architecture share *soft skills*, *continues delivery*, *understan
 ## Path
 
     Software Engineer       Analytics Engineer       Mobile Engineer          IoT Engineer              Architect
-            |                       |                       |                       |                       |
-            |                       |         Java          |         ava           |                       |
-            |                       |        Python         |        Swift          |                       |
-            |                       |           R           |     [Objective C]     |                       |
+            |                       |         Java          |         Java          |                       | Software
+            |                       |        Python         |         Swift         |                       | Network
+            |                       |           R           |     [Objective C]     |                       | Infrastructure
        -----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----
-    0...    1                       2     |     |           3                       4                       5
-                                          |     |                
-                                      Big Data  |                        
-                                                |                    
+    0...    1                       2     |     |           3     |     |           4                       5
+                                          |     |                 |    iOS
+                                      Big Data  |                 |         
+                                                |              Android       
                                         Machine Learning
                                         
 ## Resources
