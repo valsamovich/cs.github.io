@@ -17,11 +17,11 @@ Each of those architecture share *soft skills*, *continues delivery*, *understan
 
 ## Path
 
-    Software Engineer       Analytics Engineer       Mobile Engineer          IoT Engineer              
-            |                       |                       |                       |                 
-       -----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|---------------
-            |                       |     |     |           |     |     |     |     |                          
-    0...    1                       2     |     |           3     |     |     |     4
+    Software Engineer       Analytics Engineer       Mobile Engineer          IoT Engineer              Architect
+            |                       |                       |                       |                       |
+       -----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----
+            |                       |     |     |           |     |     |     |     |                       |  
+    0...    1                       2     |     |           3     |     |     |     4                       5
                                           |     |                 |   Swift   |
                                       Big Data  |                Java         |
                                                 |                        [Objective C]
