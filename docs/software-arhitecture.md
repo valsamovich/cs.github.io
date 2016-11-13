@@ -20,7 +20,7 @@ Each of those architecture share *soft skills*, *continues delivery*, *understan
     Software Engineer       Analytics Engineer       Mobile Engineer          IoT Engineer              Architect
             |                       |         Java          |         Java          |                       | Software
             |                       |        Python         |         Swift         |                       | Network
-            |                       |           R           |     [Objective C]     |                       | Infrastructure
+            |                       |           R           |     [Objective C]     |                       | Infrastr.
        -----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----
     0...    1                       2     |     |           3     |     |           4                       5
                                           |     |                 |    iOS
