@@ -1,6 +1,6 @@
 # Git
 
-> **Git** is the open source distributed version control system that facilitates **GitHub** activities on your laptop or desktop. This [Git Cheat Sheet](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf) summarizes commonly used Git command line instructions for quick reference. 
+**Git** is the open source distributed version control system that facilitates **GitHub** activities on your laptop or desktop. This [Git Cheat Sheet](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf) summarizes commonly used Git command line instructions for quick reference. 
 
 - [Git](https://git-scm.com/) for All Platforms
 - [Gitignore](https://www.gitignore.io/) create useful `.gitignore` files for your project
