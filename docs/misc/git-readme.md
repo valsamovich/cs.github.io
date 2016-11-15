@@ -8,7 +8,15 @@ Quickly describe how to install your project and how to get it running
 
 ## Usage
 
-Here you can write any kind of things that help others to use your project. Feel free to add as many aspects as you like. Here are just three examples:
+Replace the contents of README.md with your project's:
+
+- Name
+- Description
+- Installation instructions
+- Usage instructions
+- Support instructions
+- Contributing instructions
+- Feel free to remove any sections that aren't applicable to your project.
 
 ## Build Process
 
