@@ -58,6 +58,9 @@ The Apache **Hive** ™ data warehouse software facilitates querying and managin
     # Enable header
     set hive.cli.print.header=true;
     
+    # Set number of reducers
+    set  mapred.reduce.tasks=32
+    
     # Execute the hive script from file
     $ hive -f query.sql
     
