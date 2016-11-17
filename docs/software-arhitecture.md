@@ -70,7 +70,9 @@ A **software architect** is a software expert who makes high-level design choice
 
 ##  ADL
 
-**Architectural Description Languages** is a notations for describing architectures. It's provide **formality** and **precision**. Examples are: **Acme**, Wright Rapide, ArTek, Demeter, CODE, Modechart, PSDL/CAPS, Resolve, UniCon
+**Architectural Description Languages** is a notations for describing architectures. It's provide **formality** and **precision**. Examples are: [**Acme**](http://www.cs.cmu.edu/~acme/), Wright Rapide, ArTek, Demeter, CODE, Modechart, PSDL/CAPS, Resolve, UniCon
+
+## Evaluations
 
 ## Path
 
