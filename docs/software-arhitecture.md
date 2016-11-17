@@ -34,7 +34,7 @@ A **software architect** is a software expert who makes high-level design choice
 
 ## Architecture Styles
 
-**Architectural Styles** is a named collection of architectural desgin decisions
+**Architectural Styles** is a named collection of architectural desgin decisions.
 
 - Abstract data types (ADT, hide representation)
 - Batch sequential (validate, edit, update cycle)
@@ -46,6 +46,24 @@ A **software architect** is a software expert who makes high-level design choice
 - Data centric (use of stored database procedure)
 - Domain Driven Design (DDD) (business-oriented, domain model)
 - Implicit invocation (events, callbacks, registration-broadcast)
+- **Layered** (virtual/abstract, machines, limited visibility)
+- Master control (hierachical call and return)
+- Message Bus (asynchronous message passing a common bus)
+- Mobile code (code on demand, remote evaluation, mobile agent)
+- Object-oriented (asynchronous message passing, independent threads of control)
+- Peer-to-peer (equal partners sharing responsibility)
+- Plugins (registry plus third-party add-ons)
+- Pipe and filter (one-way, sequential, stdin-stout, ASCII streams)
+- Process control (with feedback loop)
+- Production systems (rule base, conditional firing)
+- **Representational state transfer (REST)** (client-server, layered, stateless, cacheable, distributed hypermedia)
+- **Service-Oriented (SOA)** (loosely coyupled, stateless, discoverable, contract-specified)
+- Shared Nothing (Shared) (distributed database with no sharing across nodes)
+- State-transition systems (reactive, real-time)
+- Shared-memory (with locks for synchronization)
+- Table-driven interpreter (parse and dispach)
+
+If system have more than one style it's **Heterogeneous**
 
 ## Path
 
