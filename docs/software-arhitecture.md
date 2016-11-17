@@ -8,6 +8,8 @@
 
 A **software architect** is a software expert who makes high-level design choices and dictates technical standards, including software coding standards, tools, and platforms. The leading expert is referred to as the chief architect.
 
+The goal is to **Increase the quality** of delivired systems and **reduce the cost** of producing them.
+
 - [Arhitectural patterns](/docs/misc/architectural-pattern.md)
 - [Tech jobs](/docs/misc/tech-jobs.md)
 
@@ -73,6 +75,13 @@ A **software architect** is a software expert who makes high-level design choice
 **Architectural Description Languages** is a notations for describing architectures. It's provide **formality** and **precision**. Examples are: [**Acme**](http://www.cs.cmu.edu/~acme/), Wright Rapide, ArTek, Demeter, CODE, Modechart, PSDL/CAPS, Resolve, UniCon
 
 ## Evaluations
+
+Architecture **Evaluations** is a process of estimation of correctness, completeness, consistency and other aspects of quality of architecture.
+
+- **Systematic assessmnet** of architecture properties
+- **Architecture review boards**
+- Software Architecture Assessment Method (SAAM)
+- Architecture Tradeoff Analysis Method (ATAM)
 
 ## Path
 
