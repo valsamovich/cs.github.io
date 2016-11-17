@@ -2,7 +2,7 @@
 
 **Software architecture** refers to the fundamental structures of a **software system**, the discipline of creating such structures, and the documentation of these structures. These structures are needed to reason about the **software system**.
 
-                                "it's all about decisions"
+                                      "it's all about decisions"
 - "Organization of a system into **component subsystems of modules**" - Informal Definition
 - **Iteratively refined** into multiple layers
 - Often makes use of **stereotypical architectural styles**
