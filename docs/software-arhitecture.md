@@ -32,13 +32,19 @@ A **software architect** is a software expert who makes high-level design choice
         - Asymmetric, synchronous
 - **Configuration** is a specific associations between components and connector
 
-## Architecture types
+## Architecture Styles
 
-- Application 
-- Integration
-- Enterprice
+**Architectural Styles** is a named collection of architectural desgin decisions
 
-Each of those architecture share *soft skills*, *continues delivery*, *understanding large codebases*
+- Abstract data types (ADT, hide representation)
+- Batch sequential (validate, edit, update cycle)
+- Blackboard (repository, opportunistic control, cooperating agents)
+- Big ball of mud (Monolithic)
+- Client Server (transactional processing, multi-tiers)
+- Component-based (reusable modules communicating through well-defined interfaces)
+- Coroutines(symmetric, interaction)
+- Data centric (use of stored database procedure)
+- Domain Driven Design (DDD) (business-oriented, domain model)
 
 ## Path
 
