@@ -10,9 +10,6 @@ A **software architect** is a software expert who makes high-level design choice
 
 The goal is to **Increase the quality** of delivired systems and **reduce the cost** of producing them.
 
-- [Arhitectural patterns](/docs/misc/architectural-pattern.md)
-- [Tech jobs](/docs/misc/tech-jobs.md)
-
 ## Representing Architectures
 
 - **Component** is a computational or data element plus interface to the rest of the system
@@ -102,4 +99,5 @@ Architecture **Evaluations** is a process of estimation of correctness, complete
 
  - [Software Architecture Fundamentals](https://www.safaribooksonline.com/library/view/learning-path-software/9781491957974/) Safari Books Online
  - [Software Architecture & Design](https://www.udacity.com/course/software-architecture-design--ud821) by GeorgiaTech
+ - [Tech jobs](/docs/misc/tech-jobs.md) comparisons
 
