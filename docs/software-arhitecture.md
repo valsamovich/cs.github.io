@@ -58,5 +58,6 @@ Each of those architecture share *soft skills*, *continues delivery*, *understan
                                         
 ## Resources
 
- - [Software Architecture Fundamentals](https://www.safaribooksonline.com/library/view/learning-path-software/9781491957974/)
+ - [Software Architecture Fundamentals](https://www.safaribooksonline.com/library/view/learning-path-software/9781491957974/) Safari Books Online
+ - [Software Architecture & Design](https://www.udacity.com/course/software-architecture-design--ud821) by GeorgiaTech
 
