@@ -1,4 +1,4 @@
-# Software Architectue
+# Software Architecture
 
 **Software architecture** refers to the fundamental structures of a **software system**, the discipline of creating such structures, and the documentation of these structures. These structures are needed to reason about the **software system**.
 
@@ -55,7 +55,7 @@ Each of those architecture share *soft skills*, *continues delivery*, *understan
                                               |      Android       
                                            Machine 
                                            Learning
-                                        
+
 ## Resources
 
  - [Software Architecture Fundamentals](https://www.safaribooksonline.com/library/view/learning-path-software/9781491957974/) Safari Books Online
