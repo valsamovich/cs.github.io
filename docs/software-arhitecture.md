@@ -8,7 +8,7 @@
 
 A **software architect** is a software expert who makes high-level design choices and dictates technical standards, including software coding standards, tools, and platforms. The leading expert is referred to as the chief architect.
 
-The goal is to **Increase the quality** of delivired systems and **reduce the cost** of producing them.
+**Ultimate GOAL**: is to **Increase the quality** of delivired systems and **reduce the cost** of producing them. The way of doing that is the early detection of problems. And the key way of detecting things early is to layout in advance how the system will look like.
 
 ## Representing Architectures
 
