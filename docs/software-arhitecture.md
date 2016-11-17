@@ -14,7 +14,7 @@ A **software architect** is a software expert who makes high-level design choice
 ## Representing Architectures
 
 - **Component** is a computational or data element plus interface to the rest of the system
-    - Selecting Componetes
+    - Selecting Components
         - Required functionality
         - Exisiting reusable componenets
         - Physical machine arthitecture
@@ -25,13 +25,12 @@ A **software architect** is a software expert who makes high-level design choice
         - Can be described in a programmming language; language binding
         - Might be described in OCL
         - To describe API - ADLs (Architectural Description Languages)
-- **Connector** is a communication protocol between components
-    - Functionality
+- **Connector** is a communication protocol or between components
+    - Examples
         - Procedure call/return
         - Pair of messages
         - Asymmetric, synchronous
-        
-- **Configuration** is a componentes hooked up with connector
+- **Configuration** is a specific associations between components and connector
 
 ## Architecture types
 
