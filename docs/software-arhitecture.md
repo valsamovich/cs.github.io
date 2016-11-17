@@ -48,7 +48,7 @@ Each of those architecture share *soft skills*, *continues delivery*, *understan
            |        PHP        |      Python       |       Swift       |     C/C++/C#      | Network
            |     Javascript    |         R         |   [Objective C]   |   Linux/Android   | Infrastructure
        ----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----
-    0...   1    |    |          2   |    |    |    3    |    |         4                   5
+    0...   1    |    |         2         |    |    3    |    |         4                   5
                 | Website                |    |         |   iOS
                 |                    Big Data |         |         
           Web Services                        |      Android       
