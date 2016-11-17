@@ -43,16 +43,18 @@ Each of those architecture share *soft skills*, *continues delivery*, *understan
 
 ## Path
 
-    Software Engineer       Analytics Engineer       Mobile Engineer          IoT Engineer              Architect
-            |          Java         |         Java          |         Java          |         Java          | Software
-            |          PHP          |        Python         |         Swift         |       C/C++/C#        | Network
-            |       Javascript      |           R           |     [Objective C]     |     Linux/Android     | Infrastructure
-       -----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----
-    0...    1                       2     |     |           3     |     |           4                       5
-                                          |     |                 |    iOS
-                                      Big Data  |                 |         
-                                                |              Android       
-                                        Machine Learning
+       Software           Analytics             Mobile                IoT              Software
+       Engineer            Engineer            Engineer            Engineer            Architect
+           |       Java        |       Java        |       Java        |       Java        | Software
+           |        PHP        |      Python       |       Swift       |     C/C++/C#      | Network
+           |     Javascript    |         R         |   [Objective C]   |   Linux/Android   | Infrastructure
+       ----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----
+    0...   1                   2    |    |    |    3    |    |         4                   5
+                                         |    |         |   iOS
+                                     Big Data |         |         
+                                              |      Android       
+                                           Machine 
+                                           Learning
                                         
 ## Resources
 
