@@ -45,6 +45,7 @@ A **software architect** is a software expert who makes high-level design choice
 - Coroutines(symmetric, interaction)
 - Data centric (use of stored database procedure)
 - Domain Driven Design (DDD) (business-oriented, domain model)
+- Implicit invocation (events, callbacks, registration-broadcast)
 
 ## Path
 
