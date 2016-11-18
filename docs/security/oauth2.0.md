@@ -59,7 +59,9 @@
     - redirect_uri
   - Output
     - Access Token and Refresh Token (for Authorization Code Grant, Client Credentials Grant and Rsource Owner Password Credentials Grant
-    
-
-- Redirect
+- Redirect Endpoint **GET**
+  - Input Query Parameters
+    - state
+    - scopes
+    - code
 - Resource
