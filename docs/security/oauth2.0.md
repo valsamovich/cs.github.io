@@ -17,3 +17,5 @@
 - **Resource Provider**
 - **Resource Owner**
 - **Client**
+
+![oauth2.0-actors](/assets/oauth2.0-actors.png "OAuth 2.0 Actors")
