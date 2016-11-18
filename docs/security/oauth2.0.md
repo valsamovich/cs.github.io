@@ -9,9 +9,21 @@
 
 ## OAuth Actors
 
+- **Resource Owner**
+  - Owns resources
+  - Delegate right to access the resource to the third-party apps
+- **Client**
+  - Wants to access resources
+  - Gets and holds Access Token and Refresh Token
+  - Shoud NOT hold password of Resource Owner
+  - Identified via ClientID and ClientSecret
+  
+
+
+
 - **OAuth Provider**
-  - Resource Owner (Owner of the resource - User)
-  - Client (Third Party Apllication - Email App)
+  - Resource Owner
+
   - OAuth Server (Manage the identities  - Google OAuth Server)
     - `/authorize` **GET** *standardized endpoint*
       - Authorization Code (for Authorization Code Grant)
@@ -19,9 +31,12 @@
     - `/token` **POST** Authorization: Basic clientId:client Server *standardized endpoint*
       - Access Token and Refresh Token (for Authorization Code Grant, Client Credentials Grant and Rsource Owner Password Credentials Grant
     - `verify` *not standardized*  only internally accessible by Resource Server
-  - Resource Server (Provides the resource owners)
+  - Resource Server (Holds and protect resources)
+    - Makes resources available via `/api`
 - **Resource Provider**
-- **Resource Owner**
-- **Client**
+
+
 
 ![oauth2.0-actors](/assets/oauth2.0-actors.png "OAuth 2.0 Actors")
+
+## OAuth 
