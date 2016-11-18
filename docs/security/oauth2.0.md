@@ -30,14 +30,26 @@
     - `/token` **POST** Authorization: Basic clientId:client Server *standardized endpoint*
       - Access Token and Refresh Token (for Authorization Code Grant, Client Credentials Grant and Rsource Owner Password Credentials Grant
     - `verify` *not standardized*  only internally accessible by Resource Server
-  - Resource Server 
-    - Holds resources
-    - Protect resources
-    - Makes resources available via `/api`
-- **Resource Provider**
-
-
+- **Resource Server**
+  - Holds resources
+  - Protect resources
+  - Makes resources available via `/api`
 
 ![oauth2.0-actors](/assets/oauth2.0-actors.png "OAuth 2.0 Actors")
 
-## OAuth 
+## OAuth Endpoints
+
+- Authorization Endpoint `/autorize` **GET**
+  - Input Query Parameters
+    - state
+    - scope
+    - response_type
+    - client_id
+    - redirectr_uri
+  - Output
+    - Authorization Code (for Authorization Code Grant)
+    - Access Token (for Implicit Grant)
+  - Delivired via query parameter in the redirect URI
+- Token 
+- Redirect
+- Resource
