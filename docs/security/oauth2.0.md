@@ -13,11 +13,12 @@
   - Resource Owner (Owner of the resource - User)
   - Client (Third Party Apllication - Email App)
   - OAuth Server (Manage the identities  - Google OAuth Server)
-    - `/authorize` **GET** 
+    - `/authorize` **GET** *standardized endpoint*
       - Authorization Code (for Authorization Code Grant)
       - Access Token (for Implicit Grant)
-    - `/token` **POST** Authorization: Basic clientId:client Server
+    - `/token` **POST** Authorization: Basic clientId:client Server *standardized endpoint*
       - Access Token and Refresh Token (for Authorization Code Grant, Client Credentials Grant and Rsource Owner Password Credentials Grant
+    - `verify` *not standardized*  only internally accessible by Resource Server
   - Resource Server (Provides the resource owners)
 - **Resource Provider**
 - **Resource Owner**
