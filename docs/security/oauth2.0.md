@@ -17,21 +17,22 @@
   - Gets and holds Access Token and Refresh Token
   - Shoud NOT hold password of Resource Owner
   - Identified via ClientID and ClientSecret
-  
-
-
-
-- **OAuth Provider**
-  - Resource Owner
-
-  - OAuth Server (Manage the identities  - Google OAuth Server)
+- **OAuth Server**
+  - Components
+    - Login page
+    - Database for Users
+    - Concent Server
+    - Token Information (token values, token attributes) etc.
+  - Endpoints
     - `/authorize` **GET** *standardized endpoint*
       - Authorization Code (for Authorization Code Grant)
       - Access Token (for Implicit Grant)
     - `/token` **POST** Authorization: Basic clientId:client Server *standardized endpoint*
       - Access Token and Refresh Token (for Authorization Code Grant, Client Credentials Grant and Rsource Owner Password Credentials Grant
     - `verify` *not standardized*  only internally accessible by Resource Server
-  - Resource Server (Holds and protect resources)
+  - Resource Server 
+    - Holds resources
+    - Protect resources
     - Makes resources available via `/api`
 - **Resource Provider**
 
