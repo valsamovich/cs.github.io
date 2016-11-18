@@ -50,6 +50,16 @@
     - Authorization Code (for Authorization Code Grant)
     - Access Token (for Implicit Grant)
   - Delivired via query parameter in the redirect URI
-- Token 
+- Token Endpoint `/token` **POST**
+  - Authorization: Basic `{clintId}:[clientSecret}`
+  - Input Query Parameters
+    - grant_type
+    - code
+    - client_id
+    - redirect_uri
+  - Output
+    - Access Token and Refresh Token (for Authorization Code Grant, Client Credentials Grant and Rsource Owner Password Credentials Grant
+    
+
 - Redirect
 - Resource
