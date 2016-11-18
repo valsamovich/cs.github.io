@@ -4,5 +4,5 @@
 
 - [OAuth 2.0](https://oauth.net/2/)
 
-![oauth2.0-example](/assets/oauth2.0-example.png "Hadoop logo")
+![oauth2.0-example](/assets/oauth2.0-example.png "OAuth 2.0 example")
 
