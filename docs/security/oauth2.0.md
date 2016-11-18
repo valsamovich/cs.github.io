@@ -16,6 +16,8 @@
     - `/authorize` **GET** 
       - Authorization Code (for Authorization Code Grant)
       - Access Token (for Implicit Grant)
+    - `/token` **POST** Authorization: Basic clientId:client Server
+      - Access Token and Refresh Token (for Authorization Code Grant, Client Credentials Grant and Rsource Owner Password Credentials Grant
   - Resource Server (Provides the resource owners)
 - **Resource Provider**
 - **Resource Owner**
