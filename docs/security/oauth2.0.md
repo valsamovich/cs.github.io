@@ -39,7 +39,7 @@
 
 ## OAuth Endpoints
 
-- Authorization Endpoint `/autorize` **GET**
+- **Authorization Endpoint** `/autorize` **GET**
   - Input Query Parameters
     - state
     - scope
@@ -50,7 +50,7 @@
     - Authorization Code (for Authorization Code Grant)
     - Access Token (for Implicit Grant)
   - Delivired via query parameter in the redirect URI
-- Token Endpoint `/token` **POST**
+- **Token Endpoint** `/token` **POST**
   - Authorization: Basic `{clintId}:[clientSecret}`
   - Input Query Parameters
     - grant_type
@@ -59,9 +59,11 @@
     - redirect_uri
   - Output
     - Access Token and Refresh Token (for Authorization Code Grant, Client Credentials Grant and Rsource Owner Password Credentials Grant
-- Redirect Endpoint **GET**
+- **Redirect Endpoint** **GET**
   - Input Query Parameters
     - state
     - scopes
     - code
-- Resource
+- **Resource Endpoint** `/api`
+  - Authorization: Bearer `{AccessToken}`
+  - Access Token and Refresh Token (for Authorization Code Grant, Client Credentials Grant and Rsource Owner Password Credentials Grant
