@@ -67,3 +67,9 @@
 - **Resource Endpoint** `/api`
   - Authorization: Bearer `{AccessToken}`
   - Access Token and Refresh Token (for Authorization Code Grant, Client Credentials Grant and Rsource Owner Password Credentials Grant
+
+## Token & Credentials
+
+- **Access Token (AT)** An access token is an object that describes the security context of a process or thread.
+- Refresh Token (RT)
+- Authorization Code (Code)
