@@ -7,3 +7,13 @@
 
 ![oauth2.0-example](/assets/oauth2.0-example.png "OAuth 2.0 example")
 
+## OAuth Actors
+
+- **OAuth Provider**
+  - Resource Owner (Owner of the resource - User)
+  - Client (Third Party Apllication - Email App)
+  - OAuth Server (Manage the identities  - Google OAuth Server)
+  - Resource Server (Provides the resource owners)
+- **Resource Provider**
+- **Resource Owner**
+- **Client**
