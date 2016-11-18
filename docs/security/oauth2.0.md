@@ -13,6 +13,9 @@
   - Resource Owner (Owner of the resource - User)
   - Client (Third Party Apllication - Email App)
   - OAuth Server (Manage the identities  - Google OAuth Server)
+    - `/authorize` **GET** 
+      - Authorization Code (for Authorization Code Grant)
+      - Access Token (for Implicit Grant)
   - Resource Server (Provides the resource owners)
 - **Resource Provider**
 - **Resource Owner**
