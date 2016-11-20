@@ -70,8 +70,13 @@
 
 ## Token & Credentials
 
-Token are unique, long strings of random characters. It's not contain any users data.
+**Token** are unique, long strings of random characters. It's not contain any users data.
 
-- **Access Token (AT)**: Bearer token used y the clinet to access the resources. Limit short amout of time like 24 hours, or 1 month.
-- **Refresh Token (RT)**
-- **Authorization Code (Code)**
+- Tokens
+  - **Access Token (AT)**: Bearer token used by client to access the resources. Length: 24 hours, or 1 month.
+  - **Refresh Token (RT)** Used to get a **Access Token**. Length: 30 hours, or 3 month.
+  - **Authorization Code (Code)** a confirmation of the successful access
+- Credentials
+  - Resource Owner Credentials
+  - Client Credentials: ClineID & ClientSecret
+  - Access Token
