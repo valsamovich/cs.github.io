@@ -70,6 +70,8 @@
 
 ## Token & Credentials
 
-- **Access Token (AT)** An access token is an object that describes the security context of a process or thread.
-- Refresh Token (RT)
-- Authorization Code (Code)
+Token are unique, long strings of random characters. It's not contain any users data.
+
+- **Access Token (AT)**: Bearer token used y the clinet to access the resources. Limit short amout of time like 24 hours, or 1 month.
+- **Refresh Token (RT)**
+- **Authorization Code (Code)**
