@@ -88,3 +88,5 @@
   - Client Credentials Grant
   - Implicit Grant
   - Recource Owner Password Credentials Grant
+ 
+ Pictures of flows avalable in [`assets`](/assets) folder
