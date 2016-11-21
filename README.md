@@ -39,7 +39,7 @@
   - [Understanding Computer Files](/docs/misc/organizing.md) and how to storage, organizing and process.
   - Google [Chrome](/docs/misc/chrome.md) is a freeware web browser developed by Google.
 - **Security**
-  - [OAuth 2.0](/docs/security/oauth2.0.md)
+  - [OAuth 2.0](/docs/security/oauth2.0.md) authorization framework
 - **Servers**
   - A [Web Servers](/docs/web/servers.md) is an information technology that processes requests via HTTP...
   - A [Web Services](/docs/web/services.md) is a service communicating with each other via the World Wide Web.
