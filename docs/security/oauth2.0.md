@@ -83,4 +83,8 @@
 
 ## OAuth Flows
 
-
+- Flows
+  - Authorization Code Grant
+  - Client Credentials Grant
+  - Implicit Grant
+  - Recource Owner Password Credentials Grant
