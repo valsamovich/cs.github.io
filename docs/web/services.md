@@ -4,7 +4,6 @@ A [**Web server**](http://www.w3schools.com/webservices/default.asp) is a progra
 
 "**A Web service is a software system designed to support interoperable machine-to-machine interaction over a network.**' - *W3C, Web Services Glossary*
 
-
                   SOAP
                  /    \
                 /      \
