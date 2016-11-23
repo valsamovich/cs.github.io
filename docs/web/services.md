@@ -4,43 +4,50 @@ A [**Web server**](http://www.w3schools.com/webservices/default.asp) is a progra
 
 "**A Web service is a software system designed to support interoperable machine-to-machine interaction over a network.**' - *W3C, Web Services Glossary*
 
-                  SOAP
-                 /    \
-                /      \
-     Web Services      SOA
-                \      /
-                 \    /
-                  REST
-             
-- Web services are application components
-- Web services communicate using open protocols
-- Web services are self-contained and self-describing
-- Web services can be discovered using UDDI
-- Web services can be used by other applications
-- HTTP and XML is the basis for Web services
+          SOAP (WSDL+UDDI) 
+                   \         HTTP
+                    \         /                                   SOAP (Arbitrary WS)
+                     Protocols                                   /    \              Service Broker
+                         |                                      /      \                    |
+    Components -|--------|--------|--------|-------- Web Services      SOA --------|--------|------- Blocks
+                |                 |                  (XML & HTTP)      /           |        
+               DATA           Frameworks                         \    /     Service Provider
+              /    \         /         \                          REST (REST-compliant WS)  
+            XML   JSON   Jersey      Apache CXF
+                     
+- **Specifications**
+  - Web services are application components
+  - Web services communicate using open protocols
+  - Web services are self-contained and self-describing
+  - Web services can be discovered using UDDI
+  - Web services can be used by other applications
+  - HTTP and XML is the basis for Web services
 
 **Service-Oriented Architecture** (SOA) is an approach used to create an architecture based upon the use of services. Services (such as **RESTful Web services**) carry out some small function, such as producing data, validating a customer, or providing simple analytical services.
 
-- **Frontend programming APIs**
-  - Java API for RESTful Services [(JAX-RS)](https://jax-rs-spec.java.net/) - interfaces & annotations (javax.ws.rs.*)
+## Components
+
+**Frontend programming APIs**
+  - Java API for RESTful Services [(JAX-RS)](https://jax-rs-spec.java.net/) - interfaces & annotations (`javax.ws.rs.*`)
   - Java API for XML Web Services [(JAX-WS)](https://jax-ws.java.net/)
-- **REST API Implementation libraries** or framework to help implement interfaces & annotations.
+
+**REST API Implementation libraries** or framework to help implement interfaces & annotations.
   - [ApacheCXF](http://cxf.apache.org/)
     - Oen-Source web services framework
     - Contains support ofr JAX-WS & Jax_RS
     - Provides integration with Spring Framework
+    - Support Java Specification Requermentes (JSR)
   - [RESTEasy](http://resteasy.jboss.org/) 
   - [Restlet](https://restlet.com/)
   - [Jersey](https://jersey.java.net/)
 
-The [**Web Services Description Language (WSDL)**](http://www.w3schools.com/webservices/ws_wsdl_intro.asp) is an XML-based language used to describe the services a business offers and to provide a way for individuals and other businesses to access those services electronically.
-
-- WSDL stands for Web Services Description Language
-- WSDL is written in XML
-- WSDL is an XML document
-- WSDL is used to describe Web services
-- WSDL is also used to locate Web services
-- WSDL is a W3C recommendation
+The [**Web Services Description Language (WSDL)**](http://www.w3schools.com/webservices/ws_wsdl_intro.asp) is an XML-based language used to describe the services a business offers and to provide a way for individuals and other businesses to access those services electronically.  
+  - WSDL stands for Web Services Description Language
+  - WSDL is written in XML
+  - WSDL is an XML document
+  - WSDL is used to describe Web services
+  - WSDL is also used to locate Web services
+  - WSDL is a W3C recommendation
 
 The WSDL Document Structure with example
 
