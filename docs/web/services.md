@@ -144,7 +144,7 @@ Architecture of the **REST Service**
 
 Example of the [REST Service with Spring](https://github.com/valerysamovich/blueprint)
 
-# Java Web Services
+## Java Web Services
 
                   SOAP
                  /    \
@@ -154,12 +154,12 @@ Example of the [REST Service with Spring](https://github.com/valerysamovich/blue
                  \    /
                   REST
                   
-- REST APIs
+- **REST APIs**
   - Java API for RESTful Services [(JAX-RS)](https://jax-rs-spec.java.net/) - interfaces & annotations (javax.ws.rs.*)
   
-- REST API Implementation libraries 
+- **REST API Implementation libraries **
   - [RESTEasy](http://resteasy.jboss.org/)
   - [Restlet](https://restlet.com/)
   - [Jersey](https://jersey.java.net/)
 
-         
+        
