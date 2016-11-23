@@ -1,6 +1,6 @@
-Web Services
-------------
-> A [**Web server**](http://www.w3schools.com/webservices/default.asp) is a program that, using the client/server model and the World Wide Web's Hypertext Transfer Protocol ( HTTP ), serves the files that form Web pages to Web users (whose computers contain HTTP clients that forward their requests).
+# Web Services
+
+A [**Web server**](http://www.w3schools.com/webservices/default.asp) is a program that, using the client/server model and the World Wide Web's Hypertext Transfer Protocol ( HTTP ), serves the files that form Web pages to Web users (whose computers contain HTTP clients that forward their requests).
 
 - Web services are application components
 - Web services communicate using open protocols
@@ -60,8 +60,7 @@ The [**Resource Description Framework (RDF)**](http://www.w3schools.com/webservi
 - RDF is a part of the W3C's Semantic Web Activity
 - RDF is a W3C Recommendation
 
-SOAP
-----
+## SOAP
 
 [**SOAP**](http://www.w3schools.com/webservices/ws_soap_intro.asp), originally an acronym for **Simple Object Access protocol**, is a protocol specification for exchanging structured information in the implementation of web services in computer networks.
 
@@ -103,8 +102,7 @@ Element	          | Required | Description
 </soap:Envelope>
 ```
 
-REST
-----
+## REST
 
 **REST** stands for **Representational State Transfer**. (It is sometimes spelled "ReST".) It relies on a stateless, client-server, cacheable communications protocol -- and in virtually all cases, the HTTP protocol is used. REST is an architecture style for designing networked applications.
 
@@ -140,3 +138,18 @@ Architecture of the **REST Service**
   - This layer is responsible for accessing the data used by the service layer. This is where calls to relational databases, NoSQL stores and other backend services are made.
 
 Example of the [REST Service with Spring](https://github.com/valerysamovich/spring-service)
+
+Types of REST Architecture
+
+REST API 
+
+REST API libraries:
+- [JAX-RS]
+- [RESTEasy]
+- [Restlet]()
+
+Styles
+
+          JAX-RS
+          interfaces & 
+         
