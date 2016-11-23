@@ -5,17 +5,23 @@ A [**Web server**](http://www.w3schools.com/webservices/default.asp) is a progra
 "**A Web service is a software system designed to support interoperable machine-to-machine interaction over a network.**' - *W3C, Web Services Glossary*
 
           SOAP (WSDL+UDDI)
-                   \         HTTP                       (Arbitrary WS)
+                   \         HTTP                   (Arbitrary WS)
                     \         /                          SOAP 
                      Protocols                          /    \              Service Broker
                          |                             /      \                    |
-    Components -|--------|--------|-------- Web Services      SOA --------|--------|--------|-------- Blocks
+    Components--|--------|--------|-------- Web Services      SOA --------|--------|--------|-------- Blocks
                 |                 |         (XML & HTTP)      /           |                 |
-               DATA           Frameworks                \    /     Service Provider  Service Requester
-              /    \         /         \                 REST   
-            XML   JSON   Jersey      Apache CXF         (REST-compliant WS)
-                     
-- **Specifications**
+               DATA           Frameworks                \    /         Service <---1---- Service 
+              /    \          /         \                REST          Provider ---2---> Consumer
+            XML     \      Jersey        \        (REST-compliant WS)  (Service)         (Client)
+                   JSON      \   \     Apache CXF
+                              \   \     /   / 
+                               \   JAX-RS  /
+                                \         /
+                                 \       /
+                                   JAX-WS
+
+- **Specifications** 
   - Web services are application components
   - Web services communicate using open protocols
   - Web services are self-contained and self-describing
