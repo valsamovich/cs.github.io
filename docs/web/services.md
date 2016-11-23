@@ -26,6 +26,9 @@ A [**Web server**](http://www.w3schools.com/webservices/default.asp) is a progra
   - Java API for XML Web Services [(JAX-WS)](https://jax-ws.java.net/)
 - **REST API Implementation libraries** or framework to help implement interfaces & annotations.
   - [ApacheCXF](http://cxf.apache.org/)
+    - Oen-Source web services framework
+    - Contains support ofr JAX-WS & Jax_RS
+    - Provides integration with Spring Framework
   - [RESTEasy](http://resteasy.jboss.org/) 
   - [Restlet](https://restlet.com/)
   - [Jersey](https://jersey.java.net/)
