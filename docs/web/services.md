@@ -153,13 +153,15 @@ Example of the [REST Service with Spring](https://github.com/valerysamovich/blue
                 \      /
                  \    /
                   REST
-                  
-- **REST APIs**
+
+- **Frontend programming APIs**
   - Java API for RESTful Services [(JAX-RS)](https://jax-rs-spec.java.net/) - interfaces & annotations (javax.ws.rs.*)
-  
-- **REST API Implementation libraries **
+  - Java API for XML Web Services (JAX-WS)
+- **REST API Implementation libraries ** to help implement interfaces & annotations.
+  - [ApacheCXF]
   - [RESTEasy](http://resteasy.jboss.org/)
   - [Restlet](https://restlet.com/)
   - [Jersey](https://jersey.java.net/)
+
 
         
