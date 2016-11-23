@@ -14,11 +14,11 @@ A [**Web server**](http://www.w3schools.com/webservices/default.asp) is a progra
                DATA           Frameworks                \    /         Service <---1---- Service 
               /    \          /         \                REST          Provider ---2---> Consumer
             XML     \      Jersey        \        (REST-compliant WS)  (Service)         (Client)
-                   JSON      \   \     Apache CXF
-                              \   \     /   / 
-                               \   JAX-RS  /
-                                \         /
-                                 \       /
+                   JSON       \  \     Apache CXF
+                               \  \      /  / 
+                                \  JAX-RS  /
+                                 \        /
+                                  \      /
                                    JAX-WS
 
 - **Specifications** 
