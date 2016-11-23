@@ -2,12 +2,22 @@
 
 A [**Web server**](http://www.w3schools.com/webservices/default.asp) is a program that, using the client/server model and the World Wide Web's Hypertext Transfer Protocol ( HTTP ), serves the files that form Web pages to Web users (whose computers contain HTTP clients that forward their requests).
 
+                  SOAP
+                 /    \
+                /      \
+     Web Services      SOA
+                \      /
+                 \    /
+                  REST
+
 - Web services are application components
 - Web services communicate using open protocols
 - Web services are self-contained and self-describing
 - Web services can be discovered using UDDI
 - Web services can be used by other applications
 - HTTP and XML is the basis for Web services
+
+**Service-Oriented Architecture** (SOA) is an approach used to create an architecture based upon the use of services. Services (such as **RESTful Web services**) carry out some small function, such as producing data, validating a customer, or providing simple analytical services.
 
 The [**Web Services Description Language (WSDL)**](http://www.w3schools.com/webservices/ws_wsdl_intro.asp) is an XML-based language used to describe the services a business offers and to provide a way for individuals and other businesses to access those services electronically.
 
@@ -61,9 +71,15 @@ The [**Resource Description Framework (RDF)**](http://www.w3schools.com/webservi
 - RDF is a part of the W3C's Semantic Web Activity
 - RDF is a W3C Recommendation
 
-## SOA
-
-**Service-Oriented Architecture** (SOA) is an approach used to create an architecture based upon the use of services. Services (such as **RESTful Web services**) carry out some small function, such as producing data, validating a customer, or providing simple analytical services.
+- Java Web Services
+  - **Frontend programming APIs**
+    - Java API for RESTful Services [(JAX-RS)](https://jax-rs-spec.java.net/) - interfaces & annotations (javax.ws.rs.*)
+    - Java API for XML Web Services [(JAX-WS)](https://jax-ws.java.net/)
+  - **REST API Implementation libraries ** to help implement interfaces & annotations.
+    - [ApacheCXF]()
+    - [RESTEasy](http://resteasy.jboss.org/)
+    - [Restlet](https://restlet.com/)
+    - [Jersey](https://jersey.java.net/)
 
 ## SOAP
 
@@ -144,24 +160,7 @@ Architecture of the **REST Service**
 
 Example of the [REST Service with Spring](https://github.com/valerysamovich/blueprint)
 
-## Java Web Services
 
-                  SOAP
-                 /    \
-                /      \
-     Web Services      SOA
-                \      /
-                 \    /
-                  REST
-
-- **Frontend programming APIs**
-  - Java API for RESTful Services [(JAX-RS)](https://jax-rs-spec.java.net/) - interfaces & annotations (javax.ws.rs.*)
-  - Java API for XML Web Services [(JAX-WS)](https://jax-ws.java.net/)
-- **REST API Implementation libraries ** to help implement interfaces & annotations.
-  - [ApacheCXF]()
-  - [RESTEasy](http://resteasy.jboss.org/)
-  - [Restlet](https://restlet.com/)
-  - [Jersey](https://jersey.java.net/)
 
 
         
