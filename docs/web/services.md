@@ -43,6 +43,7 @@ Element	     | Description
   </binding>
 </definitions>
 ```
+
 **UDDI (Universal Description, Discovery, and Integration)** is an XML-based registry for businesses worldwide to list themselves on the Internet. Its ultimate goal is to streamline online transactions by enabling companies to find one another on the Web and make their systems interoperable for e-commerce.
 
 - UDDI stands for Universal Description, Discovery and Integration
@@ -59,6 +60,10 @@ The [**Resource Description Framework (RDF)**](http://www.w3schools.com/webservi
 - RDF is written in XML
 - RDF is a part of the W3C's Semantic Web Activity
 - RDF is a W3C Recommendation
+
+## SOA
+
+**Service-Oriented Architecture** (SOA) is an approach used to create an architecture based upon the use of services. Services (such as **RESTful Web services**) carry out some small function, such as producing data, validating a customer, or providing simple analytical services.
 
 ## SOAP
 
@@ -137,19 +142,24 @@ Architecture of the **REST Service**
   - Data Access Object of Backend/Opposite of the *REST* layer
   - This layer is responsible for accessing the data used by the service layer. This is where calls to relational databases, NoSQL stores and other backend services are made.
 
-Example of the [REST Service with Spring](https://github.com/valerysamovich/spring-service)
+Example of the [REST Service with Spring](https://github.com/valerysamovich/blueprint)
 
-Types of REST Architecture
+# Java Web Services
 
-REST API 
+                  SOAP
+                 /    \
+                /      \
+     Web Services      SOA
+                \      /
+                 \    /
+                  REST
+                  
+- REST APIs
+  - Java API for RESTful Services [(JAX-RS)](https://jax-rs-spec.java.net/) - interfaces & annotations (javax.ws.rs.*)
+  
+- REST API Implementation libraries 
+  - [RESTEasy](http://resteasy.jboss.org/)
+  - [Restlet](https://restlet.com/)
+  - [Jersey](https://jersey.java.net/)
 
-REST API libraries:
-- [JAX-RS]
-- [RESTEasy]
-- [Restlet]()
-
-Styles
-
-          JAX-RS
-          interfaces & 
          
