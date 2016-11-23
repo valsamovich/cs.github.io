@@ -9,7 +9,7 @@ A [**Web server**](http://www.w3schools.com/webservices/default.asp) is a progra
                 \      /
                  \    /
                   REST
-
+             
 - Web services are application components
 - Web services communicate using open protocols
 - Web services are self-contained and self-describing
@@ -18,6 +18,15 @@ A [**Web server**](http://www.w3schools.com/webservices/default.asp) is a progra
 - HTTP and XML is the basis for Web services
 
 **Service-Oriented Architecture** (SOA) is an approach used to create an architecture based upon the use of services. Services (such as **RESTful Web services**) carry out some small function, such as producing data, validating a customer, or providing simple analytical services.
+
+- **Frontend programming APIs**
+  - Java API for RESTful Services [(JAX-RS)](https://jax-rs-spec.java.net/) - interfaces & annotations (javax.ws.rs.*)
+  - Java API for XML Web Services [(JAX-WS)](https://jax-ws.java.net/)
+- **REST API Implementation libraries** or framework to help implement interfaces & annotations.
+  - [ApacheCXF](http://cxf.apache.org/)
+  - [RESTEasy](http://resteasy.jboss.org/) 
+  - [Restlet](https://restlet.com/)
+  - [Jersey](https://jersey.java.net/)
 
 The [**Web Services Description Language (WSDL)**](http://www.w3schools.com/webservices/ws_wsdl_intro.asp) is an XML-based language used to describe the services a business offers and to provide a way for individuals and other businesses to access those services electronically.
 
@@ -70,16 +79,6 @@ The [**Resource Description Framework (RDF)**](http://www.w3schools.com/webservi
 - RDF is written in XML
 - RDF is a part of the W3C's Semantic Web Activity
 - RDF is a W3C Recommendation
-
-**Java Web Services**
-  - **Frontend programming APIs**
-    - Java API for RESTful Services [(JAX-RS)](https://jax-rs-spec.java.net/) - interfaces & annotations (javax.ws.rs.*)
-    - Java API for XML Web Services [(JAX-WS)](https://jax-ws.java.net/)
-  - **REST API Implementation libraries ** to help implement interfaces & annotations.
-    - [ApacheCXF]()
-    - [RESTEasy](http://resteasy.jboss.org/)
-    - [Restlet](https://restlet.com/)
-    - [Jersey](https://jersey.java.net/)
 
 ## SOAP
 
