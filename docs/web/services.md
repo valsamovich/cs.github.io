@@ -71,7 +71,7 @@ The [**Resource Description Framework (RDF)**](http://www.w3schools.com/webservi
 - RDF is a part of the W3C's Semantic Web Activity
 - RDF is a W3C Recommendation
 
-- Java Web Services
+**Java Web Services**
   - **Frontend programming APIs**
     - Java API for RESTful Services [(JAX-RS)](https://jax-rs-spec.java.net/) - interfaces & annotations (javax.ws.rs.*)
     - Java API for XML Web Services [(JAX-WS)](https://jax-ws.java.net/)
