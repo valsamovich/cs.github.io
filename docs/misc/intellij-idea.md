@@ -47,7 +47,7 @@ To add project as module to the main project: `File/Project Structure/` click pl
 
 - File > Settings
 - Search for `Terminal` in seach bar
-- Update **Shell path** from `cmd.exe` to:
-        - for 64bit `"C:\Program Files\Git\bin\sh.exe" -login -i`
-        - for 32bit `"C:\Program Files (x86)\Git\bin\sh.exe" -login -i`
+- Update **Shell path** from `cmd.exe` to
+  - for 64bit `"C:\Program Files\Git\bin\sh.exe" -login -i`
+  - for 32bit `"C:\Program Files (x86)\Git\bin\sh.exe" -login -i`
 - Update **Tab name** from `local` to `Git Bash`
