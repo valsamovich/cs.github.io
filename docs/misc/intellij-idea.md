@@ -42,3 +42,10 @@ Vertical selection: press `alt` and drag cursor (by `left click`).
 
 ## Modules
 To add project as module to the main project: `File/Project Structure/` click plus `+` choose `new` or `import`.
+
+## Switch CMD to Git BASH on Windows
+
+1. File > Settings
+2. Search for `Terminal` in seach bar
+3. Update **Shell path** from `cmd.exe` > `C:\Program Files\Git\bin\sh.exe --login -i` or location of the `~\Git\bin\sh.exe`
+4. Update **Tab name** from `local` to `Git Bash`
