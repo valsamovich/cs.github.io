@@ -45,7 +45,9 @@ To add project as module to the main project: `File/Project Structure/` click pl
 
 ## Switch CMD to Git BASH on Windows
 
-1. File > Settings
-2. Search for `Terminal` in seach bar
-3. Update **Shell path** from `cmd.exe` > `C:\Program Files\Git\bin\sh.exe --login -i` or location of the `~\Git\bin\sh.exe`
-4. Update **Tab name** from `local` to `Git Bash`
+- File > Settings
+- Search for `Terminal` in seach bar
+- Update **Shell path** from `cmd.exe` to:
+        - for 64bit `"C:\Program Files\Git\bin\sh.exe" -login -i`
+        - for 32bit `"C:\Program Files (x86)\Git\bin\sh.exe" -login -i`
+- Update **Tab name** from `local` to `Git Bash`
