@@ -77,8 +77,8 @@ Architecture **Evaluations** is a process of estimation of correctness, complete
 
 - **Systematic assessmnet** of architecture properties
 - **Architecture review boards**
-- Software Architecture Assessment Method (SAAM)
-- Architecture Tradeoff Analysis Method (ATAM)
+- **Software Architecture Assessment Method** (SAAM)
+- **Architecture Tradeoff Analysis Method** (ATAM)
 
 ## Path
 
