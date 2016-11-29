@@ -11,14 +11,14 @@ A [**Web server**](http://www.w3schools.com/webservices/default.asp) is a progra
                          |                             /      \                    |
     Components--|--------|--------|-------- Web Services      SOA --------|--------|--------|-------- Blocks
                 |                 |         (XML & HTTP)      /           |                 |
-               DATA           Frameworks                \    /            |                 |Service <---1---- Service 
-              /    \          /         \                REST             |Request http://..|
-            XML     \      Jersey        \        (REST-compliant WS)     |---------------->|(Service)         (Client)
-                   JSON       \  \     Apache CXF                         |                 |
-                               \  \      /  /                             |                 |
-                                \  JAX-RS  /                              |                 |
+               DATA           Frameworks                \    /            |Request http://..|
+              /    \          /         \                REST             |---------------->|
+            XML     \      Jersey        \        (REST-compliant WS)     |     HTTP GET    |
+                   JSON       \  \     Apache CXF                         |<----------------|
+                               \  \      /  /                             | JSON            | 200
+                                \  JAX-RS  /                              | Media Type      | Response
                                  \        /                            Service           Service
-                                  \      /                             Consumer          Provider
+                                  \      /                             Consumer          Provider --- Resources
                                    JAX-WS                              (Client)          (Service)
 
 - **Specifications** 
