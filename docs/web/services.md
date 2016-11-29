@@ -18,7 +18,7 @@ A [**Web server**](http://www.w3schools.com/webservices/default.asp) is a progra
                                \  \      /  /                             | JSON            | 200
                                 \  JAX-RS  /                              | Media Type      | Response
                                  \        /                            Service           Service
-                                  \      /                             Consumer          Provider -- Resources
+                                  \      /                             Consumer          Provider - Resources
                                    JAX-WS                              (Client)          (Service)
 
 - **Specifications** 
