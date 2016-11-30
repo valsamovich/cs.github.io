@@ -110,3 +110,9 @@ Simplified
   - Recource Owner Password Credentials Grant
  
  Pictures of flows avalable in [`assets`](/assets) folder
+
+## Appendix
+
+Test RESTful Web service via curl
+
+     curl -i -H "Accept: application/json" "http://localhost:8080/dataconsistency/compares"
