@@ -117,9 +117,23 @@ Result:
     # it's gonna printed everything what is accepted
     [value]
 
-## Execute
+## Basic Authorization
 
-Execute python with python:
+    import json
+    import requests
+    from requests.auth import HTTPBasicAuth
+
+    r = requests.post('http://localhost:8080/dataconsistency/facts/new',
+                      headers={'Content-Type': 'application/json'},
+                      auth=HTTPBasicAuth('username', 'secret'), data=json.dumps({
+            'processId': 1,
+            'metricId': 1,
+            'lobId': 1,
+            'factDate': '2016-10-25',
+            'factValue': 200
+        }))
+
+    print r
 
 ## test1.py
 
