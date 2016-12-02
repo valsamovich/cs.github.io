@@ -4,7 +4,7 @@
 
                             Input ---> Finite, ordered list of steps ---> Outputs
 
-**Data Structure**
+- **Data Structure**
   - is a way to store and organize data in order to facilitate access and modifications
   - is a complecity of implementations
   - is a Stack, Queue, Tree, etc
