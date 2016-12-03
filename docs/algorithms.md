@@ -21,6 +21,12 @@
 ## Algorithms Techniques
 
 - Backtraking
-- Travelling Salesman
-- THe N Queens problem
-- Traversal Tree
+  - Travelling Salesman
+  - THe N Queens problem
+  - Traversal Tree
+  - Convex HULL(GRAHAM'S SCAN)
+  - GEnerating Permutations
+- Brute Force Algorithm
+
+## Data Structures
+
