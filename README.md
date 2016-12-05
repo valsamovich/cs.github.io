@@ -1,11 +1,22 @@
-# Engineering
+# computer-science
+
+[**Computer science**](https://en.wikipedia.org/wiki/Computer_science#Software_engineering) is the study of the theory, experimentation, and engineering that form the basis for the design and use of computers.
 
 **Engineering** is the application of mathematics, empirical evidence and scientific, economic, social, and practical knowledge in order to invent, design, build, maintain, research, and improve, structures, machines, tools, systems, components, materials, and processes.
 
 - [Data Engineering](/docs/data-engineering.md)
 - [Software Arhitecture](/docs/software-arhitecture.md)
 
-## Context
+## Areas of computer science
+
+- **Theoretical computer science**
+  - [Algorithms and data structures](/docs/theoretical/algorithms-and-data-structures.md)
+
+
+
+
+
+
 
 - **Big Data**
   - [Apache™ Hadoop®](/docs/big-data/hadoop.md) open-source software for reliable, scalable, distributed computing.
