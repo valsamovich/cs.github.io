@@ -32,9 +32,9 @@
 
 **Data Structures** is a foundations for building algorithms
 
-- Binomal Heap
-- B-Tree
-- List
+- **Binomal Heap**
+- **B-Tree**
+- **List**
   - Operations
     - Search(L, k)
     - Insert(L, x)
@@ -45,7 +45,7 @@
     - Maximum(L)
   - Double linked list
   - Searching a linked list
-- Dictionary
+- **Dictionary**
   - Operations
     - `Insert(x,d)` - Insert item x into dictionary d.
     - `Delete(x,d)` - Remove item x (or the item pointed to by x) from dictionary d.
