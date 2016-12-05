@@ -30,3 +30,16 @@
 
 ## Data Structures
 
+**Data Structures** is a foundations for building algorithms
+
+- Binomal Heap
+- B-Tree
+- List
+- Dictionary
+- Hash Tables
+- Maps
+- Tires
+- Queue
+- Stack
+- Tree
+- Red Black Tree
