@@ -35,7 +35,21 @@
 - Binomal Heap
 - B-Tree
 - List
+  - Operations
+    - Search(L, k)
+    - Insert(L, x)
+    - Delete(L, x)
+    - Successor(L, x)
+    - Predecessor(L, x)
+    - Minimum(L)
+    - Maximum(L)
+  - Double linked list
+  - Searching a linked list
 - Dictionary
+  - Operations
+    - `Insert(x,d)` - Insert item x into dictionary d.
+    - `Delete(x,d)` - Remove item x (or the item pointed to by x) from dictionary d.
+    - `Search(k,d)` - Return an item with key k if one exists in dictionary d.
 - Hash Tables
 - Maps
 - Tires
