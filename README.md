@@ -12,14 +12,16 @@
 - **Theoretical computer science**
   - [Algorithms and data structures](/docs/theoretical/algorithms-and-data-structures.md)
 - **Applied computer science**
-  - [Computer architecture and engineering]
-  - [Database]
-  - [Software engineering](
+  - [Computer architecture and engineering]()
+  - [Database](https://en.wikipedia.org/wiki/Database)
+    - [Apache Hive](/docs/big-data/hive.md) is a data warehouse infrastructure for providing data summarization, query, and analysis.
+    - [History](/docs/databases/database-history.md), [design](/docs/databases/database-design-managment.md), and [managment](/docs/databases/database-design-managment.md) of Databases.
+    - [MySQL](/docs/databases/mysql.md) is an open-source relational database management system (RDBMS).
+  - [Software engineering]()
+    - 
 
-
-- **Big Data**
   - [Apache™ Hadoop®](/docs/big-data/hadoop.md) open-source software for reliable, scalable, distributed computing.
-  - [Apache Hive](/docs/big-data/hive.md) is a data warehouse infrastructure for providing data summarization, query, and analysis.
+
 - **CI & Deployment**
   - [Travis](/docs/ci/travis.md) CI is a FOSS, hosted, distributed continuous integration service.
   - [Docker](/docs/ci/docker.md) is an open-source project that automates the deployment of applications inside software containers.
@@ -27,8 +29,7 @@
   - [.vimrc](/docs/config-files/.vimrc) contains runtime configuration settings to initialize Vim when it starts.
   - [.bash_profile](/src/main/bash/.bash_profile) user specific environment and startup programs.
 - **Databases**
-  - [History](/docs/databases/database-history.md), [design](/docs/databases/database-design-managment.md), and [managment](/docs/databases/database-design-managment.md) of Databases.
-  - [MySQL](/docs/databases/mysql.md) is an open-source relational database management system (RDBMS).
+
 - **Misc**
   - [API](/docs/misc/api.md) is a set of routines, protocols, and tools for building software and applications.
   - [Organizing](/docs/misc/organizing.md) files, folders and documents on computer.
