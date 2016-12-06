@@ -11,11 +11,10 @@
 
 - **Theoretical computer science**
   - [Algorithms and data structures](/docs/theoretical/algorithms-and-data-structures.md)
-
-
-
-
-
+- **Applied computer science**
+  - [Computer architecture and engineering]
+  - [Database]
+  - [Software engineering](
 
 
 - **Big Data**
