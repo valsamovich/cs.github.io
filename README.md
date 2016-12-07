@@ -4,10 +4,12 @@
 
 **Engineering** is the application of mathematics, empirical evidence and scientific, economic, social, and practical knowledge in order to invent, design, build, maintain, research, and improve, structures, machines, tools, systems, components, materials, and processes.
 
+## Paths
+
 - [Data Engineering](/docs/data-engineering.md)
 - [Software Arhitecture](/docs/software-arhitecture.md)
 
-## Areas of computer science
+## Areas
 
 - **Theoretical computer science**
   - [Algorithms and data structures](/docs/theoretical/algorithms-and-data-structures.md)
@@ -18,10 +20,9 @@
     - [History](/docs/databases/database-history.md), [design](/docs/databases/database-design-managment.md), and [managment](/docs/databases/database-design-managment.md) of Databases.
     - [MySQL](/docs/databases/mysql.md) is an open-source relational database management system (RDBMS).
   - [Software engineering]()
-    - 
 
+- **Big Data**
   - [Apache™ Hadoop®](/docs/big-data/hadoop.md) open-source software for reliable, scalable, distributed computing.
-
 - **CI & Deployment**
   - [Travis](/docs/ci/travis.md) CI is a FOSS, hosted, distributed continuous integration service.
   - [Docker](/docs/ci/docker.md) is an open-source project that automates the deployment of applications inside software containers.
