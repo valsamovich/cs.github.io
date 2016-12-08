@@ -1,8 +1,8 @@
-# computer-science
-
-[**Computer science**](https://en.wikipedia.org/wiki/Computer_science#Software_engineering) is the study of the theory, experimentation, and engineering that form the basis for the design and use of computers.
+# engineering
 
 **Engineering** is the application of mathematics, empirical evidence and scientific, economic, social, and practical knowledge in order to invent, design, build, maintain, research, and improve, structures, machines, tools, systems, components, materials, and processes.
+
+[**Computer science**](https://en.wikipedia.org/wiki/Computer_science#Software_engineering) is the study of the theory, experimentation, and engineering that form the basis for the design and use of computers.
 
 ## Paths
 
