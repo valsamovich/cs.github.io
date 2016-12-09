@@ -19,9 +19,10 @@ for YEAR in ${YEARS[@]}; do
             || [ ${MONTH} -eq ${MONTHS[9]} ] \
             || [ ${MONTH} -eq ${MONTHS[11]} ]; then
                 echo "PYTHONPATH=lib_python_wdprgms python2.7 main.py -start_date ${YEAR}-${MONTH}-${DATES[0]} -end_date ${YEAR}-${MONTH}-${DATES[4]} -odb incubating -sdb incubating -sp /data/hive/warehouse/incubating.db"
-            fi
-            if [ ${MONTH} -eq ${MONTHS[1]} ]; then
+            elif [ ${MONTH} -eq ${MONTHS[1]} ]; then
                 echo "PYTHONPATH=lib_python_wdprgms python2.7 main.py -start_date ${YEAR}-${MONTH}-${DATES[0]} -end_date ${YEAR}-${MONTH}-${DATES[1]} -odb incubating -sdb incubating -sp /data/hive/warehouse/incubating.db"
+            else
+                echo "PYTHONPATH=lib_python_wdprgms python2.7 main.py -start_date ${YEAR}-${MONTH}-${DATES[0]} -end_date ${YEAR}-${MONTH}-${DATES[3]} -odb incubating -sdb incubating -sp /data/hive/warehouse/incubating.db"
             fi
         done
     fi
