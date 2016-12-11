@@ -10,7 +10,7 @@
 ## Computer Science
 
 - **Theoretical computer science**
-    - [Algorithms and data structures](/docs/theoretical/algorithms-and-data-structures.md)
+    - [Algorithms and data structures](/docs/algorithms.md)
 - **Applied computer science**
     - [Computer Networks](https://en.wikipedia.org/wiki/Computer_science)
         - A [Web Servers](/docs/web/servers.md) is an information technology that processes requests via HTTP...
