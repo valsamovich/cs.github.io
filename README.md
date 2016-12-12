@@ -14,7 +14,6 @@
 - **Applied computer science**
     - [Computer Networks](https://en.wikipedia.org/wiki/Computer_science)
         - A [Web Servers](/docs/web/servers.md) is an information technology that processes requests via HTTP...
-    - [Computer architecture and engineering]()
     - [Database](https://en.wikipedia.org/wiki/Database)
         - [Apache Hive](/docs/big-data/hive.md) is a data warehouse infrastructure for providing data summarization, query, and analysis.
         - [History](/docs/databases/database-history.md), [design](/docs/databases/database-design-managment.md), and [managment](/docs/databases/database-design-managment.md) of Databases.
