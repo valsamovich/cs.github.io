@@ -15,8 +15,8 @@
     - [Computer Networks](https://en.wikipedia.org/wiki/Computer_science)
         - A [Web Servers](/docs/web/servers.md) is an information technology that processes requests via HTTP...
     - [Database](https://en.wikipedia.org/wiki/Database)
-        - [Apache Hive](/docs/big-data/hive.md) is a data warehouse infrastructure for providing data summarization, query, and analysis.
-        - [History](/docs/databases/database-history.md), [design](/docs/databases/database-design-managment.md), and [managment](/docs/databases/database-design-managment.md) of Databases.
+        - [Apache Hive](/docs/hive.md) is a data warehouse infrastructure for providing data summarization, query, and analysis.
+        - [History](/docs/database-history.md), [design](/docs/databases/database-design-managment.md), and [managment](/docs/databases/database-design-managment.md) of Databases.
         - [MySQL](/docs/databases/mysql.md) is an open-source relational database management system (RDBMS).
     - [Software engineering](https://en.wikipedia.org/wiki/Software_engineering)
         - [Apache™ Hadoop®](/docs/big-data/hadoop.md) open-source software for reliable, scalable, distributed computing.
