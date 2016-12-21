@@ -47,7 +47,7 @@
             - [Spring RESTful Web Service](https://github.com/vsamov/spring-skeleton)
             - [Spring Boot RESTful Web Service](https://github.com/vsamov/spring-boot-skeleton)
 
-# Paths
+## Paths
 
 - [Data Engineering](/docs/data-engineering.md)
 - [Software Arhitecture](/docs/software-arhitecture.md)
