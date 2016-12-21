@@ -2,8 +2,11 @@
 
 [**Computer science**](https://en.wikipedia.org/wiki/Computer_science#Software_engineering) is the study of the theory, experimentation, and engineering that form the basis for the design and use of computers.
 
-- [Data Engineering](/docs/data-engineering.md)
-- [Software Arhitecture](/docs/software-arhitecture.md)
+           Science      Applied computer science
+              |        / 
+       Computer science 
+                       \
+                        Theoretical computer science 
 
 ## Areas
 
@@ -43,6 +46,11 @@
         - A [Web Services](/docs/web/services.md) is a service communicating with each other via the World Wide Web.
             - [Spring RESTful Web Service](https://github.com/vsamov/spring-skeleton)
             - [Spring Boot RESTful Web Service](https://github.com/vsamov/spring-boot-skeleton)
+
+# Paths
+
+- [Data Engineering](/docs/data-engineering.md)
+- [Software Arhitecture](/docs/software-arhitecture.md)
 
 ## Resources
 
