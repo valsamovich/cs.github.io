@@ -12,13 +12,13 @@
 - **Theoretical computer science**
     - [Algorithms and data structures](/docs/algorithms.md)
 - **Applied computer science**
-    - [Computer Networks](https://en.wikipedia.org/wiki/Computer_science)
+    - Computer Networks
         - A [Web Servers](/docs/web/servers.md) is an information technology that processes requests via HTTP...
-    - [Database](https://en.wikipedia.org/wiki/Database)
+    - Database
         - [Apache Hive](/docs/hive.md) is a data warehouse infrastructure for providing data summarization, query, and analysis.
         - [History](/docs/database-history.md), [design](/docs/databases/database-design-managment.md), and [managment](/docs/databases/database-design-managment.md) of Databases.
         - [MySQL](/docs/databases/mysql.md) is an open-source relational database management system (RDBMS).
-    - [Software engineering](https://en.wikipedia.org/wiki/Software_engineering)
+    - Software engineering
         - [Apache™ Hadoop®](/docs/big-data/hadoop.md) open-source software for reliable, scalable, distributed computing.
         - [Travis](/docs/ci/travis.md) CI is a FOSS, hosted, distributed continuous integration service.
         - [Docker](/docs/ci/docker.md) is an open-source project that automates the deployment of applications inside software containers.
