@@ -1,6 +1,6 @@
 # computer-science
 
-[**Computer science**](https://en.wikipedia.org/wiki/Computer_science#Software_engineering) is the study of the theory, experimentation, and engineering that form the basis for the design and use of computers.
+[**Computer science**](https://en.wikipedia.org/wiki/Computer_science#Software_engineering) is the study of the theory, experimentation, and engineering that form the basis for the design and use of computers. A computer scientist specializes in the theory of computation and the design of computational systems.
 
                         Applied computer science
                        / 
@@ -20,9 +20,9 @@
         - [History](/docs/database-history.md), [design](/docs/databases/database-design-managment.md), and [managment](/docs/databases/database-design-managment.md) of Databases.
         - [MySQL](/docs/databases/mysql.md) is an open-source relational database management system (RDBMS).
     - Software engineering
-        - [Apache™ Hadoop®](/docs/big-data/hadoop.md) open-source software for reliable, scalable, distributed computing.
-        - [Travis](/docs/ci/travis.md) CI is a FOSS, hosted, distributed continuous integration service.
-        - [Docker](/docs/ci/docker.md) is an open-source project that automates the deployment.
+        - [Apache™ Hadoop®](/docs/hadoop.md) open-source software for reliable, scalable, distributed computing.
+        - [Travis](/docs/travis.md) CI is a FOSS, hosted, distributed continuous integration service.
+        - [Docker](/docs/docker.md) is an open-source project that automates the deployment.
         - [.vimrc](/docs/config-files/.vimrc) contains runtime configuration settings to initialize Vim when it starts.
         - [.bash_profile](/src/main/bash/.bash_profile) user specific environment and startup programs.
         - [API](/docs/misc/api.md) is a set of routines, protocols, and tools for building software and applications.
