@@ -21,12 +21,12 @@
     - Software engineering
         - [Apache™ Hadoop®](/docs/big-data/hadoop.md) open-source software for reliable, scalable, distributed computing.
         - [Travis](/docs/ci/travis.md) CI is a FOSS, hosted, distributed continuous integration service.
-        - [Docker](/docs/ci/docker.md) is an open-source project that automates the deployment of applications inside software containers.
+        - [Docker](/docs/ci/docker.md) is an open-source project that automates the deployment.
         - [.vimrc](/docs/config-files/.vimrc) contains runtime configuration settings to initialize Vim when it starts.
         - [.bash_profile](/src/main/bash/.bash_profile) user specific environment and startup programs.
         - [API](/docs/misc/api.md) is a set of routines, protocols, and tools for building software and applications.
         - [Organizing](/docs/misc/organizing.md) files, folders and documents on computer.
-        - [Git](docs/misc/git.md) is a widely used source code management system for software development.
+        - [Git](docs/misc/git.md) is a source code management system for software development.
           - [README.md](https://github.com/vsamov/engineering/blob/master/docs/misc/git-readme.md) best practices.
         - [Intellij IDEA](docs/misc/intellij-idea.md) is a Java integrated development environment (IDE) for developing computer software.
         - Google [Chrome](docs/misc/chrome.md) is a freeware web browser developed by Google
