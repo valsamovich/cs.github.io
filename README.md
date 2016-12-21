@@ -1,13 +1,11 @@
-# engineering
-
-**Engineering** is the application of mathematics, empirical evidence and scientific, economic, social, and practical knowledge in order to invent, design, build, maintain, research, and improve, structures, machines, tools, systems, components, materials, and processes.
+# computer-science
 
 [**Computer science**](https://en.wikipedia.org/wiki/Computer_science#Software_engineering) is the study of the theory, experimentation, and engineering that form the basis for the design and use of computers.
 
 - [Data Engineering](/docs/data-engineering.md)
 - [Software Arhitecture](/docs/software-arhitecture.md)
 
-## Computer Science
+## Areas
 
 - **Theoretical computer science**
     - [Algorithms and data structures](/docs/algorithms.md)
