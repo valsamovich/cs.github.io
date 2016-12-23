@@ -48,14 +48,15 @@
 
 ## Paths
 
-- [Data Engineering](/docs/data-engineering.md)
-- [Software Arhitecture](/docs/software-arhitecture.md)
+- [Analytics Engineer](/docs/data-engineering.md)
+- [Software Artitect](/docs/software-arhitecture.md)
 
 ## Resources
 
 - Educations
      - [Udacity](https://www.udacity.com/) is a for-profit educational organization offering open online courses (MOOCs).
      - [Codecademy](https://www.codecademy.com/) is an online interactive platform that offers free coding classes.
+     - [Udemy](https://www.udemy.com/) is a global marketplace for learning and teaching online free/payed.
      - [W3Schools](http://www.w3schools.com/) is a world's largest web development site.
      - [MIT OPENCOURSEWARE](https://ocw.mit.edu/index.htm) OCW is a free and open publication of material from MIT courses.
 - Applications
