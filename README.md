@@ -14,12 +14,12 @@
     - [Algorithms and data structures](/docs/algorithms.md)
 - **Applied computer science**
     - Database
-        - [Apache Hive](/docs/hive.md) is a data warehouse infrastructure for providing data summarization, query, and analysis.
+        - Apache [Hive](/docs/hive.md) is a data warehouse infrastructure for providing data summarization, query, and analysis.
         - [History](/docs/database-history.md), [design](/docs/database-design-managment.md), and [management](/docsdatabase-design-managment.md) of Databases.
         - [MySQL](/docs/databases/mysql.md) is an open-source relational database management system (RDBMS).
     - Software engineering
         - A [Web Servers](/docs/web/servers.md) is an information technology that processes requests via HTTP...
-        - [Apache™ Hadoop®](/docs/hadoop.md) open-source software for reliable, scalable, distributed computing.
+        - Apache [Hadoop](/docs/hadoop.md) open-source software for reliable, scalable, distributed computing.
         - [Travis](/docs/travis.md) CI is a FOSS, hosted, distributed continuous integration service.
         - [Docker](/docs/docker.md) is an open-source project that automates the deployment.
         - [.vimrc](/docs/config-files/.vimrc) contains runtime configuration settings to initialize Vim when it starts.
