@@ -15,7 +15,7 @@
 - **Applied computer science**
     - Database
         - [Apache Hive](/docs/hive.md) is a data warehouse infrastructure for providing data summarization, query, and analysis.
-        - [History](/docs/database-history.md), [design](/docs/databases/database-design-managment.md), and [managment](/docs/databases/database-design-managment.md) of Databases.
+        - [History](/docs/database-history.md), [design](/docs/database-design-managment.md), and [management](/docsdatabase-design-managment.md) of Databases.
         - [MySQL](/docs/databases/mysql.md) is an open-source relational database management system (RDBMS).
     - Software engineering
         - A [Web Servers](/docs/web/servers.md) is an information technology that processes requests via HTTP...
