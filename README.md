@@ -24,12 +24,12 @@
         - [Docker](/docs/docker.md) is an open-source project that automates the deployment.
         - [.vimrc](/docs/config-files/.vimrc) contains runtime configuration settings to initialize Vim when it starts.
         - [.bash_profile](/src/main/bash/.bash_profile) user specific environment and startup programs.
-        - [API](/docs/misc/api.md) is a set of routines, protocols, and tools for building software and applications.
-        - [Organizing](/docs/misc/organizing.md) files, folders and documents on computer.
-        - [Git](docs/misc/git.md) is a source code management system for software development.
-          - [README.md](https://github.com/vsamov/engineering/blob/master/docs/misc/git-readme.md) best practices.
-        - [Intellij IDEA](docs/misc/intellij-idea.md) is a Java integrated development environment (IDE) for developing computer software.
-        - Google [Chrome](docs/misc/chrome.md) is a freeware web browser developed by Google
+        - [API](/docs/api.md) is a set of routines, protocols, and tools for building software and applications.
+        - [Organizing](/docs/organizing.md) files, folders and documents on computer.
+        - [Git](docs/git.md) is a source code management system for software development.
+          - [README.md](/docs/git-readme.md) best practices.
+        - [Intellij IDEA](docs/intellij-idea.md) is a Java integrated development environment (IDE) for developing computer software.
+        - Google [Chrome](docs/chrome.md) is a freeware web browser developed by Google
         - [SEO](docs/misc/seo.md) is the process of affecting the visibility of a website or a web page in a search engine's.
         - [Vim](/docs/misc/vim.md) is a clone of Bill Joy's vi editor for Unix.
         - [URL](/docs/misc/url.md) is a reference to a web resource that specifies its location on a computer network.
