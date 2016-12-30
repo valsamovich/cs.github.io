@@ -11,7 +11,7 @@
 ## Areas
 
 - **Theoretical computer science**
-    - [Algorithms and data structures](/docs/algorithms.md)
+    - [Algorithms and data structures](/docs/algorithms-and-data-structures.md)
 - **Applied computer science**
     - Database
         - Apache [Hive](/docs/hive.md) is a data warehouse infrastructure for providing data summarization, query, and analysis.
