@@ -50,10 +50,10 @@
     - `Insert(x,d)` - Insert item x into dictionary d.
     - `Delete(x,d)` - Remove item x (or the item pointed to by x) from dictionary d.
     - `Search(k,d)` - Return an item with key k if one exists in dictionary d.
-- Hash Tables
-- Maps
-- Tires
-- Queue
-- Stack
-- Tree
-- Red Black Tree
+- **Hash Tables**
+- **Maps**
+- **Tires**
+- **Queue**
+- **Stack**
+- **Tree**
+- **Red Black Tree**
