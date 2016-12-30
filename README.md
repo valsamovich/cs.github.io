@@ -22,8 +22,8 @@
         - Apache [Hadoop](/docs/hadoop.md) open-source software for reliable, scalable, distributed computing.
         - [Travis](/docs/travis.md) CI is a FOSS, hosted, distributed continuous integration service.
         - [Docker](/docs/docker.md) is an open-source project that automates the deployment.
-        - [.vimrc](/docs/config-files/.vimrc) contains runtime configuration settings to initialize Vim when it starts.
-        - [.bash_profile](/src/main/bash/.bash_profile) user specific environment and startup programs.
+        - [.vimrc](/docs/.vimrc) contains runtime configuration settings to initialize Vim when it starts.
+        - [.bash_profile](/docs/.bash_profile) user specific environment and startup programs.
         - [API](/docs/api.md) is a set of routines, protocols, and tools for building software and applications.
         - [Organizing](/docs/organizing.md) files, folders and documents on computer.
         - [Git](docs/git.md) is a source code management system for software development.
