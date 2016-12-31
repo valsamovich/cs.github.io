@@ -36,12 +36,12 @@
         - [Environment](/docs/misc/environments.md) is a computer system in which a software component is deployed and executed.  
         - [Shell](/docs/programming/shell.md) scripting is one of the easiest types of scripting to learn: [`scp`](/docs/shell.md#scp), [`screen`](/docs/shell.md#screen), [`process`](/docs/shell.md#process).
         - [Java](/docs/java.md) is a concurrent, class-based, and object-oriented programming language.
-        - [Python](/docs/programming/python.md) is a widely used general-purpose, high-level programming language.
+        - [Python](/docs/python.md) is a widely used general-purpose, high-level programming language.
         - [Shell files, environmnet vars, etc.](/docs/programming/shell.md)
         - [R](/docs/programming/r.md) is a programming language and software environment for statistical computing and graphics.
-        - [Understanding Computer Files](/docs/misc/organizing.md) and how to storage, organizing and process.
+        - [Understanding Computer Files](/docs/organizing.md) and how to storage, organizing and process.
         - Google [Chrome](/docs/misc/chrome.md) is a freeware web browser developed by Google.
-        - [OAuth 2.0](/docs/security/oauth2.0.md) authorization framework.
+        - [OAuth 2.0](/docs/oauth2.0.md) authorization framework.
         - A [Web Services](/docs/web/services.md) is a service communicating with each other via the World Wide Web.
             - [Spring RESTful Web Service](https://github.com/vsamov/spring-skeleton)
             - [Spring Boot RESTful Web Service](https://github.com/vsamov/spring-boot-skeleton)
