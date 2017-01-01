@@ -4,8 +4,9 @@ A template of **README** best practices to make your **README** simple to unders
 
 ## Skeleton
 
-- **Name** f the project
- - Description of the project
+Required
+ - **Name** f the project
+  - Description of the project
 - **Installation**
  - Quickly describe how to install your project and how to get it running.
 - **Usage**
@@ -13,7 +14,7 @@ A template of **README** best practices to make your **README** simple to unders
  - Contains the command how to run test.
 - **Build**
  - If there is anyhting special about your build process or things that others have to take care of.
-- **Deplpyment** (optional)
+- **Deploymnet** (optional)
  - Since some projects follow a special kind of deployment, you should provide a proper description on how to deploy.
 - **Cronjobs** (optional)
  - If you project is using cron jobs or any other automated scripts you should describe their functionality here.
