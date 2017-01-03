@@ -171,6 +171,7 @@ PySpark Structure
  - Fancy Maths with Spark
  - Write out data
 
+Basic project structure:
 
         project/
             setup.py
