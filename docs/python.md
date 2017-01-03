@@ -213,4 +213,4 @@ Simple **PySpark** example for count.
     count = distData.reduce(lambda a, b: a + b)
     print count
  
-To run from terminal: `spark-submit --master yarn --deploy-mode cluster [file].py`
+To run on cluster from terminal: `spark-submit --master yarn --deploy-mode cluster [file].py`
