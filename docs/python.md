@@ -173,20 +173,20 @@ service.py
 
 Basic **project structure**:
 
+    project/
+        setup.py
         project/
-            setup.py
-            project/
-                __init__.py
-                data_io.py      # Read in data & Write out data
-                featurize.py    # Raw data into features
-                model.py
-            bin/  
-            docs/
-            tests/
-                __init__.py
-                project_tests.py
-                resources/
-                    data_source_sample.csv
+            __init__.py
+            data_io.py      # Read in data & Write out data
+            featurize.py    # Raw data into features
+            model.py
+        bin/  
+        docs/
+        tests/
+            __init__.py
+            project_tests.py
+            resources/
+                data_source_sample.csv
 
 **RDDs**
 
@@ -199,6 +199,18 @@ Basic **project structure**:
  - Make as many simple and small functions as possible. Keep it simple.
  - Make it static
  
-**Logs**: `yarn logs <app_id>
+**Logs**: `yarn logs <app_id>`
 
+Simple **PySpark** example for count. 
+
+    from pyspark import SparkContext, SparkConf
+
+    conf = SparkConf().setAppName("count")
+    sc = SparkContext(conf=conf)
+
+    data = [1, 2, 3, 4, 5]
+    distData = sc.parallelize(data)
+    count = distData.reduce(lambda a, b: a + b)
+    print count
  
+To run from terminal: `spark-submit --master yarn --deploy-mode cluster [file].py`
