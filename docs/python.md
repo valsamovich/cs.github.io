@@ -87,20 +87,24 @@ create a package that only has a __init__.py and then put all your code into __i
 
 [Example](http://as.ynchrono.us/2007/12/filesystem-structure-of-python-project_21.html):
 
-    Project/
-    |-- bin/
-    |   |-- project
-    |
-    |-- project/
-    |   |-- test/
-    |   |   |-- __init__.py
-    |   |   |-- test_main.py
-    |   |   
-    |   |-- __init__.py
-    |   |-- main.py
-    |
-    |-- setup.py
-    |-- README
+    [python-app]
+        |-- .gitignore
+        |-- README.md
+        |-- pom.xml
+        |-- setup.cfg
+        |-- setup.py
+        `-- assets (optional)
+                `-- nexus-logo.png
+                `-- jenkins-logo.png
+                `-- feed/process.png
+        `-- package-descriptor
+        |       `-- descriptor.xml
+        `-- [python-app]
+           `-- resources
+           `-- test
+                `-- test_main.py
+           `-- __init__.py
+           `-- main.py
 
 [Open Sourcing a Python Project the Right Way](https://www.jeffknupp.com/blog/2013/08/16/open-sourcing-a-python-project-the-right-way/)
 
@@ -160,23 +164,32 @@ service.py
 
 ## `pyspark`
 
-Basic PySpark Structure
+PySpark Structure
+    - Parse CLI args & configure Spark App
+    - Read in data
+    - Raw data into features
+    - Fancy Maths with Spark
+    - Write out data
+    
 
     project/
-    |-- project/
-    |   '-- __init__.py
-    |   '-- data_io.py
-    |   '-- featurize.py
-    |   '-- model.py
-    |    
-    |
-    |-- project/
-    |   |-- test/
-    |   |   |-- __init__.py
-    |   |   |-- test_main.py
-    |   |   
-    |   |-- __init__.py
-    |   |-- main.py
-    |
-    |-- setup.py
-    |-- README
+        setup.py
+        project/
+            __init__.py
+            data_io.py
+            featurize.py
+            model.py
+        bin/  
+        docs/
+        tests/
+            __init__.py
+            project_tests.py
+            resources/
+                data_source_sample.csv
+
+RDDs
+
+    sc.textFile("hdfs://...", 4)
+        .map(to_series)
+        .filter(has_outlier)
+        .count()
