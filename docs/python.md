@@ -165,11 +165,11 @@ service.py
 ## `pyspark`
 
 PySpark Structure
-    - Parse CLI args & configure Spark App
-    - Read in data
-    - Raw data into features
-    - Fancy Maths with Spark
-    - Write out data
+ - Parse CLI args & configure Spark App
+ - Read in data
+ - Raw data into features
+ - Fancy Maths with Spark
+ - Write out data
     
 
     project/
