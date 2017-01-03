@@ -170,22 +170,22 @@ PySpark Structure
  - Raw data into features
  - Fancy Maths with Spark
  - Write out data
-    
 
-    project/
-        setup.py
+
         project/
-            __init__.py
-            data_io.py
-            featurize.py
-            model.py
-        bin/  
-        docs/
-        tests/
-            __init__.py
-            project_tests.py
-            resources/
-                data_source_sample.csv
+            setup.py
+            project/
+                __init__.py
+                data_io.py
+                featurize.py
+                model.py
+            bin/  
+            docs/
+            tests/
+                __init__.py
+                project_tests.py
+                resources/
+                    data_source_sample.csv
 
 RDDs
 
