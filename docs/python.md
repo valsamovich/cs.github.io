@@ -157,3 +157,26 @@ service.py
         # do something
         service_func()
         test1.some_func()
+
+## `pyspark`
+
+Basic PySpark Structure
+
+    project/
+    |-- project/
+    |   '-- __init__.py
+    |   '-- data_io.py
+    |   '-- featurize.py
+    |   '-- model.py
+    |    
+    |
+    |-- project/
+    |   |-- test/
+    |   |   |-- __init__.py
+    |   |   |-- test_main.py
+    |   |   
+    |   |-- __init__.py
+    |   |-- main.py
+    |
+    |-- setup.py
+    |-- README
