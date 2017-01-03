@@ -194,3 +194,11 @@ Basic **project structure**:
         .map(to_series)
         .filter(has_outlier)
         .count()
+
+**Code**
+ - Make as many simple and small functions as possible. Keep it simple.
+ - Make it static
+ 
+**Logs**: `yarn logs <app_id>
+
+ 
