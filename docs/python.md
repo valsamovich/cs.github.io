@@ -164,21 +164,21 @@ service.py
 
 ## `pyspark`
 
-PySpark Structure
+**PySpark Structure**
  - Parse CLI args & configure Spark App
  - Read in data
  - Raw data into features
  - Fancy Maths with Spark
  - Write out data
 
-Basic project structure:
+Basic **project structure**:
 
         project/
             setup.py
             project/
                 __init__.py
-                data_io.py
-                featurize.py
+                data_io.py      # Read in data & Write out data
+                featurize.py    # Raw data into features
                 model.py
             bin/  
             docs/
@@ -188,7 +188,7 @@ Basic project structure:
                 resources/
                     data_source_sample.csv
 
-RDDs
+**RDDs**
 
     sc.textFile("hdfs://...", 4)
         .map(to_series)
