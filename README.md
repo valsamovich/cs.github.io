@@ -35,7 +35,7 @@
         - [URL](/docs/url.md) is a reference to a web resource that specifies its location on a computer network.
         - [Environment](/docs/misc/environments.md) is a computer system in which a software component is deployed and executed.  
         - [Shell](/docs/programming/shell.md) scripting is one of the easiest types of scripting to learn: [`scp`](/docs/shell.md#scp), [`screen`](/docs/shell.md#screen), [`process`](/docs/shell.md#process).
-        - [Java](/docs/java.md) is a concurrent, class-based, and object-oriented programming language.
+        - [Java](/docs/java.md) is a concurrent, class-based, and object-oriented programming language + [`pyspark`](/docs/python.md#pyspark)
         - [Python](/docs/python.md) is a widely used general-purpose, high-level programming language.
         - [Shell files, environmnet vars, etc.](/docs/programming/shell.md)
         - [R](/docs/programming/r.md) is a programming language and software environment for statistical computing and graphics.
