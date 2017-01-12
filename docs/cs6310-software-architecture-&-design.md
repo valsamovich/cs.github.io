@@ -1,5 +1,7 @@
 # Software Architecture & Design
 
+    "Design creates culture. Culture shapes values. Values determine the future." - Robert L. Peters
+
 ## Objectives
 
 - Express the **analysis and design**  of an application using the [**Unified Modeling Notation (UML)**]().
