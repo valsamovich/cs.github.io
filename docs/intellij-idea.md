@@ -51,3 +51,8 @@ To add project as module to the main project: `File/Project Structure/` click pl
   - for 64bit `"C:\Program Files\Git\bin\sh.exe" -login -i`
   - for 32bit `"C:\Program Files (x86)\Git\bin\sh.exe" -login -i`
 - Update **Tab name** from `local` to `Git Bash`
+
+## Add local pythn library to project
+
+    File -> Project Structure -> SDKs -> Under CLassPath click '+' -> Usually on MAC is /usr/local/bin/python2.7/[lib-name]
+
