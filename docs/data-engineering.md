@@ -53,7 +53,7 @@ If file extension is **`.tar.gz`**, type the command:
 ## Haddop
 
     # Copy the files
-    hadoop distcp /data/hive/warehouse/thome127.db/bp_wdw_tmp /data/hive/warehouse/samov004.db/bp_wdw_tmp
+    hadoop distcp /[path]/* /[path]
 
 ## Hive
 
