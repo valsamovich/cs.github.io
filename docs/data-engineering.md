@@ -50,6 +50,10 @@ If file extension is **`.tar.gz`**, type the command:
     
     # to zip file(s) or directorie(s) with .tar.gz
     tar -zcvf [file].tar.gz [fileOrDirectory1] [fileOrDirectly2] [fileOrDirectoryN]
+## Haddop
+
+    # Copy the files
+    hadoop distcp /data/hive/warehouse/thome127.db/bp_wdw_tmp /data/hive/warehouse/samov004.db/bp_wdw_tmp
 
 ## Hive
 
@@ -84,6 +88,7 @@ Hive organizes tables into **partitions**. It is a way of dividing a table into 
     # Dropping a Partition
     ALTER TABLE [table-name] DROP [IF EXISTS] PARTITION([patition-name]="[fragmnet]");
 
+    # hadoop distcp /data/hive/warehouse/thome127.db/bp_wdw_tmp /data/hive/warehouse/samov004.db/bp_wdw_tmp
 Code formatting for SQL queries (tabbing and alignment has no standard, commas are usually leading).
 
     SELECT [clause] 
