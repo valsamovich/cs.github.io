@@ -14,7 +14,7 @@
     - [Algorithms and data structures](/docs/algorithms-and-data-structures.md)
 - **Applied computer science**
     - Database
-        - [History](/docs/database-history.md), [design](/docs/database-design-managment.md), and [management](/docsdatabase-design-managment.md) of Databases.
+        - [Database Design and Management](/docs/database-design-managment.md)
         - [MySQL](/docs/databases/mysql.md) is an open-source relational database management system (RDBMS).
     - Software engineering
         - A [Web Servers](/docs/web/servers.md) is an information technology that processes requests via HTTP...
