@@ -54,5 +54,7 @@ To add project as module to the main project: `File/Project Structure/` click pl
 
 ## Add local python library to project
 
-    File -> Project Structure -> SDKs -> Under CLassPath click '+' -> Usually on MAC is /usr/local/bin/python2.7/[lib-name]
+- Open `File -> Project Structure`
+- `File -> Project Structure -> SDKs -> Under CLassPath click '+'` 
+        - Usually on MAC is /usr/local/lib/python2.7/site-packages/[lib-name]
 
