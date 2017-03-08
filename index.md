@@ -1,3 +1,3 @@
 ## Collections of Computer Science (CS) notes
 
-- [Chrome]()
+- [Chrome](/docs/chrome.md)
