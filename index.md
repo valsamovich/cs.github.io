@@ -1,5 +1,3 @@
-## Collections of Computer Science (CS) notes
-
 - Applied computer science
   - Software engineering
     - [API](/docs/api.md)
