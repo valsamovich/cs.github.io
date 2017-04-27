@@ -1,6 +1,6 @@
 # cs [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](LICENSE)
 
-Collection of **Computer Science** notes
+Collection of **CS** notes.
 
 ## Installations
 
@@ -8,7 +8,8 @@ Collection of **Computer Science** notes
 
 ## Usage 
 
-The GitHub Pages automatically build and can be viewed here: `http://vsamov.github.io/cs.github.io/`
+- The GitHub Pages automatically build and can be viewed here: 
+  - `http://vsamov.github.io/cs.github.io/`
 
 ## Contribution
 
