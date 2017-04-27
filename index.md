@@ -28,11 +28,11 @@
           - [README.md](/docs/git-readme.md) best practices.
         - [Intellij IDEA](docs/intellij-idea.md) is a Java integrated development environment (IDE) for developing computer software.
         - Google [Chrome](docs/chrome.md) is a freeware web browser developed by Google
-        - [SEO](docs/misc/seo.md) is the process of affecting the visibility of a website or a web page in a search engine's.
+        - [SEO](docs/seo.md) is the process of affecting the visibility of a website or a web page in a search engine's.
         - [Vim](/docs/vim.md) is a clone of Bill Joy's vi editor for Unix.
         - [URL](/docs/url.md) is a reference to a web resource that specifies its location on a computer network.
-        - [Environment](/docs/misc/environments.md) is a computer system in which a software component is deployed and executed.  
-        - [Shell](/docs/programming/shell.md) scripting is one of the easiest types of scripting to learn: [`scp`](/docs/shell.md#scp), [`screen`](/docs/shell.md#screen), [`process`](/docs/shell.md#process).
+        - [Environment](/docs/environments.md) is a computer system in which a software component is deployed and executed.  
+        - [Shell](/docs/shell.md) scripting is one of the easiest types of scripting to learn: [`scp`](/docs/shell.md#scp), [`screen`](/docs/shell.md#screen), [`process`](/docs/shell.md#process).
         - [Java](/docs/java.md) is a concurrent, class-based, and object-oriented programming language + [`pyspark`](/docs/python.md#pyspark)
         - [Python](/docs/python.md) is a widely used general-purpose, high-level programming language.
         - [Shell files, environmnet vars, etc.](/docs/programming/shell.md)
@@ -40,7 +40,7 @@
         - [Understanding Computer Files](/docs/organizing.md) and how to storage, organizing and process.
         - Google [Chrome](/docs/misc/chrome.md) is a freeware web browser developed by Google.
         - [OAuth 2.0](/docs/oauth2.0.md) authorization framework.
-        - A [Web Services](/docs/web/services.md) is a service communicating with each other via the World Wide Web.
+        - A [Web Services](/docs/services.md) is a service communicating with each other via the World Wide Web.
             - [Spring RESTful Web Service](https://github.com/vsamov/spring-skeleton)
             - [Spring Boot RESTful Web Service](https://github.com/vsamov/spring-boot-skeleton)
 
