@@ -8,4 +8,9 @@ Collection of **Computer Science** & **Information technology** notes
 
 ## Usage 
 
-To preview the GiHub Pages follow the link: `http://vsamov.github.io/cs.github.io/`
+The GitHub Pages automatically build and can be viewed here: `http://vsamov.github.io/cs.github.io/`
+
+## Contribution
+
+Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a fork, add commits, and [open a pull request](https://github.com/fraction/readme-boilerplate/compare/).
+
