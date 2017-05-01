@@ -85,26 +85,21 @@ put your tests outside of your Python package. This makes it hard to run the tes
 create a package that only has a __init__.py and then put all your code into __init__.py. Just make a module instead of a package, it's simpler.
  - try to come up with magical hacks to make Python able to import your module or package without having the user add the directory containing it to their import path (either via PYTHONPATH or some other mechanism). You will not correctly handle all cases and users will get angry at you when your software doesn't work in their environment.
 
-[Example](http://as.ynchrono.us/2007/12/filesystem-structure-of-python-project_21.html):
-
-    [python-app]
-        |-- .gitignore
-        |-- README.md
-        |-- pom.xml
-        |-- setup.cfg
-        |-- setup.py
-        `-- assets (optional)
-                `-- nexus-logo.png
-                `-- jenkins-logo.png
-                `-- feed/process.png
-        `-- package-descriptor
-        |       `-- descriptor.xml
-        `-- [python-app]
-           `-- resources
-           `-- test
-                `-- test_main.py
-           `-- __init__.py
-           `-- main.py
+        app/__init__.py
+        app/main.py
+        app/utils.py
+        recources/hql/create.hql
+        resources/txt/data.txt
+        package-descriptor/descriptor.xml
+        scripts/deploy.sh
+        tests/test_main.py
+        tests/test_utils.py
+        .gitignore
+        README.md
+        LICENSE
+        setup.py
+        setup.cfg
+        pom.xml
 
 [Open Sourcing a Python Project the Right Way](https://www.jeffknupp.com/blog/2013/08/16/open-sourcing-a-python-project-the-right-way/)
 
