@@ -1,4 +1,4 @@
-# cs [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](LICENSE)
+# cs [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](LICENSE) [![nexus](https://img.shields.io/badge/github pages-website-blue.svg)](http://vsamov.github.io/cs.github.io/)
 
 Collection of **CS** articles, note and cheet sheets.
 
