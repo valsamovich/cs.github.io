@@ -43,6 +43,7 @@
         - A [Web Services](/docs/services.md) is a service communicating with each other via the World Wide Web.
             - [Spring RESTful Web Service](https://github.com/vsamov/spring-skeleton)
             - [Spring Boot RESTful Web Service](https://github.com/vsamov/spring-boot-skeleton)
+        - [Apple](/docs/apple.md) is an American multinational technology company.
 
 ## Paths
 
