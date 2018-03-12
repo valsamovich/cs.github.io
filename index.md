@@ -13,7 +13,7 @@
 - **Applied computer science**
     - Database
         - [Database Design and Management](/docs/database-design-managment.md)
-        - [MySQL](/docs/databases/mysql.md) is an open-source relational database management system (RDBMS).
+        - [MySQL](/docs/mysql.md) is an open-source relational database management system (RDBMS).
     - Software engineering
         - A [Web Servers](/docs/servers.md) is an information technology that processes requests via HTTP...
         - Apache [Hive](/docs/hive.md) is a data warehouse infrastructure for providing data summarization, query, and analysis.
