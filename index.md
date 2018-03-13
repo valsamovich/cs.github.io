@@ -1,4 +1,4 @@
-[**Computer science** +](https://en.wikipedia.org/wiki/Computer_science#Software_engineering) is the study of the theory, experimentation, and engineering that form the basis for the design and use of computers.
+[**Computer science**](https://en.wikipedia.org/wiki/Computer_science#Software_engineering) is the study of the theory, experimentation, and engineering that form the basis for the design and use of computers.
 
                         Applied computer science
                        / 
