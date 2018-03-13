@@ -22,11 +22,11 @@ Once you have connected to the server, you will probably be asked to verify your
 
 In your VPS, the sshd server should already be running. If this is not the case, click on the *Console Access* button from your droplet page:
 
-![alt text](/assets/ssh-access.png "SSH - Console Access")
+![alt text](/img/ssh-access.png "SSH - Console Access")
 
 You will be presented with a login screen:
 
-![alt text](/assets/ssh-server.png "SSH Server")
+![alt text](/img/ssh-server.png "SSH Server")
 
 Log in with your credentials. The process needed to start an ssh server depends on the distribution of Linux that you are using. On Ubuntu, you can start the ssh server on the VPS by typing:
 

@@ -2,7 +2,7 @@
 
 The Apache **Hadoop** software library is a framework that allows for the distributed processing or computing of large data sets across clusters of computers using simple programming models. It is designed to scale up from single servers to thousands of machines, each offering local computation and storage. Rather than rely on hardware to deliver high-availability, the library itself is designed to detect and handle failures at the application layer, so delivering a highly-available service on top of a cluster of computers, each of which may be prone to failures.
 
-![alt text](/assets/hadoop-logo.png "Hadoop logo")
+![alt text](/img/hadoop-logo.png "Hadoop logo")
 
 - [Apache Hadoop](http://hadoop.apache.org/) official website
 - [Apache Hadoop shell commands](http://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-common/FileSystemShell.html)
@@ -140,7 +140,7 @@ A **Reducer** also takes a list as input, but then combines the values in the li
 
 > The gurantee that a Reducer receives all values for a singlr key requires a **shuffle and sort** between **Map** and **Reduce**.
 
-![alt text](/assets/hadoop-shuffling.png "Hadoop shuffling")
+![alt text](/img/hadoop-shuffling.png "Hadoop shuffling")
 
 The **phases of MapReduce** are as follows:
 

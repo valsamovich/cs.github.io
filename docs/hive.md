@@ -35,7 +35,7 @@ Hive is a data warehouse system layer build on top of Hadoop. It's allows to def
 
 ## Architecture
 
-![alt text](/assets/hive-architecture.png "Hive architecture")
+![alt text](/img/hive-architecture.png "Hive architecture")
 
 Pig and Hive work well together!
 

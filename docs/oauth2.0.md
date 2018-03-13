@@ -5,7 +5,7 @@
 - [OAuth 2.0](https://oauth.net/2/) official website
 - [The OAuth 2.0 Authorization Framework](https://tools.ietf.org/html/rfc6749) by IETF
 
-![oauth2.0-example](/assets/oauth2.0-example.png "OAuth 2.0 example")
+![oauth2.0-example](/img/oauth2.0-example.png "OAuth 2.0 example")
 
 Simplified
 
@@ -55,7 +55,7 @@ Simplified
   - Protect resources
   - Makes resources available via `/api`
 
-![oauth2.0-actors](/assets/oauth2.0-actors.png "OAuth 2.0 Actors")
+![oauth2.0-actors](/img/oauth2.0-actors.png "OAuth 2.0 Actors")
 
 ## OAuth Endpoints
 
@@ -109,7 +109,7 @@ Simplified
   - Implicit Grant
   - Recource Owner Password Credentials Grant
  
- Pictures of flows avalable in [`assets`](/assets) folder
+ Pictures of flows avalable in [`assets`](/img) folder
 
 ## Appendix
 
