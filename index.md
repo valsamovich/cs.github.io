@@ -9,15 +9,15 @@
 
 ## Areas of Computer Science
 
-- [Theoretical computer science](https://en.wikipedia.org/wiki/Theoretical_computer_science)
-  - [Data structures and algorithms](/docs/algorithms-and-data-structures.md)
-- [Computer system](https://en.wikipedia.org/wiki/Computer_science#Computer_systems)
+#### [Theoretical computer science](https://en.wikipedia.org/wiki/Theoretical_computer_science)
+- [Data structures and algorithms](/docs/algorithms-and-data-structures.md)
+#### [Computer system](https://en.wikipedia.org/wiki/Computer_science#Computer_systems)
   - [Databases](/docs/database-design-managment.md) Design and Management
     - [MySQL](/docs/mysql.md) is an open-source relational database management system (RDBMS).
-- [Computer applications](https://en.wikipedia.org/wiki/Computer_science#Computer_applications)
+#### [Computer applications](https://en.wikipedia.org/wiki/Computer_science#Computer_applications)
   - Computer Security
     - [Information Security](/docs/information-security.md)
-- [Software engineering](https://en.wikipedia.org/wiki/Software_engineering)
+#### [Software engineering](https://en.wikipedia.org/wiki/Software_engineering)
   - A [Web Servers](/docs/servers.md) is an information technology that processes requests via HTTP...
   - Apache [Hive](/docs/hive.md) is a data warehouse infrastructure for providing data summarization, query, and analysis.
   - Apache [Hadoop](/docs/hadoop.md) open-source software for reliable, scalable, distributed computing.
