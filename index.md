@@ -11,13 +11,13 @@ There is 4 major areas of Computer Science: Theoretical computer science, Comput
 ## Areas of computer science
 - [**Theoretical computer science**](https://en.wikipedia.org/wiki/Theoretical_computer_science)
   - [Data structures and algorithms](/docs/algorithms-and-data-structures.md)
-- [**Computer system**](https://en.wikipedia.org/wiki/Computer_science#Computer_systems)
-  - [Databases](/docs/database-design-managment.md) Design and Management
-  - [MySQL](/docs/mysql.md) is an open-source relational database management system (RDBMS).
+- [**Computer systems**](https://en.wikipedia.org/wiki/Computer_science#Computer_systems)
+  - [Computer Security](/docs/information-security.md) & Information Security
+  - [Databases](/docs/database-design-managment.md) Design and Management [MySQL](/docs/mysql.md)
 - [**Computer applications**](https://en.wikipedia.org/wiki/Computer_science#Computer_applications)
-  - Computer Security: [Information Security](/docs/information-security.md)
+  - [Artificial intelligence](/docs/artificial-intelligence.md) (AI, also know as achine intelligence, MI)
 - [**Software engineering**](https://en.wikipedia.org/wiki/Software_engineering)
-  - A [Web Servers](/docs/servers.md) is an information technology that processes requests via HTTP...
+  - [Web Servers](/docs/servers.md) is an information technology that processes requests via HTTP...
   - Apache [Hive](/docs/hive.md) is a data warehouse infrastructure for providing data summarization, query, and analysis.
   - Apache [Hadoop](/docs/hadoop.md) open-source software for reliable, scalable, distributed computing.
   - [Travis](/docs/travis.md) CI is a FOSS, hosted, distributed continuous integration service.
