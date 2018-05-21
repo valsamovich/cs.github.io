@@ -6,7 +6,7 @@
                        \
                         Theoretical computer science 
 
-There is 4 major areas of Computer Science: Theoretical computer science, Computer system, Computer applications, and Software engineering.
+There is 4 major areas of Computer Science: Theoretical computer science, Computer system, Computer applications, and Software engineering. **Experimental resourse**: [Analytics Engineer](/docs/data-engineering.md), [Software Artitect](/docs/software-arhitecture.md)
 
 ## Areas of computer science
 - [**Theoretical computer science**](https://en.wikipedia.org/wiki/Theoretical_computer_science)
@@ -47,12 +47,7 @@ There is 4 major areas of Computer Science: Theoretical computer science, Comput
     - [Spring Boot RESTful Web Service](https://github.com/vsamov/spring-boot-skeleton)
   - [Apple](/docs/apple.md) is an American multinational technology company.
 
-## Paths
-
-- [Analytics Engineer](/docs/data-engineering.md)
-- [Software Artitect](/docs/software-arhitecture.md)
-
-## Educations
+## Education
 
 - [Udacity](https://www.udacity.com/) is a for-profit educational organization offering open online courses (MOOCs).
 - [Codecademy](https://www.codecademy.com/) is an online interactive platform that offers free coding classes.
@@ -60,7 +55,7 @@ There is 4 major areas of Computer Science: Theoretical computer science, Comput
 - [W3Schools](http://www.w3schools.com/) is a world's largest web development site.
 - [MIT OPENCOURSEWARE](https://ocw.mit.edu/index.htm) OCW is a free and open publication of material from MIT courses.
 
-## Resources
+## External links
 
 - [Apache Software Foundation](http://www.apache.org/) is a community of *open-source software*.
 - [Google Developers](https://developers.google.com/) is **Google's** site for software development tools.
