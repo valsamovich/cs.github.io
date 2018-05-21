@@ -13,7 +13,7 @@ There is 4 major areas of Computer Science: Theoretical computer science, Comput
   - [Data structures and algorithms](/docs/algorithms-and-data-structures.md)
 - [**Computer systems**](https://en.wikipedia.org/wiki/Computer_science#Computer_systems)
   - [Computer Security](/docs/information-security.md) & Information Security
-  - [Databases](/docs/database-design-managment.md) Design and Management [MySQL](/docs/mysql.md)
+  - [Databases](/docs/database-design-managment.md) Design and Management ([MySQL](/docs/mysql.md))
 - [**Computer applications**](https://en.wikipedia.org/wiki/Computer_science#Computer_applications)
   - [Artificial intelligence](/docs/artificial-intelligence.md) (AI, also know as achine intelligence, MI)
 - [**Software engineering**](https://en.wikipedia.org/wiki/Software_engineering)
