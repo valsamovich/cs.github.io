@@ -6,17 +6,17 @@
                        \
                         Theoretical computer science 
 
-There is 4 major areas of Computer Science: Theoretical computer science, Computer system, Computer applications, and Software engineering. **Experimental resourse**: [Analytics Engineer](/docs/data-engineering.md), [Software Artitect](/docs/software-arhitecture.md)
+There is 4 major areas of Computer Science: [Theoretical computer science](https://en.wikipedia.org/wiki/Theoretical_computer_science), [Computer system](https://en.wikipedia.org/wiki/Computer_science#Computer_systems), [Computer applications](https://en.wikipedia.org/wiki/Computer_science#Computer_applications), and [Software engineering](https://en.wikipedia.org/wiki/Software_engineering). **Experimental resourse**: [Analytics Engineer](/docs/data-engineering.md), [Software Artitect](/docs/software-arhitecture.md)
 
 ## Areas of computer science
-- [**Theoretical computer science**](https://en.wikipedia.org/wiki/Theoretical_computer_science)
+- **Theoretical computer science**
   - [Data structures and algorithms](/docs/algorithms-and-data-structures.md)
-- [**Computer systems**](https://en.wikipedia.org/wiki/Computer_science#Computer_systems)
+- **Computer systems**
   - [Computer Security](/docs/computer-security.md) & Information Security
   - [Databases](/docs/database-design-managment.md) Design and Management ([MySQL](/docs/mysql.md))
-- [**Computer applications**](https://en.wikipedia.org/wiki/Computer_science#Computer_applications)
+- **Computer applications**
   - [Artificial intelligence](/docs/artificial-intelligence.md) (AI, also know as achine intelligence, MI)
-- [**Software engineering**](https://en.wikipedia.org/wiki/Software_engineering)
+- **Software engineering**
   - [Web Servers](/docs/servers.md) is an information technology that processes requests via HTTP...
   - Apache [Hive](/docs/hive.md) is a data warehouse infrastructure for providing data summarization, query, and analysis.
   - Apache [Hadoop](/docs/hadoop.md) open-source software for reliable, scalable, distributed computing.
