@@ -15,7 +15,7 @@ There is 4 major areas of Computer Science: [Theoretical computer science](https
   - [Computer Security](/docs/computer-security.md) & Information Security
   - [Databases](/docs/database-design-managment.md) Design and Management ([MySQL](/docs/mysql.md))
 - **Computer applications**
-  - [Artificial intelligence](/docs/artificial-intelligence.md) (AI, also know as achine intelligence, MI)
+  - [Artificial intelligence](/docs/artificial-intelligence.md)
 - **Software engineering** incl. Computer programming
   - [Web Servers](/docs/servers.md) is an information technology that processes requests via HTTP...
   - Apache [Hive](/docs/hive.md) is a data warehouse infrastructure for providing data summarization, query, and analysis.
