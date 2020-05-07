@@ -51,7 +51,7 @@
 - [W3Schools](http://www.w3schools.com/) is a world's largest web development site.
 - [MIT OPENCOURSEWARE](https://ocw.mit.edu/index.htm) OCW is a free and open publication of material from MIT courses.
 
-## External links
+## Resources
 - [Apache Software Foundation](http://www.apache.org/) is a community of *open-source software*.
 - [Google Developers](https://developers.google.com/) is **Google's** site for software development tools.
 - [Mozilla Developer Network](https://developer.mozilla.org) is Mozilla docs for developers and about the web.
