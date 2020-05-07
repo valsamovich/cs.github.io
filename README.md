@@ -1,6 +1,6 @@
 # cs.github.io [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](LICENSE) [![nexus](https://img.shields.io/badge/GitHubPages-website-yellow.svg)](http://vsamov.github.io/cs.github.io/)
 
-Collection of **Computer Science** (incl. Software Enginerring) articles, notes and cheet sheets. Designe for educational purposes and builded with GitHub PAges technology. To read more about use of this information, please reffer to the [LICENSE](LICENSE).
+Collection of **Computer Science** articles, notes and cheet sheets. Designe for educational purposes and builded with GitHub PAges technology. To read more about use of this information, please reffer to the [LICENSE](LICENSE).
 
 ## Contribution
 
