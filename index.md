@@ -1,22 +1,15 @@
-[**Computer science**](https://en.wikipedia.org/wiki/Computer_science#Software_engineering) is the study of the theory, experimentation, and engineering that form the basis for the design and use of computers.
+# Computer science
+[**Computer science**](https://en.wikipedia.org/wiki/Computer_science#Software_engineering) is the study of processes that interact with data and that can be represented as data in the form of programs. It enables the use of algorithms to manipulate, store, and communicate digital information.
 
-                        Applied computer science
-                       / 
-       Science -- Computer science 
-                       \
-                        Theoretical computer science 
-
-There is 4 major areas of Computer Science: [Theoretical computer science](https://en.wikipedia.org/wiki/Theoretical_computer_science), [Computer system](https://en.wikipedia.org/wiki/Computer_science#Computer_systems), [Computer applications](https://en.wikipedia.org/wiki/Computer_science#Computer_applications), and [Software engineering](https://en.wikipedia.org/wiki/Software_engineering). **Experimental resourse**: [Analytics Engineer](/docs/data-engineering.md), [Software Artitect](/docs/software-arhitecture.md)
-
-## Areas of computer science
-- **Theoretical computer science**
-  - [Data structures and algorithms](/docs/algorithms-and-data-structures.md)
-- **Computer systems**
+## Fields
+- [Theoretical computer science](https://en.wikipedia.org/wiki/Theoretical_computer_science)
+  - [Data structures and algorithms](/docs/algorithms-and-data-structures.md) 
+- [Computer system](https://en.wikipedia.org/wiki/Computer_science#Computer_systems)
   - [Computer Security](/docs/computer-security.md) & Information Security
   - [Databases](/docs/database-design-managment.md) Design and Management ([MySQL](/docs/mysql.md))
-- **Computer applications**
+- [Computer applications](https://en.wikipedia.org/wiki/Computer_science#Computer_applications)
   - [Artificial intelligence](/docs/artificial-intelligence.md)
-- **Software engineering** incl. Computer programming
+- [Software engineering](https://en.wikipedia.org/wiki/Software_engineering)
   - [Web Servers](/docs/servers.md) is an information technology that processes requests via HTTP...
   - Apache [Hive](/docs/hive.md) is a data warehouse infrastructure for providing data summarization, query, and analysis.
   - Apache [Hadoop](/docs/hadoop.md) open-source software for reliable, scalable, distributed computing.
@@ -47,8 +40,11 @@ There is 4 major areas of Computer Science: [Theoretical computer science](https
     - [Spring Boot RESTful Web Service](https://github.com/vsamov/spring-boot-skeleton)
   - [Apple](/docs/apple.md) is an American multinational technology company.
 
-## Education
+## Paths
+- [Data Engineer](/docs/data-engineering.md)
+- [Software Artitect](/docs/software-arhitecture.md)
 
+## Education
 - [Udacity](https://www.udacity.com/) is a for-profit educational organization offering open online courses (MOOCs).
 - [Codecademy](https://www.codecademy.com/) is an online interactive platform that offers free coding classes.
 - [Udemy](https://www.udemy.com/) is a global marketplace for learning and teaching online free/payed.
@@ -56,7 +52,6 @@ There is 4 major areas of Computer Science: [Theoretical computer science](https
 - [MIT OPENCOURSEWARE](https://ocw.mit.edu/index.htm) OCW is a free and open publication of material from MIT courses.
 
 ## External links
-
 - [Apache Software Foundation](http://www.apache.org/) is a community of *open-source software*.
 - [Google Developers](https://developers.google.com/) is **Google's** site for software development tools.
 - [Mozilla Developer Network](https://developer.mozilla.org) is Mozilla docs for developers and about the web.
