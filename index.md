@@ -1,4 +1,3 @@
-# Computer science
 [**Computer science**](https://en.wikipedia.org/wiki/Computer_science#Software_engineering) is the study of processes that interact with data and that can be represented as data in the form of programs. It enables the use of algorithms to manipulate, store, and communicate digital information.
 
 ## Fields
