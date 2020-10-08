@@ -50,7 +50,7 @@ If file extension is **`.tar.gz`**, type the command:
     
     # to zip file(s) or directorie(s) with .tar.gz
     tar -zcvf [file].tar.gz [fileOrDirectory1] [fileOrDirectly2] [fileOrDirectoryN]
-## Haddop
+## Hadoop
 
     # Copy the files
     hadoop distcp /[path]/* /[path]
